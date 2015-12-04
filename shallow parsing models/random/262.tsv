@@ -1,0 +1,176 @@
+Digitador	nc	B-JOB
+-	fg	O
+CAM	np	B-ORG
+Perú	np	I-ORG
+
+CAM	np	B-ORG
+GyM	np	I-ORG
+;	fx	O
+empresa	nc	O
+del	sp	O
+Grupo	np	B-ORG
+Graña	np	I-ORG
+y	cc	I-ORG
+Montero	np	I-ORG
+,	fc	O
+con	sp	O
+experiencia	nc	O
+entregando	vmg	O
+soluciones	nc	O
+para	sp	O
+empresas	nc	O
+Latinoamericanas	adj	O
+con	sp	O
+uso	nc	O
+intensivo	adj	O
+de	sp	O
+energía	nc	O
+eléctrica	adj	O
+y	cc	O
+telecomunicaciones	nc	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+DIGITADOR	nc	B-JOB
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Egresados	adj	O
+de	sp	O
+la	det	O
+carrera	nc	O
+técnica	adj	B-REQ
+de	sp	O
+Computación	np	B-CARR
+e	cc	I-CARR
+Informática	np	I-CARR
+o	cc	O
+afines	adj	B-CARR
+.	fp	O
+-	fg	O
+Experiencia	nc	O
+en	sp	O
+la	det	O
+posición	nc	O
+,	fc	O
+mínima	adj	O
+de	sp	O
+06	z	O
+meses	nc	O
+.	fp	O
+
+*	fz	O
+Vivir	vmn	O
+en	sp	O
+zonas	nc	O
+aledañas	adj	O
+a	sp	O
+Cercado	np	B-LUG
+de	sp	I-LUG
+Lima	np	I-LUG
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	O
+de	sp	O
+horario	nc	B-MISC
+nocturno	adj	I-MISC
+(	fpa	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+09:00pm	w	I-DATE
+-	fg	I-DATE
+6:00am	w	I-DATE
+)	fpt	O
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Digitación	nc	B-FUN
+diaria	adj	I-FUN
+en	sp	I-FUN
+plantillas	nc	I-FUN
+establecidas	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Digitación	nc	B-FUN
+diaria	adj	I-FUN
+de	sp	I-FUN
+datos	nc	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+sistema	nc	I-FUN
+del	sp	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Emisión	nc	B-FUN
+de	sp	I-FUN
+notificaciones	nc	I-FUN
+y	cc	I-FUN
+actas	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Control	nc	B-FUN
+y	cc	I-FUN
+envío	nc	I-FUN
+de	sp	I-FUN
+información	nc	I-FUN
+solicitada	adj	I-FUN
+por	sp	I-FUN
+el	det	I-FUN
+cliente	nc	I-FUN
+y	cc	I-FUN
+la	det	I-FUN
+línea	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Registro	nc	B-FUN
+de	sp	I-FUN
+información	nc	I-FUN
+para	sp	I-FUN
+controles	nc	I-FUN
+.	fp	O
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficos	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Capacitación	nc	B-BEN
+y	cc	O
+desarrollo	nc	B-BEN
+.	fp	O
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+y	cc	O
+desarrollo	nc	B-BEN
+.	fp	O
+

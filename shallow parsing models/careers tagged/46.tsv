@@ -1,0 +1,33 @@
+Asistente	nccs	B-JOB
+administrativa	aqfs	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+administración	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+administración	ncfs	B-AREA
+/	fh	O
+servicios	ncmp	B-AREA
+generales	aqcp	I-AREA
+con	sp	O
+6	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

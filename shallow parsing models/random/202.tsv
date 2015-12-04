@@ -1,0 +1,163 @@
+Ayudante	nc	B-JOB
+de	sp	I-JOB
+Picking	np	I-JOB
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Estudios	nc	O
+Secundarios	adj	O
+Completos	adj	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+almacenes	nc	B-AREA
+de	sp	I-AREA
+plantas	nc	I-AREA
+industriales	adj	I-AREA
+.	fp	O
+
+*	fz	O
+De	sp	O
+preferencia	nc	O
+con	sp	O
+experiencia	nc	O
+en	sp	O
+preparación	nc	B-REQ
+de	sp	I-REQ
+cargas	nc	I-REQ
+en	sp	I-REQ
+empresas	nc	I-REQ
+de	sp	I-REQ
+alimentos	nc	I-REQ
+y	cc	I-REQ
+consumo	nc	I-REQ
+masivo	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+como	cs	O
+estibador	np	B-JOB
+,	fc	O
+o	cc	O
+haber	van	O
+realizado	vmp	O
+trabajos	nc	B-FUN
+de	sp	I-FUN
+carga	nc	I-FUN
+y	cc	I-FUN
+descarga	nc	I-FUN
+.	fp	O
+(	fpa	O
+Importante	adj	O
+)	fpt	O
+
+*	fz	O
+Acostumbrado	vmp	O
+a	sp	O
+trabajar	vmn	O
+en	sp	O
+horario	nc	B-MISC
+nocturno	adj	I-MISC
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+,	fc	O
+en	sp	O
+equipo	nc	O
+y	cc	O
+dinámico	adj	B-REQ
+,	fc	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+el	det	I-FUN
+conteo	nc	I-FUN
+de	sp	I-FUN
+producto	nc	I-FUN
+y	cc	I-FUN
+envase	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+unidades	nc	I-FUN
+
+*	fz	O
+Validación	nc	B-FUN
+de	sp	I-FUN
+la	det	I-FUN
+carga	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+unidades	nc	I-FUN
+con	sp	I-FUN
+respecto	nc	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+guía	nc	I-FUN
+emitida	vmp	I-FUN
+en	sp	I-FUN
+SAP	np	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+la	det	I-FUN
+correcta	adj	I-FUN
+colocación	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+precintos	nc	I-FUN
+de	sp	I-FUN
+seguridad	nc	I-FUN
+en	sp	I-FUN
+las	det	I-FUN
+unidades	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+una	det	I-FUN
+adecuada	adj	I-FUN
+limpieza	nc	I-FUN
+en	sp	I-FUN
+su	det	I-FUN
+zona	nc	I-FUN
+de	sp	I-FUN
+trabajo	nc	I-FUN
+
+*	fz	O
+Realizar	vmn	B-FUN
+un	det	I-FUN
+adecuado	adj	I-FUN
+uso	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+herramientas	nc	I-FUN
+de	sp	I-FUN
+trabajo	nc	I-FUN
+
+*	fz	O
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+las	det	I-FUN
+funciones	nc	I-FUN
+afines	adj	I-FUN
+al	sp	I-FUN
+puesto	nc	I-FUN
+y	cc	O
+otras	pron	B-FUN
+que	cs	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+le	pron	I-FUN
+asigne	vmi	I-FUN
+

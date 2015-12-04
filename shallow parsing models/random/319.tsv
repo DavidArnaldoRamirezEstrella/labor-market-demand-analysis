@@ -1,0 +1,248 @@
+ASISTENTE	nc	B-JOB
+CONTABLE	adj	I-JOB
+
+El	det	O
+Grupo	np	B-ORG
+Empresarial	np	I-ORG
+Espinoza	np	I-ORG
+,	fc	O
+que	pron	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+un	det	O
+proceso	nc	O
+reorganización	nc	O
+y	cc	O
+apertura	nc	O
+del	sp	O
+departamento	nc	O
+de	sp	O
+administración	nc	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+profesionales	nc	O
+de	sp	O
+la	det	O
+carrera	nc	O
+de	sp	O
+administración	np	B-CARR
+,	fc	O
+marketing	np	B-CARR
+,	fc	O
+publicidad	np	B-CARR
+o	cc	O
+comunicaciones	np	B-CARR
+para	sp	O
+cubrir	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+Asistente	nc	B-JOB
+de	sp	I-JOB
+Comercial	nc	I-JOB
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Análisis	nc	B-FUN
+y	cc	I-FUN
+reporte	nc	I-FUN
+de	sp	I-FUN
+desempeño	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+,	fc	I-FUN
+campañas	nc	I-FUN
+,	fc	I-FUN
+publicidad	nc	I-FUN
+,	fc	I-FUN
+promociones	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Análisis	nc	B-FUN
+y	cc	I-FUN
+reporte	nc	I-FUN
+de	sp	I-FUN
+segmentos	nc	I-FUN
+,	fc	I-FUN
+perfiles	nc	I-FUN
+y	cc	I-FUN
+comportamiento	nc	I-FUN
+de	sp	I-FUN
+compra	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+
+*	fz	O
+Monitoreo	nc	B-FUN
+de	sp	I-FUN
+precios	nc	I-FUN
+y	cc	I-FUN
+márgenes	nc	I-FUN
+,	fc	I-FUN
+mix	nc	I-FUN
+de	sp	I-FUN
+productos	nc	I-FUN
+en	sp	I-FUN
+tiendas	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Monitoreo	nc	B-FUN
+del	sp	I-FUN
+servicio	nc	I-FUN
+,	fc	I-FUN
+atención	nc	I-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+e	cc	I-FUN
+imagen	nc	I-FUN
+corporativa	adj	I-FUN
+
+*	fz	O
+Apoyo	nc	B-FUN
+en	sp	I-FUN
+todas	det	I-FUN
+las	det	I-FUN
+coordinaciones	nc	I-FUN
+y	cc	I-FUN
+estrategias	nc	I-FUN
+del	sp	I-FUN
+Subdepartamento	nc	I-FUN
+de	sp	I-FUN
+Comercial	nc	I-FUN
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Manejo	nc	O
+avanzado	adj	O
+de	sp	O
+MS	np	B-REQ
+Excel	np	I-REQ
+(	fpa	O
+Base	nc	B-REQ
+de	sp	I-REQ
+datos	nc	I-REQ
+,	fc	O
+macros	nc	B-REQ
+)	fpt	O
+
+*	fz	O
+Manejo	nc	O
+avanzado	adj	O
+de	sp	O
+MS	np	B-REQ
+PowerPoint	np	I-REQ
+y	cc	O
+MS	np	B-REQ
+Word	np	I-REQ
+
+*	fz	O
+Manejo	nc	O
+y/o	cc	O
+conocimiento	nc	O
+de	sp	O
+Minitab	np	B-REQ
+o	cc	O
+SPSS	np	B-REQ
+
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+2	z	O
+años	nc	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+y	cc	O
+carrera	nc	O
+en	sp	O
+el	det	O
+ámbito	nc	O
+de	sp	O
+comercial	nc	B-AREA
+/	fh	O
+marketing	np	B-AREA
+.	fp	O
+
+1200	zm	B-SAL
++	fz	I-SAL
+bonos	nc	I-SAL
+
+Universitario	nc	O
+Egresado	adj	O
+en	sp	O
+Marketing	np	B-CARR
+.	fp	O
+
+Universitario	nc	O
+Egresado	adj	O
+en	sp	O
+Ventas	np	B-CARR
+.	fp	O
+
+Universitario	nc	O
+Egresado	adj	O
+en	sp	O
+Administración	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Comercial	nc	B-AREA
+con	sp	O
+2	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Idioma	nc	O
+
+Inglés	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+avanzado	adj	O
+,	fc	O
+Microsoft	np	B-REQ
+Power	np	I-REQ
+Point	np	I-REQ
+a	sp	O
+nivel	nc	O
+avanzado	adj	O
+.	fp	O
+
+Sueldo	nc	O
+:	fd	O
+Entre	sp	B-SAL
+S/.751	zm	I-SAL
+y	cc	I-SAL
+S/.1500	zm	I-SAL
+

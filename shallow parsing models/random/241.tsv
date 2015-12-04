@@ -1,0 +1,155 @@
+Mdy	np	B-ORG
+busca	vmi	O
+Practicantes	nc	O
+en	sp	O
+Psicología	np	B-CARR
+Organizacional	np	I-CARR
+Ad	np	B-REQ
+Honorem	np	I-REQ
+-	fg	O
+San	np	B-LUG
+Miguel	np	I-LUG
+
+Mdy	np	B-ORG
+busca	vmi	O
+Practicantes	vmn	O
+en	sp	O
+Psicología	np	B-CARR
+Organizacional	np	I-CARR
+Ad	np	B-REQ
+Honorem	np	I-REQ
+-	fg	O
+San	np	B-LUG
+Miguel	np	I-LUG
+
+MDY	np	B-ORG
+,	fc	O
+empresa	nc	O
+transnacional	adj	O
+en	sp	O
+el	det	O
+rubro	nc	O
+de	sp	O
+las	det	O
+telecomunicaciones	nc	O
+y	cc	O
+líder	nc	O
+en	sp	O
+el	det	O
+mercado	nc	O
+de	sp	O
+atención	nc	O
+al	sp	O
+cliente	nc	O
+y	cc	O
+ventas	nc	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	det	O
+/	fh	O
+a	np	O
+Practicante	nc	O
+de	sp	O
+Psicología	np	B-CARR
+para	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Reclutamiento	np	B-AREA
+y	cc	I-AREA
+Selección	np	B-AREA
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Filtro	nc	B-FUN
+Curricular	np	I-FUN
+
+*	fz	O
+Convocatoria	nc	B-FUN
+de	sp	I-FUN
+postulantes	nc	I-FUN
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Estudiantes	nc	O
+de	sp	O
+Psicología	np	B-CARR
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+realizar	vmn	O
+prácticas	vmi	O
+en	sp	O
+el	det	O
+distrito	nc	O
+de	sp	O
+San	np	B-LUG
+Miguel	np	I-LUG
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+
+*	fz	O
+Certificado	nc	B-BEN
+por	sp	I-BEN
+prácticas	nc	I-BEN
+pre	adj	I-BEN
+-	fg	I-BEN
+profesionales	nc	I-BEN
+
+Horario	nc	O
+:	fd	O
+
+L	w	B-DATE
+-	fg	I-DATE
+V	w	I-DATE
+de	sp	I-DATE
+2:00pm	w	I-DATE
+a	sp	I-DATE
+6:00pm	w	I-DATE
+
+Remuneración	nc	O
+:	fd	O
+ad	np	B-SAL
+honoren	np	I-SAL
++	fz	O
+certificado	nc	B-BEN
+de	sp	I-BEN
+prácticas	nc	I-BEN
+
+Los	det	O
+interesados	adj	O
+enviar	vmn	O
+su	det	O
+cv	nc	O
+a	sp	O
+shirleyleon258	np	B-MISC
+@	fz	I-MISC
+gmail	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+con	sp	O
+asunto	nc	O
+RYS	np	O
+

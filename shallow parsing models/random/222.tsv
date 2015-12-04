@@ -1,0 +1,71 @@
+Tienda	nc	O
+Electrónica	adj	O
+Requiere	vmi	O
+Técnicos	nc	B-JOB
+para	sp	O
+Celulares	nc	B-AREA
+,	fc	O
+Ipod	np	B-AREA
+,	fc	O
+Mp4	np	B-AREA
+c/s	sp	O
+Experiencia	nc	O
+
+Tienda	nc	O
+Electrónica	adj	O
+.	fp	O
+
+Solicita	vmi	O
+Técnico	nc	B-REQ
+Electrónico	adj	B-CARR
+,	fc	O
+con	sp	O
+conocimiento	nc	O
+De	sp	O
+Equipos	nc	B-REQ
+Celulares	adj	I-REQ
+,	fc	O
+destreza	nc	O
+para	sp	O
+desarmar	vmn	B-FUN
+celulares	nc	I-FUN
+,	fc	I-FUN
+Ipod	np	I-FUN
+,	fc	I-FUN
+Mp4	np	I-FUN
+,	fc	O
+sepa	vmi	O
+Soldar	vmn	B-REQ
+circuitos	nc	I-REQ
+.	fp	O
+afines	adj	O
+,	fc	O
+etc	fs	O
+.	fp	O
+
+Los	det	O
+interesados	adj	O
+enviar	vmn	O
+Su	det	O
+Curriculum	np	O
+para	sp	O
+Evaluación	nc	O
+Respectiva	adj	O
+.	fp	O
+
+También	rg	O
+necesitamos	vmi	O
+Practicantes	nc	O
+Electrónicos	np	B-CARR
+,	fc	O
+enviar	vmi	O
+curriculum	np	O
+y	cc	O
+hacer	vmn	O
+referencia	vmn	O
+para	sp	O
+prácticas	nc	O
+.	fp	O
+
+Saludos	nc	O
+

@@ -1,0 +1,37 @@
+practicante	nc	B-JOB
+legal	adj	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+estudiante	nc	O
+de	sp	O
+los	det	O
+últimos	adj	O
+ciclos	nc	O
+de	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+derecho	nc	B-CARR
+(	fpa	O
+6to	adj	O
+a	sp	O
+9no	adj	o
+)	fpt	O
+
+manejo	nc	O
+del	sp	O
+entorno	nc	B-REQ
+en	sp	I-REQ
+red	nc	I-REQ
+de	sp	I-REQ
+windows	np	I-REQ
+y	cc	O
+ms	np	B-REQ
+office	np	I-REQ
+.	fp	O
+

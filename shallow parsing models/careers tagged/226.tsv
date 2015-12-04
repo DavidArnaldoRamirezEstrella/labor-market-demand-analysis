@@ -1,0 +1,267 @@
+Practicante	nccs	O
+Pre	aqcn	O
+Profesional	aqcs	O
+de	sp	O
+Calidad	ncfs	B-AREA
+.	fp	O
+
+La	da0fs	O
+Corporación	np00	B-ORG
+Grupo	np00	I-ORG
+Romero	np00	I-ORG
+se	p0000	O
+encuentra	vmi	O
+en	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+un	di0ms	O
+Practicante	nccs	O
+Pre	aqcn	O
+Profesional	aqcs	O
+de	sp	O
+Calidad	ncfs	B-AREA
+que	pr0cn	O
+cumpla	vms	O
+con	sp	O
+el	da0ms	O
+siguiente	aqcs	O
+perfil	ncms	O
+,	fc	O
+para	sp	O
+empresa	ncfs	O
+líder	nccs	O
+en	sp	O
+el	da0ms	O
+rubro	ncms	O
+logístico	aqms	O
+Ransa	np00	B-ORG
+Comercial	np00	I-ORG
+(	fpa	O
+www	np00	B-MISC
+.	fp	I-MISC
+ransa	np00	I-MISC
+.	fp	I-MISC
+net	np00	I-MISC
+)	fpt	O
+.	fp	O
+
+Requisitos	ncmp	O
+Indispensables	aqcp	O
+:	fd	O
+
+Estudiantes	nccp	O
+universitarios	aqmp	O
+de	sp	O
+los	da0mp	O
+últimos	aomp	O
+ciclos	ncmp	O
+en	sp	O
+las	da0fp	O
+carreras	ncfp	O
+de	sp	O
+Ingeniería	np00	B-CARR
+Química	np00	I-CARR
+,	fc	O
+Industrial	np00	B-CARR
+,	fc	O
+Agroindustrial	np00	B-CARR
+y/o	cc	O
+Ambiental	np00	B-CARR
+(	fpa	O
+A	sp	O
+partir	vmn	O
+del	sp	O
+VII	z	O
+ciclo	ncms	O
+)	fpt	O
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+Sistema	ncms	B-REQ
+de	sp	I-REQ
+Gestión	ncfs	I-REQ
+de	sp	I-REQ
+calidad	ncfs	I-REQ
+y	cc	O
+mejora	ncfs	B-REQ
+de	sp	I-REQ
+procesos	ncmp	I-REQ
+.	fp	O
+
+Deseable	aqcs	O
+,	fc	O
+experiencia	ncfs	O
+en	sp	O
+el	da0ms	O
+puesto	ncms	O
+.	fp	O
+
+Microsoft	np00	B-REQ
+Office	np00	I-REQ
+Intermedio	aqcs	O
+.	fp	O
+
+Disponibilidad	ncfs	O
+de	sp	O
+realizar	vmn	O
+prácticas	ncfp	O
+en	sp	O
+el	da0ms	O
+Callao	np00	B-LUG
+(	fpa	O
+Av	np00	B-LUG
+.	fp	I-LUG
+Néstor	np00	I-LUG
+Gambeta	np00	I-LUG
+)	fpt	O
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Apoyo	ncms	B-FUN
+en	sp	I-FUN
+las	da0fp	I-FUN
+inspecciones	ncfp	I-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+almacenes	ncmp	I-FUN
+de	sp	I-FUN
+minería	ncfs	I-FUN
+y	cc	I-FUN
+áreas	ncfp	I-FUN
+externas	aqfp	I-FUN
+.	fp	O
+
+Apoyo	ncms	B-FUN
+en	sp	I-FUN
+supervisar	vmn	I-FUN
+actividades	ncfp	I-FUN
+de	sp	I-FUN
+saneamiento	ncms	I-FUN
+(	fpa	O
+Control	ncms	B-FUN
+de	sp	I-FUN
+plagas	ncfp	I-FUN
+y	cc	I-FUN
+limpieza	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+almacenes	ncmp	I-FUN
+)	fpt	O
+
+Apoyo	ncms	B-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+control	ncms	I-FUN
+documentario	aqms	I-FUN
+.	fp	O
+
+Apoyo	ncms	B-FUN
+en	sp	I-FUN
+las	da0fp	I-FUN
+actividades	ncfp	I-FUN
+asignadas	aqfp	I-FUN
+por	sp	I-FUN
+el	da0ms	I-FUN
+jefe	ncms	I-FUN
+inmediato	aqms	I-FUN
+.	fp	O
+
+Competencias	ncfs	O
+:	fd	O
+
+Responsabilidad	ncfs	B-REQ
+.	fp	O
+
+Atención	ncfs	B-REQ
+y	cc	O
+Concentración	ncfs	B-REQ
+
+Planificación	ncfs	B-REQ
+y	cc	O
+organización	ncfs	B-REQ
+
+Trabajo	ncms	B-REQ
+en	sp	I-REQ
+Equipo	ncms	I-REQ
+.	fp	O
+
+Trabajo	ncms	B-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+
+Condiciones	ncfp	O
+y	cc	O
+Beneficios	ncmp	O
+:	fd	O
+
+Monto	ncms	O
+de	sp	O
+la	da0fs	O
+subvención	ncfs	O
+:	fd	O
+S/.800	zm	B-SAL
+
+Horario	ncms	O
+de	sp	O
+Prácticas	ncfp	O
+:	fd	O
+30	z	B-MISC
+horas	ncfp	I-MISC
+a	sp	I-MISC
+la	da0fs	I-MISC
+semana	ncfs	I-MISC
+
+Seguro	ncms	B-BEN
+particular	aqcs	I-BEN
+de	sp	I-BEN
+practicante	nccs	I-BEN
+
+15	z	B-BEN
+días	ncmp	I-BEN
+de	sp	I-BEN
+vacaciones	ncfp	I-BEN
+al	sp	O
+cumplir	vmn	O
+un	di0ms	O
+año	ncms	O
+de	sp	O
+prácticas	ncfp	O
+
+Participación	ncfs	B-BEN
+en	sp	I-BEN
+los	da0mp	I-BEN
+eventos	ncmp	I-BEN
+de	sp	I-BEN
+la	da0fs	I-BEN
+empresa	ncfs	I-BEN
+
+Se	p0000	O
+ofrece	vmi	O
+un	di0ms	O
+grato	aqms	B-BEN
+ambiente	ncms	I-BEN
+laboral	aqcs	I-BEN
+,	fc	O
+aprendizaje	ncms	B-BEN
+constante	aqcs	I-BEN
+,	fc	O
+interesante	aqcs	O
+línea	ncfs	B-BEN
+de	sp	I-BEN
+carrera	ncfs	I-BEN
+y	cc	O
+el	da0ms	O
+ingreso	ncms	B-BEN
+a	sp	I-BEN
+una	di0fs	I-BEN
+empresa	ncfs	I-BEN
+líder	nccs	I-BEN
+en	sp	I-BEN
+su	dp3cs	I-BEN
+rubro	ncms	I-BEN
+.	fp	O
+

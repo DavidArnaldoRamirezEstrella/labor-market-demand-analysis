@@ -1,0 +1,75 @@
+Urgente	adj	O
+Volanteros	np	B-JOB
+S/.30	zm	B-SAL
+por	sp	I-SAL
+día	nc	I-SAL
+
+Nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+(	fpa	O
+2	z	O
+)	fpt	O
+Volanteros	np	B-JOB
+para	sp	O
+trabajar	vmn	O
+de	sp	O
+manera	nc	O
+inmediata	adj	O
+en	sp	O
+Surquillo	np	B-LUG
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+Sexo	nc	O
+:	fd	O
+Indistinto	adj	O
+
+Edad	nc	O
+:	fd	O
+Mayores	rg	O
+de	sp	O
+18	z	O
+
+Tener	vmn	O
+estudios	nc	O
+secundarios	adj	O
+completos	adj	O
+
+Sueldo	nc	O
+por	sp	B-SAL
+día	nc	I-SAL
+:	fd	O
+25	zm	B-SAL
+soles	zm	I-SAL
+
+Horario	nc	O
+:	fd	O
+8hrs	w	B-MISC
+al	sp	I-MISC
+día	nc	I-MISC
+
+Interesados	vmi	O
+enviar	vmn	O
+su	det	O
+CV	np	O
+a	sp	O
+xxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+colocar	vmn	O
+en	sp	O
+el	det	O
+asunto	nc	O
+"	fe	O
+VOL	np	O
+"	fe	O
+.	fp	O
+

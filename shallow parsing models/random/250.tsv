@@ -1,0 +1,88 @@
+ASISTENTE	nc	B-JOB
+CONTABLE	np	I-JOB
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Auxiliar	nc	B-JOB
+y/o	cc	O
+asistente	nc	B-JOB
+contable	adj	I-JOB
+
+*	fz	O
+Egresado	adj	O
+de	sp	O
+Universidad	nc	O
+y/o	cc	O
+Instituto	nc	O
+.	fp	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+de	sp	O
+trabajo	nc	O
+en	sp	O
+el	det	O
+sistema	nc	B-AREA
+CONCAR	np	I-AREA
+.	fp	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+básica	adj	O
+en	sp	O
+fiscalizaciones	np	B-REQ
+de	sp	I-REQ
+SUNAT	np	I-REQ
+,	fc	O
+tributos	nc	B-REQ
+y	cc	O
+detracciones	np	B-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+de	sp	O
+4	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+y	cc	I-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+Técnico	nc	B-REQ
+Egresado	adj	O
+en	sp	O
+Contabilidad	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Contabilidad	np	B-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

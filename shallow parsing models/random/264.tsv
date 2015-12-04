@@ -1,0 +1,108 @@
+PRACTICANTES	nc	O
+INGENIERIA	np	B-CARR
+MECANICA	np	I-CARR
+
+Empresa	nc	O
+constructora	adj	O
+de	sp	O
+estructuras	nc	O
+metálicas	adj	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+Practicantes	nc	O
+en	sp	O
+ingeniería	np	B-CARR
+mecánica	np	I-CARR
+.	fp	O
+Perteneciente	nc	O
+al	sp	O
+Quinto	adj	O
+o	cc	O
+Décimo	adj	O
+Superior	adj	O
+.	fp	O
+Perfil	nc	O
+Personal	adj	O
+:	fd	O
+
+Contar	vmn	O
+con	sp	O
+solvencia	nc	O
+técnica	adj	O
+y	cc	O
+personal	adj	O
+.	fp	O
+Indispensable	adj	O
+
+conocimiento	nc	O
+en	sp	O
+el	det	O
+diseño	nc	B-REQ
+mecánico	adj	I-REQ
+de	sp	I-REQ
+tuberías	nc	I-REQ
+y	cc	I-REQ
+estructuras	nc	I-REQ
+.	fp	O
+Facilidad	nc	O
+para	sp	O
+la	det	O
+Lectura	nc	B-REQ
+de	sp	I-REQ
+Planos	nc	I-REQ
+.	fp	O
+
+Universitario	nc	O
+Ciclos	nc	O
+Finales	adj	O
+en	sp	O
+Ingeniería	np	B-CARR
+Mecánica	np	I-CARR
+.	fp	O
+
+Otros	pron	O
+Estudios	nc	O
+:	fd	O
+Curso	nc	O
+en	sp	O
+Autocad	np	B-REQ
+Avanzado	np	I-REQ
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Ingeniería	np	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Idioma	nc	O
+
+Inglés	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

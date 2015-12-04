@@ -1,0 +1,295 @@
+Auxiliar	nc	B-JOB
+de	sp	I-JOB
+facturación	nc	I-JOB
+
+Nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+los	det	O
+mejores	adj	O
+talentos	nc	O
+para	sp	O
+cubrir	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+"	fe	O
+Auxiliar	nc	B-JOB
+de	sp	I-JOB
+facturación	nc	I-JOB
+"	fe	O
+dentro	rg	O
+de	sp	O
+una	det	O
+empresa	nc	O
+encaminada	vmp	O
+al	sp	O
+éxito	nc	O
+y	cc	O
+en	sp	O
+actual	adj	O
+crecimiento	nc	O
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+Estudios	nc	O
+técnicos	adj	B-REQ
+o	cc	O
+universitarios	nc	O
+concluidos	adj	O
+.	fp	O
+
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+.	fp	O
+
+PRINCIPALES	adj	O
+FUNCIONES	nc	O
+:	fd	O
+
+Análisis	nc	B-FUN
+de	sp	I-FUN
+cuentas	nc	I-FUN
+.	fp	O
+
+Asistencia	nc	B-FUN
+en	sp	I-FUN
+la	det	I-FUN
+formulación	nc	I-FUN
+de	sp	I-FUN
+estados	nc	I-FUN
+financieros	adj	I-FUN
+y	cc	I-FUN
+anexos	adj	I-FUN
+.	fp	O
+
+Conciliaciones	nc	B-FUN
+bancarias	adj	I-FUN
+.	fp	O
+
+Control	nc	B-FUN
+y	cc	I-FUN
+registro	nc	I-FUN
+de	sp	I-FUN
+provisiones	nc	I-FUN
+mensuales	adj	I-FUN
+.	fp	O
+
+Determinación	nc	B-FUN
+y	cc	I-FUN
+pago	nc	I-FUN
+detracciones	adj	I-FUN
+y	cc	I-FUN
+percepciones	nc	I-FUN
+.	fp	O
+
+Elaboración	nc	B-FUN
+de	sp	I-FUN
+reportes	nc	I-FUN
+de	sp	I-FUN
+control	nc	I-FUN
+establecidos	vmp	I-FUN
+en	sp	I-FUN
+base	nc	I-FUN
+a	sp	I-FUN
+sus	det	I-FUN
+funciones	nc	I-FUN
+.	fp	O
+
+Pre	adj	B-FUN
+-	fg	I-FUN
+Liquidación	nc	I-FUN
+de	sp	I-FUN
+impuestos	nc	I-FUN
+,	fc	I-FUN
+IGV	np	I-FUN
+,	fc	I-FUN
+renta	nc	I-FUN
+mensual	adj	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	O
+
+Registro	nc	B-FUN
+de	sp	I-FUN
+Operaciones	nc	I-FUN
+(	fpa	I-FUN
+compras	nc	I-FUN
+,	fc	I-FUN
+pagos	nc	I-FUN
+,	fc	I-FUN
+provisiones	nc	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	I-FUN
+)	fpt	I-FUN
+.	fp	O
+
+Otras	det	O
+actividades	nc	O
+propias	adj	O
+de	sp	O
+su	det	O
+área	nc	O
+.	fp	O
+
+CONOCIMIENTOS	nc	O
+:	fd	O
+
+Reglamento	nc	B-REQ
+de	sp	I-REQ
+comprobantes	nc	I-REQ
+de	sp	I-REQ
+pago	nc	I-REQ
+,	fc	O
+detracciones	nc	B-REQ
+,	fc	O
+percepciones	nc	B-REQ
+,	fc	O
+retenciones	nc	B-REQ
+.	fp	O
+
+Conocimiento	nc	O
+de	sp	O
+normas	nc	B-REQ
+tributarias	adj	I-REQ
+para	sp	I-REQ
+efectos	nc	I-REQ
+de	sp	I-REQ
+IGV	np	I-REQ
+y	cc	I-REQ
+renta	nc	I-REQ
+.	fp	O
+
+Herramientas	nc	O
+informáticas	adj	O
+,	fc	O
+Excel	np	B-REQ
+avanzado	adj	O
+,	fc	O
+Office	np	B-REQ
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+Conocimiento	nc	O
+de	sp	O
+uso	nc	O
+de	sp	O
+Outlook	np	B-REQ
+y	cc	O
+herramientas	nc	O
+de	sp	O
+trabajo	nc	O
+en	sp	O
+oficina	nc	O
+.	fp	O
+
+Criterio	nc	O
+y	cc	O
+capacidad	nc	O
+para	sp	O
+el	det	O
+análisis	nc	B-REQ
+:	fd	O
+causas	nc	O
+y	cc	O
+consecuencias	nc	O
+.	fp	O
+
+Capacidad	nc	O
+y	cc	O
+entendimiento	nc	O
+de	sp	O
+ética	nc	B-REQ
+profesional	adj	I-REQ
+.	fp	O
+
+Deseable	adj	O
+manejo	nc	O
+básico	adj	O
+de	sp	O
+sistema	nc	B-REQ
+contable	adj	I-REQ
+SICO	np	I-REQ
+u	cc	O
+otros	pron	O
+.	fp	O
+
+COMPETENCIAS	nc	O
+:	fd	O
+
+Capacidad	nc	O
+de	sp	O
+Trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+Capacidad	nc	O
+de	sp	O
+Orden	nc	B-REQ
+y	cc	O
+organización	nc	B-REQ
+.	fp	O
+
+Proactivo	adj	B-REQ
+.	fp	O
+
+Comunicación	nc	B-REQ
+a	sp	O
+todo	det	O
+nivel	nc	O
+con	sp	O
+áreas	nc	O
+de	sp	O
+apoyo	nc	O
+,	fc	O
+Clientes	nc	O
+y	cc	O
+proveedores	nc	O
+.	fp	O
+
+Capacidad	nc	O
+de	sp	O
+saber	vmn	O
+seguir	vmn	O
+órdenes	nc	O
+,	fc	O
+ponerlas	vmi	O
+en	sp	O
+marcha	nc	O
+y	cc	O
+proponer	vmn	O
+soluciones	nc	O
+.	fp	O
+
+BENEFICIOS	nc	O
+:	fd	O
+
+Salario	nc	O
+de	sp	B-SAL
+acuerdo	nc	I-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+.	fp	O
+
+Desarrollo	nc	B-BEN
+profesional	adj	I-BEN
+y	cc	O
+oportunidad	nc	O
+para	sp	O
+realizar	vmn	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+

@@ -1,0 +1,148 @@
+Gerente	nccs	B-JOB
+comercial	aqcs	I-JOB
+(	fpa	O
+622	z	B-MISC
+-	fg	I-MISC
+1739	z	I-MISC
+)	fpt	O
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Elaborar	vmn	B-FUN
+el	da0ms	I-FUN
+plan	ncms	I-FUN
+comercial	aqcs	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+ventas	ncfp	I-FUN
+.	fp	O
+
+Organizar	vmn	B-FUN
+el	da0ms	I-FUN
+equipo	ncms	I-FUN
+de	sp	I-FUN
+ventas	ncfp	I-FUN
+.	fp	O
+
+Segmentar	vmn	B-FUN
+la	da0fs	I-FUN
+fuerza	ncfs	I-FUN
+de	sp	I-FUN
+ventas	ncfp	I-FUN
+:	fd	I-FUN
+estado	ncms	I-FUN
+,	fc	I-FUN
+clubs	ncmp	I-FUN
+,	fc	I-FUN
+constructoras	ncfp	I-FUN
+,	fc	I-FUN
+colegios	ncmp	I-FUN
+.	fp	O
+
+Seguimiento	ncms	B-FUN
+a	sp	I-FUN
+la	da0fs	I-FUN
+fuerza	ncfs	I-FUN
+de	sp	I-FUN
+ventas	ncfp	I-FUN
+.	fp	O
+
+Estar	vmn	B-FUN
+presente	ncms	I-FUN
+en	sp	I-FUN
+los	da0mp	I-FUN
+eventos	ncmp	I-FUN
+y	cc	I-FUN
+campeonatos	ncmp	I-FUN
+importantes	aqcp	I-FUN
+.	fp	O
+
+Elaborar	vmn	B-FUN
+estrategias	ncfp	I-FUN
+de	sp	I-FUN
+marketing	ncms	I-FUN
+y	cc	I-FUN
+comerciales	aqcp	I-FUN
+.	fp	O
+
+Apoyo	ncms	B-FUN
+al	sp	I-FUN
+área	ncfs	I-FUN
+de	sp	I-FUN
+cobranzas	ncfp	I-FUN
+,	fc	I-FUN
+de	sp	I-FUN
+ser	vsn	I-FUN
+necesario	aqms	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Bachiller	ncms	O
+en	sp	O
+administración	np00	B-CARR
+,	fc	O
+marketing	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Mínimo	rg	O
+8	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+comercial	aqcs	B-AREA
+y	cc	O
+4	z	O
+como	cs	O
+gerente	nccs	B-JOB
+.	fp	O
+
+Excel	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Disponibilidad	ncfs	O
+para	sp	O
+participar	vmn	O
+en	sp	O
+eventos	ncmp	O
+y	cc	O
+campeonatos	ncmp	O
+,	fc	O
+fuera	rg	O
+del	sp	O
+horario	ncms	O
+laboral	aqcs	O
+.	fp	O
+
+Indispensable	aqcs	O
+contar	vmn	O
+con	sp	O
+vehículo	ncms	O
+propio	aqms	O
+.	fp	O
+
+Horario	ncms	O
+:	fd	O
+
+De	sp	B-DATE
+lunes	w	I-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+de	sp	I-DATE
+8:30	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+6	w	I-DATE
+pm	w	I-DATE
+

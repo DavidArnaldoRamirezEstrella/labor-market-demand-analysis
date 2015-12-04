@@ -1,0 +1,68 @@
+Supervisor	ncms	B-JOB
+de	sp	I-JOB
+calidad	ncfs	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+ingeniería	np00	B-CARR
+industrias	np00	I-CARR
+alimentarias	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+ingeniería	np00	B-CARR
+agroindustrial	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+nutrición	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+otros	pi0mp	O
+con	sp	O
+3	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Disponibilidad	ncfs	O
+para	sp	O
+trabajar	vmn	B-MISC
+en	sp	I-MISC
+provincia	ncfs	I-MISC
+bajo	sp	I-MISC
+régimen	ncms	I-MISC
+.	fp	O
+

@@ -1,0 +1,181 @@
+Coordinador	ncms	B-JOB
+TI	np00	I-JOB
+-	fg	O
+Telecomunicaciones	ncfp	B-AREA
+.	fp	O
+
+Importante	aqcs	O
+empresa	ncfs	O
+en	sp	O
+proceso	ncms	O
+de	sp	O
+crecimiento	ncms	O
+requiere	vmi	O
+un	di0ms	O
+Coordinador	ncms	B-JOB
+de	sp	I-JOB
+Implementación	ncfs	I-JOB
+.	fp	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+Estudios	ncmp	O
+en	sp	O
+Electrónico	np00	B-CARR
+,	fc	O
+Telecomunicaciones	np00	B-CARR
+o	cc	O
+experiencia	ncfs	O
+en	sp	O
+coordinación	ncfs	B-FUN
+de	sp	I-FUN
+Implementación	ncfs	I-FUN
+de	sp	I-FUN
+TI	np00	I-FUN
+
+1	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+en	sp	O
+coordinación	ncfs	B-FUN
+de	sp	I-FUN
+Implementación	ncfs	I-FUN
+de	sp	I-FUN
+Proyectos	ncmp	I-FUN
+TI	np00	I-FUN
+.	fp	O
+
+Experiencia	ncfs	O
+implementando	vmg	B-FUN
+BTS	np00	I-FUN
+de	sp	I-FUN
+Huawei	np00	I-FUN
+
+Experiencia	ncfs	O
+en	sp	O
+campo	ncms	O
+(	fpa	O
+comisionamiento	ncms	B-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+BBU	np00	I-FUN
+,	fc	I-FUN
+MW	np00	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	O
+)	fpt	O
+
+Experiencia	ncfs	O
+en	sp	O
+coordinación	ncfs	B-FUN
+de	sp	I-FUN
+Instalaciones	ncfp	I-FUN
+de	sp	I-FUN
+Equipos	ncmp	I-FUN
+Móviles	aqmp	I-FUN
+
+De	sp	O
+preferencia	ncfs	O
+en	sp	O
+experiencia	ncfs	O
+en	sp	O
+supervisión	ncfs	B-FUN
+de	sp	I-FUN
+Instalaciones	ncfp	I-FUN
+de	sp	I-FUN
+Huawei	np00	I-FUN
+Nodo	np00	I-FUN
+_MW	np00	I-FUN
+,	fc	I-FUN
+revisión	ncfs	I-FUN
+de	sp	I-FUN
+MPLS	np00	I-FUN
+
+Responsabilidades	ncfp	O
+:	fd	O
+
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+planeamiento	ncms	I-FUN
+,	fc	I-FUN
+control	ncms	I-FUN
+y	cc	I-FUN
+supervisión	ncfs	I-FUN
+de	sp	I-FUN
+Instalación	ncfs	I-FUN
+de	sp	I-FUN
+Equipos	ncmp	I-FUN
+de	sp	I-FUN
+telecomunicaciones	ncfp	I-FUN
+móviles	aqcp	I-FUN
+(	fpa	I-FUN
+Instalación	ncfs	I-FUN
+de	sp	I-FUN
+Nodo	ncms	I-FUN
+B	np00	I-FUN
+,	fc	I-FUN
+MW	np00	I-FUN
+,	fc	I-FUN
+TSS	np00	I-FUN
+;	fx	I-FUN
+Tecnología	ncfs	I-FUN
+:	fd	I-FUN
+Huawei	np00	I-FUN
+,	fc	I-FUN
+Nokia	np00	I-FUN
+,	fc	I-FUN
+Erickson	np00	I-FUN
+,	fc	I-FUN
+ALU	np00	I-FUN
+)	fpt	I-FUN
+
+Supervisión	ncfs	B-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+trabajos	ncmp	I-FUN
+de	sp	I-FUN
+Implementación	ncfs	I-FUN
+de	sp	I-FUN
+acuerdo	ncms	I-FUN
+a	sp	I-FUN
+la	da0fs	I-FUN
+programación	ncfs	I-FUN
+.	fp	O
+
+Control	ncms	B-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+Documentación	ncfs	I-FUN
+de	sp	I-FUN
+implementación	ncfs	I-FUN
+
+Coordinaciones	ncfp	B-FUN
+con	sp	I-FUN
+el	da0ms	I-FUN
+cliente	nccs	I-FUN
+interno	aqms	I-FUN
+y	cc	I-FUN
+externo	aqms	I-FUN
+.	fp	O
+
+Generar	vmn	B-FUN
+los	da0mp	I-FUN
+reportes	ncmp	I-FUN
+para	sp	I-FUN
+la	da0fs	I-FUN
+facturación	ncfs	I-FUN
+
+Beneficios	ncmp	O
+:	fd	O
+
+Agradable	aqcs	B-BEN
+clima	ncms	I-BEN
+laboral	aqcs	I-BEN
+
+Oportunidades	ncfp	O
+de	sp	O
+crecimiento	ncms	B-BEN
+

@@ -1,0 +1,232 @@
+Vendedores	nc	B-JOB
+-	fg	O
+Cañete	np	B-LUG
+
+Te	pron	O
+invitamos	vmi	O
+a	sp	O
+formar	vmn	O
+parte	nc	O
+de	sp	O
+nuestra	det	O
+FUERZA	nc	O
+DE	sp	O
+VENTAS	np	O
+
+CARSA	np	B-ORG
+,	fc	O
+somos	vsi	O
+una	det	O
+empresa	nc	O
+peruana	adj	O
+con	sp	O
+60	z	O
+años	nc	O
+de	sp	O
+trayectoria	nc	O
+ofreciendo	vmg	O
+servicio	nc	O
+de	sp	O
+calidad	nc	O
+.	fp	O
+Actualmente	rg	O
+contamos	vmi	O
+con	sp	O
+64	z	O
+tiendas	nc	O
+a	sp	O
+nivel	nc	O
+nacional	adj	O
+,	fc	O
+especializados	vmp	O
+en	sp	O
+venta	nc	O
+de	sp	O
+electrodomésticos	nc	O
+,	fc	O
+equipos	nc	O
+de	sp	O
+cómputo	nc	O
+,	fc	O
+telefonía	nc	O
+e	cc	O
+intangibles	nc	O
+(	fpa	O
+seguros	nc	O
+y	cc	O
+garantías	nc	O
+extendidas	vmp	O
+)	fpt	O
+.	fp	O
+
+Actualmente	rg	O
+nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+
+VENDEDORES	nc	B-JOB
+
+para	sp	O
+Trujillo	np	B-LUG
+
+Requisitos	nc	O
+:	fd	O
+
+Experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+o	cc	O
+atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+mínimo	adj	O
+03	z	O
+meses	nc	O
+.	fp	O
+
+Secundaria	nc	O
+completa	adj	O
+y/o	cc	O
+técnicos	adj	B-REQ
+.	fp	O
+
+Con	sp	O
+vocación	nc	O
+de	sp	O
+servicio	nc	O
+,	fc	O
+actitud	nc	B-REQ
+positiva	adj	I-REQ
+y	cc	O
+buen	adj	O
+nivel	nc	O
+de	sp	O
+comunicación	nc	B-REQ
+.	fp	O
+
+Disponibilidad	nc	O
+a	sp	O
+tiempo	nc	O
+completo	adj	O
+para	sp	O
+realizar	vmn	B-FUN
+labores	nc	I-FUN
+de	sp	I-FUN
+tienda	nc	I-FUN
+y	cc	I-FUN
+campo	nc	I-FUN
+.	fp	O
+
+Ofrecemos	vmi	O
+:	fd	O
+
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+Atractivo	adj	O
+esquema	nc	O
+de	sp	O
+comisiones	nc	B-BEN
+,	fc	O
+bonos	nc	B-BEN
+e	cc	O
+incentivos	nc	B-BEN
+.	fp	O
+
+Seguro	nc	B-BEN
+de	sp	I-BEN
+vida	nc	I-BEN
+de	sp	I-BEN
+Ley	np	I-BEN
+(	fpa	I-BEN
+gratuito	adj	I-BEN
+)	fpt	I-BEN
+.	fp	O
+
+Descuentos	nc	B-BEN
+y	cc	I-BEN
+promociones	nc	I-BEN
+en	sp	I-BEN
+productos	nc	I-BEN
+de	sp	I-BEN
+tienda	nc	I-BEN
+.	fp	O
+
+Capacitaciones	nc	O
+.	fp	O
+
+Premiaciones	vmi	B-BEN
+todos	det	I-BEN
+los	det	I-BEN
+meses	nc	I-BEN
+.	fp	O
+
+Cuponera	nc	B-BEN
+de	sp	I-BEN
+beneficios	nc	I-BEN
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+enviar	vmn	O
+su	det	O
+CV	np	O
+actualizado	vmp	O
+a	sp	O
+
+anaiz	np	B-MISC
+.	fp	I-MISC
+malca	np	I-MISC
+@	fz	I-MISC
+carsa	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+.	fp	I-MISC
+pe	np	I-MISC
+
+colocar	vmn	O
+en	sp	O
+asunto	nc	O
+VE	np	O
+-	fg	O
+TRUJILLO	np	B-LUG
+
+dejarlo	vmn	O
+en	sp	O
+Esq	np	B-LUG
+.	fp	I-LUG
+Bolívar	np	I-LUG
+694	z	I-LUG
+con	sp	I-LUG
+Junín	np	I-LUG
+612	z	I-LUG
+-	fg	O
+Trujillo	np	B-LUG
+,	fc	O
+preguntar	vmn	O
+por	sp	O
+Pedro	np	B-NOM
+Alva	np	I-NOM
+
+¡	fa	O
+En	sp	O
+Carsa	np	B-ORG
+hacemos	vmi	O
+más	rg	O
+fácil	adj	O
+y	cc	O
+grato	vmi	O
+comprar	vmn	O
+!	fa	O
+

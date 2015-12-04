@@ -1,0 +1,141 @@
+Negocio	ncms	O
+medio	aqms	B-MISC
+tiempo	ncms	I-MISC
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Secundaria	ncfs	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+hotelería	ncfs	B-AREA
+/	fh	O
+turismo	ncms	B-AREA
+/	fh	O
+restaurantes	ncmp	B-AREA
+.	fp	O
+
+La	da0fs	O
+oportunidad	ncfs	O
+de	sp	O
+negocio	ncms	O
+esta	dd0fs	O
+abierta	vmp	O
+tanto	rg	O
+para	sp	O
+hombres	ncmp	O
+y	cc	O
+mujeres	ncfp	O
+.	fp	O
+solo	rg	O
+debes	vmi	O
+ser	vsn	O
+mayor	aqcs	O
+de	sp	O
+18	z	O
+años	ncmp	O
+.	fp	O
+esta	dd0fs	O
+oportunidad	ncfs	O
+de	sp	O
+trabajo	ncms	O
+,	fc	O
+ya	cs	O
+sea	vss	O
+en	sp	O
+tu	dp2cs	O
+tiempo	ncms	O
+libre	aqcs	O
+,	fc	O
+es	vsi	O
+especialmente	rg	O
+apta	aqfs	O
+para	sp	O
+:	fd	O
+
+Quienes	pr0cp	O
+quieren	vmi	O
+trabajar	vmn	B-MISC
+desde	sp	I-MISC
+su	dp3cs	I-MISC
+casa	ncfs	I-MISC
+.	fp	O
+
+Dueñas	ncfp	O
+de	sp	O
+casa	ncfs	O
+,	fc	O
+mamas	ncfp	O
+con	sp	O
+hijos	ncmp	O
+y	cc	O
+embarazadas	aqfp	O
+.	fp	O
+
+Quienes	pr0cp	O
+necesitan	vmi	O
+un	di0ms	O
+segundo	aoms	O
+trabajo	ncms	O
+o	cc	O
+trabajar	vmn	O
+en	sp	O
+horarios	ncmp	B-MISC
+libres	aqcp	I-MISC
+.	fp	O
+
+Profesionales	nccp	O
+(	fpa	O
+médicos	np00	B-CARR
+,	fc	O
+ingenieros	np00	B-CARR
+,	fc	O
+abogados	np00	B-CARR
+,	fc	O
+dentistas	np00	B-CARR
+,	fc	O
+periodistas	np00	B-CARR
+,	fc	O
+etc	fs	O
+.	fp	O
+)	fpt	O
+.	fp	O
+
+Estudiantes	nccp	O
+universitarios	aqmp	O
+.	fp	O
+
+Jubilados	ncmp	O
+
+Personas	ncfp	O
+con	sp	O
+impedimentos	ncmp	O
+físicos	aqmp	O
+.	fp	O
+
+Revisa	vmi	O
+esta	dd0fs	O
+información	ncfs	O
+y	cc	O
+si	cs	O
+te	pp2cs	O
+interesa	vmi	O
+contactame	vmn	O
+
+mipropionegocioperuven	np00	B-MISC
+.	fp	I-MISC
+blogspot	np00	I-MISC
+.	fp	I-MISC
+com	np00	I-MISC
+

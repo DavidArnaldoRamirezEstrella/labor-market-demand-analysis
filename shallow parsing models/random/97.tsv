@@ -1,0 +1,143 @@
+Mozo	nc	B-JOB
+Comas	np	B-LUG
+Turno	np	B-MISC
+Noche	np	I-MISC
+
+Prestigiosa	adj	O
+cadena	nc	O
+de	sp	O
+Restaurantes	nc	O
+y	cc	O
+Pollerías	np	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+personal	nc	O
+altamente	rg	O
+calificado	vmp	O
+para	sp	O
+cubrir	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+mozo	nc	B-JOB
+en	sp	O
+nuestro	det	O
+local	nc	O
+de	sp	O
+Comas	np	B-LUG
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+pollerías	np	B-AREA
+.	fp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+carnet	nc	O
+de	sp	O
+sanidad	nc	O
+y	cc	O
+antecedentes	nc	O
+policiales	adj	O
+.	fp	O
+
+*	fz	O
+Entre	sp	O
+18	z	O
+y	cc	O
+35	z	O
+años	nc	O
+de	sp	O
+edad	nc	O
+.	fp	O
+
+*	fz	O
+Facilidad	nc	B-REQ
+de	sp	I-REQ
+expresión	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Carismático	adj	B-REQ
+.	fp	O
+
+*	fz	O
+Alta	adj	O
+Capacidad	nc	O
+de	sp	O
+atención	nc	B-REQ
+y	cc	O
+memoria	nc	B-REQ
+.	fp	O
+
+HORARIO	nc	O
+:	fd	O
+
+6PM	w	B-DATE
+-	fg	I-DATE
+12AM	w	I-DATE
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+
+*	fz	O
+Beneficios	nc	B-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+
+*	fz	O
+Pago	nc	B-BEN
+de	sp	I-BEN
+horas	nc	I-BEN
+extras	adj	I-BEN
+
+*	fz	O
+Grato	adj	B-BEN
+clima	nc	I-BEN
+laboral	adj	I-BEN
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+acudir	vmn	O
+a	sp	O
+entrevista	nc	O
+en	sp	O
+calle	nc	B-LUG
+madre	nc	I-LUG
+de	sp	I-LUG
+Dios	np	I-LUG
+278	z	I-LUG
+Santa	np	I-LUG
+Patricia	np	I-LUG
+-	fg	O
+La	np	B-LUG
+Molina	np	I-LUG
+a	sp	O
+las	det	O
+10am	w	B-DATE
+o	cc	O
+enviar	vmn	O
+hoja	nc	O
+de	sp	O
+vida	nc	O
+asunto	nc	O
+:	fd	O
+Mozo	nc	B-JOB
+Comas	np	B-LUG
+

@@ -1,0 +1,71 @@
+PINTOR	ncms	B-JOB
+.	fp	O
+
+Edad	ncfs	O
+:	fd	O
+30	z	O
+-	fg	O
+50	z	O
+años	ncmp	O
+
+Experiencia	ncfs	O
+:	fd	O
+mínimo	aqms	O
+5	z	O
+años	ncmp	O
+,	fc	O
+de	sp	O
+preferencia	ncfs	O
+en	sp	O
+muebles	ncmp	B-AREA
+de	sp	I-AREA
+melamina	ncfs	I-AREA
+,	fc	O
+y	cc	O
+MDF	np00	O
+
+Estudios	ncmp	O
+:	fd	O
+De	sp	O
+preferencia	ncfs	O
+con	sp	O
+estudios	ncmp	O
+en	sp	O
+pintado	ncms	B-FUN
+de	sp	I-FUN
+muebles	ncmp	I-FUN
+de	sp	I-FUN
+madera	ncfs	I-FUN
+
+Actitud	ncfs	O
+:	fd	O
+positivo	aqms	B-REQ
+,	fc	O
+proactivo	aqms	B-REQ
+,	fc	O
+responsable	nccs	B-REQ
+
+Pintado	vmp	B-FUN
+de	sp	I-FUN
+muebles	ncmp	I-FUN
+de	sp	I-FUN
+MDF	np00	I-FUN
+
+Secundaria	ncfs	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Operaciones	ncfp	B-AREA
+con	sp	O
+5	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

@@ -1,0 +1,102 @@
+enfermera	np	B-JOB
+pediátrica	np	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+cuidado	nc	B-FUN
+del	sp	I-FUN
+paciente	nc	I-FUN
+pediátrico	np	I-FUN
+.	fp	O
+
+conocimiento	nc	O
+básico	adj	O
+de	sp	O
+equipos	nc	B-REQ
+ventiladores	nc	I-REQ
+,	fc	O
+bombas	nc	B-REQ
+infusoras	adj	I-REQ
+,	fc	O
+etc	fs	O
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+sistemas	nc	B-REQ
+utilizados	vmp	I-REQ
+en	sp	I-REQ
+la	det	I-REQ
+clínica	np	I-REQ
+.	fp	O
+
+interrelación	nc	B-REQ
+con	sp	I-REQ
+familiares	nc	I-REQ
+y	cc	I-REQ
+equipo	nc	I-REQ
+de	sp	I-REQ
+salud	nc	I-REQ
+.	fp	O
+
+competencias	nc	O
+:	fd	O
+
+trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+control	nc	B-REQ
+de	sp	I-REQ
+procedimientos	nc	I-REQ
+.	fp	O
+
+interés	nc	O
+por	sp	O
+el	det	O
+paciente	nc	O
+.	fp	O
+
+orientación	nc	O
+hacia	sp	O
+los	det	O
+resultados	nc	B-REQ
+.	fp	O
+
+capacidad	nc	O
+de	sp	O
+planificación	nc	B-REQ
+y	cc	O
+orden	nc	B-REQ
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+profesionales	nc	B-REQ
+titulados	adj	I-REQ
+y	cc	O
+colegiados	adj	B-REQ
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+un	z	O
+año	nc	O
+en	sp	O
+pediatría	np	B-AREA
+.	fp	O
+
+conocimiento	nc	O
+de	sp	O
+rcp	np	B-REQ
+.	fp	O
+
+especialidad	nc	O
+en	sp	O
+pediatría	np	B-CARR
+.	fp	O
+

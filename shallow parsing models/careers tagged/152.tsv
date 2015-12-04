@@ -1,0 +1,132 @@
+Diseñador	ncms	B-JOB
+de	sp	I-JOB
+eventos	ncmp	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+y	cc	O
+Responsabilidades	ncfp	O
+:	fd	O
+
+*	fz	O
+Elaborar	vmn	B-FUN
+y	cc	I-FUN
+modificar	vmn	I-FUN
+planos	ncmp	I-FUN
+
+*	fz	O
+Plasmar	vmn	B-FUN
+los	da0mp	I-FUN
+requerimientos	ncmp	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+clientes	nccp	I-FUN
+del	sp	I-FUN
+diseño	ncms	I-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+plano	ncms	I-FUN
+
+*	fz	O
+Conocimientos	ncmp	O
+de	sp	O
+estructura	ncfs	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+*	fz	O
+Universitario	ncms	O
+Bachillerato	ncms	O
+en	sp	O
+Diseño	np00	B-CARR
+de	sp	I-CARR
+Interiores	np00	I-CARR
+y/o	cc	O
+Arquitectura	np00	B-CARR
+
+*	fz	O
+Experiencia	ncfs	O
+mínima	aqms	O
+6	z	O
+meses	ncmp	O
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+diseño	ncms	B-AREA
+(	fpa	O
+indispensable	aqcs	O
+)	fpt	O
+
+*	fz	O
+Manejo	ncms	O
+de	sp	O
+programa	ncms	O
+AutoCAD	np00	B-REQ
+y	cc	O
+programas	ncmp	B-REQ
+3D	np00	I-REQ
+nivel	ncms	O
+avanzado	aqms	O
+
+*	fz	O
+Interés	ncms	O
+en	sp	O
+el	da0ms	O
+rubro	ncms	O
+del	sp	O
+diseño	ncms	B-AREA
+de	sp	I-AREA
+estructuras	ncfp	I-AREA
+para	sp	O
+eventos	ncmp	O
+y	cc	O
+disposición	ncfs	O
+de	sp	O
+servicio	ncms	B-REQ
+hacia	sp	I-REQ
+el	da0ms	I-REQ
+cliente	nccs	I-REQ
+
+Competencias	ncfp	O
+:	fd	O
+
+*	fz	O
+Sentido	ncms	O
+de	sp	O
+estética	ncfs	B-REQ
+
+*	fz	O
+Visión	ncfs	B-REQ
+,	fc	O
+diseño	ncms	B-REQ
+,	fc	O
+creatividad	ncfs	B-REQ
+
+*	fz	O
+Proactividad	ncfs	B-REQ
+
+ESPECIFICAR	vmn	O
+PRETENCION	ncfs	O
+SALARIAL	aqcs	O
+
+ENVIAR	vmn	O
+CV	np00	O
+:	fd	O
+
+xxxxxxxxx	np00	B-MISC
+@	fz	I-MISC
+xxxxxxxxxxxxxx	np00	I-MISC
+.	fp	I-MISC
+xxx	np00	I-MISC
+(	fpa	O
+incluyendo	vmg	O
+su	dp3cs	O
+portafolio	ncms	O
+en	sp	O
+archivo	ncms	O
+comprimido	aqms	O
+)	fpt	O
+.	fp	O
+

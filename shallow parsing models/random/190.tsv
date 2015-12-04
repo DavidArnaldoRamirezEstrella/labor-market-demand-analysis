@@ -1,0 +1,66 @@
+médico	vmi	B-JOB
+salud	nc	B-AREA
+ocupacional	adj	I-AREA
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+otros	det	O
+estudios	nc	O
+en	sp	O
+medicina	np	B-CARR
+humana	np	I-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+otros	pron	O
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+para	sp	O
+atención	nc	B-FUN
+a	sp	I-FUN
+sus	det	I-FUN
+pacientes	nc	I-FUN
+durante	sp	O
+turno	nc	B-MISC
+mañana	rg	I-MISC
+(	fpa	O
+entre	sp	B-DATE
+10	w	I-DATE
+am	w	I-DATE
+y	cc	I-DATE
+2	w	I-DATE
+pm	w	I-DATE
+)	fpt	O
+
+indicar	vmn	O
+pretensiones	nc	O
+salariales	adj	O
+
+lunes	w	B-DATE
+a	sp	I-DATE
+sábado	w	I-DATE
+:	fd	O
+atención	nc	O
+de	sp	O
+10	w	B-DATE
+am	w	I-DATE
+a	sp	I-DATE
+2	w	I-DATE
+pm	w	I-DATE
+,	fc	O
+

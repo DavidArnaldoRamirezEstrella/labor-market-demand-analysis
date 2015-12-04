@@ -1,0 +1,33 @@
+vendedores	nc	B-JOB
+tiendas	nc	O
+el	det	O
+trujillo	np	B-ORG
+mall	np	I-ORG
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+experiencia	nc	O
+mínima	adj	O
+en	sp	O
+ventas	nc	B-AREA
+
+damas	nc	O
+o	cc	O
+varones	nc	O
+
+disponibilidad	nc	O
+de	sp	O
+trabajo	nc	O
+a	sp	O
+tiempo	nc	B-MISC
+completo	adj	I-MISC
+y	cc	O
+en	sp	O
+horario	nc	B-MISC
+de	sp	I-MISC
+tienda	nc	I-MISC
+

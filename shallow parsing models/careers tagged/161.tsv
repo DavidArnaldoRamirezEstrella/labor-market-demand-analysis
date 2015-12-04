@@ -1,0 +1,297 @@
+Electromecánicos	np00	B-CARR
+trabajo	ncms	O
+de	sp	O
+campo	ncms	O
+con	sp	O
+puentes	ncmp	B-AREA
+grúas	ncfp	I-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Responsable	aqcs	O
+de	sp	O
+apoyar	vmn	B-FUN
+los	da0mp	I-FUN
+diagnósticos	ncmp	I-FUN
+,	fc	I-FUN
+las	da0fp	I-FUN
+reparaciones	ncfp	I-FUN
+,	fc	I-FUN
+mantenciones	ncfp	I-FUN
+y	cc	I-FUN
+asistencia	ncfs	I-FUN
+técnica	aqfs	I-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+llegados	aqmp	I-FUN
+a	sp	I-FUN
+taller	ncms	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+intervenidos	aqmp	I-FUN
+en	sp	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Comunicación	ncfs	B-REQ
+fluida	aqfs	I-REQ
+con	sp	O
+cliente	nccs	O
+.	fp	O
+
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+supervisores	ncmp	I-FUN
+de	sp	I-FUN
+acuerdo	ncms	I-FUN
+al	sp	I-FUN
+tipo	ncms	I-FUN
+de	sp	I-FUN
+servicio	ncms	I-FUN
+.	fp	O
+
+Confeccionar	vmn	B-FUN
+y	cc	I-FUN
+entregar	vmn	I-FUN
+informes	ncmp	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+y	cc	I-FUN
+documentación	ncfs	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+libros	ncmp	I-FUN
+de	sp	I-FUN
+obra	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+servicios	ncmp	I-FUN
+realizados	aqmp	I-FUN
+en	sp	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Cumplir	vmn	B-FUN
+planificación	ncfs	I-FUN
+semanal	aqcs	I-FUN
+de	sp	I-FUN
+servicios	ncmp	I-FUN
+e	cc	O
+informar	vmn	B-FUN
+desviaciones	ncfp	I-FUN
+.	fp	O
+
+Ser	vsn	O
+responsable	aqcs	O
+del	sp	O
+cumplimiento	ncms	B-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+procedimientos	ncmp	I-FUN
+de	sp	I-FUN
+seguridad	ncfs	I-FUN
+y	cc	I-FUN
+operaciones	ncfp	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+diagnósticos	vmn	I-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+recibidos	aqmp	I-FUN
+en	sp	I-FUN
+taller	ncms	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+diagnosticos	vmn	I-FUN
+de	sp	I-FUN
+fallas	ncfp	I-FUN
+de	sp	I-FUN
+equipo	ncms	I-FUN
+en	sp	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+reparaciones	ncfp	I-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+en	sp	I-FUN
+taller	ncms	I-FUN
+y	cc	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Generar	vmn	B-FUN
+requerimientos	ncmp	I-FUN
+de	sp	I-FUN
+repuestos	ncmp	I-FUN
+,	fc	I-FUN
+materiales	ncmp	I-FUN
+,	fc	I-FUN
+insumos	ncmp	I-FUN
+y	cc	I-FUN
+lo	da0ns	I-FUN
+necesario	aqms	I-FUN
+para	sp	O
+realizar	vmn	B-FUN
+el	da0ms	I-FUN
+servicio	ncms	I-FUN
+solicitado	vmp	I-FUN
+.	fp	O
+
+Responsable	aqcs	O
+del	sp	O
+cuidado	ncms	B-FUN
+y	cc	I-FUN
+mantención	vmi	I-FUN
+de	sp	I-FUN
+herramientas	ncfp	I-FUN
+a	sp	I-FUN
+cargo	ncms	I-FUN
+.	fp	O
+
+Responsable	nccs	O
+de	sp	O
+informar	vmn	B-FUN
+a	sp	I-FUN
+panol	vmn	I-FUN
+la	da0fs	I-FUN
+perdida	aqfs	I-FUN
+de	sp	I-FUN
+herramientas	ncfp	I-FUN
+,	fc	I-FUN
+epp	np00	I-FUN
+y	cc	I-FUN
+equipos	ncmp	I-FUN
+a	sp	I-FUN
+su	dp3cs	I-FUN
+cargo	ncms	I-FUN
+.	fp	O
+
+Responsable	nccs	O
+del	sp	O
+cuidado	ncms	B-FUN
+de	sp	I-FUN
+vehiculos	ncmp	I-FUN
+a	sp	I-FUN
+cargo	ncms	I-FUN
+durante	sp	I-FUN
+los	da0mp	I-FUN
+trabajos	ncmp	I-FUN
+asignados	aqmp	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Técnico	ncms	B-REQ
+titulado	aqms	I-REQ
+en	sp	O
+electricidad	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+titulado	aqms	I-REQ
+en	sp	O
+mantenimiento	ncms	B-AREA
+de	sp	I-AREA
+maquinaria	ncfs	I-AREA
+pesada	aqfs	I-AREA
+.	fp	O
+
+Técnico	ncms	B-REQ
+titulado	aqms	I-REQ
+en	sp	O
+electrotecnia	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+titulado	aqms	I-REQ
+en	sp	O
+mantenimiento	ncms	B-AREA
+de	sp	I-AREA
+maquinaria	ncfs	I-AREA
+de	sp	I-AREA
+planta	ncfs	I-AREA
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+operaciones	ncfp	B-AREA
+con	sp	O
+2	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+mecánica	np00	B-CARR
+,	fc	O
+mecatrónica	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Conocimientos	ncmp	O
+amplios	aqmp	O
+en	sp	O
+mecánica	ncfs	B-REQ
+,	fc	O
+pues	cs	O
+hará	vms	O
+mantenimiento	ncms	B-FUN
+a	sp	I-FUN
+maquinaria	ncfs	I-FUN
+de	sp	I-FUN
+minería	ncfs	I-FUN
+.	fp	O
+
+Experiencia	ncfs	O
+en	sp	O
+mecánica	ncfs	B-REQ
+relacionada	vmp	O
+con	sp	O
+puentes	ncmp	B-AREA
+gruas	aqmp	I-AREA
+.	fp	O
+
+Conocimientos	ncmp	O
+generales	aqcp	O
+de	sp	O
+electricidad	ncfs	B-REQ
+,	fc	O
+electrónica	ncfs	B-REQ
+,	fc	O
+prevención	ncfs	B-REQ
+de	sp	I-REQ
+riesgos	ncmp	I-REQ
+,	fc	O
+calidad	ncfs	B-REQ
+.	fp	O
+
+Disponibilidad	ncfs	O
+para	sp	O
+viajar	vmn	O
+.	fp	O
+
+Contar	vmn	O
+con	sp	O
+licencia	ncfs	O
+de	sp	O
+conducir	vmn	O
+A	np00	O
+I	z	O
+

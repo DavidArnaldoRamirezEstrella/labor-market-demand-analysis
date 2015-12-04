@@ -1,0 +1,149 @@
+Asistente	nc	B-JOB
+Contable	adj	I-JOB
+
+Nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+[	fl	O
+01	z	O
+]	fl	O
+Asistente	nc	B-JOB
+Contable	adj	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+Técnico	nc	B-REQ
+en	sp	O
+Contabilidad	np	B-CARR
+.	fp	O
+
+Con	sp	O
+experiencia	nc	O
+no	rn	O
+menor	adj	O
+a	sp	O
+01	z	O
+año	nc	O
+en	sp	O
+posiciones	nc	O
+similares	adj	O
+.	fp	O
+
+Experiencia	nc	O
+en	sp	O
+manejo	nc	O
+de	sp	O
+sistemas	nc	B-REQ
+contables	adj	I-REQ
+.	fp	O
+
+Conocimiento	nc	O
+en	sp	O
+elaboración	nc	B-FUN
+de	sp	I-FUN
+planillas	nc	I-FUN
+,	fc	I-FUN
+PDT	np	I-FUN
+601	z	I-FUN
+
+Disponibilidad	nc	O
+a	sp	O
+tiempo	nc	B-MISC
+completo	adj	I-MISC
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+Recopilar	vmn	B-FUN
+,	fc	I-FUN
+verificar	vmn	I-FUN
+,	fc	I-FUN
+registrar	vmn	I-FUN
+y	cc	I-FUN
+analizar	vmn	I-FUN
+las	det	I-FUN
+operaciones	nc	I-FUN
+generadas	vmp	I-FUN
+por	sp	I-FUN
+la	det	I-FUN
+organización	nc	I-FUN
+.	fp	O
+
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+los	det	I-FUN
+procedimientos	nc	I-FUN
+internos	adj	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+organización	nc	I-FUN
+y	cc	I-FUN
+la	det	I-FUN
+normativa	nc	I-FUN
+contable	adj	I-FUN
+y	cc	I-FUN
+tributaria	adj	I-FUN
+vigente	adj	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+otras	det	I-FUN
+funciones	nc	I-FUN
+inherentes	adj	I-FUN
+al	sp	I-FUN
+cargo	nc	I-FUN
+,	fc	I-FUN
+asignadas	vmp	I-FUN
+por	sp	I-FUN
+su	det	I-FUN
+jefe	nc	I-FUN
+inmediato	adj	I-FUN
+.	fp	O
+
+Competencias	nc	O
+:	fd	O
+
+Capacidad	nc	O
+de	sp	O
+Análisis	nc	B-REQ
+y	cc	O
+Síntesis	nc	B-REQ
+.	fp	O
+
+Planificación	nc	B-REQ
+y	cc	O
+Organización	nc	B-REQ
+.	fp	O
+
+Responsabilidad	nc	B-REQ
+.	fp	O
+
+Compromiso	nc	O
+.	fp	O
+
+Beneficios	nc	O
+:	fd	O
+
+Remuneración	nc	O
+acorde	adj	B-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+.	fp	O
+
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+

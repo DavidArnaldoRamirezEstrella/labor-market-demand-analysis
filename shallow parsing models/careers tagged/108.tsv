@@ -1,0 +1,56 @@
+Técnico	ncms	B-REQ
+en	sp	O
+Computación	ncfs	B-AREA
+.	fp	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+Computación	ncfs	B-AREA
+,	fc	O
+Mantenimiento	ncms	B-AREA
+,	fc	O
+Reparación	ncfs	B-AREA
+e	cc	I-AREA
+instalación	ncfs	I-AREA
+de	sp	I-AREA
+scanner	np00	I-AREA
+.	fp	O
+
+Conocimientos	ncmp	O
+de	sp	O
+Windows	np00	B-REQ
+Server	np00	I-REQ
+y	cc	O
+Redes	ncfp	B-REQ
+
+Técnico	ncms	B-REQ
+en	sp	O
+Computación	ncfs	B-AREA
+,	fc	O
+Mantenimiento	ncms	B-AREA
+,	fc	O
+Reparación	ncfs	B-AREA
+e	cc	I-AREA
+instalación	ncfs	I-AREA
+de	sp	I-AREA
+scanner	np00	I-AREA
+.	fp	O
+
+Técnico	ncms	B-REQ
+egresado	aqms	O
+en	sp	O
+Computación	np00	B-CARR
+e	cc	I-CARR
+Informática	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Sistemas	ncmp	B-AREA
+.	fp	O
+

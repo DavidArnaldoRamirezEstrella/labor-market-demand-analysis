@@ -1,0 +1,222 @@
+Planchero	np	B-JOB
+-	fg	O
+Cafetería	np	O
+La	np	B-LUG
+Molina	np	I-LUG
+
+Nuestra	det	O
+Empresa	nc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+Colaboradores	nc	O
+honestos	adj	B-REQ
+y	cc	O
+comprometidos	vmp	B-REQ
+para	sp	O
+el	det	O
+puesto	nc	O
+de	sp	O
+BARTENDER	np	B-JOB
+-	fg	O
+BARISTA	np	B-JOB
+para	sp	O
+cafetería	nc	O
+,	fc	O
+que	pron	O
+cumpla	vms	O
+el	det	O
+siguiente	adj	O
+perfil	nc	O
+:	fd	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Género	nc	O
+:	fd	O
+Indistinto	adj	O
+
+*	fz	O
+Educación	nc	O
+:	fd	O
+secundaria	adj	O
+completa	adj	O
+/	fh	O
+Preferencia	np	O
+estudiante	nc	O
+de	sp	O
+carrera	nc	O
+relacionada	adj	O
+al	sp	O
+rubro	nc	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+:	fd	O
+01	z	O
+año	nc	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+
+*	fz	O
+Alta	adj	O
+vocación	nc	O
+de	sp	O
+servicio	nc	B-REQ
+al	sp	I-REQ
+cliente	nc	I-REQ
+.	fp	O
+Alto	adj	O
+compromiso	nc	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+CARNET	nc	B-REQ
+DE	sp	I-REQ
+SANIDAD	nc	I-REQ
+vigente	adj	O
+para	sp	O
+manipulación	nc	B-FUN
+de	sp	I-FUN
+alimentos	nc	I-FUN
+(	fpa	O
+indispensable	adj	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+disponibilidad	nc	O
+de	sp	O
+horario	nc	O
+tarde	rg	O
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Preparación	nc	B-FUN
+de	sp	I-FUN
+cafés	nc	I-FUN
+(	fpa	I-FUN
+con	sp	I-FUN
+conocimiento	nc	I-FUN
+de	sp	I-FUN
+barista	np	I-FUN
+)	fpt	I-FUN
+,	fc	I-FUN
+jugos	nc	I-FUN
+,	fc	I-FUN
+batidos	nc	I-FUN
+,	fc	I-FUN
+frappes	np	I-FUN
+.	fp	O
+
+*	fz	O
+Servido	nc	B-FUN
+de	sp	I-FUN
+postres	nc	I-FUN
+,	fc	I-FUN
+decoración	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+mise	np	B-REQ
+en	sp	I-REQ
+place	np	I-REQ
+,	fc	O
+bpm	np	B-REQ
+.	fp	O
+
+*	fz	O
+organizado	vmp	B-REQ
+y	cc	O
+que	pron	O
+pueda	vms	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+CONDICIONES	nc	O
+:	fd	O
+
+*	fz	O
+Horario	nc	O
+:	fd	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+domingo	w	I-DATE
+con	sp	O
+1	z	B-BEN
+día	nc	I-BEN
+de	sp	I-BEN
+descanso	nc	I-BEN
+(	fpa	O
+día	nc	O
+de	sp	O
+semana	nc	O
+)	fpt	O
+
+*	fz	O
+TURNO	nc	B-MISC
+TARDE	rg	I-MISC
+
+*	fz	O
+Tarde	nc	O
+:	fd	O
+3:00	w	B-DATE
+pm	w	I-DATE
+a	sp	I-DATE
+11:00	w	I-DATE
+pm	w	I-DATE
+
+*	fz	O
+Un	det	O
+día	nc	O
+a	sp	O
+la	det	O
+semana	nc	O
+se	pron	O
+quedan	vmi	O
+doble	adj	O
+turno	nc	O
+.	fp	O
+
+*	fz	O
+Lugar	nc	O
+de	sp	O
+trabajo	nc	O
+:	fd	O
+La	np	B-LUG
+Molina	np	I-LUG
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+
+*	fz	O
+Oportunidad	nc	O
+de	sp	O
+hacer	vmn	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+

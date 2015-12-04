@@ -1,0 +1,207 @@
+Practicante	nccs	O
+de	sp	O
+cuentas	ncfp	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Gestionar	vmn	B-FUN
+proyectos	ncmp	I-FUN
+digitales	aqcp	I-FUN
+en	sp	I-FUN
+todas	di0fp	I-FUN
+las	da0fp	I-FUN
+etapas	ncfp	I-FUN
+del	sp	I-FUN
+ciclo	ncms	I-FUN
+de	sp	I-FUN
+vida	ncfs	I-FUN
+del	sp	I-FUN
+proyecto	ncms	I-FUN
+.	fp	O
+
+Hacer	vmn	B-FUN
+que	cs	I-FUN
+se	p0000	I-FUN
+cumpla	vms	I-FUN
+el	da0ms	I-FUN
+cronograma	ncms	I-FUN
+del	sp	I-FUN
+trabajo	ncms	I-FUN
+.	fp	O
+
+Soporte	ncms	B-FUN
+estratégico	aqms	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+ejecutivo	ncms	I-FUN
+o	cc	I-FUN
+supervisor	aqms	I-FUN
+.	fp	O
+
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+las	da0fp	I-FUN
+demás	aqfp	I-FUN
+áreas	ncfp	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+inconcluso	aqms	O
+en	sp	O
+ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+comunicación	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+marketing	ncms	B-AREA
+/	fh	O
+publicidad	ncfs	B-AREA
+con	sp	O
+6	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Carreras	ncfp	O
+:	fd	O
+publicidad	np00	B-CARR
+,	fc	O
+marketing	np00	B-CARR
+,	fc	O
+comunicaciones	np00	B-CARR
+,	fc	O
+comunicación	np00	B-CARR
+audiovisual	np00	I-CARR
+o	cc	O
+administración	np00	B-CARR
+.	fp	O
+
+Grado	ncms	O
+de	sp	O
+instrucción	ncfs	O
+:	fd	O
+estudiante	nccs	O
+,	fc	O
+egresado	ncmp	O
+o	cc	O
+bachiller	ncms	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+6	z	O
+meses	ncmp	O
+como	cs	O
+mínimo	rg	O
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+cuentas	ncfp	B-AREA
+en	sp	O
+agencias	ncfp	B-AREA
+digitales	aqcp	I-AREA
+(	fpa	O
+requisito	ncms	O
+indispensable	aqcs	O
+)	fpt	O
+y	cc	O
+adicionalmente	rg	O
+en	sp	O
+atención	ncms	B-AREA
+al	sp	I-AREA
+cliente	nccs	I-AREA
+.	fp	O
+
+Idiomas	ncmp	O
+:	fd	O
+inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+medio	aqms	O
+.	fp	O
+
+Conocimiento	ncms	O
+avanzado	aqms	O
+de	sp	O
+microsoft	np00	B-REQ
+office	np00	I-REQ
+(	fpa	O
+project	np00	B-REQ
+,	fc	O
+excel	np00	B-REQ
+,	fc	O
+power	np00	B-REQ
+point	np00	I-REQ
+,	fc	O
+word	np00	B-REQ
+,	fc	O
+visio	np00	B-REQ
+)	fpt	O
+y	cc	O
+dominio	ncms	O
+de	sp	O
+google	np00	B-REQ
+analytics	np00	I-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+en	sp	O
+el	da0ms	O
+manejo	ncms	O
+de	sp	O
+piezas	ncfp	B-REQ
+digitales	aqcp	I-REQ
+:	fd	O
+websites	ncfp	B-REQ
+,	fc	O
+banners	ncmp	B-REQ
+,	fc	O
+publicidad	ncfs	B-REQ
+online	aqcn	I-REQ
+,	fc	O
+video	ncms	B-REQ
+.	fp	O
+
+Experiencia	ncfs	O
+en	sp	O
+el	da0ms	O
+análisis	ncms	B-FUN
+e	cc	I-FUN
+interpretación	ncfs	I-FUN
+de	sp	I-FUN
+brief	np00	I-FUN
+.	fp	O
+
+Disponibilidad	ncfs	O
+:	fd	O
+inmediata	aqfs	O
+.	fp	O
+
+Horario	ncms	O
+:	fd	O
+9am	w	B-DATE
+-	fg	I-DATE
+6:30pm	w	I-DATE
+(	fpa	O
+refrigerio	ncms	O
+de	sp	O
+1pm	w	B-DATE
+a	sp	I-DATE
+2:30pm	w	I-DATE
+)	fpt	O
+

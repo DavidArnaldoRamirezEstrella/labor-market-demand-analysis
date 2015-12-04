@@ -1,0 +1,202 @@
+SubContador	ncms	B-JOB
+-	fg	O
+Lima	np00	B-LUG
+.	fp	O
+
+Nos	pp1cp	O
+encontramos	vmi	O
+a	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+un	di0ms	O
+profesional	nccs	O
+para	sp	O
+el	da0ms	O
+puesto	ncms	O
+de	sp	O
+Sub	aqcn	B-JOB
+-	fg	I-JOB
+Contador	ncms	I-JOB
+:	fd	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+*	fz	O
+Contador	np00	B-CARR
+Público	np00	I-CARR
+Colegiado	aqms	B-REQ
+(	fpa	O
+CPC	np00	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+5	z	O
+años	ncmp	O
+en	sp	O
+el	da0ms	O
+mismo	aqms	O
+puesto	ncms	O
+.	fp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+especializacion	ncfs	O
+en	sp	O
+finanzas	ncfp	B-AREA
+y/o	cc	O
+tributación	ncfs	B-AREA
+.	fp	O
+
+*	fz	O
+Manejo	ncms	O
+de	sp	O
+SAP	np00	B-REQ
+/	fh	O
+R3	np00	B-REQ
+(	fpa	O
+de	sp	O
+preferencia	ncfs	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Manejo	ncms	O
+de	sp	O
+Excel	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+*	fz	O
+Elaborar	vmn	B-FUN
+estados	ncmp	I-FUN
+financieros	aqmp	I-FUN
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Recepcionar	vmn	B-FUN
+y	cc	I-FUN
+distribuir	vmn	I-FUN
+cartas	ncfp	I-FUN
+,	fc	I-FUN
+oficios	ncmp	I-FUN
+e	cc	I-FUN
+invitaciones	ncfp	I-FUN
+,	fc	I-FUN
+pertenecientes	aqcp	I-FUN
+a	sp	I-FUN
+la	da0fs	I-FUN
+gerencia	ncfs	I-FUN
+y	cc	I-FUN
+jefaturas	ncfp	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+áreas	ncfp	I-FUN
+.	fp	O
+
+*	fz	O
+Emitir	vmn	B-FUN
+reportes	ncmp	I-FUN
+(	fpa	O
+pagos	ncmp	O
+,	fc	O
+reportes	ncmp	O
+SUNAT	np00	B-ORG
+,	fc	O
+envío	ncms	O
+y	cc	O
+recepción	ncfs	O
+de	sp	O
+letras	ncfp	O
+,	fc	O
+entre	sp	O
+otros	pi0mp	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+y	cc	I-FUN
+actualizar	vmn	I-FUN
+el	da0ms	I-FUN
+archivo	ncms	I-FUN
+documentario	aqms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+gerencia	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Determinar	vmn	B-FUN
+la	da0fs	I-FUN
+base	nccs	I-FUN
+imponible	aqms	I-FUN
+y	cc	I-FUN
+los	da0mp	I-FUN
+tributos	ncmp	I-FUN
+correspondientes	aqcp	I-FUN
+.	fp	O
+
+*	fz	O
+Apoyar	vmn	B-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+cálculo	ncms	I-FUN
+de	sp	I-FUN
+adiciones	ncfp	I-FUN
+y	cc	I-FUN
+deducciones	ncfp	I-FUN
+tributarias	aqfp	I-FUN
+.	fp	O
+
+*	fz	O
+Verificar	vmn	B-FUN
+la	da0fs	I-FUN
+correcta	aqfs	I-FUN
+determinación	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+contribuciones	ncfp	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+actualizado	vmp	I-FUN
+el	da0ms	I-FUN
+PDT	np00	I-FUN
+.	fp	O
+
+Beneficios	ncmp	O
+:	fd	O
+
+*	fz	O
+Utilidades	ncfp	B-BEN
+
+*	fz	O
+Capacitación	ncfs	B-BEN
+constante	aqcs	I-BEN
+
+Se	p0000	O
+ofrece	vmi	O
+ingreso	ncms	O
+a	sp	O
+planilla	ncfs	B-BEN
+con	sp	O
+todos	di0mp	O
+los	da0mp	O
+beneficios	ncmp	B-BEN
+de	sp	I-BEN
+ley	ncfs	I-BEN
+.	fp	O
+

@@ -1,0 +1,221 @@
+Srtas	ncfp	O
+Egresadas	aqfp	O
+en	sp	O
+Química	np00	B-CARR
+Farmaceútica	np00	I-CARR
+-	fg	O
+Full	np00	B-MISC
+Time	np00	I-MISC
+.	fp	O
+
+Perfil	ncms	O
+Requerido	aqms	O
+:	fd	O
+
+*	fz	O
+Es	vsi	O
+Indispensable	aqcs	O
+que	cs	O
+sea	vss	O
+Mujer	ncfs	O
+.	fp	O
+
+*	fz	O
+Edad	ncfs	O
+:	fd	O
+21	z	O
+a	sp	O
+30	z	O
+años	ncmp	O
+.	fp	O
+
+*	fz	O
+Indispensable	aqcs	O
+:	fd	O
+Estudios	ncmp	O
+Universitarios	aqmp	O
+Concluidos	aqmp	O
+de	sp	O
+FARMACIA	np00	B-CARR
+Y	cc	O
+BIOQUÍMICA	np00	B-CARR
+,	fc	O
+o	cc	O
+QUÍMICO	np00	B-CARR
+FARMACÉUTICO	np00	I-CARR
+.	fp	O
+
+*	fz	O
+Con	sp	O
+algún	di0ms	O
+tipo	ncms	O
+de	sp	O
+Experiencia	ncfs	O
+en	sp	O
+Elaboración	ncfs	O
+de	sp	O
+Registros	ncmp	B-REQ
+Sanitarios	aqmp	I-REQ
+,	fc	O
+BPA	np00	B-REQ
+,	fc	O
+Empresas	ncfp	B-AREA
+Importadoras	aqfp	I-AREA
+.	fp	O
+No	rn	O
+Indispensable	aqcs	O
+.	fp	O
+
+*	fz	O
+Con	sp	O
+Capacidad	ncfs	O
+de	sp	O
+adaptación	ncfs	B-REQ
+y	cc	O
+aprendizaje	ncms	B-REQ
+rápido	aqms	I-REQ
+.	fp	O
+
+Proactiva	aqfs	B-REQ
+,	fc	O
+Organizada	aqfs	B-REQ
+,	fc	O
+dispuesta	aqfs	O
+a	sp	O
+Trabajar	vmn	B-REQ
+bajo	sp	I-REQ
+Presión	ncfs	I-REQ
+y	cc	O
+con	sp	O
+alto	aqms	O
+sentido	ncms	B-REQ
+del	sp	I-REQ
+deber	ncms	I-REQ
+.	fp	O
+
+*	fz	O
+Que	cs	O
+pueda	vms	O
+Cumplir	vmn	O
+Un	di0ms	O
+Contrato	ncms	B-MISC
+mínimo	aqms	I-MISC
+de	sp	I-MISC
+15	z	I-MISC
+MESES	ncmp	I-MISC
+en	sp	O
+el	da0ms	O
+Puesto	ncms	O
+.	fp	O
+
+Horario	ncms	O
+:	fd	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Sábados	w	I-DATE
+de	sp	I-DATE
+7:30am	w	I-DATE
+a	sp	I-DATE
+5pm	w	I-DATE
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Elaboración	ncfs	B-FUN
+de	sp	I-FUN
+Registros	ncmp	I-FUN
+Sanitarios	aqmp	I-FUN
+.	fp	O
+
+*	fz	O
+Apoyo	ncms	B-FUN
+en	sp	I-FUN
+la	da0fs	I-FUN
+Inscripción	ncfs	I-FUN
+y	cc	I-FUN
+Re	aqcn	I-FUN
+-	fg	I-FUN
+inscripción	ncfs	I-FUN
+de	sp	I-FUN
+registros	ncmp	I-FUN
+sanitarios	aqmp	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+agotamiento	ncms	I-FUN
+de	sp	I-FUN
+stock	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+la	da0fs	I-FUN
+ampliación	ncfs	B-FUN
+o	cc	I-FUN
+cambio	ncms	I-FUN
+de	sp	I-FUN
+forma	ncfs	I-FUN
+de	sp	I-FUN
+presentación	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Verificación	ncfs	B-FUN
+de	sp	I-FUN
+BPA	np00	I-FUN
+,	fc	I-FUN
+en	sp	I-FUN
+los	da0mp	I-FUN
+Locales	ncmp	I-FUN
+a	sp	I-FUN
+Cargo	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Entre	sp	O
+otras	di0fp	O
+funciones	ncfp	O
+.	fp	O
+
+Se	p0000	O
+Ofrece	vmi	O
+:	fd	O
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+Planilla	ncfs	B-BEN
+,	fc	O
+con	sp	O
+todos	di0mp	B-BEN
+los	da0mp	I-BEN
+Beneficios	ncmp	I-BEN
+.	fp	O
+
+*	fz	O
+Capacitaciones	ncfp	B-BEN
+que	pr0cn	I-BEN
+Requiera	vms	I-BEN
+en	sp	I-BEN
+el	da0ms	I-BEN
+Puesto	ncms	I-BEN
+.	fp	O
+
+Enviar	vmn	O
+su	dp3cs	O
+cv	np00	O
+al	sp	O
+correo	ncms	O
+indicado	aqms	O
+colocando	vmg	O
+en	sp	O
+Asunto	ncms	O
+:	fd	O
+"	fe	O
+A.REG	np00	O
+"	fe	O
+

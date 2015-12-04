@@ -1,0 +1,124 @@
+TECNICO	nc	B-JOB
+DTH	np	I-JOB
+
+CNSIC	np	B-ORG
+s	np	I-ORG
+.	fp	I-ORG
+a	np	I-ORG
+.	fp	I-ORG
+c	np	I-ORG
+Empresa	nc	O
+de	sp	O
+Telecomunicaciones	np	O
+en	sp	O
+expansión	nc	O
+requiere	vmi	O
+contratar	vmn	O
+02	z	O
+técnicos	nc	B-REQ
+/	fh	O
+practicantes	adj	O
+de	sp	O
+redes	nc	B-CARR
+o	cc	O
+electrónica	adj	B-CARR
+para	sp	O
+reparaciones	nc	B-FUN
+e	cc	I-FUN
+instalaciones	nc	I-FUN
+de	sp	I-FUN
+TV	np	I-FUN
+satelital	adj	I-FUN
+CLARO	np	I-FUN
+
+Perfil	nc	O
+Requerido	adj	O
+:	fd	O
+
+*	fz	O
+Técnicos	nc	B-REQ
+/	fh	O
+practicante	nc	O
+con	sp	O
+actitud	nc	B-REQ
+propia	adj	I-REQ
+,	fc	O
+honesto	adj	B-REQ
+y	cc	O
+con	sp	O
+capacidad	nc	O
+de	sp	O
+dar	vmn	O
+solución	nc	B-REQ
+a	sp	I-REQ
+cualquier	det	I-REQ
+problema	nc	I-REQ
+que	pron	O
+se	pron	O
+le	pron	O
+presente	vms	O
+.	fp	O
+
+*	fz	O
+Con	sp	O
+brevete	nc	O
+A1	np	O
+
+*	fz	O
+Interesados	vmi	O
+enviar	vmn	O
+su	det	O
+Cv	np	O
+.	fp	O
+cnsic	np	B-MISC
+.	fp	I-MISC
+rrhh	np	I-MISC
+(	fpa	I-MISC
+)	fpt	I-MISC
+gmail	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+
+Horarios	nc	O
+:	fd	O
+
+*	fz	O
+De	sp	B-DATE
+lunes	w	I-DATE
+a	sp	I-DATE
+domingos	w	I-DATE
+de	sp	O
+:	fd	O
+8:00am	w	B-DATE
+-	fg	I-DATE
+18:00pm	w	I-DATE
+
+*	fz	O
+Descanso	nc	O
+sábado	w	B-DATE
+o	cc	I-DATE
+domingo	w	I-DATE
+
+Técnico	nc	B-REQ
+Ciclos	nc	O
+Iniciales	adj	O
+en	sp	O
+Ingeniería	np	B-CARR
+Telecomunicaciones	np	I-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Proyectos	np	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

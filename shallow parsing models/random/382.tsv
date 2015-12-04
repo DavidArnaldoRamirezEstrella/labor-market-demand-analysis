@@ -1,0 +1,89 @@
+Contadora	np	B-CARR
+pùblica	np	I-CARR
+colegiada	adj	B-REQ
+
+Cadena	nc	O
+de	sp	O
+Boticas	nc	O
+requiere	vmi	O
+contratar	vmn	O
+contadora	np	B-CARR
+pública	np	I-CARR
+colegiada	adj	B-REQ
+con	sp	O
+el	det	O
+siguiente	adj	O
+perfil	nc	O
+:	fd	O
+
+*	fz	O
+Experiencia	nc	O
+minima	adj	O
+3	z	O
+años	nc	O
+
+*	fz	O
+Conocimiento	nc	O
+y	cc	O
+manejo	nc	O
+de	sp	O
+costos	nc	B-REQ
+
+*	fz	O
+Conocimiento	nc	O
+tributario	adj	B-REQ
+y	cc	I-REQ
+laborales	adj	I-REQ
+actualizados	adj	I-REQ
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+NIIF	np	B-REQ
+,	fc	O
+finanzas	nc	B-REQ
+,	fc	O
+NICs	np	B-REQ
+Y	cc	O
+Administración	nc	B-REQ
+
+*	fz	O
+Preparar	vmn	B-FUN
+balances	nc	I-FUN
+mensuales	adj	I-FUN
+y	cc	I-FUN
+anuales	adj	I-FUN
+,	fc	O
+llevar	vmn	B-FUN
+control	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+impuestos	nc	I-FUN
+y	cc	I-FUN
+otras	det	I-FUN
+funciones	nc	I-FUN
+referentes	adj	I-FUN
+al	sp	I-FUN
+cargo	nc	I-FUN
+
+*	fz	O
+Conocimiento	nc	O
+del	sp	O
+CONCAR	np	B-REQ
+y	cc	O
+EXCEL	np	B-REQ
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+liderazgo	nc	B-REQ
+y	cc	O
+trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+
+Zona	nc	O
+:	fd	O
+Lima	np	B-LUG
+Norte	np	I-LUG
+

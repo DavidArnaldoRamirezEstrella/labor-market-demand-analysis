@@ -1,0 +1,247 @@
+Gestor	nc	B-JOB
+de	sp	I-JOB
+recuperaciones	nc	I-JOB
+(	fpa	O
+GC	np	O
+-	fg	O
+Tacna	np	B-LUG
+)	fpt	O
+
+Nuestro	det	O
+cliente	nc	O
+,	fc	O
+una	det	O
+importante	adj	O
+empresa	nc	O
+del	sp	O
+sector	nc	O
+de	sp	O
+Microfinanzas	nc	O
+se	pron	O
+encuentra	vmi	O
+a	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	det	O
+profesional	nc	O
+de	sp	O
+primer	adj	O
+nivel	nc	O
+
+Cartera	nc	B-REQ
+de	sp	I-REQ
+cobranza	nc	I-REQ
+pesada	adj	I-REQ
+(	fpa	O
+GC	np	O
+-	fg	O
+Tacna	np	B-LUG
+)	fpt	O
+
+Perfil	nc	O
+
+Estudios	nc	O
+técnicos	adj	B-REQ
+concluidos	adj	O
+e	cc	O
+inconclusos	adj	O
+.	fp	O
+
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+6	z	O
+meses	nc	O
+en	sp	O
+gestión	nc	B-FUN
+de	sp	I-FUN
+cobranzas	nc	I-FUN
+de	sp	I-FUN
+carteras	nc	I-FUN
+pesadas	adj	I-FUN
+del	sp	I-FUN
+sector	nc	I-FUN
+financiero	adj	I-FUN
+.	fp	O
+
+Experiencia	nc	O
+en	sp	O
+trabajo	nc	B-REQ
+de	sp	I-REQ
+campo	nc	I-REQ
+.	fp	O
+
+Office	np	B-REQ
+a	sp	O
+nivel	nc	O
+Usuario	nc	O
+.	fp	O
+
+Funciones	nc	O
+
+*	fz	O
+Programar	vmn	B-FUN
+visitas	nc	I-FUN
+a	sp	I-FUN
+clientes	nc	I-FUN
+morosos	adj	I-FUN
+sobre	sp	I-FUN
+la	det	I-FUN
+base	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+asignada	vmp	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+visitas	nc	I-FUN
+de	sp	I-FUN
+campo	nc	I-FUN
+,	fc	O
+sugerir	vmn	B-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+soluciones	nc	I-FUN
+tales	det	I-FUN
+como	cs	I-FUN
+ampliación	nc	I-FUN
+de	sp	I-FUN
+plazos	nc	I-FUN
+para	sp	I-FUN
+cancelar	vmn	I-FUN
+deudas	nc	I-FUN
+,	fc	I-FUN
+refinanciamientos	nc	I-FUN
+u	cc	I-FUN
+otras	pron	I-FUN
+e	cc	I-FUN
+informar	vmn	I-FUN
+a	sp	I-FUN
+su	det	I-FUN
+superior	nc	I-FUN
+inmediato	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Verificar	vmn	B-FUN
+en	sp	I-FUN
+el	det	I-FUN
+sistema	nc	I-FUN
+la	det	I-FUN
+efectivización	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+promesas	nc	I-FUN
+de	sp	I-FUN
+pago	nc	I-FUN
+efectuadas	vmp	I-FUN
+por	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+Competencias	nc	O
+
+Capacidad	nc	O
+de	sp	O
+Persuasión	nc	B-REQ
+y	cc	O
+Negociación	nc	B-REQ
+
+Trabajo	nc	B-REQ
+bajo	sp	I-REQ
+Presión	nc	I-REQ
+
+Alta	adj	O
+vocación	nc	O
+de	sp	O
+Servicio	nc	O
+
+Orientación	nc	B-REQ
+a	sp	I-REQ
+Resultados	nc	I-REQ
+
+Capacidad	nc	O
+de	sp	O
+Organización	nc	B-REQ
+y	cc	O
+Planificación	nc	B-REQ
+.	fp	O
+
+Proactividad	nc	B-REQ
+e	cc	O
+Iniciativa	nc	B-REQ
+
+Beneficios	nc	O
+
+Sueldo	nc	O
+fijo	adj	B-SAL
++	fz	O
+Comisiones	nc	B-BEN
++	fz	O
+movilidad	nc	B-BEN
+
+Ingreso	nc	O
+a	sp	O
+Planillas	nc	B-BEN
+con	sp	O
+todos	det	O
+los	det	O
+beneficios	nc	O
+de	sp	O
+ley	nc	O
+.	fp	O
+
+EPS	np	B-BEN
+50	zp	I-BEN
+%	zp	I-BEN
+.	fp	O
+
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+
+Planes	nc	B-BEN
+de	sp	I-BEN
+formación	nc	I-BEN
+/	fh	I-BEN
+capacitación	nc	I-BEN
+
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+
+Los	det	O
+interesados	adj	O
+enviar	vmn	O
+su	det	O
+curriculum	np	O
+detallado	adj	O
+en	sp	O
+funciones	nc	O
+y	cc	O
+expectativas	nc	O
+económicas	adj	O
+a	sp	O
+xxxxxxxxx	np	B-MISC
+#	fz	I-MISC
+#	fz	I-MISC
+@	fz	I-MISC
+xxxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xx	np	I-MISC
+,	fc	O
+indicando	vmg	O
+en	sp	O
+asunto	nc	O
+el	det	O
+código	nc	O
+GC	np	O
+-	fg	O
+Tacna	np	B-LUG
+

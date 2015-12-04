@@ -1,0 +1,115 @@
+Chofer	nc	B-JOB
+A2B	np	I-JOB
+
+Chofer	nc	B-JOB
+A2B	np	I-JOB
+-	fg	O
+urgente	adj	O
+!	fa	O
+
+Nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	det	O
+CHOFER	nc	B-JOB
+que	pron	O
+cumpla	vms	O
+con	sp	O
+los	det	O
+siguientes	adj	O
+requisitos	nc	O
+:	fd	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Estudios	nc	O
+secundarios	adj	O
+completos	adj	O
+como	cs	O
+requisito	nc	O
+mínimo	adj	O
+.	fp	O
+
+*	fz	O
+Indispensable	adj	O
+Licencia	nc	O
+de	sp	O
+Conducir	vmn	O
+A	np	O
+-	fg	O
+IIB	np	O
+.	fp	O
+
+*	fz	O
+Record	np	O
+de	sp	O
+Conductor	nc	O
+sin	sp	O
+multas	nc	O
+o	cc	O
+papeletas	nc	O
+.	fp	O
+
+*	fz	O
+Buen	adj	O
+estado	nc	O
+de	sp	O
+salud	nc	O
+y	cc	O
+condición	nc	O
+física	adj	O
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+como	cs	O
+chofer	nc	B-JOB
+,	fc	O
+en	sp	O
+reparto	nc	B-FUN
+de	sp	I-FUN
+mercadería	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Proactivo	adj	B-REQ
+,	fc	O
+Responsable	adj	B-REQ
+,	fc	O
+con	sp	O
+Capacidad	nc	O
+de	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Reparto	nc	B-FUN
+de	sp	I-FUN
+Mercadería	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+las	det	I-FUN
+actividades	nc	I-FUN
+o	cc	I-FUN
+tareas	nc	I-FUN
+que	pron	I-FUN
+se	pron	I-FUN
+asigne	vmi	I-FUN
+su	det	I-FUN
+Jefe	nc	I-FUN
+Inmediato	adj	I-FUN
+.	fp	O
+

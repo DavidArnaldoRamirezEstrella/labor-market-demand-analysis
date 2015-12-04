@@ -1,0 +1,150 @@
+Teleoperador	np	B-JOB
+de	sp	I-JOB
+Ventas	np	I-JOB
+
+Nuestra	det	O
+empresa	nc	O
+dedicada	adj	O
+a	sp	O
+la	det	O
+venta	nc	O
+de	sp	O
+productos	nc	O
+naturales	adj	O
+a	sp	O
+público	nc	O
+hispano	adj	O
+en	sp	O
+EEUU	np	B-LUG
+con	sp	O
+más	nc	O
+de	sp	O
+10	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+de	sp	O
+call	np	O
+center	np	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+Teleoperadores	nc	B-JOB
+para	sp	O
+su	det	O
+sede	nc	O
+en	sp	O
+Lima	np	B-LUG
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Ser	vmn	O
+mayor	adj	O
+de	sp	O
+edad	nc	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+laborar	vmn	O
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+de	sp	I-DATE
+12pm	w	I-DATE
+a	sp	I-DATE
+8pm	w	I-DATE
+y	cc	O
+sábados	w	B-DATE
+de	sp	I-DATE
+9am	w	I-DATE
+a	sp	I-DATE
+4:30pm	w	I-DATE
+
+*	fz	O
+Tener	vmn	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+presenciales	adj	I-AREA
+o	cc	O
+call	nc	B-AREA
+center	nc	I-AREA
+.	fp	O
+
+*	fz	O
+Facilidad	nc	B-REQ
+de	sp	I-REQ
+palabra	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Manejo	nc	O
+de	sp	O
+la	det	O
+pc	np	B-REQ
+a	sp	O
+nivel	nc	O
+usuario	adj	O
+.	fp	O
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Básico	adj	B-SAL
++	fz	I-SAL
+comisiones	nc	I-SAL
++	fz	I-SAL
+bonos	nc	I-SAL
+
+*	fz	O
+Pago	nc	B-SAL
+quincenal	adj	I-SAL
+.	fp	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+
+*	fz	O
+Horario	nc	B-MISC
+fijo	adj	I-MISC
+.	fp	O
+
+Los	det	O
+interesados	adj	O
+enviar	vmn	O
+su	det	O
+cv	nc	O
+al	sp	O
+correo	nc	O
+xxxxxxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+con	sp	O
+Asunto	nc	O
+:	fd	O
+Teleoperador	nc	B-JOB
+de	sp	I-JOB
+Ventas	np	I-JOB
+.	fp	O
+

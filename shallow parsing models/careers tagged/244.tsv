@@ -1,0 +1,219 @@
+Analista	nccs	B-JOB
+de	sp	I-JOB
+integridad	ncfs	I-JOB
+de	sp	I-JOB
+ductos	ncmp	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Gerenciar	vmn	B-FUN
+actividades	ncfp	I-FUN
+de	sp	I-FUN
+integridad	ncfs	I-FUN
+en	sp	I-FUN
+campo	ncms	I-FUN
+.	fp	O
+
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+diferentes	di0cp	I-FUN
+sectores	ncmp	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+circuito	ncms	I-FUN
+de	sp	I-FUN
+información	ncms	I-FUN
+de	sp	I-FUN
+integridad	ncfs	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+reuniones	ncfp	I-FUN
+de	sp	I-FUN
+revelamiento	ncms	I-FUN
+con	sp	I-FUN
+actores	ncmp	I-FUN
+.	fp	O
+
+Recopilar	vmn	B-FUN
+información	ncfs	I-FUN
+generada	vmp	I-FUN
+,	fc	I-FUN
+compatible	aqcs	I-FUN
+con	sp	I-FUN
+la	da0fs	I-FUN
+base	nccs	I-FUN
+de	sp	I-FUN
+datos	ncmp	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+seguimiento	ncms	I-FUN
+de	sp	I-FUN
+tareas	ncfp	I-FUN
+de	sp	I-FUN
+relevamiento	ncms	I-FUN
+de	sp	I-FUN
+derecho	ncms	I-FUN
+de	sp	I-FUN
+vía	ncfs	I-FUN
+
+Analizar	vmn	B-FUN
+los	da0mp	I-FUN
+hallazgos	ncmp	I-FUN
+y	cc	I-FUN
+determinación	vmi	I-FUN
+de	sp	I-FUN
+medidas	ncfp	I-FUN
+de	sp	I-FUN
+monitoreo	ncms	I-FUN
+o	cc	I-FUN
+acciones	ncfp	I-FUN
+correctivas	aqfp	I-FUN
+.	fp	O
+
+Dar	vmn	B-FUN
+seguimiento	ncms	I-FUN
+de	sp	I-FUN
+carreras	ncfp	I-FUN
+ILI	np00	I-FUN
+(	fpa	I-FUN
+calidad	ncfs	I-FUN
+,	fc	I-FUN
+plazos	ncmp	I-FUN
+,	fc	I-FUN
+contenido	ncms	I-FUN
+)	fpt	I-FUN
+;	fx	O
+entre	sp	O
+otras	di0fp	O
+funciones	ncfp	O
+.	fp	O
+
+Condiciones	ncfp	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+
+Horario	ncms	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+de	sp	O
+lunes	w	B-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+de	sp	I-DATE
+8:30	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+5:30	w	I-DATE
+pm	w	I-DATE
+y	cc	O
+sábado	w	B-DATE
+de	sp	I-DATE
+8:30	w	I-DATE
+am	w	I-DATE
+1:00	w	I-DATE
+pm	w	I-DATE
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+bachiller	ncms	O
+en	sp	O
+ingeniería	np00	B-CARR
+mecánica	np00	I-CARR
+de	sp	I-CARR
+fluídos	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+ingeniería	ncfs	B-AREA
+con	sp	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Idioma	ncms	O
+
+Inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+
+Formación	ncfs	O
+universitaria	aqfs	O
+,	fc	O
+carrera	ncfs	O
+de	sp	O
+ingeniería	ncfs	B-AREA
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+office	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+1	z	O
+año	ncms	O
+en	sp	O
+la	da0fs	O
+industria	ncfs	B-AREA
+del	sp	I-AREA
+petróleo	ncms	I-AREA
+y	cc	I-AREA
+gas	ncms	I-AREA
+.	fp	O
+
+Conocimiento	ncms	O
+en	sp	O
+actividades	ncfp	O
+de	sp	O
+mantenimiento	ncms	B-REQ
+y	cc	I-REQ
+operaciones	ncfp	I-REQ
+de	sp	I-REQ
+ducto	ncms	I-REQ
+.	fp	O
+

@@ -1,0 +1,68 @@
+MEDICO	np00	B-CARR
+VETERINARIO	np00	I-CARR
+.	fp	O
+
+Asistencia	ncfs	B-FUN
+al	sp	I-FUN
+médico	ncms	I-FUN
+veterinaria	aqfs	I-FUN
+principal	aqcs	I-FUN
+y	cc	O
+atención	ncfs	B-FUN
+de	sp	I-FUN
+pacientes	nccp	I-FUN
+internados	aqmp	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+tratamiento	ncms	I-FUN
+continuo	aqms	I-FUN
+.	fp	O
+Según	sp	O
+desempeño	ncms	O
+y	cc	O
+aprendizaje	ncms	O
+mayor	aqcs	O
+cargo	ncms	O
+.	fp	O
+
+Atender	vmn	B-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+mascotas	ncfp	I-FUN
+y	cc	I-FUN
+sus	dp3cp	I-FUN
+dueños	ncmp	I-FUN
+,	fc	O
+que	cs	O
+sea	vss	O
+dinámico	aqms	B-REQ
+con	sp	O
+gran	aqcs	B-REQ
+amor	ncms	I-REQ
+a	sp	I-REQ
+los	da0mp	I-REQ
+animales	ncmp	I-REQ
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Veterinaria	np00	B-CARR
+.	fp	O
+
+Otros	pi0mp	O
+Estudios	ncmp	O
+:	fd	O
+concluidos	aqmp	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Otros	pi0mp	O
+.	fp	O
+

@@ -1,0 +1,51 @@
+Técnico	ncms	B-REQ
+Laboratorio	np00	B-CARR
+.	fp	O
+
+Se	p0000	O
+requiere	vmi	O
+una	di0fs	O
+profesional	nccs	B-REQ
+Técnica	aqfs	I-REQ
+en	sp	O
+Laboratorio	np00	B-CARR
+Clinico	np00	I-CARR
+con	sp	O
+experiencia	ncfs	O
+en	sp	O
+Toma	ncfs	B-FUN
+de	sp	I-FUN
+muestra	ncfs	I-FUN
+y	cc	O
+procesamiento	ncms	B-FUN
+manual	aqcs	I-FUN
+de	sp	I-FUN
+pruebas	ncfp	I-FUN
+bioquímicas	aqfp	I-FUN
+,	fc	I-FUN
+microbiología	ncfs	I-FUN
+y	cc	I-FUN
+hematología	ncfs	I-FUN
+.	fp	O
+
+HORARIO	ncms	O
+:	fd	O
+Lunes	w	B-DATE
+a	w	I-DATE
+Viernes	w	I-DATE
+8am	w	I-DATE
+-	fg	I-DATE
+6pm	w	I-DATE
+
+Sébados	w	B-DATE
+8am	w	I-DATE
+-	fg	I-DATE
+2pm	w	I-DATE
+
+Interesadas	aqfp	O
+enviar	vmn	O
+curriculum	vmn	O
+al	sp	O
+email	np00	O
+.	fp	O
+

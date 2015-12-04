@@ -1,0 +1,173 @@
+Asesores	ncmp	B-JOB
+de	sp	I-JOB
+Negocios	ncmp	I-JOB
+-	fg	O
+Huancayo	np00	B-LUG
+.	fp	O
+
+Importante	aqcs	O
+entidad	ncfs	O
+financiera	aqfs	O
+necesita	vmi	O
+Asesores	ncmp	B-JOB
+de	sp	I-JOB
+negocio	ncms	O
+para	sp	O
+venta	ncfs	B-FUN
+de	sp	I-FUN
+créditos	ncmp	I-FUN
+Banca	np00	I-FUN
+Microempresa	np00	I-FUN
+.	fp	O
+
+*	fz	O
+Funciones	ncfp	O
+:	fd	O
+
+Asesorar	vmn	B-FUN
+y	cc	I-FUN
+Captar	vmn	I-FUN
+Clientes	nccp	I-FUN
+microempresarios	aqmp	I-FUN
+para	sp	I-FUN
+acceder	vmn	I-FUN
+a	sp	I-FUN
+préstamos	ncmp	I-FUN
+de	sp	I-FUN
+capital	ncms	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+,	fc	I-FUN
+créditos	ncmp	I-FUN
+hipotecarios	aqmp	I-FUN
+,	fc	I-FUN
+prendas	ncfp	I-FUN
+vehiculares	aqcp	I-FUN
+,	fc	I-FUN
+leasing	np00	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	O
+
+*	fz	O
+Requisitos	ncmp	O
+:	fd	O
+
+Estudios	ncmp	O
+técnicos	aqmp	B-REQ
+concluídos	aqmp	O
+,	fc	O
+en	sp	O
+curso	ncms	O
+o	cc	O
+truncos	aqmp	O
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+administrativa	aqfs	B-AREA
+o	cc	O
+ciencias	np00	B-CARR
+económicas	np00	I-CARR
+de	sp	O
+preferencia	ncfs	O
+.	fp	O
+(	fpa	O
+administración	np00	B-CARR
+,	fc	O
+contabilidad	np00	B-CARR
+,	fc	O
+etc	fs	O
+.	fp	O
+)	fpt	O
+.	fp	O
+
+Mayores	rg	O
+de	sp	O
+23	z	O
+años	ncmp	O
+con	sp	O
+experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+6	z	O
+meses	ncmp	O
+en	sp	O
+ventas	ncfp	B-AREA
+de	sp	I-AREA
+tangibles	aqcp	I-AREA
+,	fc	O
+intangibles	aqcp	B-AREA
+y/o	cc	O
+atención	ncfs	B-AREA
+al	sp	I-AREA
+cliente	nccs	I-AREA
+.	fp	O
+
+*	fz	O
+Competencias	ncfp	O
+:	fd	O
+
+Fluidez	ncfs	B-REQ
+Verbal	aqcs	I-REQ
+
+Dinámicos	aqmp	B-REQ
+
+Proactivos	aqmp	B-REQ
+
+Alto	aqms	O
+nivel	ncms	O
+de	sp	O
+comunicación	ncfs	B-REQ
+
+Tolerancia	ncfs	B-REQ
+a	sp	I-REQ
+la	da0fs	I-REQ
+frustración	ncfs	I-REQ
+
+Agresividad	ncfs	B-REQ
+Comercial	aqcs	I-REQ
+
+Poder	ncms	B-REQ
+de	sp	I-REQ
+negociación	ncfs	I-REQ
+
+*	fz	O
+Ofrecemos	vmi	O
+:	fd	O
+
+Ser	vmn	O
+representante	nccs	O
+de	sp	O
+una	di0fs	O
+importante	aqcs	O
+entidad	ncfs	O
+financiera	aqfs	O
+,	fc	O
+línea	ncfs	B-BEN
+de	sp	I-BEN
+carrera	ncfs	I-BEN
+,	fc	O
+capacitación	ncfs	B-BEN
+constante	aqcs	I-BEN
+,	fc	O
+grato	aqms	B-BEN
+ambiente	ncms	I-BEN
+de	sp	I-BEN
+trabajo	ncms	I-BEN
+,	fc	O
+movilidad	ncfs	B-BEN
+,	fc	O
+bonos	ncmp	B-BEN
+e	cc	O
+interesantes	aqcp	B-BEN
+comisiones	ncfp	I-BEN
+.	fp	O
+
+*	fz	O
+Disponibilidad	ncfs	B-MISC
+inmediata	aqfs	I-MISC
+a	sp	O
+tiempo	ncms	B-MISC
+completo	aqms	I-MISC
+.	fp	O
+

@@ -1,0 +1,273 @@
+AUXILIAR	nc	B-JOB
+ADMINISTRATIVO	adj	I-JOB
+
+Empresa	nc	O
+dedicada	vmp	O
+a	sp	O
+la	det	O
+impresión	nc	O
+digital	adj	O
+en	sp	O
+distintos	det	O
+materiales	nc	O
+y	cc	O
+la	det	O
+producción	nc	O
+de	sp	O
+ideas	nc	O
+publicitarias	adj	O
+.	fp	O
+Busca	nc	O
+profesional	adj	O
+para	sp	O
+realizar	vmn	O
+lo	det	O
+siguiente	adj	O
+:	fd	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Asistir	vmn	B-FUN
+al	sp	I-FUN
+área	nc	I-FUN
+comercial	adj	I-FUN
+en	sp	I-FUN
+la	det	I-FUN
+atención	nc	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+
+*	fz	O
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+para	sp	I-FUN
+solicitar	vmn	I-FUN
+información	nc	I-FUN
+
+*	fz	O
+Elaborar	vmn	B-FUN
+reportes	nc	I-FUN
+e	cc	I-FUN
+informes	nc	I-FUN
+para	sp	I-FUN
+jefe	nc	I-FUN
+inmediato	adj	I-FUN
+
+*	fz	O
+Mantener	van	B-FUN
+actualizada	vmp	I-FUN
+la	det	I-FUN
+base	nc	I-FUN
+de	sp	I-FUN
+datos	nc	I-FUN
+del	sp	I-FUN
+sistema	nc	I-FUN
+
+*	fz	O
+Seguimiento	nc	B-FUN
+de	sp	I-FUN
+los	det	I-FUN
+pedidos	nc	I-FUN
+en	sp	I-FUN
+producción	nc	I-FUN
+
+*	fz	O
+Otras	det	O
+labores	nc	O
+que	pron	O
+solicite	vms	O
+jefe	nc	O
+inmediato	adj	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Estudiante	nc	O
+técnico	nc	B-REQ
+de	sp	O
+computación	np	B-CARR
+,	fc	O
+administración	np	B-CARR
+u	cc	O
+otros	det	B-CARR
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+6	z	O
+meses	nc	O
+en	sp	O
+atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+
+*	fz	O
+Dominio	nc	O
+de	sp	O
+Office	np	B-REQ
+(	fpa	O
+Excel	np	B-REQ
+,	fc	O
+Word	np	B-REQ
+)	fpt	O
+e	cc	O
+internet	nc	B-REQ
+
+*	fz	O
+Conocimiento	nc	O
+sobre	sp	O
+diseño	nc	B-REQ
+gráfico	adj	I-REQ
+publicitario	adj	I-REQ
+
+*	fz	O
+Buen	adj	O
+criterio	nc	B-REQ
+y	cc	O
+organización	nc	B-REQ
+
+*	fz	O
+Con	sp	O
+iniciativa	nc	B-REQ
+y	cc	O
+dinamismo	nc	B-REQ
+
+*	fz	O
+Buena	adj	O
+comunicación	nc	B-REQ
+a	sp	O
+todo	det	O
+nivel	nc	O
+
+*	fz	O
+Vivir	vmn	O
+por	sp	O
+la	det	O
+zona	nc	O
+(	fpa	O
+Huachipa	np	B-LUG
+,	fc	O
+SJL	np	B-LUG
+,	fc	O
+Ate	np	B-LUG
+,	fc	O
+Santa	np	B-LUG
+Anita	np	I-LUG
+u	cc	O
+otros	pron	O
+)	fpt	O
+
+Horario	nc	O
+de	sp	O
+trabajo	nc	O
+:	fd	O
+
+Lunes	w	B-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+de	sp	I-DATE
+8:00am	w	I-DATE
+a	sp	I-DATE
+6:00pm	w	I-DATE
+y	cc	I-DATE
+sábados	w	I-DATE
+a	sp	I-DATE
+12m	w	I-DATE
+(	fpa	O
+Necesario	adj	O
+)	fpt	O
+
+OFRECEMOS	vmi	O
+:	fd	O
+
+*	fz	O
+Básico	adj	B-SAL
+de	sp	I-SAL
+800	z	I-SAL
+a	sp	I-SAL
+más	rg	I-SAL
+(	fpa	O
+según	sp	O
+evaluación	nc	O
+)	fpt	O
+
+*	fz	O
+Capacitación	nc	B-BEN
+en	sp	I-BEN
+centros	nc	I-BEN
+técnicos	adj	I-BEN
+
+INTERESADOS	nc	O
+CONSIDERAR	vmn	O
+LA	det	O
+DIRECCIÓN	nc	O
+:	fd	O
+
+Calle	nc	B-LUG
+las	det	I-LUG
+Golondrinas	nc	I-LUG
+Mz	np	I-LUG
+.	fp	I-LUG
+Ñ	np	I-LUG
+-	fg	I-LUG
+2	z	I-LUG
+Lte	np	I-LUG
+6	z	I-LUG
+;	fx	O
+Urb	np	B-LUG
+.	fp	I-LUG
+El	det	I-LUG
+Club	np	I-LUG
+II	np	I-LUG
+Etapa	np	I-LUG
+,	fc	O
+Huachipa	np	B-LUG
+(	fpa	O
+Alt	np	B-LUG
+.	fp	I-LUG
+Pard	np	I-LUG
+.	fp	I-LUG
+Los	det	I-LUG
+Tucanes	np	I-LUG
+;	fx	O
+1Cdra	np	B-LUG
+.	fp	I-LUG
+Municipalidad	np	I-LUG
+de	sp	I-LUG
+Huachipa	np	I-LUG
+)	fpt	O
+
+Técnico	nc	B-REQ
+Trunco	adj	O
+en	sp	O
+Marketing	np	B-CARR
+.	fp	O
+
+Técnico	nc	B-REQ
+Trunco	adj	O
+en	sp	O
+Administración	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Comercial	np	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

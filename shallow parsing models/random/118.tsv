@@ -1,0 +1,89 @@
+asesor	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+en	sp	O
+ventas	nc	B-AREA
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+call	nc	B-AREA
+center	nc	I-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+mes	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+call	nc	I-AREA
+center	nc	I-AREA
+(	fpa	O
+indispensable	adj	O
+)	fpt	O
+
+facilidad	nc	B-REQ
+de	sp	I-REQ
+palabra	nc	I-REQ
+
+disponibilidad	nc	O
+para	sp	O
+laborar	vmn	O
+en	sp	O
+sede	nc	O
+centro	nc	B-LUG
+de	sp	I-LUG
+lima	nc	I-LUG
+(	fpa	O
+a	sp	B-LUG
+media	det	I-LUG
+cuadra	nc	I-LUG
+de	sp	I-LUG
+plaza	nc	I-LUG
+de	sp	I-LUG
+armas	nc	I-LUG
+)	fpt	O
+
+manejo	nc	O
+de	sp	O
+ms	np	B-REQ
+office	np	I-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+
+deseo	nc	O
+de	sp	O
+superación	nc	O
+y	cc	O
+hacer	vmn	O
+linea	vmi	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+dentro	sp	O
+de	sp	O
+la	det	O
+empresa	nc	O
+.	fp	O
+

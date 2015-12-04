@@ -1,0 +1,105 @@
+OPERADOR	nc	B-JOB
+DE	sp	I-JOB
+TRACTOR	np	I-JOB
+
+Empresa	nc	O
+del	sp	O
+sector	nc	O
+construcción	nc	O
+/	fh	O
+minería	nc	O
+requiere	vmi	O
+operador	nc	B-JOB
+con	sp	O
+conocimientos	nc	O
+esenciales	adj	O
+en	sp	O
+mantenimiento	nc	B-REQ
+,	fc	O
+reparación	nc	B-REQ
+y	cc	I-REQ
+operación	nc	I-REQ
+de	sp	I-REQ
+maquinarias	nc	I-REQ
+pesadas	adj	I-REQ
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+de	sp	O
+05	z	O
+años	nc	O
+
+*	fz	O
+Amplia	adj	O
+experiencia	nc	O
+en	sp	O
+nivelación	nc	B-FUN
+de	sp	I-FUN
+plataformas	nc	I-FUN
+
+*	fz	O
+Brevete	np	O
+A1	np	O
+como	cs	O
+mínimo	rg	O
+
+*	fz	O
+Curriculum	np	O
+vitae	np	O
+documentado	adj	O
+(	fpa	O
+certificado	vmp	O
+de	sp	O
+estudio	nc	O
+y	cc	O
+trabajo	nc	O
+)	fpt	O
+
+*	fz	O
+Antecedentes	nc	O
+Judiciales	adj	O
+y/o	cc	O
+Penales	adj	O
+
+*	fz	O
+Antecedente	nc	O
+policial	adj	O
+
+*	fz	O
+03	z	O
+fotos	nc	O
+tamaño	nc	O
+carnet	nc	O
+
+Interesados	nc	O
+enviar	vmi	O
+CV	np	O
+con	sp	O
+pretensiones	nc	O
+económicas	adj	O
+
+Técnico	nc	B-REQ
+Egresado	vmp	O
+en	sp	O
+Mantenimiento	nc	B-CARR
+de	sp	I-CARR
+Maquinaria	nc	I-CARR
+de	sp	I-CARR
+Planta	nc	I-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Operaciones	np	B-AREA
+.	fp	O
+

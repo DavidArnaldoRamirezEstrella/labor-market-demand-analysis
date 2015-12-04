@@ -1,0 +1,110 @@
+operadores	nc	B-JOB
+de	sp	I-JOB
+call	np	I-JOB
+center	np	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+otros	det	O
+estudios	nc	O
+en	sp	O
+otros	pron	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+ventas	nc	B-AREA
+.	fp	O
+
+idioma	nc	O
+
+español	nc	B-REQ
+a	sp	O
+nivel	nc	O
+avanzado	adj	O
+
+sueldo	nc	O
+:	fd	O
+entre	sp	B-SAL
+S/.1501	zm	I-SAL
+y	cc	I-SAL
+S/.3000	zm	I-SAL
+
+secundaria	adj	O
+completa	adj	O
+
+deseable	adj	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+.	fp	O
+
+disponibilidad	nc	O
+para	sp	O
+laborar	vmn	O
+a	sp	O
+tiempo	nc	B-MISC
+completo	adj	I-MISC
+de	sp	I-MISC
+08hrs	w	I-MISC
+,	fc	O
+descanso	nc	O
+domingos	w	O
+.	fp	O
+
+a	sp	O
+nuestra	det	O
+nueva	adj	O
+sede	nc	O
+en	sp	O
+san	np	B-LUG
+juan	np	I-LUG
+de	sp	I-LUG
+lurigancho	np	I-LUG
+
+lunes	w	B-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+8:00	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+4:00	w	I-DATE
+pm	w	I-DATE
+
+sábados	w	B-DATE
+de	sp	I-DATE
+07:00	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+02:00	w	I-DATE
+pm	w	I-DATE
+
+av	np	B-LUG
+próceres	np	I-LUG
+de	sp	I-LUG
+la	det	I-LUG
+independencia	nc	I-LUG
+1935	z	I-LUG
+sjl	np	B-LUG
+
+teléfono	nc	O
+:	fd	O
+3007752	z	B-MISC
+-	fg	O
+989277427	z	B-MISC
+
+julio	np	B-MISC
+.	fp	I-MISC
+mirandaprodigymarketing	np	I-MISC
+.	fp	I-MISC
+es	np	I-MISC
+

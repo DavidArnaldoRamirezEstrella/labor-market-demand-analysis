@@ -1,0 +1,85 @@
+promotor	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+-	fg	O
+ag	nc	O
+.	fp	O
+chulucanas	np	B-LUG
+(	fpa	O
+piura	np	B-LUG
+)	fpt	O
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+estudios	nc	O
+técnicos	adj	B-REQ
+inconclusos	adj	O
+o	cc	O
+concluidos	vmp	O
+en	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+administración	np	B-CARR
+,	fc	O
+contabilidad	np	B-CARR
+,	fc	O
+economía	np	B-CARR
+,	fc	O
+finanzas	nc	B-CARR
+,	fc	O
+y/o	cc	O
+carreras	nc	B-CARR
+afines	adj	I-CARR
+(	fpa	O
+carrera	nc	O
+de	sp	O
+3	z	O
+años	nc	O
+)	fpt	O
+
+estudios	nc	O
+universitarios	adj	O
+inconclusos	nc	O
+o	cc	O
+concluidos	vmp	O
+en	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+administración	np	B-CARR
+,	fc	O
+contabilidad	np	B-CARR
+,	fc	O
+economía	np	B-CARR
+,	fc	O
+finanzas	np	B-CARR
+,	fc	O
+ing	np	B-CARR
+.	fp	I-CARR
+industrial	np	I-CARR
+y/o	cc	O
+carreras	nc	B-CARR
+afines	adj	I-CARR
+
+deseable	adj	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+campo	nc	I-AREA
+o	cc	I-AREA
+intangibles	adj	I-AREA
+.	fp	O
+
+disposición	nc	O
+para	sp	O
+realizar	vmn	O
+trabajo	nc	B-REQ
+de	sp	I-REQ
+campo	nc	I-REQ
+

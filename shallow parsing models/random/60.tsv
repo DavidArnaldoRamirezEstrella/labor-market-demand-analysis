@@ -1,0 +1,335 @@
+AGENTE	nc	B-JOB
+DE	sp	I-JOB
+SEGURIDAD	np	I-JOB
+
+Somos	vsi	O
+una	det	O
+prestigiosa	adj	O
+empresa	nc	O
+peruana	adj	O
+que	pron	O
+cuenta	vmi	O
+con	sp	O
+trabajadores	nc	O
+capacitados	adj	O
+para	sp	O
+brindar	vmn	O
+Servicios	nc	O
+de	sp	O
+Seguridad	np	O
+en	sp	O
+diversas	det	O
+empresas	nc	O
+públicas	adj	O
+y	cc	O
+privadas	adj	O
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+VARONES	nc	O
+de	sp	O
+20	z	O
+a	sp	O
+45	z	O
+años	nc	O
+de	sp	O
+edad	nc	O
+
+*	fz	O
+Conocimientos	nc	O
+de	sp	O
+seguridad	nc	B-REQ
+básica	adj	I-REQ
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+6	z	O
+meses	nc	O
+(	fpa	O
+No	rn	O
+indispensable	adj	O
+)	fpt	O
+
+*	fz	O
+Alto	adj	O
+grado	nc	O
+de	sp	O
+responsabilidad	nc	B-REQ
+,	fc	O
+honestidad	nc	B-REQ
+y	cc	O
+valores	nc	B-REQ
+
+*	fz	O
+Puntualidad	nc	B-REQ
+y	cc	O
+buena	adj	B-REQ
+comunicación	nc	I-REQ
+
+*	fz	O
+Compromiso	nc	O
+con	sp	O
+el	det	O
+trabajo	nc	O
+
+*	fz	O
+Certificado	nc	O
+de	sp	O
+Antecedentes	nc	O
+Policiales	adj	O
+
+*	fz	O
+Secundaria	nc	O
+completa	vmi	O
+como	cs	O
+mínimo	adj	O
+(	fpa	O
+Constancia	nc	O
+)	fpt	O
+
+*	fz	O
+Certificado	nc	O
+de	sp	O
+trabajos	nc	O
+anteriores	adj	O
+
+*	fz	O
+Curriculum	np	O
+vitae	np	O
+
+*	fz	O
+Copia	nc	O
+de	sp	O
+DNI	np	O
+
+*	fz	O
+Copia	nc	O
+de	sp	O
+recibo	nc	O
+de	sp	O
+agua	nc	O
+o	cc	O
+luz	nc	O
+
+*	fz	O
+Foto	nc	O
+tamaño	nc	O
+carnet	nc	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Detectar	vmn	B-FUN
+Acciones	nc	I-FUN
+Inseguras	adj	I-FUN
+y	cc	I-FUN
+Condiciones	nc	I-FUN
+Inseguras	adj	I-FUN
+
+*	fz	O
+Brindar	vmn	B-FUN
+la	det	I-FUN
+seguridad	nc	I-FUN
+y	cc	I-FUN
+protección	nc	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+instalación	nc	I-FUN
+asignada	vmp	I-FUN
+
+*	fz	O
+Practicar	vmn	B-FUN
+los	det	I-FUN
+Planes	nc	I-FUN
+de	sp	I-FUN
+Emergencia	nc	I-FUN
+y	cc	I-FUN
+Contingencia	nc	I-FUN
+
+*	fz	O
+Aplicar	vmn	B-FUN
+los	det	I-FUN
+Planes	nc	I-FUN
+de	sp	I-FUN
+evacuación	nc	I-FUN
+en	sp	I-FUN
+caso	nc	I-FUN
+sea	vss	I-FUN
+necesario	adj	I-FUN
+
+*	fz	O
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+las	det	I-FUN
+consignas	nc	I-FUN
+específicas	adj	I-FUN
+establecidas	adj	I-FUN
+
+*	fz	O
+Reportar	vmn	B-FUN
+a	sp	I-FUN
+la	det	I-FUN
+central	nc	I-FUN
+cualquier	det	I-FUN
+ocurrencia	nc	I-FUN
+del	sp	I-FUN
+servicio	nc	I-FUN
+
+*	fz	O
+Horarios	nc	O
+rotativos	adj	O
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+Planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+
+*	fz	O
+Gratificaciones	nc	B-BEN
+y	cc	O
+CTS	np	B-BEN
+
+*	fz	O
+Vacaciones	nc	B-BEN
+
+*	fz	O
+Acceso	nc	O
+a	sp	O
+los	det	O
+servicios	nc	B-BEN
+de	sp	I-BEN
+ESSALUD	np	I-BEN
+
+*	fz	O
+Pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	det	I-BEN
+empresa	nc	I-BEN
+de	sp	I-BEN
+prestigio	nc	I-BEN
+
+*	fz	O
+Capacitación	nc	B-BEN
+constante	adj	I-BEN
+
+*	fz	O
+Unidades	nc	B-BEN
+cerca	rg	I-BEN
+a	sp	I-BEN
+su	det	I-BEN
+domicilio	nc	I-BEN
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+dentro	sp	O
+de	sp	O
+la	det	O
+Empresa	nc	O
+
+*	fz	O
+Estabilidad	nc	B-BEN
+laboral	adj	I-BEN
+
+*	fz	O
+Programas	nc	B-BEN
+de	sp	I-BEN
+bienestar	nc	I-BEN
+
+*	fz	O
+Asistencia	nc	B-BEN
+Social	adj	I-BEN
+
+*	fz	O
+Trámites	nc	B-BEN
+ante	sp	I-BEN
+la	det	I-BEN
+SUCAMEC	np	I-BEN
+
+Para	sp	O
+más	rg	O
+información	nc	O
+enviar	vmn	O
+un	det	O
+email	adj	O
+al	sp	O
+siguiente	adj	O
+correo	nc	O
+:	fd	O
+recursosh	np	B-MISC
+.	fp	I-MISC
+seguridad	np	I-MISC
+gmail	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+y	cc	O
+colocar	vmn	O
+el	det	O
+Asunto	nc	O
+:	fd	O
+Agente	nc	B-JOB
+de	sp	I-JOB
+Seguridad	np	I-JOB
+
+Los	det	O
+interesados	adj	O
+acercarse	vmn	O
+a	sp	O
+Av	np	B-LUG
+.	fp	I-LUG
+Petit	np	I-LUG
+Thouars	np	I-LUG
+N°	np	I-LUG
+4396	z	I-LUG
+–	fg	O
+Miraflores	np	B-LUG
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+de	sp	I-DATE
+9:00	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+12:00	w	I-DATE
+pm	w	I-DATE
+con	sp	O
+los	det	O
+documentos	nc	O
+solicitados	adj	O
+.	fp	O
+
+Secundaria	nc	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Otros	pron	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

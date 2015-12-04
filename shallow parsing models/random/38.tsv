@@ -1,0 +1,134 @@
+Asesor	nc	B-JOB
+Premium	np	I-JOB
+-	fg	O
+Lima	np	B-LUG
+
+Requisitos	nc	O
+:	fd	O
+
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+02	z	O
+años	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+comercial	adj	B-AREA
+,	fc	O
+de	sp	O
+preferencia	nc	O
+en	sp	O
+intangibles	adj	B-AREA
+.	fp	O
+
+Contar	vmn	O
+con	sp	O
+cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+VIP	adj	I-REQ
+.	fp	O
+(	fpa	O
+indispensable	adj	O
+)	fpt	O
+
+Estudios	nc	O
+técnicos	adj	B-REQ
+o	cc	O
+universitarios	adj	O
+en	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+Administración	np	B-CARR
+,	fc	O
+Marketing	np	B-CARR
+o	cc	O
+similares	adj	B-CARR
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+Incrementar	vmn	B-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+Premium	vmi	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+compañía	nc	I-FUN
+.	fp	O
+
+Fidelizar	vmn	B-FUN
+a	sp	I-FUN
+los	det	I-FUN
+nuevos	adj	I-FUN
+y	cc	I-FUN
+actuales	adj	I-FUN
+clientes	nc	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+compañía	nc	I-FUN
+.	fp	O
+
+Brindar	vmn	B-FUN
+un	det	I-FUN
+excelente	adj	I-FUN
+servicio	nc	I-FUN
+de	sp	I-FUN
+atención	nc	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+compañia	nc	I-FUN
+.	fp	O
+
+Atención	nc	B-FUN
+personalizada	vmp	I-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+Innovar	vmn	B-FUN
+con	sp	I-FUN
+procesos	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+.	fp	O
+
+Se	pron	O
+ofrece	vmi	O
+:	fd	O
+
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+.	fp	O
+
+Atractiva	adj	B-BEN
+remuneración	nc	I-BEN
+.	fp	O
+
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+desde	sp	O
+el	det	O
+primer	adj	O
+día	nc	O
+.	fp	O
+
+Constantes	adj	B-BEN
+capacitaciones	nc	I-BEN
+.	fp	O
+
+Beneficios	nc	B-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+

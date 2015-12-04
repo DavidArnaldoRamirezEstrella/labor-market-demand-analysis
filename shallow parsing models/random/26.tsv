@@ -1,0 +1,197 @@
+Tecnólogo	np	B-JOB
+MFR	np	I-JOB
+San	np	B-LUG
+Borja	np	I-LUG
+/	fh	O
+Lima	np	B-LUG
+
+Clínica	nc	B-ORG
+Internacional	adj	I-ORG
+,	fc	O
+primera	adj	O
+Red	nc	O
+de	sp	O
+Servicios	nc	O
+de	sp	O
+Salud	nc	O
+del	sp	O
+Perú	np	B-LUG
+acreditada	vmp	O
+por	sp	O
+Joint	np	B-ORG
+Comission	np	I-ORG
+International	np	I-ORG
+,	fc	O
+que	pron	O
+cuenta	vmi	O
+con	sp	O
+una	det	O
+oferta	nc	O
+de	sp	O
+valor	nc	O
+renovada	vmp	O
+,	fc	O
+con	sp	O
+infraestructura	nc	O
+médica	adj	O
+moderna	adj	O
+en	sp	O
+tecnología	nc	O
+y	cc	O
+todas	det	O
+las	det	O
+facilidades	nc	O
+que	pron	O
+puedan	vms	O
+requerir	vmn	O
+nuestros	det	O
+pacientes	nc	O
+,	fc	O
+con	sp	O
+procedimientos	nc	O
+eficientes	adj	O
+que	pron	O
+complementan	vmi	O
+plenamente	rg	O
+la	det	O
+calidad	nc	O
+de	sp	O
+nuestro	det	O
+Staff	np	O
+Médico	adj	O
+y	cc	O
+Asistencial	adj	O
+.	fp	O
+
+Solicita	vmi	O
+:	fd	O
+
+Lic	nc	B-REQ
+.	fp	O
+Tecnología	nc	B-CARR
+médica	adj	I-CARR
+con	sp	O
+especialidad	nc	O
+en	sp	O
+terapia	nc	B-AREA
+física	adj	I-AREA
+y	cc	O
+rehabilitación	nc	B-AREA
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+Indispensable	adj	O
+Profesional	nc	B-REQ
+Colegiado	adj	I-REQ
+y	cc	I-REQ
+Habilitado	vmi	I-REQ
+en	sp	O
+Tecnología	nc	B-CARR
+Médica	adj	I-CARR
+con	sp	O
+especialidad	nc	O
+en	sp	O
+Terapia	nc	B-AREA
+Física	adj	I-AREA
+y	cc	O
+Rehabilitación	nc	B-AREA
+
+Disponibilidad	nc	O
+total	adj	O
+e	cc	O
+inmediata	adj	O
+
+Disponibilidad	nc	O
+para	sp	O
+laborar	vmn	O
+en	sp	O
+las	det	O
+SEDES	nc	O
+DE	sp	O
+LIMA	np	B-LUG
+Y	cc	O
+SAN	np	B-LUG
+BORJA	np	I-LUG
+(	fpa	O
+INDISPENSABLE	adj	O
+)	fpt	O
+
+Principales	adj	O
+funciones	nc	O
+:	fd	O
+
+Atención	nc	B-FUN
+de	sp	I-FUN
+pacientes	nc	I-FUN
+ambulatorios	adj	I-FUN
+y	cc	I-FUN
+hospitalizados	nc	I-FUN
+
+Cumplimiento	nc	B-FUN
+de	sp	I-FUN
+tratamientos	nc	I-FUN
+fisioterapéuticos	adj	I-FUN
+indicados	adj	I-FUN
+por	sp	I-FUN
+el	det	I-FUN
+médico	nc	I-FUN
+tratante	adj	I-FUN
+.	fp	O
+
+Elaboración	nc	B-FUN
+de	sp	I-FUN
+evaluaciones	nc	I-FUN
+según	sp	I-FUN
+patología	nc	I-FUN
+del	sp	I-FUN
+paciente	nc	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+estadísticas	nc	I-FUN
+e	cc	I-FUN
+informes	nc	I-FUN
+de	sp	I-FUN
+pacientes	nc	I-FUN
+.	fp	O
+
+Beneficios	nc	O
+:	fd	O
+
+Sueldo	nc	O
+en	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+1100	zm	B-SAL
+soles	zm	I-SAL
++	fz	I-SAL
+90	zm	I-SAL
+soles	zm	I-SAL
+en	sp	I-SAL
+vale	vmi	I-SAL
+de	sp	I-SAL
+alimentos	nc	I-SAL
+
+Al	sp	O
+4to	adj	B-SAL
+mes	nc	I-SAL
+aumento	nc	I-SAL
+de	sp	I-SAL
+sueldo	nc	I-SAL
+.	fp	O
+
+Capacitaciones	nc	B-BEN
+y	cc	I-BEN
+beneficios	nc	I-BEN
+corporativos	adj	I-BEN
+.	fp	O
+

@@ -1,0 +1,114 @@
+HOGAR	np00	B-ORG
+Y	cc	I-ORG
+SALUD	np00	I-ORG
+-	fg	O
+Químicos	np00	B-CARR
+Farmacéuticos	np00	I-CARR
+con	sp	O
+permanencia	ncfs	O
+y	cc	O
+regencia	ncfs	O
+para	sp	O
+EL	da0ms	B-LUG
+AGUSTINO	np00	I-LUG
+.	fp	O
+
+Cadena	ncfs	O
+de	sp	O
+Boticas	ncfp	O
+requiere	vmi	O
+Químicos	np00	B-CARR
+Farmacéuticos	np00	I-CARR
+para	sp	O
+la	da0fs	O
+zona	ncfs	O
+de	sp	O
+El	da0ms	B-LUG
+Agustino	np00	I-LUG
+,	fc	O
+Con	sp	O
+Permanencia	ncfs	O
+y	cc	O
+Regencia	ncfs	O
+disponible	aqcs	O
+.	fp	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+1	z	O
+año	ncfs	O
+.	fp	O
+
+Mayores	rg	O
+de	sp	O
+30	z	O
+años	ncmp	O
+.	fp	O
+
+Habilidad	ncfs	B-REQ
+Profesional	aqcs	I-REQ
+(	fpa	O
+Original	aqcs	O
+)	fpt	O
+
+Título	ncms	B-REQ
+Profesional	aqcs	O
+(	fpa	O
+Copia	ncfs	O
+)	fpt	O
+
+Renuncia	ncfs	O
+a	sp	O
+Regencia	ncfs	O
+Anterior	aqcs	O
+o	cc	O
+Constancia	ncfs	O
+de	sp	O
+No	rn	O
+Regencia	ncfs	O
+
+Carnet	ncms	O
+de	sp	O
+Colegiatura	ncfs	B-REQ
+(	fpa	O
+Copia	ncfs	O
+)	fpt	O
+
+DNI	np00	O
+(	fpa	O
+Copia	ncfs	O
+)	fpt	O
+
+Carnet	ncms	O
+de	sp	O
+Sanidad	ncfs	O
+(	fpa	O
+Original	aqcs	O
+)	fpt	O
+
+Enviar	vmi	O
+c	np00	O
+.	fp	O
+v	np00	O
+.	fp	O
+al	sp	O
+correo	ncms	O
+de	sp	O
+contacto	ncms	O
+,	fc	O
+con	sp	O
+Asunto	ncms	O
+"	fe	O
+QF	np00	O
+-	fg	O
+Regencia	ncfs	O
+Con	sp	O
+Permanencia	ncfs	O
+El	da0ms	B-LUG
+Agustino	np00	I-LUG
+"	fe	O
+

@@ -1,0 +1,159 @@
+SUPERVISOR	nc	B-JOB
+CONTABLE	adj	I-JOB
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Contador	nc	B-REQ
+Público	adj	I-REQ
+Colegiado	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+dos	det	O
+años	nc	O
+,	fc	O
+como	cs	O
+Sub	np	B-JOB
+contador	np	I-JOB
+,	fc	O
+Supervisor	np	B-JOB
+contable	np	I-JOB
+o	cc	O
+Analista	np	B-JOB
+Sénior	np	I-JOB
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+Elaboración	nc	B-REQ
+y	cc	I-REQ
+Análisis	np	I-REQ
+de	np	I-REQ
+EEFF	np	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+liquidación	nc	B-REQ
+de	sp	I-REQ
+impuestos	nc	I-REQ
+e	cc	I-REQ
+importaciones	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+(	fpa	O
+deseable	adj	O
+)	fpt	O
+en	sp	O
+labores	nc	B-REQ
+de	sp	I-REQ
+tesorería	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+empresas	nc	O
+de	sp	O
+servicios	nc	O
+y/o	adj	O
+comerciales	adj	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+de	sp	O
+Office	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+-	fg	O
+avanzado	adj	O
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+y	cc	I-FUN
+análisis	nc	I-FUN
+de	sp	I-FUN
+estados	nc	I-FUN
+financieros	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Control	nc	B-FUN
+y	cc	I-FUN
+seguimiento	nc	I-FUN
+de	sp	I-FUN
+labores	nc	I-FUN
+de	sp	I-FUN
+tesorería	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+de	sp	I-FUN
+flujos	nc	I-FUN
+de	sp	I-FUN
+caja	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+y	cc	I-FUN
+presentación	nc	I-FUN
+de	sp	I-FUN
+informes	nc	I-FUN
+gerenciales	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+de	sp	I-FUN
+impuestos	nc	I-FUN
+mensuales	adj	I-FUN
+y	cc	I-FUN
+anual	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Otras	det	O
+funciones	nc	O
+inherentes	adj	O
+al	sp	O
+cargo	nc	O
+.	fp	O
+
+Universitario	nc	O
+Bachiller	nc	O
+en	sp	O
+Contabilidad	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Contabilidad	np	B-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

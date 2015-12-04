@@ -1,0 +1,69 @@
+Supervisor	ncms	B-JOB
+de	sp	I-JOB
+relaciones	ncfp	I-JOB
+comunitarias	aqfp	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Información	ncfs	O
+suplementaria	aqfs	O
+
+*	fz	O
+Educación	ncfs	O
+:	fd	O
+bachiller	ncms	O
+en	sp	O
+antropología	np00	B-CARR
+,	fc	O
+sociología	np00	B-CARR
+,	fc	O
+economía	np00	B-CARR
+,	fc	O
+derecho	np00	B-CARR
+y/o	cc	O
+ingeniería	np00	B-CARR
+.	fp	O
+de	sp	O
+preferencia	ncfs	O
+haber	van	O
+seguido	vmp	O
+cursos	ncmp	O
+o	cc	O
+talleres	ncmp	O
+de	sp	O
+negociación	ncfs	B-REQ
+y	cc	O
+manejo	ncms	O
+de	sp	O
+conflictos	ncmp	B-REQ
+.	fp	O
+
+*	fz	O
+Idioma	ncms	O
+:	fd	O
+español	np00	B-REQ
+y	cc	O
+quechua	np00	B-REQ
+avanzado	aqms	O
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+:	fd	O
+mínimo	rg	O
+3	z	O
+años	ncmp	O
+en	sp	O
+posiciones	ncfp	O
+similares	aqcp	O
+dentro	sp	O
+del	sp	O
+sector	ncms	O
+minero	aqms	B-AREA
+.	fp	O
+

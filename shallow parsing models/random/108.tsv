@@ -1,0 +1,141 @@
+SECRETARIA	nc	B-JOB
+
+*	fz	O
+Coordinación	nc	B-FUN
+general	adj	I-FUN
+con	sp	I-FUN
+proveedores	nc	I-FUN
+y	cc	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Coordinación	nc	B-FUN
+de	sp	I-FUN
+la	det	I-FUN
+producción	nc	I-FUN
+con	sp	I-FUN
+los	det	I-FUN
+trabajadores	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Atención	nc	B-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Desarrollo	nc	B-FUN
+de	sp	I-FUN
+documentos	nc	I-FUN
+para	sp	I-FUN
+la	det	I-FUN
+administración	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Coordinar	vmn	B-FUN
+la	det	I-FUN
+producción	nc	I-FUN
+a	sp	I-FUN
+fin	nc	I-FUN
+de	sp	I-FUN
+cumplir	vmn	I-FUN
+con	sp	I-FUN
+las	det	I-FUN
+órdenes	nc	I-FUN
+de	sp	I-FUN
+compra	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+tiempo	nc	I-FUN
+establecido	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+constante	adj	I-FUN
+interacción	nc	I-FUN
+con	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Anticiparse	vmi	B-FUN
+a	sp	I-FUN
+cualquier	det	I-FUN
+imprevisto	nc	I-FUN
+a	sp	I-FUN
+fin	nc	I-FUN
+de	sp	I-FUN
+cumplir	vmn	I-FUN
+con	sp	I-FUN
+los	det	I-FUN
+objetivos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Llevar	vmn	B-FUN
+con	sp	I-FUN
+orden	nc	I-FUN
+y	cc	I-FUN
+claridad	nc	I-FUN
+los	det	I-FUN
+documentos	nc	I-FUN
+indicados	adj	I-FUN
+.	fp	O
+
+Secundaria	nc	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Administración	np	B-AREA
+/	fh	O
+Servicios	nc	B-AREA
+Generales	adj	I-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+Microsoft	np	B-REQ
+Word	np	I-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+,	fc	O
+Microsoft	np	B-REQ
+Power	np	I-REQ
+Point	np	I-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+.	fp	O
+

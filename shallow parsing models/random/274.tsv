@@ -1,0 +1,159 @@
+Ejecutivos	nc	B-JOB
+de	sp	I-JOB
+Cuentas	nc	I-JOB
+(	fpa	O
+4	z	O
+vacantes	nc	O
+)	fpt	O
+
+Empresa	nc	O
+del	sp	O
+rubro	nc	O
+suministros	nc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+:	fd	O
+
+4	z	O
+Señoritas	nc	O
+y	cc	O
+Caballeros	nc	O
+para	sp	O
+Ejecutivos	nc	B-JOB
+de	sp	I-JOB
+cuentas	nc	I-JOB
+empresariales	adj	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Edad	nc	O
+:	fd	O
+Indiferente	adj	O
+
+*	fz	O
+Excelente	adj	O
+presencia	nc	O
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+o	cc	O
+áreas	nc	O
+comerciales	adj	B-AREA
+.	fp	O
+
+*	fz	O
+Carismáticos	adj	B-REQ
+y	cc	O
+empáticos	adj	B-REQ
+.	fp	O
+
+*	fz	O
+100	zp	O
+%	zp	O
+proactivos	adj	B-REQ
+.	fp	O
+
+*	fz	O
+Gran	adj	O
+criterio	nc	O
+y	cc	O
+capacidad	nc	O
+de	sp	O
+decisión	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Grandes	adj	O
+deseos	nc	O
+de	sp	O
+superación	nc	O
+dentro	sp	O
+de	sp	O
+la	det	O
+empresa	nc	O
+
+*	fz	O
+Manejo	nc	O
+de	sp	O
+Office	np	B-REQ
+,	fc	O
+internet	np	B-REQ
+y	cc	O
+computadora	nc	B-REQ
+;	fx	O
+nivel	nc	O
+usuario	adj	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+*	fz	O
+Mínimo	rg	O
+3	z	O
+meses	nc	O
+.	fp	O
+
+BENEFICIOS	nc	O
+:	fd	O
+
+Básico	adj	O
+:	fd	O
+S/.950.00	zm	B-SAL
+
+Comisiones	nc	B-BEN
+atractivas	adj	I-BEN
+
+Bonos	nc	B-BEN
+por	sp	I-BEN
+cumplimiento	nc	I-BEN
+de	sp	I-BEN
+objetivos	nc	I-BEN
+
+Movilidad	nc	B-BEN
+
+Celular	nc	B-BEN
+con	sp	I-BEN
+RPC	np	I-BEN
+/	fh	I-BEN
+Tablet	np	I-BEN
+Ipad	np	I-BEN
+*	fz	I-BEN
+1	z	I-BEN
+
+Posibilidades	nc	B-BEN
+de	sp	I-BEN
+viaje	nc	I-BEN
+y	cc	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+
+Interesados	vmi	O
+enviar	vmn	O
+su	det	O
+CV	np	O
+indicando	vmg	O
+en	sp	O
+asunto	nc	O
+:	fd	O
+"	fe	O
+EJC	np	B-JOB
+"	fe	O
+a	sp	O
+la	det	O
+brevedad	nc	O
+posible	adj	O
+.	fp	O
+

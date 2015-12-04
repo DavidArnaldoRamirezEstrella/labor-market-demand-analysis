@@ -1,0 +1,319 @@
+ASESOR	ncms	B-JOB
+DE	sp	I-JOB
+PRÉSTAMOS	ncmp	I-JOB
+A	sp	O
+PYMES	np00	O
+IQUITOS	np00	B-LUG
+.	fp	O
+
+Importante	aqcs	O
+empresa	ncfs	O
+HR	np00	B-ORG
+CONNECTION	np00	I-ORG
+con	sp	O
+10	z	O
+años	ncmp	O
+en	sp	O
+el	da0ms	O
+mercado	ncms	O
+liderando	vmg	O
+la	da0fs	O
+venta	ncfs	O
+en	sp	O
+productos	ncmp	O
+financiero	aqms	O
+se	p0000	O
+encuentra	vmi	O
+en	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+Promotores	ncms	B-JOB
+para	sp	O
+nuestra	dp1fs	O
+sede	ncfs	O
+en	sp	O
+CUSCO	np00	B-LUG
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Captar	vmn	B-FUN
+clientes	nccp	I-FUN
+PYME	np00	I-FUN
+en	sp	I-FUN
+CAMPO	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Generar	vmn	B-FUN
+propia	aqfs	I-FUN
+cartera	ncfs	I-FUN
+de	sp	I-FUN
+clientes	nccp	I-FUN
+
+*	fz	O
+Presentación	ncfs	B-FUN
+de	sp	I-FUN
+reportes	ncmp	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+a	sp	I-FUN
+supervisores	ncmp	I-FUN
+(	fpa	I-FUN
+según	sp	I-FUN
+cronogramas	ncmp	I-FUN
+)	fpt	I-FUN
+
+*	fz	O
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+seguimiento	ncms	I-FUN
+a	sp	I-FUN
+clientes	nccp	I-FUN
+
+*	fz	O
+Elaborar	vmn	B-FUN
+presentaciones	ncfp	I-FUN
+,	fc	I-FUN
+propuestas	ncfp	I-FUN
+comerciales	aqcp	I-FUN
+y	cc	I-FUN
+económicas	aqfp	I-FUN
+para	sp	I-FUN
+los	da0mp	I-FUN
+clientes	nccp	I-FUN
+
+*	fz	O
+Prospectar	vmn	B-FUN
+y	cc	I-FUN
+realizar	vmn	I-FUN
+visitas	ncfp	I-FUN
+de	sp	I-FUN
+campo	ncms	I-FUN
+para	sp	I-FUN
+identificar	vmn	I-FUN
+a	sp	I-FUN
+clientes	nccp	I-FUN
+potenciales	aqcp	I-FUN
+
+*	fz	O
+Solicitar	vmn	B-FUN
+y	cc	I-FUN
+recabar	vmn	I-FUN
+la	da0fs	I-FUN
+documentación	ncfs	I-FUN
+para	sp	I-FUN
+la	da0fs	I-FUN
+creación	ncfs	I-FUN
+del	sp	I-FUN
+file	ncms	I-FUN
+para	sp	I-FUN
+su	dp3cs	I-FUN
+posterior	aqcs	I-FUN
+ingreso	ncms	I-FUN
+al	sp	I-FUN
+banco	ncms	I-FUN
+
+REQUISITOS	ncmp	O
+
+*	fz	O
+Experiencia	ncfs	O
+en	sp	O
+ventas	ncfp	B-AREA
+de	sp	I-AREA
+campo	ncms	I-AREA
+/	fh	O
+intangibles	aqcp	B-AREA
+
+*	fz	O
+Experiencia	ncfs	O
+comprobada	vmp	O
+en	sp	O
+el	da0ms	O
+sector	ncms	O
+PYME	np00	B-AREA
+:	fd	O
+En	sp	O
+Financieras	ncfp	B-AREA
+o	cc	O
+Bancos	ncmp	B-AREA
+
+*	fz	O
+Personas	ncfp	O
+que	cs	O
+estén	vas	O
+relacionadas	vmp	O
+con	sp	O
+los	da0mp	O
+préstamos	ncmp	B-REQ
+a	sp	I-REQ
+PYMES	np00	I-REQ
+a	sp	O
+fin	ncms	O
+de	sp	O
+concretar	vmn	B-FUN
+la	da0fs	I-FUN
+Venta	ncfs	I-FUN
+de	sp	I-FUN
+Activos	ncmp	I-FUN
+Fijos	aqmp	I-FUN
+y	cc	I-FUN
+Leasing	np00	I-FUN
+(	fpa	I-FUN
+asesores	ncmp	I-FUN
+financieros	aqmp	I-FUN
+,	fc	I-FUN
+analistas	nccp	I-FUN
+de	sp	I-FUN
+créditos	ncmp	I-FUN
+)	fpt	I-FUN
+
+*	fz	O
+Disponibilidad	ncfs	O
+inmediata	aqfs	O
+
+*	fz	O
+Trabajar	vmn	B-REQ
+en	sp	I-REQ
+Equipo	ncms	I-REQ
+
+*	fz	O
+Mostrar	vmn	O
+liderazgo	ncms	B-REQ
+
+*	fz	O
+Ser	vmi	O
+Proactivo	aqms	B-REQ
+
+*	fz	O
+Sin	sp	O
+trabajos	ncmp	O
+secundarios	aqmp	O
+
+*	fz	O
+Orientación	ncfs	B-REQ
+al	sp	I-REQ
+resultado	ncms	I-REQ
+
+*	fz	O
+Presentar	vmn	O
+buen	aqms	O
+historial	ncms	O
+crediticio	aqms	O
+
+MODALIDAD	ncfs	O
+DE	sp	O
+TRABAJO	ncms	O
+
+*	fz	O
+Capacitaciones	ncfp	B-BEN
+constantes	aqcp	I-BEN
+desde	sp	I-BEN
+el	da0ms	I-BEN
+inicio	ncms	I-BEN
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+Planilla	ncfs	B-BEN
+
+*	fz	O
+Básico	aqms	B-SAL
+
+*	fz	O
+Movilidad	ncfs	B-BEN
+
+*	fz	O
+Horario	ncms	B-MISC
+Flexible	aqcs	I-MISC
+
+*	fz	O
+Altas	aqfp	B-BEN
+Comisiones	ncfp	I-BEN
+
+*	fz	O
+Bonos	ncmp	B-BEN
+
+*	fz	O
+Oportunidad	ncfs	B-BEN
+de	sp	I-BEN
+crecimiento	ncms	I-BEN
+
+*	fz	O
+Buen	aqms	B-BEN
+clima	ncms	I-BEN
+laboral	aqcs	I-BEN
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Administración	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Economía	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Marketing	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Ventas	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Contabilidad	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Cajero	ncms	B-JOB
+/	fh	O
+Promotor	ncms	B-JOB
+de	sp	I-JOB
+Servicios	ncmp	I-JOB
+.	fp	O
+
+Técnico	ncms	B-REQ
+Ciclos	ncmp	O
+Finales	aqcp	O
+en	sp	O
+Finanzas	np00	B-CARR
+y	cc	O
+Banca	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Finanzas	ncfp	B-AREA
+con	sp	O
+6	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

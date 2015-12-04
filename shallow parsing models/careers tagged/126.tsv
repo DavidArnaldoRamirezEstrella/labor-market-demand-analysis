@@ -1,0 +1,36 @@
+Director	ncms	B-JOB
+de	sp	O
+escuela	ncfs	O
+academico	aqfs	O
+profesional	aqcs	O
+de	sp	O
+obstetricia	ncfs	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+obstetricia	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+otros	pi0mp	O
+con	sp	O
+5	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

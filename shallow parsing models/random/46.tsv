@@ -1,0 +1,172 @@
+Arquitecto	np	B-JOB
+-	fg	O
+Empresas	np	O
+Industriales	np	O
+
+Importante	adj	O
+empresa	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+industrial	adj	O
+de	sp	O
+materia	nc	O
+de	sp	O
+diseño	nc	O
+y	cc	O
+construcción	nc	O
+de	sp	O
+la	det	O
+región	nc	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+(	fpa	O
+1	z	O
+)	fpt	O
+Arquitecto	np	B-JOB
+con	sp	O
+experiencia	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+,	fc	O
+para	sp	O
+cubrir	vmn	O
+el	det	O
+puesto	nc	O
+.	fp	O
+
+REQUISITOS	nc	O
+
+*	fz	O
+Estudios	nc	O
+universitarios	adj	O
+conclusos	adj	O
+de	sp	O
+Arquitectura	np	B-CARR
+/	fh	O
+Proyectos	np	B-CARR
+(	fpa	O
+Colegiados	adj	B-REQ
+)	fpt	O
+
+*	fz	O
+Edad	nc	O
+de	sp	O
+30	z	O
+a	sp	O
+45	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+3	z	O
+años	nc	O
+,	fc	O
+de	sp	O
+preferencia	nc	O
+en	sp	O
+empresas	nc	O
+industriales	adj	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+en	sp	O
+Microsoft	np	B-REQ
+Office	np	I-REQ
+nivel	nc	O
+Avanzado	adj	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+en	sp	O
+ACUTOCAT	np	B-REQ
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	B-FUN
+en	sp	I-FUN
+campo	nc	I-FUN
+y	cc	I-FUN
+oficina	nc	I-FUN
+.	fp	O
+
+FUNCIONES	nc	O
+
+*	fz	O
+Diseñar	vmn	B-FUN
+y	cc	I-FUN
+asesorar	vmn	I-FUN
+las	det	I-FUN
+construcciones	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+de	sp	I-FUN
+proyectos	nc	I-FUN
+y	cc	I-FUN
+coordinaciones	vmi	I-FUN
+con	sp	I-FUN
+otras	det	I-FUN
+áreas	nc	I-FUN
+sobre	sp	I-FUN
+las	det	I-FUN
+mismas	adj	I-FUN
+.	fp	O
+
+*	fz	O
+conocedor	nc	O
+de	sp	O
+normas	nc	B-REQ
+,	fc	O
+códigos	nc	B-REQ
+,	fc	O
+reglamentos	nc	B-REQ
+,	fc	O
+ordenanza	nc	B-REQ
+y	cc	O
+decretos	nc	B-REQ
+supremos	adj	I-REQ
+de	sp	I-REQ
+Minas	np	I-REQ
+.	fp	O
+
+BENEFICIOS	nc	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+según	sp	I-BEN
+la	det	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Seguro	np	B-BEN
+SCTR	np	I-BEN
+.	fp	O
+
+*	fz	O
+Bonificaciones	nc	B-BEN
+.	fp	O
+

@@ -1,0 +1,145 @@
+Ingeniero	np00	B-CARR
+Saneamiento	np00	I-CARR
+.	fp	O
+
+Por	sp	O
+encargo	ncms	O
+de	sp	O
+nuestro	dp1ms	O
+cliente	nccs	O
+nos	pp1cp	O
+encontramos	vmi	O
+en	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+un	z	O
+:	fd	O
+ESPECIALISTA	nccs	O
+EN	sp	O
+SANEAMIENTO	ncms	B-AREA
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+Ingeniería	np00	B-CARR
+Sanitaria	np00	I-CARR
+o	cc	O
+Civil	np00	B-CARR
+,	fc	O
+profesional	nccs	B-REQ
+titulado	aqms	I-REQ
+,	fc	O
+colegiado	aqms	B-REQ
+/	fh	O
+habilitado	aqms	B-REQ
+.	fp	O
+
+Con	sp	O
+experiencias	ncfp	O
+mínimas	aqfp	O
+de	sp	O
+8	z	O
+meses	ncmp	O
+en	sp	O
+obras	ncfp	B-AREA
+,	fc	O
+como	cs	O
+:	fd	O
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+Supervisión	ncfs	I-JOB
+y/o	cc	O
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+Inspector	ncms	I-JOB
+y/o	cc	O
+Especialista	ncms	O
+en	sp	O
+Saneamiento	ncms	B-AREA
+de	sp	I-AREA
+obras	ncfp	I-AREA
+en	sp	O
+general	aqcs	O
+.	fp	O
+
+Importante	vmi	O
+contar	vmn	O
+con	sp	O
+certificados	ncmp	O
+de	sp	O
+trabajo	ncms	O
+que	pr0cn	O
+acrediten	vmi	O
+el	da0ms	O
+tiempo	ncms	O
+laboral	aqcs	O
+y	cc	O
+el	da0ms	O
+Diplomado	ncms	B-REQ
+en	sp	O
+Obras	ncfp	B-REQ
+de	sp	I-REQ
+Saneamiento	ncms	I-REQ
+.	fp	O
+
+Estudios	ncmp	O
+:	fd	O
+Diplomado	ncms	B-REQ
+en	sp	O
+supervisión	ncfs	B-FUN
+de	sp	I-FUN
+obras	ncfp	I-FUN
+de	sp	I-FUN
+saneamiento	ncms	I-FUN
+.	fp	O
+
+BENEFICIOS	ncmp	O
+:	fd	O
+
+Salario	ncms	O
+acorde	aqcs	B-SAL
+al	sp	I-SAL
+mercado	ncms	I-SAL
+
+Beneficios	ncmp	B-BEN
+de	sp	I-BEN
+Ley	ncfs	I-BEN
+
+Movilidad	ncfs	B-BEN
+
+Utilidades	ncfp	B-BEN
+
+Interesados	ncmp	O
+que	pr0cn	O
+cumplan	vms	O
+con	sp	O
+el	da0ms	O
+Perfil	np00	O
+enviar	vmn	O
+cv	np00	O
+documentado	vmp	O
+al	sp	O
+correo	ncms	O
+electrónico	aqms	O
+:	fd	O
+sgs	np00	B-MISC
+.	fp	I-MISC
+aguerra	np00	I-MISC
+@	fz	I-MISC
+gmail	np00	I-MISC
+.	fp	I-MISC
+com	np00	I-MISC
+indicando	vmg	O
+expectativas	ncfp	O
+salariales	aqcp	O
+,	fc	O
+mencionando	vmi	O
+en	sp	O
+el	da0ms	O
+asunto	ncms	O
+:	fd	O
+Especialista	nccs	O
+en	sp	O
+Saneamiento	ncms	B-AREA
+

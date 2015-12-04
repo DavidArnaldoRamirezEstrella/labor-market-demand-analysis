@@ -1,0 +1,277 @@
+Gestor	ncms	B-JOB
+de	sp	I-JOB
+Compras	ncfp	I-JOB
+-	fg	O
+HUANCAYO	np00	B-LUG
+.	fp	O
+
+Supermercados	np00	B-ORG
+Peruanos	np00	I-ORG
+,	fc	O
+reconocida	vmp	O
+empresa	ncfs	O
+del	sp	O
+rubro	ncms	O
+retail	nccs	O
+,	fc	O
+perteneciente	aqcs	O
+al	sp	O
+grupo	ncms	O
+Interbank	np00	B-ORG
+,	fc	O
+requiere	vmi	O
+cubrir	vmn	O
+la	da0fs	O
+posición	ncfs	O
+indicada	aqfs	O
+,	fc	O
+para	sp	O
+lo	da0ns	O
+cual	pr0cs	O
+se	p0000	O
+solicitan	vmi	O
+los	da0mp	O
+siguientes	aqcp	O
+requisitos	ncmp	O
+.	fp	O
+
+GESTOR	ncms	B-JOB
+DE	sp	I-JOB
+COMPRA	ncfs	I-JOB
+
+*	fz	O
+Objetivo	ncms	O
+de	sp	O
+la	da0fs	O
+posición	ncfs	O
+:	fd	O
+
+Administrar	vmn	B-FUN
+el	da0ms	I-FUN
+proceso	ncms	I-FUN
+de	sp	I-FUN
+compra	ncfs	I-FUN
+de	sp	I-FUN
+mercadería	ncfs	I-FUN
+perecible	aqcs	I-FUN
+en	sp	I-FUN
+base	nccs	I-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+pedidos	ncmp	I-FUN
+de	sp	I-FUN
+tienda	ncfs	I-FUN
+y	cc	I-FUN
+políticas	aqfp	I-FUN
+de	sp	I-FUN
+compra	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Funciones	ncfp	O
+principales	aqcp	O
+:	fd	O
+
+Negociar	vmn	B-FUN
+aspectos	ncmp	I-FUN
+de	sp	I-FUN
+precio	ncms	I-FUN
+y	cc	I-FUN
+cantidad	ncfs	I-FUN
+de	sp	I-FUN
+mercadería	ncfs	I-FUN
+perecible	aqcs	I-FUN
+con	sp	I-FUN
+el	da0ms	I-FUN
+proveedor	ncms	I-FUN
+.	fp	O
+
+Evaluar	vmn	B-FUN
+proveedores	ncmp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+categoría	ncfs	I-FUN
+de	sp	I-FUN
+productos	ncmp	I-FUN
+asignada	vmp	I-FUN
+para	sp	I-FUN
+tener	vmn	I-FUN
+nuevas	aqfp	I-FUN
+alternativas	ncfp	I-FUN
+de	sp	I-FUN
+abastecimiento	ncms	I-FUN
+.	fp	O
+
+Emitir	vmn	B-FUN
+órdenes	ncfp	I-FUN
+de	sp	I-FUN
+compra	ncfs	I-FUN
+para	sp	O
+solicitar	vmn	B-FUN
+mercadería	vmn	I-FUN
+a	sp	I-FUN
+proveedores	ncmp	I-FUN
+.	fp	O
+
+Programar	vmn	B-FUN
+la	da0fs	I-FUN
+adquisición	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+mercadería	ncfs	I-FUN
+perecible	aqcs	I-FUN
+en	sp	I-FUN
+base	nccs	I-FUN
+a	sp	I-FUN
+la	da0fs	I-FUN
+consolidación	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+pedidos	ncmp	I-FUN
+de	sp	I-FUN
+tienda	ncfs	I-FUN
+.	fp	O
+
+Proponer	vmn	B-FUN
+al	sp	I-FUN
+jefe	ncms	I-FUN
+de	sp	I-FUN
+producto	ncms	I-FUN
+la	da0fs	I-FUN
+cartera	ncfs	I-FUN
+de	sp	I-FUN
+proveedores	ncmp	I-FUN
+.	fp	O
+
+Supervisar	vmn	B-FUN
+conjuntamente	rg	I-FUN
+con	sp	I-FUN
+Auditoría	ncfs	I-FUN
+,	fc	I-FUN
+la	da0fs	I-FUN
+calidad	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+mercadería	ncfs	I-FUN
+recibida	vmp	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+proveedores	ncmp	I-FUN
+de	sp	I-FUN
+acuerdo	ncms	I-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+especificaciones	ncfp	I-FUN
+solicitadas	aqfp	I-FUN
+.	fp	O
+
+Controlar	vmn	B-FUN
+que	cs	I-FUN
+la	da0fs	I-FUN
+mercadería	ncfs	I-FUN
+se	p0000	I-FUN
+encuentre	vms	I-FUN
+dentro	rg	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+rangos	ncmp	I-FUN
+de	sp	I-FUN
+rotación	ncfs	I-FUN
+establecidos	vmp	I-FUN
+por	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Formación	ncfs	O
+Profesional	aqcs	O
+:	fd	O
+
+Bachiller	ncms	O
+en	sp	O
+Ing	np00	B-CARR
+.	fp	I-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Administración	np00	B-CARR
+,	fc	O
+Logística	np00	B-CARR
+,	fc	O
+Abastecimiento	np00	B-CARR
+,	fc	O
+Agronomía	np00	B-CARR
+,	fc	O
+Agroindustrial	np00	B-CARR
+y	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+:	fd	O
+
+Indispensable	aqcs	O
+1	z	O
+año	ncms	O
+y	cc	O
+medio	pn0ms	O
+en	sp	O
+Compras	ncfp	B-AREA
+,	fc	O
+Abastecimiento	ncms	B-AREA
+de	sp	I-AREA
+productos	ncmp	I-AREA
+perecibles	aqcp	I-AREA
+.	fp	O
+
+*	fz	O
+Conocimientos	ncmp	O
+:	fd	O
+
+Deseable	aqcs	O
+en	sp	O
+
+Sistema	ncms	B-REQ
+de	sp	I-REQ
+aseguramiento	ncms	I-REQ
+de	sp	I-REQ
+la	da0fs	I-REQ
+calidad	ncfs	I-REQ
+
+Buenas	aqfp	B-REQ
+practicas	ncfp	I-REQ
+de	sp	I-REQ
+manufactura	ncfs	I-REQ
+
+Sistema	ncms	B-REQ
+de	sp	I-REQ
+calidad	ncfs	I-REQ
+HACCAP	aqfs	I-REQ
+
+Excel	np00	B-REQ
+Intermedio	aqms	O
+Indispensable	aqcs	O
+
+SAP	np00	B-REQ
+deseable	aqcs	O
+
+*	fz	O
+Beneficios	ncmp	O
+
+EPS	np00	B-BEN
+
+Beneficios	ncmp	B-BEN
+de	sp	I-BEN
+Ley	ncfs	I-BEN
+y	cc	I-BEN
+Corporativos	ncmp	I-BEN
+
+Línea	ncfs	B-BEN
+de	sp	I-BEN
+Desarrollo	ncms	I-BEN
+de	sp	I-BEN
+Carrera	ncfs	I-BEN
+
+Convenios	ncmp	B-BEN
+

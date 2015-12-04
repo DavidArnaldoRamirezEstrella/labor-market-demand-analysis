@@ -1,0 +1,391 @@
+Supervisor	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+Lima	np	B-LUG
+Norte	np	I-LUG
+II	np	I-LUG
+
+"	fe	O
+COMPARTAMOS	np	B-ORG
+FINANCIERA	np	I-ORG
+"	fe	O
+
+Es	vsi	O
+tu	det	O
+oportunidad	nc	O
+de	sp	O
+unirte	nc	O
+a	sp	O
+una	det	O
+empresa	nc	O
+líder	nc	O
+en	sp	O
+Microfinanzas	nc	O
+con	sp	O
+solidez	nc	O
+y	cc	O
+crecimiento	nc	O
+en	sp	O
+el	det	O
+Mercado	nc	O
+Peruano	adj	O
+.	fp	O
+
+Participa	vmi	O
+en	sp	O
+el	det	O
+proceso	nc	O
+de	sp	O
+selección	nc	O
+para	sp	O
+el	det	O
+puesto	nc	O
+que	pron	O
+detallamos	vmi	O
+a	sp	O
+continuación	nc	O
+:	fd	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Bachiller	nc	O
+o	cc	O
+titulado	nc	B-REQ
+en	sp	O
+Economía	np	B-CARR
+,	fc	O
+Ingeniería	np	B-CARR
+Industrial	np	I-CARR
+,	fc	O
+Administración	np	B-CARR
+de	sp	I-CARR
+Empresas	np	I-CARR
+,	fc	O
+Contabilidad	np	B-CARR
+o	cc	O
+carreras	nc	B-CARR
+afines	adj	I-CARR
+.	fp	O
+
+*	fz	O
+Cursos	nc	O
+de	sp	O
+ventas	nc	B-REQ
+y/o	cc	O
+especialización	nc	B-REQ
+en	sp	O
+Microfinanzas	np	B-CARR
+
+*	fz	O
+Experiencia	nc	O
+comprobada	vmp	O
+en	sp	O
+desarrollo	nc	B-FUN
+y	cc	I-FUN
+campaña	nc	I-FUN
+de	sp	I-FUN
+productos	nc	I-FUN
+en	sp	O
+el	det	O
+sector	nc	O
+financiero	adj	B-AREA
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+como	cs	O
+analista	nc	B-JOB
+de	sp	I-JOB
+créditos	nc	I-JOB
+mínimo	rg	O
+de	sp	O
+2	z	O
+años	nc	O
+y/o	cc	O
+encargado	nc	B-JOB
+de	sp	I-JOB
+equipo	nc	I-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+en	sp	O
+entidades	nc	O
+financieras	adj	O
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Revisar	vmn	B-FUN
+el	det	I-FUN
+Plan	nc	I-FUN
+Mensual	adj	I-FUN
+de	sp	I-FUN
+Ventas	nc	I-FUN
+,	fc	I-FUN
+en	sp	I-FUN
+coordinación	nc	I-FUN
+con	sp	I-FUN
+el	det	I-FUN
+administrador	nc	I-FUN
+de	sp	I-FUN
+Agencia	np	I-FUN
+.	fp	O
+
+*	fz	O
+Revisar	vmn	B-FUN
+la	det	I-FUN
+lista	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+a	sp	I-FUN
+visitar	vmn	I-FUN
+y	cc	I-FUN
+efectuar	vmn	I-FUN
+las	det	I-FUN
+actividades	nc	I-FUN
+de	sp	I-FUN
+promoción	nc	I-FUN
+
+*	fz	O
+Programar	vmn	B-FUN
+diariamente	rg	I-FUN
+las	det	I-FUN
+visitas	nc	I-FUN
+a	sp	I-FUN
+realizar	vmn	I-FUN
+.	fp	O
+
+*	fz	O
+Supervisar	vmn	B-FUN
+el	det	I-FUN
+trabajo	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+Analistas	nc	I-FUN
+en	sp	I-FUN
+formación	nc	I-FUN
+,	fc	I-FUN
+revisando	vmg	I-FUN
+y	cc	I-FUN
+depurando	vmg	I-FUN
+expedientes	nc	I-FUN
+de	sp	I-FUN
+créditos	nc	I-FUN
+entregados	vmp	I-FUN
+por	sp	I-FUN
+estos	det	I-FUN
+y	cc	I-FUN
+haciendo	vmg	I-FUN
+seguimiento	nc	I-FUN
+del	sp	I-FUN
+estado	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+solicitudes	nc	I-FUN
+de	sp	I-FUN
+créditos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Control	nc	B-FUN
+y	cc	I-FUN
+supervisión	nc	I-FUN
+de	sp	I-FUN
+metas	nc	I-FUN
+.	fp	O
+
+Responsabilidades	nc	O
+:	fd	O
+
+*	fz	O
+Ejecución	nc	B-FUN
+de	sp	I-FUN
+las	det	I-FUN
+campañas	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Proporcionar	vmn	B-FUN
+la	det	I-FUN
+información	nc	I-FUN
+necesaria	adj	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+jefatura	nc	I-FUN
+correspondiente	adj	I-FUN
+para	sp	I-FUN
+el	det	I-FUN
+levantamiento	nc	I-FUN
+de	sp	I-FUN
+observaciones	nc	I-FUN
+efectuadas	adj	I-FUN
+por	sp	I-FUN
+control	nc	I-FUN
+interno	adj	I-FUN
+y	cc	I-FUN
+externo	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Supervisar	vmn	B-FUN
+las	det	I-FUN
+agencias	nc	I-FUN
+(	fpa	O
+Los	np	B-LUG
+Olivos	np	I-LUG
+,	fc	O
+Independencia	np	B-LUG
+,	fc	O
+Huandoy	np	B-LUG
+y	cc	O
+San	np	B-LUG
+Martin	np	I-LUG
+de	np	I-LUG
+Porres	np	I-LUG
+)	fpt	O
+y	cc	O
+equipos	nc	O
+a	sp	O
+cargo	nc	O
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+trabajo	nc	I-FUN
+de	sp	I-FUN
+campo	nc	I-FUN
+en	sp	I-FUN
+las	det	I-FUN
+diferentes	det	I-FUN
+zonas	nc	I-FUN
+que	pron	I-FUN
+se	pron	I-FUN
+le	pron	I-FUN
+asignen	vmi	I-FUN
+.	fp	O
+
+Competencias	nc	O
+:	fd	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+relacionarse	vmi	B-REQ
+
+*	fz	O
+Facilidad	nc	O
+de	sp	O
+Comunicación	nc	B-REQ
+
+*	fz	O
+Empatía	nc	B-REQ
+
+*	fz	O
+Asertividad	nc	B-REQ
+
+*	fz	O
+Proactividad	nc	B-REQ
+
+*	fz	O
+Perseverancia	nc	B-REQ
+
+*	fz	O
+Paciencia	nc	B-REQ
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+BASICO	adj	B-SAL
+S/.2,500.00	zm	I-SAL
+
+*	fz	O
+BONO	nc	B-SAL
+VARIABLE	adj	I-SAL
+POR	sp	I-SAL
+CUMPLIR	vmi	I-SAL
+EL	det	I-SAL
+100	zp	I-SAL
+%	zp	I-SAL
+OBJETIVO	nc	I-SAL
+S/.1,200.00	zm	I-SAL
+
+*	fz	O
+Planilla	nc	B-BEN
+(	fpa	O
+Beneficios	nc	B-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+)	fpt	O
+
+*	fz	O
+CTS	np	B-BEN
+,	fc	O
+AFP	np	B-BEN
+,	fc	O
+Gratificaciones	nc	B-BEN
+y	cc	O
+Utilidades	nc	B-BEN
+
+*	fz	O
+Essalud	np	B-BEN
+o	cc	O
+EPS	np	B-BEN
+(	fpa	O
+Rímac	np	B-ORG
+seguros	nc	I-ORG
+)	fpt	O
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+podrán	vmi	O
+enviar	vmn	O
+sus	det	O
+hojas	nc	O
+de	sp	O
+vida	nc	O
+(	fpa	O
+sin	sp	O
+documentar	vmn	O
+)	fpt	O
+al	sp	O
+correo	nc	O
+xxxxxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+.	fp	I-MISC
+xx	np	I-MISC
+e	cc	O
+indicando	vmg	O
+su	det	O
+número	nc	O
+de	sp	O
+DNI	np	O
+(	fpa	O
+INDISPENSABLE	adj	O
+)	fpt	O
+.	fp	O
+
+Colocando	vmg	O
+en	sp	O
+asunto	nc	O
+:	fd	O
+SUPVENTAS	np	O
+-	fg	O
+CONO	np	B-LUG
+NORTE	np	I-LUG
+
+Agradecemos	vmi	O
+su	det	O
+participación	nc	O
+.	fp	O
+
+COMPARTAMOS	np	B-ORG
+FINANCIERA	np	I-ORG
+

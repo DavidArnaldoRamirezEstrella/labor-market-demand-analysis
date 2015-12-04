@@ -1,0 +1,255 @@
+Asesor	nc	B-JOB
+Créditos	nc	I-JOB
+Hipotecarios	adj	I-JOB
+-	fg	O
+San	np	B-LUG
+Miguel	np	I-LUG
+
+MF	np	B-ORG
+ASESORIA	np	I-ORG
+Y	cc	I-ORG
+CONSULTORIA	np	I-ORG
+SAC	np	I-ORG
+principal	adj	O
+canal	nc	O
+externo	adj	O
+del	sp	O
+Scotiabank	np	B-ORG
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	det	O
+Asesor	nc	B-JOB
+Hipotecario	adj	I-JOB
+,	fc	O
+para	sp	O
+la	det	O
+zona	nc	O
+de	sp	O
+Asia	np	B-LUG
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Identificar	vmn	B-FUN
+y	cc	I-FUN
+asesorar	vmn	I-FUN
+a	sp	I-FUN
+potenciales	adj	I-FUN
+clientes	nc	I-FUN
+con	sp	I-FUN
+la	det	I-FUN
+finalidad	nc	I-FUN
+de	sp	I-FUN
+plantear	vmn	I-FUN
+propuestas	nc	I-FUN
+de	sp	I-FUN
+financiamiento	nc	I-FUN
+hipotecario	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Crear	vmn	B-FUN
+y	cc	I-FUN
+ampliar	vmn	I-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+,	fc	I-FUN
+manteniendo	vmg	I-FUN
+una	det	I-FUN
+adecuada	adj	I-FUN
+relación	nc	I-FUN
+con	sp	I-FUN
+los	det	I-FUN
+potenciales	adj	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+la	det	I-FUN
+evaluación	nc	I-FUN
+crediticia	adj	I-FUN
+,	fc	I-FUN
+acorde	nc	I-FUN
+a	sp	I-FUN
+las	det	I-FUN
+necesidades	nc	I-FUN
+del	sp	I-FUN
+cliente	nc	I-FUN
+y	cc	I-FUN
+políticas	adj	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+y	cc	I-FUN
+presentar	vmn	I-FUN
+propuestas	nc	I-FUN
+de	sp	I-FUN
+financiamiento	nc	I-FUN
+por	sp	I-FUN
+medio	rg	I-FUN
+de	sp	I-FUN
+informes	nc	I-FUN
+y	cc	I-FUN
+análisis	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+coordinaciones	nc	I-FUN
+internas	adj	I-FUN
+y	cc	I-FUN
+externas	adj	I-FUN
+para	sp	I-FUN
+concreción	nc	I-FUN
+de	sp	I-FUN
+operaciones	nc	I-FUN
+crediticias	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Registrar	vmn	B-FUN
+diariamente	rg	I-FUN
+las	det	I-FUN
+actividades	nc	I-FUN
+,	fc	I-FUN
+para	sp	I-FUN
+establecer	vmn	I-FUN
+estrategias	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Estudios	nc	O
+Universitarios	adj	O
+y/o	cc	O
+Técnicos	adj	B-REQ
+culminados	adj	O
+o	cc	O
+en	sp	O
+curso	nc	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+de	sp	O
+productos	nc	B-REQ
+financieros	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+en	sp	O
+Créditos	nc	B-AREA
+Hipotecarios	adj	I-AREA
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+MS	np	B-REQ
+Office	np	I-REQ
+a	sp	O
+Nivel	nc	O
+Básico	adj	O
+.	fp	O
+
+Competencias	nc	O
+:	fd	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+Comunicación	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Responsabilidad	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Negociación	nc	B-REQ
+y	cc	O
+persuasión	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Orientación	nc	B-REQ
+a	sp	I-REQ
+resultados	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Influencia	nc	B-REQ
+.	fp	O
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+900	zm	B-SAL
+s/	zm	I-SAL
++	fz	O
+Comisiones	nc	B-BEN
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+Planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+Beneficios	nc	I-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+.	fp	O
+
+El	det	O
+horario	nc	O
+será	vsi	O
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Domingo	w	I-DATE
+de	sp	I-DATE
+9:00	w	I-DATE
+a.m.	w	I-DATE
+a	sp	I-DATE
+6:00	w	I-DATE
+p.m.	w	I-DATE
+con	sp	O
+un	det	B-MISC
+día	nc	I-MISC
+y	cc	I-MISC
+medio	pron	I-MISC
+de	sp	I-MISC
+descanso	nc	I-MISC
+.	fp	O
+

@@ -1,0 +1,210 @@
+Trabaja	vmi	O
+cerca	rg	O
+a	sp	O
+tu	det	O
+domicilio	nc	O
+o	cc	O
+Centro	np	O
+de	np	O
+Estudios	np	O
+!	fa	O
+
+Nuestra	det	O
+empresa	nc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+Gestores	np	B-JOB
+de	sp	I-JOB
+Convenios	np	I-JOB
+para	sp	O
+la	det	O
+comercialización	nc	B-FUN
+de	sp	I-FUN
+PRESTAMOS	nc	I-FUN
+PERSONALES	adj	I-FUN
+,	fc	O
+en	sp	O
+todos	det	O
+los	det	O
+distritos	nc	O
+de	sp	O
+Lima	np	B-LUG
+.	fp	O
+
+Los	det	O
+postulantes	nc	O
+deberán	vmi	O
+contar	vmn	O
+y/o	cc	O
+cumplir	vmn	O
+con	sp	O
+:	fd	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Personal	adj	O
+de	sp	O
+ambos	det	O
+sexos	nc	O
+.	fp	O
+
+*	fz	O
+Edad	nc	O
+:	fd	O
+Mayor	rg	O
+de	sp	O
+20	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+de	sp	O
+9am	w	B-DATE
+a	sp	I-DATE
+3pm	w	I-DATE
+/	fh	O
+3pm	w	B-DATE
+a	sp	I-DATE
+9	w	I-DATE
+(	fpa	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Sábado	w	I-DATE
+)	fpt	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+VENTAS	nc	B-AREA
+CAMPO	nc	I-AREA
+(	fpa	O
+mínimo	adj	O
+01	z	O
+año	nc	O
+)	fpt	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+productos	nc	B-REQ
+financieros	adj	I-REQ
+o	cc	O
+afines	adj	O
+(	fpa	O
+mínimo	rg	O
+01	z	O
+año	nc	O
+indispensable	adj	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Acostumbrado	adj	O
+a	sp	O
+trabajar	vmn	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+y	cc	I-REQ
+por	sp	I-REQ
+resultados	nc	I-REQ
+.	fp	O
+
+Se	pron	O
+Ofrece	vmi	O
+:	fd	O
+
+*	fz	O
+Remuneración	nc	O
+de	sp	O
+acuerdo	nc	B-SAL
+al	sp	I-SAL
+cumplimiento	nc	I-SAL
+de	sp	I-SAL
+Objetivos	nc	I-SAL
+.	fp	O
+
+*	fz	O
+Base	nc	B-BEN
+de	sp	I-BEN
+datos	nc	I-BEN
+pre	adj	I-BEN
+-	fg	I-BEN
+aprobada	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Capacitación	nc	B-BEN
+permanente	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Acceso	nc	B-BEN
+a	sp	I-BEN
+centrales	nc	I-BEN
+de	sp	I-BEN
+riesgo	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Soporte	nc	B-BEN
+comercial	adj	I-BEN
+permanente	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Apoyo	nc	B-BEN
+logístico	adj	I-BEN
+y	cc	I-BEN
+merchandising	np	I-BEN
+.	fp	O
+
+*	fz	O
+Ampliar	vmn	B-BEN
+tu	det	I-BEN
+portafolio	nc	I-BEN
+de	sp	I-BEN
+productos	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Incorporarse	vmi	B-BEN
+a	sp	I-BEN
+una	det	I-BEN
+empresa	nc	I-BEN
+importante	adj	I-BEN
+de	sp	I-BEN
+alcance	nc	I-BEN
+nacional	adj	I-BEN
+.	fp	O
+
+Las	det	O
+personas	nc	O
+que	pron	O
+cumplan	vms	O
+con	sp	O
+el	det	O
+perfil	nc	O
+solicitado	vmp	O
+,	fc	O
+enviar	vmn	O
+su	det	O
+cv	nc	O
+con	sp	O
+el	det	O
+asunto	nc	O
+:	fd	O
+"	fe	O
+CONVENIOS	nc	O
+-	fg	O
+SB	np	O
+"	fe	O
+

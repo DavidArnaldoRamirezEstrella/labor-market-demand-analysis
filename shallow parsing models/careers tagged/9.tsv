@@ -1,0 +1,96 @@
+Auxiliar	nccs	B-JOB
+de	sp	I-JOB
+facturación	ncfs	I-JOB
+-	fg	O
+Surco	np00	B-LUG
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Supervisar	vmn	B-FUN
+,	fc	I-FUN
+emitir	vmn	I-FUN
+y	cc	I-FUN
+verificar	vmn	I-FUN
+la	da0fs	I-FUN
+correcta	aqfs	I-FUN
+emisión	ncfs	I-FUN
+de	sp	I-FUN
+facturas	ncfp	I-FUN
+y	cc	I-FUN
+guías	ncmp	I-FUN
+de	sp	I-FUN
+remisión	ncfs	I-FUN
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+
+Honestidad	ncfs	B-REQ
+
+Responsabilidad	ncfs	B-REQ
+
+Eficiencia	ncfs	B-REQ
+.	fp	O
+
+Orden	ncfs	B-REQ
+
+Horarios	ncmp	O
+:	fd	O
+
+Lunes	w	B-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+:	fd	O
+8:00	w	B-DATE
+am	w	I-DATE
+.	fp	I-DATE
+-	fg	I-DATE
+6:30	w	I-DATE
+pm	w	I-DATE
+.	fp	I-DATE
+(	fpa	O
+2	z	O
+horas	ncfp	O
+de	sp	O
+refrigerio	ncms	O
+)	fpt	O
+
+Sábados	w	B-DATE
+:	fd	O
+8:00	w	B-DATE
+am	w	I-DATE
+.	fp	I-DATE
+-	fg	I-DATE
+1:30	w	I-DATE
+pm	w	I-DATE
+.	fp	I-DATE
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Estudios	ncmp	O
+técnicos	aqmp	B-REQ
+en	sp	O
+contabilidad	np00	B-CARR
+,	fc	O
+administración	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Con	sp	O
+experiencia	ncfs	O
+de	sp	O
+01	z	O
+año	ncms	O
+en	sp	O
+puestos	ncmp	O
+afines	aqcp	O
+.	fp	O
+
+Disponibilidad	ncfs	O
+inmediata	aqfs	O
+.	fp	O
+

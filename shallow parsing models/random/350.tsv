@@ -1,0 +1,94 @@
+Químico	nc	B-JOB
+Administrador	adj	I-JOB
+(	fpa	I-JOB
+DT	np	I-JOB
+)	fpt	I-JOB
+Sullana	np	B-LUG
+
+Nuestra	det	O
+empresa	nc	O
+solicita	vmi	O
+para	sp	O
+BOTICAS	np	B-ORG
+ARCANGEL	np	I-ORG
+,	fc	O
+profesionales	nc	O
+que	pron	O
+cumplan	vms	O
+con	sp	O
+el	det	O
+siguiente	adj	O
+perfil	nc	O
+:	fd	O
+
+*	fz	O
+Químicos	np	B-CARR
+farmacéuticos	np	I-CARR
+colegiados	adj	B-REQ
+en	sp	O
+la	det	O
+ciudad	nc	O
+de	sp	O
+Chincha	np	B-LUG
+.	fp	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+en	sp	O
+atención	nc	B-FUN
+y/o	cc	I-FUN
+administración	nc	I-FUN
+en	sp	I-FUN
+boticas	nc	I-FUN
+ó	cc	I-FUN
+farmacias	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+básicos	adj	O
+de	sp	O
+Office	np	B-REQ
+.	fp	O
+
+*	fz	O
+Responsable	adj	B-REQ
+,	fc	O
+con	sp	O
+capacidad	nc	O
+para	sp	O
+liderar	vmn	B-FUN
+grupos	nc	I-FUN
+de	sp	I-FUN
+trabajo	nc	I-FUN
+.	fp	O
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+más	rg	O
+beneficios	nc	B-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+
+*	fz	O
+Horarios	nc	B-MISC
+fijos	adj	I-MISC
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+

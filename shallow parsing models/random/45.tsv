@@ -1,0 +1,125 @@
+Auxiliar	nc	B-JOB
+para	sp	I-JOB
+Almacén	nc	I-JOB
+-	fg	O
+Huancayo	np	B-LUG
+Urgente	adj	O
+
+Empresa	nc	O
+especializada	vmp	O
+en	sp	O
+el	det	O
+rubro	nc	O
+de	sp	O
+la	det	O
+informática	nc	O
+solicita	vmi	O
+personal	adj	O
+para	sp	O
+cubrir	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+auxiliar	vmn	B-JOB
+de	sp	I-JOB
+almacén	nc	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Egresados	nc	O
+de	sp	O
+Administración	np	B-CARR
+técnica	adj	I-CARR
+o	cc	O
+carreras	nc	B-CARR
+a	sp	I-CARR
+fines	nc	I-CARR
+.	fp	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+comprobada	vmp	O
+en	sp	O
+trabajos	nc	O
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+almacén	nc	B-AREA
+en	sp	O
+cualquier	det	O
+giro	nc	O
+o	cc	O
+rubro	nc	O
+del	sp	O
+negocio	nc	O
+.	fp	O
+
+*	fz	O
+Con	sp	O
+conocimiento	nc	O
+de	sp	O
+office	nc	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+*	fz	O
+Sexo	nc	O
+:	fd	O
+Masculino	adj	O
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+de	sp	O
+inventarios	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Ser	vmn	O
+creativo	adj	B-REQ
+y	cc	O
+proactivo	vmi	B-REQ
+con	sp	O
+capacidad	nc	O
+para	sp	O
+cumplir	vmn	O
+y	cc	O
+llevar	vmn	O
+a	sp	O
+cabo	vmn	O
+todas	det	O
+las	det	O
+actividades	nc	O
+delegadas	adj	O
+por	sp	O
+el	det	O
+jefe	nc	O
+inmediato	adj	O
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+aprender	vmn	O
+y	cc	O
+seguir	vmn	O
+instrucciones	nc	O
+.	fp	O
+
+Los	det	O
+postulantes	vmi	O
+enviar	vmn	O
+cv	rg	O
+con	sp	O
+asunto	nc	O
+auxiliar	adj	B-JOB
+para	sp	I-JOB
+almacén	nc	I-JOB
+

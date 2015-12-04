@@ -1,0 +1,33 @@
+profesora	nc	B-JOB
+lengua	nc	I-JOB
+y	cc	I-JOB
+literatura	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+bachillerato	nc	O
+en	sp	O
+educación	np	B-CARR
+secundaria	np	I-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+otros	pron	O
+con	sp	O
+2	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

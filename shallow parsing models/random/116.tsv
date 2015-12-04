@@ -1,0 +1,132 @@
+operario	nc	B-JOB
+de	sp	I-JOB
+carga	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+cargar	vmn	B-FUN
+y	cc	I-FUN
+descargar	vmn	I-FUN
+envases	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+unidades	nc	I-FUN
+blindadas	adj	I-FUN
+según	rg	I-FUN
+las	det	I-FUN
+normas	nc	I-FUN
+de	sp	I-FUN
+equipos	nc	I-FUN
+de	sp	I-FUN
+seguridad	nc	I-FUN
+.	fp	O
+
+trasladar	vmn	B-FUN
+la	det	I-FUN
+entrega	nc	I-FUN
+de	sp	I-FUN
+envases	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+unidad	nc	I-FUN
+a	sp	I-FUN
+las	det	I-FUN
+instalaciones	nc	I-FUN
+del	sp	I-FUN
+cliente	nc	I-FUN
+y/o	cc	I-FUN
+viceversa	rg	I-FUN
+
+ordenar	vmn	B-FUN
+y	cc	I-FUN
+ubicar	vmn	I-FUN
+los	det	I-FUN
+envases	nc	I-FUN
+adecuadamente	rg	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+interior	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+unidad	nc	I-FUN
+.	fp	O
+
+apoyar	vmn	B-FUN
+en	sp	I-FUN
+el	det	I-FUN
+cuadre	nc	I-FUN
+y	cc	I-FUN
+liquidación	vmi	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+envases	nc	I-FUN
+comparando	vmg	I-FUN
+con	sp	I-FUN
+la	det	I-FUN
+hoja	nc	I-FUN
+de	sp	I-FUN
+ruta	nc	I-FUN
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+secundaria	adj	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+almacén	nc	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+3	z	O
+meses	nc	O
+como	cs	O
+estibador	nc	B-JOB
+o	cc	O
+almacenero	nc	B-JOB
+en	sp	O
+empresas	nc	O
+de	sp	O
+rubro	nc	O
+industrial	adj	O
+.	fp	O
+
+disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+6	z	B-MISC
+días	nc	I-MISC
+a	sp	I-MISC
+la	det	I-MISC
+semana	nc	I-MISC
+en	sp	O
+horarios	nc	B-MISC
+rotativos	adj	I-MISC
+(	fpa	O
+lunes	w	B-DATE
+a	sp	I-DATE
+domingo	w	I-DATE
+)	fpt	O
+
+disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+en	sp	O
+chorrillos	np	B-LUG
+.	fp	O
+

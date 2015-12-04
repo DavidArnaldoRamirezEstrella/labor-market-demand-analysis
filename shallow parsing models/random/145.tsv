@@ -1,0 +1,80 @@
+VENDEDORES	nc	B-JOB
+LOS	np	B-LUG
+OLIVOS	np	I-LUG
+-	fg	O
+MERCADERISTAS	nc	B-JOB
+
+Distribuidora	nc	O
+prestigiosa	adj	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+VENDEDORES	nc	B-JOB
+-	fg	O
+MERCADERISTA	nc	B-JOB
+Y	cc	O
+COBRADORES	nc	B-JOB
+DE	sp	I-JOB
+CAMPO	nc	I-JOB
+
+con	sp	O
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+.	fp	O
+
+RESPONSABLE	nc	B-FUN
+DE	sp	I-FUN
+COBRANZAS	nc	I-FUN
+,	fc	O
+SEGUIMIENTO	nc	B-FUN
+DE	sp	I-FUN
+SUS	det	I-FUN
+PEDIDOS	nc	I-FUN
+,	fc	O
+FIDELIZACION	nc	B-FUN
+DE	sp	I-FUN
+SUS	det	I-FUN
+CLIENTES	nc	I-FUN
+,	fc	O
+LLEGAR	vmn	B-REQ
+A	sp	I-REQ
+LAS	det	I-REQ
+METAS	nc	I-REQ
+.	fp	O
+
+Técnico	nc	B-REQ
+Trunco	adj	O
+en	sp	O
+Cualquier	det	O
+carrera	nc	O
+trunca	adj	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Ventas	np	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Sueldo	nc	O
+:	fd	O
+Entre	sp	B-SAL
+S/.1501	zm	I-SAL
+y	cc	I-SAL
+S/.3000	zm	I-SAL
+

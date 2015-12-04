@@ -1,0 +1,66 @@
+jefe	nc	B-JOB
+de	sp	O
+control	nc	B-AREA
+patrimonial	adj	I-AREA
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+titulado	adj	I-REQ
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+técnico	nc	B-REQ
+titulado	adj	I-REQ
+en	sp	O
+contabilidad	np	B-CARR
+.	fp	O
+
+técnico	nc	B-REQ
+titulado	adj	I-REQ
+en	sp	O
+ingeniería	np	B-CARR
+industrial	np	I-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	np	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+3	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+idioma	nc	O
+
+inglés	nc	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+sap	np	B-REQ
+a	sp	O
+nivel	nc	O
+avanzado	adj	O
+.	fp	O
+

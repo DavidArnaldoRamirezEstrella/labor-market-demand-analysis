@@ -1,0 +1,47 @@
+Anfitriona	ncfs	B-JOB
+promotora	aqfs	I-JOB
+de	sp	I-JOB
+ventas	ncfp	I-JOB
+azafata	ncfs	B-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Otros	di0mp	O
+estudios	ncmp	O
+en	sp	O
+Modelo	nccs	B-JOB
+-	fg	O
+Bailarina	ncfs	B-JOB
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Atención	ncms	B-AREA
+al	sp	I-AREA
+Cliente	nccs	I-AREA
+.	fp	O
+
+Idioma	ncms	O
+
+Español	ncms	B-REQ
+a	sp	O
+nivel	ncms	O
+básico	aqms	O
+
+Sueldo	ncms	O
+:	fd	O
+entre	sp	O
+S/.3001	zm	B-SAL
+y	cc	I-SAL
+S/.6000	zm	I-SAL
+

@@ -1,0 +1,49 @@
+Secretaria	nc	B-JOB
+Ejecutiva	adj	I-JOB
+
+Empresa	nc	O
+importante	adj	O
+representante	nc	O
+de	sp	O
+OLVA	np	B-ORG
+COURIER	np	I-ORG
+en	sp	O
+la	det	O
+ciudad	nc	O
+de	sp	O
+Arequipa	np	B-LUG
+,	fc	O
+solicita	vmi	O
+personal	adj	O
+para	sp	O
+el	det	O
+puesto	nc	O
+de	sp	O
+Secretaria	nc	B-JOB
+Ejecutiva	adj	I-JOB
+:	fd	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Manejo	nc	O
+de	sp	O
+Office	np	B-REQ
+
+*	fz	O
+Redacción	nc	B-REQ
+de	sp	I-REQ
+documentos	nc	I-REQ
+
+*	fz	O
+Proactiva	adj	B-REQ
+,	fc	O
+ordenada	adj	B-REQ
+,	fc	O
+buena	adj	O
+comunicación	nc	B-REQ
+a	sp	O
+todo	det	O
+nivel	nc	O
+

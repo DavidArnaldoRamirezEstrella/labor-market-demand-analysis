@@ -1,0 +1,188 @@
+TELEOPERADOR	ncms	B-JOB
+DE	sp	O
+ATENCIÓN	ncfs	B-AREA
+AL	sp	I-AREA
+CLIENTE	nccs	I-AREA
+.	fp	O
+
+*	fz	O
+Atender	vmn	B-FUN
+reclamos	ncmp	I-FUN
+y	cc	I-FUN
+requerimientos	ncmp	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+suscriptores	ncmp	I-FUN
+.	fp	O
+
+*	fz	O
+Ingresar	vmn	B-FUN
+los	da0mp	I-FUN
+requerimientos	ncmp	I-FUN
+y	cc	I-FUN
+reclamos	ncmp	I-FUN
+al	sp	I-FUN
+sistema	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Analizar	vmn	B-FUN
+e	cc	I-FUN
+identificar	vmn	I-FUN
+el	da0ms	I-FUN
+origen	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+quejas	ncfp	I-FUN
+,	fc	I-FUN
+reclamos	ncmp	I-FUN
+o	cc	I-FUN
+necesidades	ncfp	I-FUN
+que	pr0cn	I-FUN
+presenten	vms	I-FUN
+los	da0mp	I-FUN
+suscriptores	ncmp	I-FUN
+.	fp	O
+
+*	fz	O
+Ofrecer	vmn	B-FUN
+un	di0ms	I-FUN
+servicio	ncms	I-FUN
+de	sp	I-FUN
+calidad	ncfs	I-FUN
+de	sp	I-FUN
+acuerdo	ncms	I-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+estándares	ncmp	I-FUN
+que	pr0cn	I-FUN
+exige	vmi	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Analizar	vmn	B-FUN
+y	cc	I-FUN
+corregir	vmn	I-FUN
+los	da0mp	I-FUN
+errores	ncmp	I-FUN
+,	fc	I-FUN
+evitando	vmg	I-FUN
+que	cs	I-FUN
+sean	vss	I-FUN
+reiterativos	vmp	I-FUN
+.	fp	O
+
+*	fz	O
+Coordinar	vmn	B-FUN
+y	cc	I-FUN
+llamar	vmn	I-FUN
+al	sp	I-FUN
+cliente	nccs	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+envío	ncms	I-FUN
+y	cc	I-FUN
+recojo	vmi	I-FUN
+de	sp	I-FUN
+fichas	ncfp	I-FUN
+por	sp	I-FUN
+venta	ncfs	I-FUN
+de	sp	I-FUN
+suscrpción	ncms	I-FUN
+con	sp	I-FUN
+cargo	ncms	I-FUN
+automático	aqms	I-FUN
+.	fp	O
+
+Se	p0000	O
+ofrece	vmi	O
+:	fd	O
+
+*	fz	O
+Basico	aqms	B-SAL
+de	sp	I-SAL
+S/.750	zm	I-SAL
+mas	cc	I-SAL
+bono	ncms	I-SAL
+de	sp	I-SAL
+S/.300.00	zm	I-SAL
+.	fp	O
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+planilla	ncms	B-BEN
+desde	sp	O
+el	da0ms	O
+primer	aoms	O
+día	ncms	O
+.	fp	O
+
+*	fz	O
+Oportunidad	ncfs	O
+de	sp	O
+pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	di0fs	I-BEN
+de	sp	I-BEN
+las	da0fp	I-BEN
+empresas	ncfp	I-BEN
+líderes	nccp	I-BEN
+del	sp	I-BEN
+medio	ncms	I-BEN
+.	fp	O
+
+*	fz	O
+Capacitación	ncfs	B-BEN
+constante	aqcs	I-BEN
+.	fp	O
+
+Técnico	ncms	B-REQ
+Trunco	aqms	O
+en	sp	O
+Administración	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Trunco	aqms	O
+en	sp	O
+Sociología	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Call	np00	B-AREA
+Center	np00	I-AREA
+con	sp	O
+6	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+básico	aqms	O
+.	fp	O
+
+Sueldo	ncms	O
+:	fd	O
+Entre	sp	B-SAL
+S/.751	zm	I-SAL
+y	cc	I-SAL
+S/.1500	zm	I-SAL
+

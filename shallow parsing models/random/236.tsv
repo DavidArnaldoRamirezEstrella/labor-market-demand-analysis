@@ -1,0 +1,116 @@
+Técnico	nc	B-REQ
+electricista	np	B-CARR
+
+Por	sp	O
+encargo	nc	O
+de	sp	O
+nuestro	det	O
+cliente	nc	O
+,	fc	O
+nos	pron	O
+encontramos	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+una	det	O
+persona	nc	O
+con	sp	O
+las	det	O
+siguientes	adj	O
+características	nc	O
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Estudios	nc	O
+Técnicos	adj	B-REQ
+electricista	np	B-CARR
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+01	z	O
+año	nc	O
+en	sp	O
+mantenimiento	nc	B-FUN
+de	sp	I-FUN
+equipos	nc	I-FUN
+electromecánicos	adj	I-FUN
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Instalación	nc	B-FUN
+de	sp	I-FUN
+luminarias	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Instalación	nc	B-FUN
+de	sp	I-FUN
+extractores	nc	I-FUN
+de	sp	I-FUN
+aire	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Instalación	nc	B-FUN
+de	sp	I-FUN
+electrobombas	np	I-FUN
+.	fp	O
+
+*	fz	O
+Control	nc	B-FUN
+de	sp	I-FUN
+sistemas	nc	I-FUN
+de	sp	I-FUN
+fuerza	nc	I-FUN
+en	sp	I-FUN
+compresoras	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Aislamiento	nc	B-FUN
+de	sp	I-FUN
+cables	nc	I-FUN
+e	cc	I-FUN
+instalación	nc	I-FUN
+de	sp	I-FUN
+termomagnéticos	nc	I-FUN
+en	sp	I-FUN
+equipos	nc	I-FUN
+.	fp	O
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+deberán	vmi	O
+enviar	vmn	O
+sus	det	O
+pretensiones	nc	O
+salariales	adj	O
+y	cc	O
+su	det	O
+CV	np	O
+a	sp	O
+xxxxxxxxxxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+colando	nc	O
+en	sp	O
+el	det	O
+asunto	nc	O
+:	fd	O
+TEC	np	O
+-	fg	O
+Electr	np	O
+

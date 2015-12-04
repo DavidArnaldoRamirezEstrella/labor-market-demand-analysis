@@ -1,0 +1,236 @@
+Gerente	nccs	B-JOB
+de	sp	I-JOB
+Restaurante	ncms	I-JOB
+-	fg	O
+Salaverry	np00	B-LUG
+.	fp	O
+
+MONTAO	np00	B-ORG
+,	fc	O
+prestigiosa	aqfs	O
+cadena	ncfs	O
+de	sp	O
+restaurantes	ncmp	O
+de	sp	O
+comida	ncfs	O
+rápida	aqfs	O
+,	fc	O
+inspirada	vmp	O
+en	sp	O
+la	da0fs	O
+diversidad	ncfs	O
+y	cc	O
+la	da0fs	O
+riqueza	ncfs	O
+de	sp	O
+la	da0fs	O
+gastronomía	ncfs	O
+peruana	aqfs	O
+,	fc	O
+requiere	vmi	O
+incorporar	vmn	O
+a	sp	O
+su	dp3cs	O
+staff	ncmn	O
+a	sp	O
+un	z	O
+:	fd	O
+
+"	fe	O
+GERENTE	nccs	B-JOB
+DE	sp	I-JOB
+RESTAURANTE	ncms	I-JOB
+"	fe	O
+
+Estudiante	nccs	O
+o	cc	O
+egresado	ncms	O
+de	sp	O
+las	da0fp	O
+carreras	ncfp	O
+de	sp	O
+Administración	np00	B-CARR
+,	fc	O
+Contabilidad	np00	B-CARR
+Hotelería	np00	B-CARR
+y	cc	I-CARR
+turismo	np00	I-CARR
+,	fc	O
+Gastronomía	np00	B-CARR
+,	fc	O
+a	sp	B-CARR
+fines	ncmp	I-CARR
+;	fx	O
+con	sp	O
+experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+12	z	O
+meses	ncmp	O
+como	cs	O
+jefe	ncms	B-JOB
+de	sp	O
+un	di0ms	O
+área	ncfs	O
+en	sp	O
+restaurantes	ncmp	B-AREA
+,	fc	O
+club	ncms	B-AREA
+,	fc	O
+agencias	ncfp	B-AREA
+de	sp	I-AREA
+turismo	ncms	I-AREA
+.	fp	O
+
+Funciones	ncfp	O
+
+Administración	ncfs	B-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+recursos	ncmp	I-FUN
+del	sp	I-FUN
+restaurante	ncms	I-FUN
+
+Control	ncms	B-FUN
+y	cc	I-FUN
+dirección	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+gastos	ncmp	I-FUN
+fijos	aqmp	I-FUN
+y	cc	I-FUN
+variables	aqcp	I-FUN
+
+Capacitación	ncfs	B-FUN
+y	cc	I-FUN
+evaluación	ncfs	I-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+a	sp	I-FUN
+cargo	ncms	I-FUN
+
+Control	ncms	B-FUN
+de	sp	I-FUN
+calidad	ncfs	I-FUN
+de	sp	I-FUN
+servicio	ncms	I-FUN
+y	cc	I-FUN
+productos	ncmp	I-FUN
+
+Coordinación	ncfs	B-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+proveedores	ncmp	I-FUN
+
+Responsabilidades	ncfp	O
+
+Supervisar	vmn	B-FUN
+la	da0fs	I-FUN
+operación	ncfs	I-FUN
+del	sp	I-FUN
+restaurante	ncms	I-FUN
+
+Gestión	ncfs	B-FUN
+administrativa	aqfs	I-FUN
+
+Coordinación	ncfs	B-FUN
+de	sp	I-FUN
+requerimiento	ncms	I-FUN
+de	sp	I-FUN
+insumos	ncmp	I-FUN
+con	sp	I-FUN
+el	da0ms	I-FUN
+área	ncfs	I-FUN
+de	sp	I-FUN
+compras	ncfp	I-FUN
+
+Gestión	ncfs	B-FUN
+de	sp	I-FUN
+personal	ncms	I-FUN
+
+Brindar	vmn	B-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+correcta	aqfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+operación	ncfs	I-FUN
+a	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+
+Administración	ncfs	B-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+bienes	ncmp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+
+Responsable	nccs	B-FUN
+de	sp	I-FUN
+lograr	vmn	I-FUN
+las	da0fp	I-FUN
+metas	ncfp	I-FUN
+de	sp	I-FUN
+ventas	ncfp	I-FUN
+
+Responsable	nccs	B-FUN
+de	sp	I-FUN
+generar	vmn	I-FUN
+un	di0ms	I-FUN
+adecuado	aqms	I-FUN
+clima	ncms	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+
+Supervisar	vmn	B-FUN
+la	da0fs	I-FUN
+gestión	ncfs	I-FUN
+del	sp	I-FUN
+área	ncfs	I-FUN
+de	sp	I-FUN
+servicio	ncms	I-FUN
+y	cc	I-FUN
+cocina	ncfs	I-FUN
+
+Garantizar	vmn	B-FUN
+la	da0fs	I-FUN
+calidad	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+productos	ncmp	I-FUN
+
+Te	pp2cs	O
+ofrecemos	vmi	O
+:	fd	O
+Ingreso	ncms	O
+a	sp	O
+planilla	ncms	B-BEN
+desde	sp	O
+el	da0ms	O
+primer	aoms	O
+de	sp	O
+trabajo	ncms	O
+,	fc	O
+beneficios	ncmp	O
+,	fc	O
+14	z	B-SAL
+sueldos	ncmp	I-SAL
+,	fc	O
+seguro	ncms	B-BEN
+de	sp	I-BEN
+salud	ncfs	I-BEN
+,	fc	O
+uniforme	ncms	B-BEN
+100	zp	I-BEN
+%	zp	I-BEN
+,	fc	O
+línea	ncfs	B-BEN
+de	sp	I-BEN
+carrera	ncfs	I-BEN
+,	fc	O
+estabilidad	ncfs	B-BEN
+laboral	aqcs	I-BEN
+.	fp	O
+

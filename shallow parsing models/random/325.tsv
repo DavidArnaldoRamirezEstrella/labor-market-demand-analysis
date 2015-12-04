@@ -1,0 +1,46 @@
+practicante	nc	B-JOB
+marketing	np	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+estudiante	nc	O
+universitario	adj	O
+de	sp	O
+los	det	O
+últimos	adj	O
+ciclos	nc	O
+de	sp	O
+la	det	O
+carrera	nc	O
+de	sp	O
+comunicación	np	B-CARR
+,	fc	O
+marketing	nc	B-CARR
+o	cc	O
+administración	np	B-CARR
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+office	np	B-REQ
+,	fc	O
+internet	nc	B-REQ
+y	cc	O
+redes	nc	B-REQ
+sociales	adj	I-REQ
+a	sp	O
+nivel	nc	O
+usuario	nc	O
+
+experiencia	nc	O
+de	sp	O
+6	z	O
+meses	nc	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+

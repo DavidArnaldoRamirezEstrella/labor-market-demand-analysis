@@ -1,0 +1,110 @@
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+prensa	ncfs	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+comunicación	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+comunicación	np00	B-CARR
+audiovisual	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+periodismo	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+medios	ncmp	B-AREA
+digitales	aqcp	I-AREA
+/	fh	O
+internet	ncfs	B-AREA
+con	sp	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Estudiante	nccs	O
+técnico	aqms	B-REQ
+o	cc	O
+universitario	aqms	O
+de	sp	O
+ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+comunicación	np00	I-CARR
+o	cc	O
+periodismo	np00	B-CARR
+
+Conocimientos	ncmp	O
+de	sp	O
+office	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+
+Conocimientos	ncmp	O
+de	sp	O
+redacción	ncfs	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+redes	ncfp	B-REQ
+sociales	aqcp	I-REQ
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+1	z	O
+año	ncms	O
+
+Conocimientos	ncmp	O
+de	sp	O
+la	da0fs	O
+cultura	ncfs	B-REQ
+japonesa	aqfs	I-REQ
+
+Horario	ncms	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+6	z	B-MISC
+días	nccp	I-MISC
+a	sp	I-MISC
+la	da0fs	I-MISC
+semana	ncfs	I-MISC
+,	fc	O
+descanso	ncms	B-MISC
+rotativo	ncms	I-MISC
+de	sp	O
+9:00am	w	B-DATE
+a	sp	I-DATE
+6.00pm	w	I-DATE
+

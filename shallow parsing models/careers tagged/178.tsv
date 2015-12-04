@@ -1,0 +1,90 @@
+TRADUCTOR	ncms	B-JOB
+E	cc	I-JOB
+INTÉRPRETE	nccs	I-JOB
+.	fp	O
+
+Se	p0000	O
+requieren	vmi	O
+traductores	ncmp	B-JOB
+/	fh	O
+interpretes	nccp	B-JOB
+independientes	aqcp	O
+en	sp	O
+:	fd	O
+
+Inglés	np00	B-REQ
+-	fg	O
+español	np00	B-REQ
+/	fh	O
+portugués	np00	B-REQ
+-	fg	O
+español	np00	B-REQ
+/	fh	O
+holandés	np00	B-REQ
+-	fg	O
+español	np00	B-REQ
+/	fh	O
+francés	np00	B-REQ
+-	fg	O
+español	np00	B-REQ
+
+Traducir	vmn	B-FUN
+y/o	cc	I-FUN
+interpretar	vmn	I-FUN
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Traducción	np00	B-CARR
+-	fg	I-CARR
+Interpretación	np00	I-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Egresado	aqms	O
+en	sp	O
+Tradución	np00	B-CARR
+-	fg	I-CARR
+Interpretación	np00	I-CARR
+.	fp	O
+
+Otros	pi0mp	O
+Estudios	ncmp	O
+:	fd	O
+Curso	ncms	O
+en	sp	O
+Idiomas	ncmp	O
+:	fd	O
+Inglés	np00	B-REQ
+y/o	cc	O
+portugués	np00	B-REQ
+y/o	cc	O
+holandés	np00	B-REQ
+y/o	cc	O
+francés	np00	B-REQ
+.	fp	O
+
+Otros	pi0mp	O
+Estudios	ncmp	O
+:	fd	O
+Idiomas	ncmp	O
+nativos	ncmp	O
+:	fd	O
+Inglés	np00	B-REQ
+y/o	cc	O
+portugués	np00	B-REQ
+y/o	cc	O
+holandés	np00	B-REQ
+y/o	cc	O
+francés	np00	B-REQ
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Otros	pi0mp	O
+.	fp	O

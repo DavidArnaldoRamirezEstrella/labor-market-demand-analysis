@@ -1,0 +1,126 @@
+Coordinador	ncms	B-JOB
+de	sp	I-JOB
+servicio	ncms	I-JOB
+-	fg	O
+SP	np00	O
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Supervisar	vmn	B-FUN
+el	da0ms	I-FUN
+funcionamiento	ncms	I-FUN
+general	aqcs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+locales	ncmp	I-FUN
+
+*	fz	O
+Planificar	vmn	B-FUN
+y	cc	I-FUN
+evaluar	vmn	I-FUN
+las	da0fp	I-FUN
+actividades	ncfp	I-FUN
+del	sp	I-FUN
+equipo	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Elaborar	vmn	B-FUN
+reportes	ncmp	I-FUN
+de	sp	I-FUN
+gestión	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Controlar	vmn	B-FUN
+el	da0ms	I-FUN
+flujo	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+recaudación	ncfs	I-FUN
+
+*	fz	O
+Realizar	vmn	B-FUN
+levantamiento	ncms	I-FUN
+y	cc	I-FUN
+actualización	vmi	I-FUN
+de	sp	I-FUN
+procedimientos	ncmp	I-FUN
+del	sp	I-FUN
+local	ncms	I-FUN
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Profesional	nccs	B-REQ
+titulado	aqms	I-REQ
+colegiado	aqms	I-REQ
+y	cc	I-REQ
+habilitado	aqms	I-REQ
+en	sp	O
+las	da0fp	O
+carreras	ncfp	O
+de	sp	O
+ingeniería	np00	B-CARR
+y/o	cc	O
+administración	np00	B-CARR
+y/o	cc	O
+economía	np00	B-CARR
+y/o	cc	O
+contabilidad	np00	B-CARR
+.	fp	O
+
+Con	sp	O
+conocimientos	ncmp	O
+en	sp	O
+word	np00	B-REQ
+,	fc	O
+excel	np00	B-REQ
+,	fc	O
+powerpoint	np00	B-REQ
+e	cc	O
+inglés	np00	B-REQ
+
+Contar	vmn	O
+con	sp	O
+experiencia	ncfs	O
+laboral	aqcs	O
+mínima	ncfs	O
+de	sp	O
+cinco	aoms	O
+(	fpa	O
+05	z	O
+)	fpt	O
+años	ncmp	O
+en	sp	O
+la	da0fs	O
+conducción	ncfs	B-FUN
+y/o	cc	I-FUN
+supervisión	ncfs	I-FUN
+y/o	cc	I-FUN
+planificación	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+actividades	ncfp	I-FUN
+de	sp	I-FUN
+recaudación	ncms	I-FUN
+en	sp	I-FUN
+servicios	ncmp	I-FUN
+de	sp	I-FUN
+atención	ncms	I-FUN
+al	sp	I-FUN
+público	ncms	I-FUN
+,	fc	O
+de	sp	O
+preferencia	ncfs	O
+más	cc	O
+de	sp	O
+siete	z	O
+(	fpa	O
+07	z	O
+)	fpt	O
+años	ncmp	O
+

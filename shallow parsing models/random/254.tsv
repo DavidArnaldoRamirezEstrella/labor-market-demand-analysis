@@ -1,0 +1,140 @@
+PRACTICANTE	nc	B-JOB
+DE	sp	I-JOB
+COMPRAS	nc	I-JOB
+
+Empresa	nc	O
+comercializadora	adj	O
+de	sp	O
+productos	nc	O
+eléctricos	adj	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+personal	nc	O
+para	sp	O
+que	cs	O
+realice	vms	O
+sus	det	O
+practicas	nc	O
+pre	adj	O
+-	fg	O
+profesional	adj	O
+o	cc	O
+profesionales	adj	O
+de	sp	O
+acuerdo	nc	O
+al	sp	O
+siguiente	adj	O
+requisito	nc	O
+:	fd	O
+
+*	fz	O
+Estudiante	nc	O
+de	sp	O
+los	det	O
+últimos	adj	O
+ciclos	nc	O
+o	cc	O
+egresado	adj	O
+de	sp	O
+la	det	O
+carrera	nc	O
+de	sp	O
+Electrotecnia	np	B-CARR
+industrial	np	I-CARR
+,	fc	O
+Electricidad	np	B-CARR
+,	fc	O
+Administración	np	B-CARR
+o	cc	O
+afines	adj	B-CARR
+.	fp	O
+
+*	fz	O
+Deseable	adj	O
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+01	z	O
+año	nc	O
+en	sp	O
+empresas	nc	O
+del	sp	O
+rubro	nc	O
+eléctrico	adj	B-AREA
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+Office	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+indicar	vmn	O
+sus	det	O
+pretensiones	nc	O
+salariales	adj	O
+
+Universitario	nc	O
+Ciclos	nc	O
+Finales	adj	O
+en	sp	O
+Administración	np	B-CARR
+de	sp	I-CARR
+Negocios	np	I-CARR
+Internacionales	np	I-CARR
+.	fp	O
+
+Universitario	nc	O
+Ciclos	nc	O
+Finales	adj	O
+en	sp	O
+Administración	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Compras	np	B-AREA
+/	fh	O
+Logística	np	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Idioma	nc	O
+
+Inglés	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

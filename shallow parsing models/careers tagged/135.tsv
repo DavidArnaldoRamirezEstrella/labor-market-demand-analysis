@@ -1,0 +1,195 @@
+Jefe	ncms	B-JOB
+de	sp	O
+SOMMA	np00	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Preparar	vmn	B-FUN
+el	da0ms	I-FUN
+informe	ncms	I-FUN
+final	aqcs	I-FUN
+de	sp	I-FUN
+obra	ncfs	I-FUN
+
+Actualizar	vmn	B-FUN
+IPER	np00	I-FUN
+de	sp	I-FUN
+acuerdo	ncms	I-FUN
+al	sp	I-FUN
+cambio	ncms	I-FUN
+propuesto	aqms	I-FUN
+y	cc	O
+estimar	vmn	B-FUN
+recursos	ncmp	I-FUN
+ssoma	aqmp	I-FUN
+requeridos	aqmp	I-FUN
+
+Solicitar	vmn	B-FUN
+recursos	ncmp	I-FUN
+ssoma	aqmp	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+proyecto	ncms	I-FUN
+(	fpa	I-FUN
+epp	np00	I-FUN
+,	fc	I-FUN
+epc	np00	I-FUN
+,	fc	I-FUN
+capacitación	ncfs	I-FUN
+)	fpt	I-FUN
+
+Identificar	vmn	B-FUN
+requisitos	ncmp	I-FUN
+legales	aqcp	I-FUN
+de	sp	I-FUN
+ssoma	ncms	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+proyecto	ncms	I-FUN
+
+Preparar	vmn	B-FUN
+plan	ncms	I-FUN
+SSOMA	np00	I-FUN
+,	fc	I-FUN
+actualizarlo	vmi	I-FUN
+y	cc	I-FUN
+mejorarlo	vmn	I-FUN
+
+Diseñar	vmn	B-FUN
+y	cc	I-FUN
+liderar	vmn	I-FUN
+un	di0ms	I-FUN
+programa	ncms	I-FUN
+de	sp	I-FUN
+difusión	ncfs	I-FUN
+y	cc	I-FUN
+capacitación	ncfs	I-FUN
+de	sp	I-FUN
+personal	ncms	I-FUN
+
+Preparar	vmn	B-FUN
+el	da0ms	I-FUN
+plan	ncms	I-FUN
+de	sp	I-FUN
+respuesta	ncfs	I-FUN
+ante	sp	I-FUN
+emergencias	ncfp	I-FUN
+
+Verificar	vmn	B-FUN
+y	cc	I-FUN
+mantener	vmn	I-FUN
+el	da0ms	I-FUN
+registro	ncms	I-FUN
+de	sp	I-FUN
+exámenes	ncmp	I-FUN
+médicos	aqmp	I-FUN
+y	cc	I-FUN
+sctr	vmi	I-FUN
+en	sp	I-FUN
+obra	ncfs	I-FUN
+
+Revisar	vmn	B-FUN
+los	da0mp	I-FUN
+ats	ncmp	I-FUN
+y	cc	I-FUN
+checklist	vmi	I-FUN
+de	sp	I-FUN
+equipos	ncmp	I-FUN
+
+Liderar	vmn	B-FUN
+las	da0fp	I-FUN
+investigaciones	ncfp	I-FUN
+de	sp	I-FUN
+incidentes	nccp	I-FUN
+y	cc	O
+proponer	vmn	B-FUN
+correcciones	ncfp	I-FUN
+
+Preparar	vmn	B-FUN
+descuentos	ncmp	I-FUN
+de	sp	I-FUN
+seguridad	ncfs	I-FUN
+para	sp	I-FUN
+valorizaciones	ncfp	I-FUN
+.	fp	O
+
+Ejecutar	vmn	B-FUN
+inspecciones	ncfp	I-FUN
+continuas	aqfp	I-FUN
+en	sp	I-FUN
+campo	ncms	I-FUN
+.	fp	O
+
+Preparar	vmn	B-FUN
+índices	ncmp	I-FUN
+de	sp	I-FUN
+desempeño	ncms	I-FUN
+SSOMA	np00	I-FUN
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Titulado	aqms	B-REQ
+y/o	cc	O
+colegiado	aqms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+electro	np00	I-CARR
+-	fg	I-CARR
+mecánica	np00	I-CARR
+
+Conocimiento	ncms	O
+de	sp	O
+montajes	ncmp	B-REQ
+hidromecánicos	aqmp	I-REQ
+y	cc	I-REQ
+eléctricos	aqmp	I-REQ
+
+Conocimiento	ncms	O
+de	sp	O
+project	np00	B-REQ
+,	fc	O
+autocad	np00	B-REQ
+,	fc	O
+s10	np00	B-REQ
+,	fc	O
+word	np00	B-REQ
+,	fc	O
+excel	np00	B-REQ
+
+Disponibilidad	ncfs	O
+para	sp	O
+trabajar	vmn	O
+en	sp	O
+cualquier	di0cs	O
+punto	ncms	O
+del	sp	O
+país	np00	O
+y	cc	O
+bajo	aqms	O
+régimen	vmi	O
+de	sp	O
+obra	ncfs	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+Experiencia	ncfs	O
+en	sp	O
+obras	ncfp	B-AREA
+de	sp	I-AREA
+saneamiento	ncms	I-AREA
+como	cs	O
+coordinador	ncms	B-JOB
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+2	z	O
+años	ncmp	O
+en	sp	O
+posicione	ncfp	O
+similares	aqcp	O
+

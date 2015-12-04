@@ -1,0 +1,74 @@
+distribuidor	nc	B-JOB
+independiente	adj	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+comisiones	nc	O
+:	fd	O
+desde	sp	B-SAL
+el	det	I-SAL
+25	zp	I-SAL
+%	zp	I-SAL
+hasta	sp	I-SAL
+el	det	I-SAL
+50	zp	I-SAL
+%	zp	I-SAL
+
+crecimiento	nc	B-BEN
+profesional	adj	I-BEN
+de	sp	O
+acuerdo	nc	O
+a	sp	O
+desempeño	nc	O
+
+capacitaciones	nc	B-BEN
+permanentes	adj	I-BEN
+(	fpa	O
+a	sp	O
+nivel	nc	O
+nacional	adj	O
+e	cc	O
+internacional	adj	O
+)	fpt	O
+
+requisito	nc	O
+:	fd	O
+mayores	adj	O
+de	sp	O
+18	z	O
+años	nc	O
+
+experiencia	nc	O
+no	rn	O
+indispensable	adj	O
+.	fp	O
+
+regístrate	vmi	O
+en	sp	O
+el	det	O
+sgte	adj	O
+enlace	nc	O
+
+www	np	B-MISC
+.	fp	I-MISC
+futuroprospero	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+
+requerimientos	nc	O
+:	fd	O
+
+secundaria	nc	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+ventas	nc	B-AREA
+.	fp	O
+

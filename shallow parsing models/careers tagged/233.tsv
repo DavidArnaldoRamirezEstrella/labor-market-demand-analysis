@@ -1,0 +1,235 @@
+DISEÑO	np00	B-CARR
+GRÁFICO	np00	I-CARR
+AUDIOVISUAL	np00	I-CARR
+.	fp	O
+
+Buscamos	vmi	O
+un	di0ms	O
+profesional	nccs	O
+creativo	aqms	O
+,	fc	O
+con	sp	O
+buenas	aqfp	O
+habilidades	ncfp	O
+de	sp	O
+comunicación	ncfs	B-REQ
+para	sp	O
+trabajar	vmn	O
+en	sp	O
+coordinación	ncfs	O
+con	sp	O
+el	da0ms	O
+Director	ncms	O
+de	sp	O
+Arte	ncms	O
+de	sp	O
+la	da0fs	O
+empresa	ncfs	O
+.	fp	O
+
+FUNCIONES	ncfp	O
+
+Diseño	ncms	B-FUN
+de	sp	I-FUN
+piezas	ncfp	I-FUN
+gráficas	aqfp	I-FUN
+para	sp	I-FUN
+medios	ncmp	I-FUN
+impreso	vmp	I-FUN
+y	cc	I-FUN
+digital	aqcs	I-FUN
+.	fp	O
+
+Gestión	ncfs	B-FUN
+y	cc	I-FUN
+administración	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+páginas	ncfp	I-FUN
+web	aqcn	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+
+Gestión	ncfs	B-FUN
+y	cc	I-FUN
+monitoreo	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+redes	ncfp	I-FUN
+sociales	aqcp	I-FUN
+.	fp	O
+
+Fotografía	ncfs	B-REQ
+/	fh	O
+Video	ncms	B-REQ
+de	sp	I-REQ
+material	ncms	I-REQ
+publicitario	aqms	I-REQ
+y	cc	I-REQ
+eventos	ncmp	I-REQ
+/	fh	O
+capacitaciones	ncfp	O
+.	fp	O
+
+REQUISITOS	ncmp	O
+
+Egresado	ncms	O
+en	sp	O
+Comunicación	np00	B-CARR
+Audiovisual	np00	I-CARR
+o	cc	O
+Diseño	np00	B-CARR
+Gráfico	np00	I-CARR
+.	fp	O
+
+Conocimiento	ncms	O
+en	sp	O
+Adobe	np00	B-REQ
+CS6	np00	I-REQ
+:	fd	O
+Ilustrador	np00	B-REQ
+,	fc	O
+Indesign	np00	B-REQ
+,	fc	O
+Photoshop	np00	B-REQ
+,	fc	O
+Premiere	np00	B-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+básico	aqms	O
+de	sp	O
+HTML	np00	B-REQ
+
+Conocimiento	ncms	O
+de	sp	O
+entorno	ncms	O
+MAC	np00	B-REQ
+y	cc	O
+PC	np00	B-REQ
+
+Redacción	ncfs	B-REQ
+creativa	aqfs	I-REQ
+,	fc	O
+capacidad	ncfs	O
+de	sp	O
+síntesis	ncfs	B-REQ
+,	fc	O
+excelente	aqcs	O
+ortografía	ncfs	B-REQ
+.	fp	O
+
+Comprensión	ncfs	O
+y	cc	O
+lectura	ncfs	O
+de	sp	O
+Inglés	np00	B-REQ
+en	sp	O
+nivel	ncms	O
+básico	aqms	O
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+dos	z	O
+años	ncmp	O
+en	sp	O
+una	di0fs	O
+agencia	ncfs	B-AREA
+de	sp	I-AREA
+diseño	ncms	I-AREA
+o	cc	I-AREA
+publicidad	ncfs	I-AREA
+.	fp	O
+
+Edad	ncfs	O
+:	fd	O
+22	z	O
+a	sp	O
+30	z	O
+
+COMPETENCIAS	ncfp	O
+
+Puntual	aqcs	B-REQ
+.	fp	O
+
+Proactivo	aqms	B-REQ
+.	fp	O
+
+Autodidacta	aqfs	B-REQ
+.	fp	O
+
+Capacidad	ncms	O
+para	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+y	cc	I-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+.	fp	O
+
+PRESENTAR	vmn	O
+:	fd	O
+CV	np00	O
+,	fc	O
+portafolio	ncms	O
+de	sp	O
+trabajos	ncmp	O
+y	cc	O
+expectativas	ncfp	O
+salariales	aqcp	O
+.	fp	O
+
+Lugar	ncms	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+Chorrillos	np00	B-LUG
+.	fp	O
+
+Horario	ncms	O
+:	fd	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+de	sp	I-DATE
+9am	w	I-DATE
+a	sp	I-DATE
+5:30	w	I-DATE
+pm	w	I-DATE
+.	fp	O
+
+Técnico	ncms	B-REQ
+Egresado	aqms	O
+en	sp	O
+Diseño	np00	B-CARR
+Gráfico	np00	I-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+Egresado	aqms	O
+en	sp	O
+Comunicación	np00	B-CARR
+Audiovisual	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Marketing	ncms	B-AREA
+/	fh	O
+Publicidad	ncfs	B-AREA
+con	sp	O
+2	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

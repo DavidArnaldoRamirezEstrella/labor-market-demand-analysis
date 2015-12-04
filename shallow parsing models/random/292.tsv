@@ -1,0 +1,274 @@
+Ejecutivo	nc	B-JOB
+de	sp	I-JOB
+Ventas	nc	I-JOB
+-	fg	O
+Motos	nc	O
+
+Importante	adj	O
+Grupo	nc	O
+Comercial	adj	O
+requiere	vmi	O
+cubrir	vmn	O
+la	det	O
+vacante	nc	O
+de	sp	O
+Ejecutivos	nc	B-JOB
+de	sp	I-JOB
+Ventas	nc	I-JOB
+para	sp	O
+su	det	O
+división	nc	O
+de	sp	O
+Vehículos	nc	O
+,	fc	O
+que	pron	O
+cumpla	vms	O
+con	sp	O
+el	det	O
+siguiente	adj	O
+perfil	nc	O
+:	fd	O
+
+EJECUTIVO	nc	B-JOB
+DE	sp	I-JOB
+VENTA	nc	I-JOB
+-	fg	O
+MOTOS	nc	O
+
+Funciones	nc	O
+:	fd	O
+
+Atender	vmn	B-FUN
+,	fc	I-FUN
+fidelizar	vmn	I-FUN
+y	cc	I-FUN
+desarrollar	vmn	I-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+corporativos	adj	I-FUN
+(	fpa	I-FUN
+concesionario	nc	I-FUN
+y	cc	I-FUN
+distribuidores	nc	I-FUN
+de	sp	I-FUN
+motos	nc	I-FUN
+)	fpt	I-FUN
+
+Promocionar	vmn	B-FUN
+las	det	I-FUN
+ventas	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+motos	nc	I-FUN
+lineales	adj	I-FUN
+y	cc	I-FUN
+vehículos	nc	I-FUN
+triruedas	adj	I-FUN
+al	sp	I-FUN
+público	nc	I-FUN
+y/o	cc	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+nuevos	adj	I-FUN
+concesionarios	nc	I-FUN
+.	fp	O
+
+Ampliar	vmn	B-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+Satisfacer	vmn	B-FUN
+eficazmente	rg	I-FUN
+las	det	I-FUN
+necesidades	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+Asesorar	vmn	B-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+Hacer	vmn	B-FUN
+seguimiento	nc	I-FUN
+a	sp	I-FUN
+su	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+Reportar	vmn	B-FUN
+diariamente	rg	I-FUN
+su	det	I-FUN
+informe	nc	I-FUN
+de	sp	I-FUN
+trabajo	nc	I-FUN
+(	fpa	I-FUN
+hoja	nc	I-FUN
+de	sp	I-FUN
+ruta	nc	I-FUN
+)	fpt	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+Jefatura	nc	I-FUN
+inmediata	adj	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+la	det	I-FUN
+cobranza	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+ventas	nc	I-FUN
+realizadas	adj	I-FUN
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+Deseable	adj	O
+con	sp	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+motos	nc	I-AREA
+(	fpa	O
+no	rn	O
+indispensable	adj	O
+)	fpt	O
+.	fp	O
+
+Facilidad	nc	B-REQ
+de	sp	I-REQ
+palabra	nc	I-REQ
+.	fp	O
+
+Carismático	adj	B-REQ
+y	cc	O
+con	sp	O
+alto	adj	O
+sentido	nc	O
+de	sp	O
+responsabilidad	nc	B-REQ
+.	fp	O
+
+Altamente	rg	O
+persuasivo	adj	B-REQ
+.	fp	O
+
+Contar	vmn	O
+con	sp	O
+Cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+(	fpa	O
+concesionarios	nc	O
+y/o	cc	O
+distribuidores	nc	O
+de	sp	O
+motos	nc	O
+)	fpt	O
+(	fpa	O
+De	sp	O
+preferencia	nc	O
+-	fg	O
+No	rn	O
+excluyente	adj	O
+)	fpt	O
+
+Manejo	nc	O
+de	sp	O
+Microsoft	np	B-REQ
+a	sp	O
+nivel	nc	O
+Básico	adj	O
+
+Disponibilidad	nc	O
+para	sp	O
+viajar	vmn	B-MISC
+a	sp	I-MISC
+provincias	nc	I-MISC
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Todos	det	B-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+
+*	fz	O
+Estabilidad	nc	B-BEN
+laboral	adj	I-BEN
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+
+*	fz	O
+Desarrollo	nc	B-BEN
+profesional	adj	I-BEN
+
+*	fz	O
+Capacitaciones	nc	B-BEN
+constantes	adj	I-BEN
+
+*	fz	O
+Pertenecer	vmn	B-BEN
+a	sp	I-BEN
+un	det	I-BEN
+Grupo	nc	I-BEN
+Empresarial	adj	I-BEN
+sólido	adj	I-BEN
+que	pron	I-BEN
+busca	vmi	I-BEN
+crecer	vmn	I-BEN
+junto	sp	I-BEN
+a	sp	I-BEN
+ti	pron	I-BEN
+.	fp	O
+
+Los	det	O
+Interesados	adj	O
+enviar	vmi	O
+Cv	np	O
+al	sp	O
+Correo	nc	O
+:	fd	O
+Seleccióx	np	B-MISC
+@	fz	I-MISC
+xxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+.	fp	I-MISC
+xx	np	I-MISC
+indicando	vmg	O
+pretensiones	nc	O
+salariales	adj	O
+,	fc	O
+colocar	vmn	O
+en	sp	O
+el	det	O
+Asunto	nc	O
+:	fd	O
+MOTOS	nc	O
+

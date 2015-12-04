@@ -1,0 +1,159 @@
+Gerente	nccs	B-JOB
+de	sp	I-JOB
+recursos	ncmp	I-JOB
+humanos	aqmp	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Gestionar	vmn	B-FUN
+y	cc	I-FUN
+velar	vmn	I-FUN
+las	da0fp	I-FUN
+politicas	ncfp	I-FUN
+organizacionales	aqfp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+.	fp	O
+
+Desarrollar	vmn	B-FUN
+propuestas	ncfp	I-FUN
+de	sp	I-FUN
+mejora	ncfs	I-FUN
+al	sp	I-FUN
+modelo	ncms	I-FUN
+.	fp	O
+
+Supervisar	vmn	B-FUN
+y	cc	I-FUN
+controlar	vmn	I-FUN
+los	da0mp	I-FUN
+procesos	ncmp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+nomina	ncfs	I-FUN
+.	fp	O
+
+Planificar	vmn	B-FUN
+y	cc	I-FUN
+supervisar	vmn	I-FUN
+el	da0ms	I-FUN
+plan	ncms	I-FUN
+de	sp	I-FUN
+formación	ncfs	I-FUN
+laboral	aqcs	I-FUN
+.	fp	O
+
+Garantizar	vmn	B-FUN
+las	da0fp	I-FUN
+buenas	aqfp	I-FUN
+prácticas	ncfp	I-FUN
+de	sp	I-FUN
+comunicación	ncfs	I-FUN
+en	sp	I-FUN
+la	da0fs	I-FUN
+organización	ncfs	I-FUN
+.	fp	O
+
+Supervisar	vmn	B-FUN
+y	cc	I-FUN
+controlar	vmn	I-FUN
+los	da0mp	I-FUN
+procesos	ncmp	I-FUN
+administrativos	aqmp	I-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+.	fp	O
+
+Mantener	vmn	B-FUN
+un	di0ms	I-FUN
+clima	ncms	I-FUN
+laboral	aqcs	I-FUN
+adecuado	vmp	I-FUN
+velando	vmg	I-FUN
+por	sp	I-FUN
+el	da0ms	I-FUN
+bienestar	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+relaciones	ncfp	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+colaboradores	ncmp	I-FUN
+.	fp	O
+
+La	da0fs	O
+empresa	ncfs	O
+ofrece	vmi	O
+al	sp	O
+candidato	ncms	O
+seleccionado	aqms	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Poder	ncms	O
+incorporarlo	aqms	O
+a	sp	O
+nuestro	dp1ms	O
+staff	ncms	O
+de	sp	O
+colaboradores	ncmp	O
+.	fp	O
+
+Requisitos	ncmp	O
+para	sp	O
+postular	vmn	O
+al	sp	O
+cargo	ncms	O
+:	fd	O
+
+Mínimo	rg	O
+,	fc	O
+contar	vmn	O
+con	sp	O
+5	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+laboral	aqcs	O
+comprobada	vmp	O
+,	fc	O
+como	cs	O
+Jefe	ncms	B-JOB
+de	sp	O
+RR	np00	B-AREA
+.	fp	I-AREA
+HH	np00	I-AREA
+.	fp	O
+
+Titulado	aqms	B-REQ
+en	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+psicología	np00	B-CARR
+,	fc	O
+administración	np00	B-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+industrial	np00	I-CARR
+y/o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Diplomado	ncms	B-REQ
+en	sp	O
+recursos	np00	B-CARR
+humanos	np00	I-CARR
+.	fp	O
+
+Nivel	ncms	O
+de	sp	O
+inglés	np00	B-REQ
+intermedio	aqms	O
+.	fp	O
+

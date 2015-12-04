@@ -1,0 +1,210 @@
+AUXILIAR	nc	B-JOB
+CONTABLE	adj	I-JOB
+
+EMPRESA	nc	O
+LIDER	adj	O
+EN	sp	O
+EL	det	O
+MERCADO	nc	O
+:	fd	O
+
+Requiere	vmm	O
+los	det	O
+servicios	nc	O
+de	sp	O
+una	det	O
+AUXILIAR	nc	B-JOB
+CONTABLE	adj	I-JOB
+
+Nivel	nc	O
+de	sp	O
+Estudios	nc	O
+TECNICO	adj	B-REQ
+/	fh	O
+SUPERIOR	adj	O
+/	fh	O
+UNIVERSITARIO	nc	O
+ULTIMOS	adj	O
+CICLOS	nc	O
+
+Carrera	nc	O
+solicitada	adj	O
+CONTABILIDAD	np	B-CARR
+para	sp	O
+el	det	O
+AREA	nc	O
+DE	sp	O
+ADMINISTRACION	np	B-AREA
+Y	cc	O
+FINANZAS	np	B-AREA
+
+Horario	nc	O
+:	fd	O
+LUNES	w	B-DATE
+A	sp	I-DATE
+VIERNES	w	I-DATE
+DE	sp	O
+8:00	w	B-DATE
+AM	w	I-DATE
+A	sp	I-DATE
+17:30	w	I-DATE
+PM	w	I-DATE
+Y	cc	O
+SABADO	w	B-DATE
+DE	sp	I-DATE
+8:00	w	I-DATE
+AM	w	I-DATE
+A	sp	I-DATE
+13:00	w	I-DATE
+PM	w	I-DATE
+
+Remuneración	nc	O
+:	fd	O
+S/.800.00	zm	B-SAL
+a	sp	I-SAL
+S/.1,000.00	zm	I-SAL
+(	fpa	O
+De	sp	O
+acuerdo	nc	O
+a	sp	O
+experiencia	nc	O
+)	fpt	O
+
+Conocimientos	nc	O
+deseables	adj	O
+:	fd	O
+
+Computación	nc	O
+MICROSOFT	np	B-REQ
+OFFICE	np	I-REQ
+INTERMEDIO	adj	O
+
+Programa	nc	O
+específico	adj	O
+:	fd	O
+STARSOFT	np	B-REQ
+(	fpa	O
+NO	rn	O
+INDISPENSABLE	adj	O
+)	fpt	O
+
+Experiencia	nc	O
+mínima	adj	O
+deseable	adj	O
+en	sp	O
+:	fd	O
+
+REGISTRO	nc	B-REQ
+DE	sp	I-REQ
+OPERACIONES	nc	I-REQ
+CONTABLES	adj	I-REQ
+
+REGLAMENTO	nc	B-REQ
+DE	sp	I-REQ
+COMPROBANTES	nc	I-REQ
+DE	sp	I-REQ
+PAGO	nc	I-REQ
+(	fpa	O
+FACTURAS	nc	O
+,	fc	O
+BOLETAS	nc	O
+DE	sp	O
+VENTA	np	O
+,	fc	O
+NOTAS	nc	O
+DE	sp	O
+CREDITO	nc	O
+,	fc	O
+NOTAS	nc	O
+DE	sp	O
+DEBITO	np	O
+,	fc	O
+GUIAS	nc	O
+DE	sp	O
+REMISION	np	O
+,	fc	O
+ETC	np	O
+)	fpt	O
+
+DETRACCIONES	nc	B-REQ
+,	fc	O
+RETENCIONES	nc	B-REQ
+Y	cc	O
+PERCEPCIONES	nc	B-REQ
+
+LIQUIDACION	nc	B-REQ
+DE	sp	I-REQ
+IMPUESTOS	nc	I-REQ
+
+Herramientas	nc	O
+a	sp	O
+utilizar	vmn	O
+(	fpa	O
+excel	np	B-REQ
+,	fc	O
+word	np	B-REQ
+,	fc	O
+power	np	B-REQ
+point	np	I-REQ
+,	fc	O
+visio	np	B-REQ
+,	fc	O
+visual	np	B-REQ
+,	fc	O
+etc	fs	O
+.	fp	O
+)	fpt	O
+
+Microsoft	np	B-REQ
+Office	np	I-REQ
+(	fpa	O
+Word	np	B-REQ
+,	fc	O
+Excel	np	B-REQ
+
+Satrsoft	np	B-REQ
+(	fpa	O
+Sistema	nc	B-REQ
+contable	adj	I-REQ
+y	cc	I-REQ
+de	sp	I-REQ
+gestión	nc	I-REQ
+utilizado	vmp	O
+por	sp	O
+la	det	O
+empresa	nc	O
+)	fpt	O
+
+Universitario	nc	O
+Egresado	adj	O
+en	sp	O
+Otros	np	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Contabilidad	np	B-AREA
+con	sp	O
+2	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+avanzado	adj	O
+.	fp	O
+

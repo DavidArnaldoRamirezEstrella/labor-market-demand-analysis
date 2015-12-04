@@ -1,0 +1,3256 @@
+[
+  {
+    "size": 17962.0,
+    "name": "Ing. Industrial",
+    "imports": [
+      {
+        "weight": 737.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 590.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 786.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 37.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 1339.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 324.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 48.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 28.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 120.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 28.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 233.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 125.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 113.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 631.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 188.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 67.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 422.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 159.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 181.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 306.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 371.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 39.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 94.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 165.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 588.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 603.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 1301.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 361.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 1195.0,
+        "name": "Ing. Industrial"
+      }
+    ]
+  },
+  {
+    "size": 9107.0,
+    "name": "Ing. Informática",
+    "imports": [
+      {
+        "weight": 94.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 588.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 27.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 4256.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 257.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 46.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 466.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 326.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 261.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 17.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 317.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 906.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 72.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 78.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 611.0,
+        "name": "Ing. Informática"
+      }
+    ]
+  },
+  {
+    "size": 7413.0,
+    "name": "Ing. de Sistemas",
+    "imports": [
+      {
+        "weight": 48.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 1339.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 5.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 15.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 608.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 34.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 36.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 111.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 25.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 26.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 18.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 1037.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 4256.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 129.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 64.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 90.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 759.0,
+        "name": "Ing. de Sistemas"
+      }
+    ]
+  },
+  {
+    "size": 4798.0,
+    "name": "Ing. Mecánica",
+    "imports": [
+      {
+        "weight": 158.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 1301.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 120.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 409.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 64.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 31.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 300.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 243.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 64.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 227.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 216.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 23.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 71.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 24.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 408.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 59.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 112.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 1093.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 19.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 891.0,
+        "name": "Ing. Mecánica"
+      }
+    ]
+  },
+  {
+    "size": 3987.0,
+    "name": "Ing. Eléctrica",
+    "imports": [
+      {
+        "weight": 150.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 603.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 129.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 230.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 129.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 11.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 220.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 429.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 169.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 51.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 79.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 113.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 80.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 16.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 1092.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 28.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 72.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 1093.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 25.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 291.0,
+        "name": "Ing. Eléctrica"
+      }
+    ]
+  },
+  {
+    "size": 3844.0,
+    "name": "Ing. Electrónica",
+    "imports": [
+      {
+        "weight": 47.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 371.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 17.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 61.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 1037.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 9.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 925.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 153.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 189.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 15.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 5.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 906.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 1092.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 408.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 162.0,
+        "name": "Ing. Electrónica"
+      }
+    ]
+  },
+  {
+    "size": 3602.0,
+    "name": "Ing. Civil",
+    "imports": [
+      {
+        "weight": 181.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 786.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 166.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 5.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 89.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 60.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 81.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 39.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 174.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 59.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 175.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 73.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 515.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 14.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 61.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 44.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 39.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 27.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 230.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 409.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 81.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 1206.0,
+        "name": "Ing. Civil"
+      }
+    ]
+  },
+  {
+    "size": 2518.0,
+    "name": "Ing. Higiene y Seguridad Industrial",
+    "imports": [
+      {
+        "weight": 737.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 559.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 181.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 48.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 40.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 33.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 27.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 31.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 210.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 200.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 44.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 22.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 47.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 78.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 94.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 150.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 158.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 618.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      }
+    ]
+  },
+  {
+    "size": 1848.0,
+    "name": "Ing. de Telecomunicaciones",
+    "imports": [
+      {
+        "weight": 27.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 120.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 60.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 608.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 15.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 4.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 925.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 466.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 220.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 227.0,
+        "name": "Ing. de Telecomunicaciones"
+      }
+    ]
+  },
+  {
+    "size": 1564.0,
+    "name": "Ing. de Minas",
+    "imports": [
+      {
+        "weight": 200.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 422.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 204.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 175.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 25.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 11.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 196.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 23.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 117.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 16.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 7.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 14.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 183.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 113.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 216.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 334.0,
+        "name": "Ing. de Minas"
+      }
+    ]
+  },
+  {
+    "size": 1495.0,
+    "name": "Ing. Química",
+    "imports": [
+      {
+        "weight": 210.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 631.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 322.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 59.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 196.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 42.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 46.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 57.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 30.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 30.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 117.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 27.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 99.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 17.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 42.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 147.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 79.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 227.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 148.0,
+        "name": "Ing. Química"
+      }
+    ]
+  },
+  {
+    "size": 1449.0,
+    "name": "Industrias Alimentarias",
+    "imports": [
+      {
+        "weight": 40.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 324.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 196.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 258.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 93.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 340.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 1.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 442.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 257.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 31.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 380.0,
+        "name": "Industrias Alimentarias"
+      }
+    ]
+  },
+  {
+    "size": 1355.0,
+    "name": "Arquitectura",
+    "imports": [
+      {
+        "weight": 44.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 181.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 43.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 515.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 1.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 38.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 33.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 27.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 3.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 17.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 80.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 71.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 16.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 418.0,
+        "name": "Arquitectura"
+      }
+    ]
+  },
+  {
+    "size": 1328.0,
+    "name": "Ing. Ambiental",
+    "imports": [
+      {
+        "weight": 559.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 590.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 166.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 21.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 71.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 7.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 35.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 74.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 322.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 204.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 43.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 49.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 17.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 84.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 129.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 120.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 135.0,
+        "name": "Ing. Ambiental"
+      }
+    ]
+  },
+  {
+    "size": 1121.0,
+    "name": "Agronomía",
+    "imports": [
+      {
+        "weight": 22.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 306.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 442.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 78.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 83.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 99.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 291.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 59.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 534.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 3.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 317.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 16.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 24.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 55.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 104.0,
+        "name": "Agronomía"
+      }
+    ]
+  },
+  {
+    "size": 833.0,
+    "name": "Ing. Mecánica Eléctrica",
+    "imports": [
+      {
+        "weight": 49.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 233.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 81.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 34.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 3.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 96.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 57.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 23.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 38.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 4.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 153.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 429.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 300.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 48.0,
+        "name": "Ing. Mecánica Eléctrica"
+      }
+    ]
+  },
+  {
+    "size": 773.0,
+    "name": "Ing. Agrícola",
+    "imports": [
+      {
+        "weight": 22.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 159.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 73.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 340.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 23.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 290.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 31.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 16.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 8.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 534.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 261.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 23.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 40.0,
+        "name": "Ing. Agrícola"
+      }
+    ]
+  },
+  {
+    "size": 742.0,
+    "name": "Ing. Económica",
+    "imports": [
+      {
+        "weight": 6.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 361.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 81.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 90.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 49.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 47.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 34.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 16.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 55.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 78.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 25.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 19.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Económica"
+      }
+    ]
+  },
+  {
+    "size": 651.0,
+    "name": "Ing. Estadística",
+    "imports": [
+      {
+        "weight": 10.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 188.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 111.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 258.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 290.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 291.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 326.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 34.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 45.0,
+        "name": "Ing. Estadística"
+      }
+    ]
+  },
+  {
+    "size": 477.0,
+    "name": "Ing. Metalúrgica",
+    "imports": [
+      {
+        "weight": 78.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 165.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 84.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 39.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 2.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 92.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 147.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 183.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 8.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 4.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 28.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 112.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. Metalúrgica"
+      }
+    ]
+  },
+  {
+    "size": 440.0,
+    "name": "Ing. Sanitaria",
+    "imports": [
+      {
+        "weight": 26.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 113.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 74.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 174.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 7.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 30.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 33.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 8.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 51.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 64.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 88.0,
+        "name": "Ing. Sanitaria"
+      }
+    ]
+  },
+  {
+    "size": 439.0,
+    "name": "Ing. Mecatrónica",
+    "imports": [
+      {
+        "weight": 31.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 125.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 26.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 39.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 36.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 96.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 26.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 189.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 169.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Naval"
+      },
+      {
+        "weight": 243.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Mecatrónica"
+      }
+    ]
+  },
+  {
+    "size": 384.0,
+    "name": "Ing. Geológica",
+    "imports": [
+      {
+        "weight": 33.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 48.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 71.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 89.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 1.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 42.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 196.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 7.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 4.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 92.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 8.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 45.0,
+        "name": "Ing. Geológica"
+      }
+    ]
+  },
+  {
+    "size": 211.0,
+    "name": "Ing. Textil",
+    "imports": [
+      {
+        "weight": 1.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 94.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 6.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 42.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 5.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 22.0,
+        "name": "Ing. Textil"
+      }
+    ]
+  },
+  {
+    "size": 183.0,
+    "name": "Ing. Pesquera",
+    "imports": [
+      {
+        "weight": 11.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 67.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 93.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 30.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 31.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 3.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 59.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Textil"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Pesquera"
+      }
+    ]
+  },
+  {
+    "size": 141.0,
+    "name": "Zootecnia",
+    "imports": [
+      {
+        "weight": 28.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 7.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 3.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 62.0,
+        "name": "Ing. Forestal"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 23.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 78.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica de Fluidos"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 46.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 49.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 7.0,
+        "name": "Zootecnia"
+      }
+    ]
+  },
+  {
+    "size": 141.0,
+    "name": "Ing. Forestal",
+    "imports": [
+      {
+        "weight": 32.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 35.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 2.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 62.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 1.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 83.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 47.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Forestal"
+      }
+    ]
+  },
+  {
+    "size": 114.0,
+    "name": "Ing. Mecánica de Fluidos",
+    "imports": [
+      {
+        "weight": 39.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 44.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Zootecnia"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 13.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 41.0,
+        "name": "Ing. Sanitaria"
+      },
+      {
+        "weight": 17.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Estadística"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 6.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 5.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 11.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 59.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Económica"
+      },
+      {
+        "weight": 10.0,
+        "name": "Ing. Mecánica de Fluidos"
+      }
+    ]
+  },
+  {
+    "size": 108.0,
+    "name": "Ing. de Petróleo",
+    "imports": [
+      {
+        "weight": 14.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 37.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Geológica"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Petroquímica"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 21.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 2.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 6.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Informática"
+      },
+      {
+        "weight": 15.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 32.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 14.0,
+        "name": "Ing. de Petróleo"
+      }
+    ]
+  },
+  {
+    "size": 58.0,
+    "name": "Ing. Petroquímica",
+    "imports": [
+      {
+        "weight": 6.0,
+        "name": "Ing. Higiene y Seguridad Industrial"
+      },
+      {
+        "weight": 28.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Ambiental"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. de Petróleo"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. de Sistemas"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. de Telecomunicaciones"
+      },
+      {
+        "weight": 4.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 46.0,
+        "name": "Ing. Química"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Pesquera"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. de Minas"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Agrícola"
+      },
+      {
+        "weight": 1.0,
+        "name": "Agronomía"
+      },
+      {
+        "weight": 2.0,
+        "name": "Ing. Electrónica"
+      },
+      {
+        "weight": 12.0,
+        "name": "Ing. Eléctrica"
+      },
+      {
+        "weight": 18.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Petroquímica"
+      }
+    ]
+  },
+  {
+    "size": 13.0,
+    "name": "Ing. Naval",
+    "imports": [
+      {
+        "weight": 4.0,
+        "name": "Ing. Industrial"
+      },
+      {
+        "weight": 3.0,
+        "name": "Ing. Civil"
+      },
+      {
+        "weight": 1.0,
+        "name": "Industrias Alimentarias"
+      },
+      {
+        "weight": 5.0,
+        "name": "Ing. Mecánica Eléctrica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Mecatrónica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Arquitectura"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Metalúrgica"
+      },
+      {
+        "weight": 9.0,
+        "name": "Ing. Mecánica"
+      },
+      {
+        "weight": 1.0,
+        "name": "Ing. Naval"
+      }
+    ]
+  }
+]

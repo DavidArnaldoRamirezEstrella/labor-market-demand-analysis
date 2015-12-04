@@ -1,0 +1,204 @@
+asesor	nc	B-JOB
+comercial	adj	I-JOB
+y	cc	I-JOB
+de	sp	I-JOB
+servicios	nc	I-JOB
+-	fg	O
+rubro	nc	O
+industrial	adj	B-AREA
+
+funciones	nc	O
+:	fd	O
+
+proveeer	vmn	B-FUN
+un	det	I-FUN
+valor	nc	I-FUN
+agregado	adj	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+y	cc	I-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+.	fp	O
+
+visitar	vmn	B-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+y	cc	I-FUN
+distribuidores	nc	I-FUN
+con	sp	I-FUN
+frecuencia	nc	I-FUN
+.	fp	O
+
+desarrollar	vmn	B-FUN
+nuevos	adj	I-FUN
+negocios	nc	I-FUN
+.	fp	O
+
+ofrecer	vmn	B-FUN
+nuevos	adj	I-FUN
+productos	nc	I-FUN
+y	cc	I-FUN
+desarrollar	vmn	I-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+.	fp	O
+
+visitar	vmn	B-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+unilateralmente	rg	I-FUN
+siempre	rg	I-FUN
+y	cc	I-FUN
+cuando	cs	I-FUN
+sean	vss	I-FUN
+potenciales	adj	I-FUN
+.	fp	O
+
+monitorear	vmn	B-FUN
+negocios	nc	I-FUN
+existentes	adj	I-FUN
+.	fp	O
+
+realizará	vmi	B-FUN
+soporte	nc	I-FUN
+técnico	adj	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+cliente	nc	I-FUN
+vía	adj	I-FUN
+correo	nc	I-FUN
+.	fp	O
+
+coordinar	vmn	B-FUN
+la	det	I-FUN
+comunicación	nc	I-FUN
+entre	sp	I-FUN
+los	det	I-FUN
+distribuidores	nc	I-FUN
+y	cc	I-FUN
+los	det	I-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+.	fp	O
+
+desarrollar	vmn	B-FUN
+web	adj	I-FUN
+training	nc	I-FUN
+con	sp	I-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+.	fp	O
+
+dar	vmn	B-FUN
+capacitaciones	nc	I-FUN
+técnicas	adj	I-FUN
+en	sp	I-FUN
+usuarios	nc	I-FUN
+finales	adj	I-FUN
+y	cc	I-FUN
+distribuidores	nc	I-FUN
+.	fp	O
+
+verificar	vmn	B-FUN
+las	det	I-FUN
+posibilidades	nc	I-FUN
+de	sp	I-FUN
+incremento	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+en	sp	I-FUN
+sectores	nc	I-FUN
+no	rn	I-FUN
+tradicionales	adj	I-FUN
+.	fp	O
+
+visitas	nc	B-FUN
+técnicas	adj	I-FUN
+y	cc	I-FUN
+asesorías	nc	I-FUN
+dentro	rg	I-FUN
+de	sp	I-FUN
+Perú	np	I-FUN
+.	fp	O
+
+capacitaciones	nc	B-FUN
+técnicas	adj	I-FUN
+vía	adj	I-FUN
+web	nc	I-FUN
+con	sp	I-FUN
+personal	nc	I-FUN
+en	sp	I-FUN
+las	det	I-FUN
+sedes	nc	I-FUN
+internacionales	adj	I-FUN
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+profesional	nc	O
+ingeniero	np	B-CARR
+mecánico	np	I-CARR
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+5	z	O
+años	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+comercial	adj	B-AREA
+y	cc	O
+de	sp	O
+servicio	nc	B-AREA
+,	fc	O
+de	sp	O
+preferencia	nc	O
+en	sp	O
+el	det	O
+rubro	nc	O
+de	sp	O
+rodamientos	nc	B-AREA
+o	cc	O
+afines	adj	O
+.	fp	O
+
+dominio	nc	O
+de	sp	O
+ms	np	O
+office	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+horario	nc	O
+de	sp	O
+trabajo	nc	O
+:	fd	O
+l	w	B-DATE
+-	fg	I-DATE
+v	w	I-DATE
+(	fpa	O
+08:00	w	B-DATE
+am	w	I-DATE
+.	fp	O
+05:00	w	B-DATE
+pm	w	I-DATE
+.	fp	O
+)	fpt	O
+y	cc	O
+s	w	O
+(	fpa	O
+08:00	w	B-DATE
+am	w	I-DATE
+.	fp	O
+12:00	w	B-DATE
+pm	w	I-DATE
+.	fp	O
+)	fpt	O
+

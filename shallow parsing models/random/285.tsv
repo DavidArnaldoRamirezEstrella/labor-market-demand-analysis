@@ -1,0 +1,225 @@
+Almacenero	nc	B-JOB
+-	fg	O
+Ancón	np	B-LUG
+
+Grupo	nc	O
+empresarial	adj	O
+integrado	vmp	O
+por	sp	O
+seis	det	O
+empresas	nc	O
+que	pron	O
+fomenta	vmi	O
+el	det	O
+desarrollo	nc	O
+sostenible	adj	O
+de	sp	O
+la	det	O
+actividad	nc	O
+minera	adj	O
+e	cc	O
+industrial	adj	O
+en	sp	O
+el	det	O
+País	nc	O
+,	fc	O
+promoviendo	vmg	O
+la	det	O
+pequeña	adj	O
+minería	nc	O
+en	sp	O
+nuestro	det	O
+medio	nc	O
+con	sp	O
+operaciones	nc	O
+subterráneas	adj	O
+en	sp	O
+etapa	nc	O
+de	sp	O
+exploración	nc	O
+que	pron	O
+cuenta	vmi	O
+con	sp	O
+estándares	nc	O
+de	sp	O
+calidad	nc	O
+,	fc	O
+seguridad	nc	O
+y	cc	O
+ante	sp	O
+todo	det	O
+el	det	O
+cuidado	nc	O
+del	sp	O
+medio	det	O
+ambiente	nc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	det	O
+ALMACENERO	nc	B-JOB
+PARA	sp	O
+NUESTRA	det	O
+PLANTA	nc	O
+EN	sp	O
+ANCÓN	np	B-LUG
+.	fp	O
+
+Perfil	nc	O
+:	fd	O
+
+Profesional	nc	B-REQ
+Técnico	adj	I-REQ
+En	sp	O
+administración	np	B-CARR
+industrial	np	I-CARR
+,	fc	O
+ingeniería	np	B-CARR
+industrial	np	I-CARR
+,	fc	O
+contabilidad	np	B-CARR
+.	fp	O
+
+Deseable	adj	O
+especialidad	nc	O
+en	sp	O
+logística	nc	B-REQ
+.	fp	O
+
+Experiencia	nc	O
+de	sp	O
+1	z	O
+año	nc	O
+laborando	vmg	O
+en	sp	O
+empresas	nc	O
+de	sp	O
+rubro	nc	O
+minero	adj	O
+o	cc	O
+industrial	adj	O
+.	fp	O
+
+RESIDIR	vmi	O
+CERCA	rg	O
+O	cc	O
+EN	sp	O
+ANCÓN	np	B-LUG
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+Manejar	vmn	B-FUN
+los	det	I-FUN
+kardex	np	I-FUN
+de	sp	I-FUN
+todos	det	I-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+el	det	I-FUN
+control	nc	I-FUN
+de	sp	I-FUN
+insumos	nc	I-FUN
+críticos	adj	I-FUN
+.	fp	O
+
+Elaborar	vmn	B-FUN
+los	det	I-FUN
+requerimientos	nc	I-FUN
+mensuales	adj	I-FUN
+.	fp	O
+
+Elaborar	vmn	B-FUN
+el	det	I-FUN
+reporte	nc	I-FUN
+de	sp	I-FUN
+control	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+insumos	nc	I-FUN
+.	fp	O
+
+Conocimiento	nc	O
+:	fd	O
+
+Manejo	nc	O
+de	sp	O
+kardex	np	B-REQ
+Avanzado	adj	O
+
+Manejo	nc	O
+de	sp	O
+Excel	np	B-REQ
+Avanzado	adj	O
+
+Competencias	nc	O
+:	fd	O
+
+*	fz	O
+Orientado	vmp	O
+al	sp	O
+trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+
+*	fz	O
+Tolerancia	nc	B-REQ
+a	sp	I-REQ
+la	det	I-REQ
+presión	nc	I-REQ
+
+*	fz	O
+Pro	adj	B-REQ
+activo	adj	I-REQ
+
+*	fz	O
+Habilidad	nc	O
+para	sp	O
+relacionarse	nc	O
+a	sp	O
+todo	det	O
+nivel	nc	O
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Todos	det	B-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Alimentación	nc	B-BEN
+cubiertos	vmp	I-BEN
+por	sp	I-BEN
+la	det	I-BEN
+empresa	nc	I-BEN
+al	sp	I-BEN
+100	zp	I-BEN
+%	zp	I-BEN
+.	fp	O
+
+*	fz	O
+Desarrollo	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+dentro	sp	O
+de	sp	O
+la	det	O
+empresa	nc	O
+.	fp	O
+
+Sueldo	nc	O
+:	fd	O
+S/.1,000	zm	B-SAL
+

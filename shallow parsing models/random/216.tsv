@@ -1,0 +1,113 @@
+recepcionista	np	B-JOB
+
+funciones	nc	O
+:	fd	O
+
+realizando	vmg	B-FUN
+y	cc	I-FUN
+recibiendo	vmg	I-FUN
+llamadas	nc	I-FUN
+telefónicas	adj	I-FUN
+,	fc	I-FUN
+conectando	vmg	I-FUN
+las	det	I-FUN
+mismas	adj	I-FUN
+con	sp	I-FUN
+las	det	I-FUN
+diferentes	det	I-FUN
+extensiones	nc	I-FUN
+.	fp	O
+
+atiende	vmi	B-FUN
+al	rg	I-FUN
+público	vmi	I-FUN
+que	cs	I-FUN
+solicita	vmi	I-FUN
+información	vmi	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+trámites	nc	I-FUN
+y	cc	I-FUN
+servicios	nc	I-FUN
+dándole	vmi	I-FUN
+la	det	I-FUN
+orientación	nc	I-FUN
+requerida	adj	I-FUN
+.	fp	O
+
+recibe	vmi	B-FUN
+y	cc	I-FUN
+captura	vmm	I-FUN
+la	det	I-FUN
+correspondencia	nc	I-FUN
+y	cc	I-FUN
+documentación	nc	I-FUN
+dirigidas	adj	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+mantiene	vmi	B-FUN
+en	sp	I-FUN
+orden	nc	I-FUN
+equipo	nc	I-FUN
+y	cc	I-FUN
+sitio	nc	I-FUN
+de	sp	I-FUN
+trabajo	nc	I-FUN
+,	fc	I-FUN
+reportando	vmg	I-FUN
+cualquier	det	I-FUN
+anomalía	nc	I-FUN
+.	fp	O
+
+egresadas	nc	O
+o	cc	O
+estudiantes	nc	O
+de	sp	O
+carreras	nc	O
+técnicas	adj	B-REQ
+secretariado	np	B-CARR
+,	fc	O
+administración	np	B-CARR
+,	fc	O
+afines	adj	B-CARR
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+en	sp	O
+asistente	nc	B-JOB
+de	sp	I-JOB
+gerencia	nc	I-JOB
+/	fh	O
+secretariado	np	B-JOB
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	np	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+trato	nc	B-REQ
+agradable	adj	I-REQ
+y	cc	I-REQ
+cordial	adj	I-REQ
+.	fp	O
+

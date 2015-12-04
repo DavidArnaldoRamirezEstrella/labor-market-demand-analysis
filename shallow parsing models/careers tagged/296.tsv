@@ -1,0 +1,162 @@
+Ingeniero	ncms	B-JOB
+de	sp	I-JOB
+planificación	ncfs	I-JOB
+y	cc	I-JOB
+control	ncms	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+industrial	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+mecánica	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+ingeniería	ncms	B-AREA
+con	sp	O
+5	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Idioma	ncms	O
+
+Inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Autocad	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+
+Titulados	ncmp	B-REQ
+y	cc	O
+colegiados	ncmp	B-REQ
+de	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+ingeniería	np00	B-CARR
+industrial	np00	I-CARR
+y/o	cc	O
+mecánica	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+10	z	O
+años	ncmp	O
+en	sp	O
+empresa	ncfs	O
+en	sp	O
+el	da0ms	O
+sector	ncms	O
+de	sp	O
+hidrocarburos	ncmp	B-AREA
+.	fp	O
+
+Experiencia	ncfs	O
+en	sp	O
+desarrollo	ncms	B-REQ
+de	sp	I-REQ
+planificación	ncfs	I-REQ
+y	cc	O
+control	ncms	B-REQ
+de	sp	I-REQ
+gestión	ncfs	I-REQ
+,	fc	O
+indicadores	ncmp	B-REQ
+de	sp	I-REQ
+control	ncms	I-REQ
+.	fp	O
+
+Experiencia	ncfs	O
+en	sp	O
+planificación	ncms	B-FUN
+de	sp	I-FUN
+obras	ncfp	I-FUN
+electromecánicas	aqfp	I-FUN
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+Excel	np00	B-REQ
+avanzado	aqms	O
+,	fc	O
+Ms	np00	B-REQ
+Project	np00	I-REQ
+,	fc	O
+Autocad	np00	B-REQ
+,	fc	O
+Primavera	np00	B-REQ
+,	fc	O
+SAP	np00	B-REQ
+.	fp	O
+
+Contar	vmn	O
+con	sp	O
+disponibilidad	ncfs	B-MISC
+para	sp	I-MISC
+viajar	vmn	I-MISC
+.	fp	O
+
+Inglés	np00	B-REQ
+técnico	aqms	O
+intermedio	aqms	O
+.	fp	O
+
+Conocimientos	ncmp	O
+:	fd	O
+
+Planificación	ncfs	B-FUN
+de	sp	I-FUN
+proyectos	ncmp	I-FUN
+.	fp	O
+
+Elaboración	ncfs	B-FUN
+de	sp	I-FUN
+informes	ncmp	I-FUN
+.	fp	O
+
+Seguiento	ncms	B-FUN
+de	sp	I-FUN
+avances	ncmp	I-FUN
+de	sp	I-FUN
+obra	ncfs	I-FUN
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+ingeniería	ncfs	B-AREA
+.	fp	O
+

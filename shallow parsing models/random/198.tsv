@@ -1,0 +1,30 @@
+practicante	nc	B-JOB
+de	sp	O
+finanzas	nc	B-CARR
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+disponibilidad	nc	O
+inmediata	adj	O
+.	fp	O
+
+con	sp	O
+conocimientos	nc	O
+de	sp	O
+excel	nc	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+con	sp	O
+posibilidad	nc	O
+de	sp	O
+practicar	vmn	O
+en	sp	O
+surco	np	B-LUG
+.	fp	O
+

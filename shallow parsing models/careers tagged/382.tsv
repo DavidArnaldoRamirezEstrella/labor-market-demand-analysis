@@ -1,0 +1,122 @@
+Ejecutivo	ncms	B-JOB
+de	sp	I-JOB
+ventas	ncfp	I-JOB
+línea	ncfs	B-AREA
+nutricional	aqfs	I-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Otros	di0mp	O
+estudios	ncmp	O
+en	sp	O
+no	rn	O
+indispensable	aqcs	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+ventas	ncfp	B-AREA
+con	sp	O
+6	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Idioma	ncms	O
+
+Español	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Word	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+básico	aqms	O
+.	fp	O
+
+Con	sp	O
+experiencia	ncfs	O
+en	sp	O
+ventas	ncfp	B-AREA
+en	sp	I-AREA
+punto	ncms	I-AREA
+de	sp	I-AREA
+tienda	ncfs	I-AREA
+(	fpa	O
+especialista	nccs	O
+en	sp	O
+ventas	ncfp	B-AREA
+en	sp	O
+el	da0ms	O
+rubro	ncms	O
+)	fpt	O
+,	fc	O
+
+Manejar	vmn	O
+una	di0fs	O
+cartera	ncfs	B-REQ
+de	sp	I-REQ
+clientes	nccp	I-REQ
+en	sp	O
+el	da0ms	O
+rubro	ncms	O
+de	sp	O
+nutrición	ncfs	B-AREA
+para	sp	I-AREA
+deportistas	nccp	I-AREA
+(	fpa	O
+gym	ncms	B-AREA
+)	fpt	O
+.	fp	O
+
+Tener	vmn	O
+gran	aqfs	O
+facilidad	ncfs	B-REQ
+de	sp	I-REQ
+palabra	ncfs	I-REQ
+con	sp	O
+los	da0mp	O
+clientes	ncmp	O
+,	fc	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+Edades	ncfp	O
+entre	sp	O
+24	z	O
+y	cc	O
+35	z	O
+años	ncmp	O
+.	fp	O
+
+Trabajar	vmn	O
+de	sp	O
+lunes	w	B-DATE
+a	sp	I-DATE
+sabados	w	I-DATE
+(	fpa	O
+8	z	B-MISC
+horas	ncfp	I-MISC
+diarias	aqfp	I-MISC
+)	fpt	O
+.	fp	O
+

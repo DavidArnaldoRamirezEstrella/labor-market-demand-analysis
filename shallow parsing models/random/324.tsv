@@ -1,0 +1,38 @@
+ayudante	nc	B-JOB
+de	sp	I-JOB
+cocina	nc	I-JOB
+cercado	np	B-LUG
+de	sp	I-LUG
+lima	np	I-LUG
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+inconcluso	adj	O
+en	sp	O
+gastronomía	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+hotelería	nc	B-AREA
+/	fh	O
+turismo	nc	B-AREA
+/	fh	O
+restaurantes	nc	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

@@ -1,0 +1,158 @@
+Técnico	nc	B-JOB
+Laboratorio	nc	I-JOB
+-	fg	O
+Campaña	nc	O
+
+Importante	adj	O
+empresa	nc	O
+de	sp	O
+Salud	nc	O
+Ocupacional	adj	O
+con	sp	O
+estándares	nc	O
+OIT	np	O
+(	fpa	O
+Organización	np	B-ORG
+Internacional	np	I-ORG
+del	sp	I-ORG
+Trabajo	np	I-ORG
+)	fpt	O
+de	sp	O
+Gestión	nc	O
+de	sp	O
+Salud	nc	O
+Ocupacional	adj	O
+y	cc	O
+Competencias	nc	O
+Laborales	adj	O
+del	sp	O
+Perú	np	B-LUG
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+04	z	O
+Técnico	nc	B-JOB
+en	sp	I-JOB
+Laboratorio	nc	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Técnico	np	B-REQ
+en	sp	O
+Laboratorio	np	B-AREA
+Clínico	np	I-AREA
+(	fpa	O
+TITULADOS	adj	B-REQ
+O	cc	O
+EGRESADOS	adj	O
+)	fpt	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+tres	z	O
+meses	nc	O
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	B-MISC
+completa	adj	I-MISC
+
+*	fz	O
+Persona	nc	O
+responsable	nc	B-REQ
+,	fc	O
+proactiva	adj	B-REQ
+,	fc	O
+con	sp	O
+capacidad	nc	O
+para	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+y	cc	I-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+toma	nc	I-FUN
+de	sp	I-FUN
+muestras	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Descarte	nc	B-FUN
+exámen	nc	I-FUN
+de	sp	I-FUN
+diabetes	nc	I-FUN
+y	cc	I-FUN
+orina	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Apoyo	nc	B-FUN
+en	sp	I-FUN
+los	det	I-FUN
+procesamientos	nc	I-FUN
+.	fp	O
+
+Se	pron	O
+ofrece	vmi	O
+:	fd	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	det	I-BEN
+importante	adj	I-BEN
+empresa	nc	I-BEN
+.	fp	O
+
+Los	det	O
+interesados	adj	O
+enviar	vmn	O
+su	det	O
+CV	np	O
+actualizado	vmp	O
+al	sp	O
+correo	nc	O
+:	fd	O
+seleccion	np	B-MISC
+(	fpa	I-MISC
+a	np	I-MISC
+)	fpt	I-MISC
+natclar	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+.	fp	I-MISC
+pe	np	I-MISC
+indicando	vmg	O
+sus	det	O
+pretensiones	nc	O
+salariales	adj	O
+,	fc	O
+colocar	vmn	O
+en	sp	O
+asunto	nc	O
+:	fd	O
+LABORATORIO	nc	O
+CAMPAÑA	nc	O
+

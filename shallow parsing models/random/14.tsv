@@ -1,0 +1,62 @@
+Odontólogo	np	B-JOB
+Especialista	adj	O
+en	sp	O
+Ortodoncia	np	B-AREA
+y	cc	O
+odontopediatria	np	B-AREA
+para	sp	O
+Huaraz	np	B-LUG
+
+Centro	nc	O
+Odontólogico	adj	O
+de	sp	O
+la	det	O
+ciudad	nc	O
+de	sp	O
+Huaraz	np	B-LUG
+necesita	vmi	O
+Odontólogo	np	B-JOB
+especialista	adj	O
+en	sp	O
+Ortodoncia	np	B-AREA
+y	cc	O
+odontopediatría	np	B-AREA
+(	fpa	O
+diplomado	nc	B-REQ
+)	fpt	O
+
+*	fz	O
+Colegiado	np	B-REQ
+
+*	fz	O
+Habilitado	np	O
+
+*	fz	O
+RNE	np	B-REQ
+
+*	fz	O
+Atención	nc	O
+:	fd	O
+2	z	B-MISC
+dias	nc	I-MISC
+por	sp	I-MISC
+mes	nc	I-MISC
+(	fpa	O
+sábado	w	B-DATE
+y	cc	I-DATE
+domingo	w	I-DATE
+)	fpt	O
+
+los	det	O
+interesados	adj	O
+enviar	vmn	O
+C	np	O
+.	fp	O
+V	np	O
+.	fp	O
+hasta	sp	O
+el	det	O
+12	w	B-DATE
+Agosto	w	I-DATE
+2014	w	I-DATE
+

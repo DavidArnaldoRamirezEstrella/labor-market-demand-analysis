@@ -1,0 +1,32 @@
+auxiliar	adj	B-JOB
+contable	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+egresado	vmp	O
+de	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+administración	np	B-CARR
+o	cc	O
+contabilidad	np	B-CARR
+
+inglés	nc	B-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+
+conocimiento	nc	O
+de	sp	O
+office	nc	B-REQ
+
+disponibilidad	nc	O
+a	sp	O
+tiempo	nc	O
+completo	adj	O
+

@@ -1,0 +1,227 @@
+ASISTENTE	nc	B-JOB
+CONTABLE	adj	I-JOB
+
+*	fz	O
+Revisar	vmn	B-FUN
+la	det	I-FUN
+documentación	nc	I-FUN
+contable	adj	I-FUN
+remitidas	adj	I-FUN
+al	sp	I-FUN
+área	nc	I-FUN
+de	sp	I-FUN
+contabilidad	nc	I-FUN
+y	cc	I-FUN
+registrarlos	vmi	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+Sistema	nc	I-FUN
+Contable	adj	I-FUN
+(	fpa	I-FUN
+CONCAR	np	I-FUN
+)	fpt	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Ordenar	vmn	B-FUN
+,	fc	I-FUN
+clasificar	vmn	I-FUN
+y	cc	I-FUN
+registrar	vmn	I-FUN
+información	nc	I-FUN
+contable	adj	I-FUN
+.	fp	O
+
+Revisar	vmn	B-FUN
+en	sp	I-FUN
+el	det	I-FUN
+Sistema	nc	I-FUN
+Contable	adj	I-FUN
+,	fc	I-FUN
+el	det	I-FUN
+correcto	adj	I-FUN
+registro	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+información	nc	I-FUN
+contable	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+el	det	I-FUN
+control	nc	I-FUN
+contable	adj	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+activos	nc	I-FUN
+fijos	adj	I-FUN
+,	fc	I-FUN
+depreciación	nc	I-FUN
+,	fc	I-FUN
+registros	nc	I-FUN
+contables	adj	I-FUN
+mensuales	adj	I-FUN
+y	cc	I-FUN
+provisiones	nc	I-FUN
+en	sp	I-FUN
+general	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Consolidar	vmn	B-FUN
+la	det	I-FUN
+información	nc	I-FUN
+contable	adj	I-FUN
+para	sp	I-FUN
+la	det	I-FUN
+elaboración	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+Estados	nc	I-FUN
+Financieros	adj	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Conciliación	nc	B-REQ
+Bancaria	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	np	O
+Detracciones	nc	B-REQ
+,	fc	I-REQ
+percepciones	nc	I-REQ
+y	cc	I-REQ
+retenciones	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+y	cc	I-FUN
+presentación	nc	I-FUN
+de	sp	I-FUN
+PDT	np	I-FUN
+y	cc	I-FUN
+Planilla	nc	I-FUN
+Electrónica	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Transferencias	nc	B-FUN
+bancarias	adj	I-FUN
+e	cc	I-FUN
+interbancarias	adj	I-FUN
+.	fp	O
+
+CUMPLIR	vmn	O
+CON	sp	O
+EL	det	O
+HORARIO	nc	O
+:	fd	O
+
+*	fz	O
+Lunes	w	B-DATE
+a	w	I-DATE
+Viernes	w	I-DATE
+:	fd	O
+09:00	w	B-DATE
+am	w	I-DATE
+a	sp	I-DATE
+06:30	w	I-DATE
+pm	w	I-DATE
+
+*	fz	O
+Sábados	w	B-DATE
+:	fd	O
+09:00	w	B-DATE
+am	w	I-DATE
+a	sp	I-DATE
+02:00	w	I-DATE
+pm	w	I-DATE
+
+*	fz	O
+Edad	nc	O
+de	sp	O
+22	z	O
+a	sp	O
+28	z	O
+años	nc	O
+
+*	fz	O
+Estudios	nc	O
+concluidos	adj	O
+/	fh	O
+no	rn	O
+concluidos	adj	O
+universitario	nc	O
+o	cc	O
+técnico	nc	B-REQ
+contable	np	B-CARR
+.	fp	O
+
+*	fz	O
+Manejo	nc	O
+de	sp	O
+Excel	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+del	sp	O
+Nuevo	adj	B-REQ
+Plan	nc	I-REQ
+Contable	adj	I-REQ
+Empresarial	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Tolerancia	nc	O
+al	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+constante	adj	O
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+sistemas	nc	B-REQ
+contables	adj	I-REQ
+"	fe	O
+indispensable	adj	O
+CONCAR	np	O
+"	fe	O
+
+Universitario	nc	O
+Bachiller	nc	O
+en	sp	O
+Otros	pron	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Contabilidad	nc	B-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

@@ -1,0 +1,37 @@
+Estampador	nc	B-JOB
+Muestrista	adj	I-JOB
+
+Se	pron	O
+requiere	vmi	O
+estampador	nc	B-JOB
+con	sp	O
+experiencia	nc	O
+en	sp	O
+técnicas	nc	B-REQ
+varias	pron	I-REQ
+,	fc	O
+con	sp	O
+conocimiento	nc	O
+de	sp	O
+técnicas	nc	B-REQ
+de	sp	I-REQ
+estampado	nc	I-REQ
+para	sp	O
+desarrollo	nc	B-FUN
+de	sp	I-FUN
+Swatchs	np	I-FUN
+así	cc	O
+como	cs	O
+muestra	nc	B-FUN
+de	sp	I-FUN
+vendedores	nc	I-FUN
+
+Experiencia	nc	O
+necesaria	adj	O
+en	sp	O
+MATIZADO	nc	B-REQ
+
+Con	sp	O
+disponibilidad	nc	B-MISC
+inmediata	adj	I-MISC
+

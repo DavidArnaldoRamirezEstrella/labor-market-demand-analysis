@@ -1,0 +1,97 @@
+PRACTICANTE	nc	B-JOB
+PRE	adj	I-JOB
+PROFESIONAL	nc	I-JOB
+ADM	np	I-JOB
+TRUJILLO	np	B-LUG
+MOVISTAR	np	B-ORG
+
+*	fz	O
+Realizar	vmn	B-FUN
+guías	nc	I-FUN
+de	sp	I-FUN
+remisión	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Manejar	vmn	B-FUN
+procesos	nc	I-FUN
+y	cc	I-FUN
+trámites	nc	I-FUN
+con	sp	O
+el	det	O
+MINTRA	nc	B-ORG
+
+*	fz	O
+Buscar	van	B-FUN
+realizar	vmn	I-FUN
+mejoras	nc	I-FUN
+continuas	adj	I-FUN
+en	sp	I-FUN
+los	det	I-FUN
+procesos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+reportes	nc	I-FUN
+en	sp	I-FUN
+excel	np	I-FUN
+
+*	fz	O
+Proponer	vmn	B-FUN
+programas	nc	I-FUN
+sobre	sp	I-FUN
+imagen	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+empresa	nc	I-FUN
+
+*	fz	O
+Trabajar	vmn	B-FUN
+la	det	I-FUN
+parte	nc	I-FUN
+de	sp	I-FUN
+publicidad	nc	I-FUN
+interna	adj	I-FUN
+
+*	fz	O
+Reportar	vmn	B-FUN
+al	sp	I-FUN
+Jefe	nc	I-FUN
+Directo	adj	I-FUN
+
+Universitario	nc	O
+Trunco	adj	O
+en	sp	O
+Marketing	np	B-CARR
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Marketing	np	B-AREA
+/	fh	O
+Publicidad	nc	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

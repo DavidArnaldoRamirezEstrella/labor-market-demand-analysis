@@ -1,0 +1,19 @@
+Control parameters:
+directory: res_full
+random_seed: 1432681287
+save_lag: 500
+max_iter: 5000
+max_time: -1
+
+Data parameters:
+train_data: ../dataR/counts/full_ene_ing/word_counts.dat
+
+Model parameters:
+eta: 0.0100
+gamma: 1.0000
+alpha: 1.0000
+gamma_a: 1.00
+gamma_b: 1.0000
+gamma_a: 1.00
+gamma_b: 1.0000
+sample_hyper: 0

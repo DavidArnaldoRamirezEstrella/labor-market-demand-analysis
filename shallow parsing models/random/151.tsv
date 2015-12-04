@@ -1,0 +1,43 @@
+asesor	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+-	fg	O
+iquitos	np	B-LUG
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+estudios	nc	O
+tecnicos	adj	B-REQ
+y/o	cc	O
+universitarios	adj	O
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+indispensable	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+intangibles	adj	I-AREA
+,	fc	O
+de	sp	O
+preferencia	nc	O
+en	sp	O
+tarjetas	nc	B-AREA
+de	sp	I-AREA
+crédito	nc	I-AREA
+.	fp	O
+
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-REQ
+de	sp	I-REQ
+campo	nc	I-REQ
+

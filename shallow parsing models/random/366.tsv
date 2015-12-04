@@ -1,0 +1,102 @@
+ejecutivo	nc	B-JOB
+de	sp	I-JOB
+contact	np	I-JOB
+center	np	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+titulado	adj	I-REQ
+en	sp	O
+ventas	nc	B-AREA
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+call	nc	B-AREA
+center	nc	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+idioma	nc	O
+
+italiano	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+
+excelente	adj	O
+habilidad	nc	O
+de	sp	O
+comunicación	nc	B-REQ
+,	fc	O
+dinamismo	nc	B-REQ
+,	fc	O
+energía	nc	B-REQ
+y	cc	O
+seguridad	nc	B-REQ
+.	fp	O
+
+deseable	adj	O
+un	det	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+en	sp	O
+servicio	nc	B-AREA
+.	fp	O
+
+capacidad	nc	O
+de	sp	O
+trabajar	vmn	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+
+disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+por	sp	O
+turnos	nc	B-MISC
+rotativos	adj	I-MISC
+todos	det	O
+los	det	O
+días	nc	O
+del	sp	O
+año	nc	O
+.	fp	O
+
+deseable	adj	O
+carreras	nc	O
+relacionadas	adj	O
+con	sp	O
+turismo	nc	B-CARR
+y/o	cc	O
+relaciones	nc	B-CARR
+públicas	adj	I-CARR
+.	fp	O
+
+deseable	adj	O
+conocimiento	nc	O
+de	sp	O
+inglés	np	B-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+additional	np	O
+information	np	O
+

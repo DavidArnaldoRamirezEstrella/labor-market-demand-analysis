@@ -1,0 +1,37 @@
+coordinador	nc	B-JOB
+de	sp	I-JOB
+tierras	nc	I-JOB
+y	cc	I-JOB
+propiedades	nc	I-JOB
+apurímac	np	B-LUG
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+título	nc	B-REQ
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	nc	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

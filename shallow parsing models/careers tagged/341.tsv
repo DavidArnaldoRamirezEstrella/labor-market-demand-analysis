@@ -1,0 +1,280 @@
+Encargado	ncms	B-JOB
+de	sp	I-JOB
+almacén	ncms	I-JOB
+-	fg	O
+rubro	ncms	O
+textil	aqcs	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Realizar	vmn	B-FUN
+la	da0fs	I-FUN
+gestión	ncfs	I-FUN
+y	cc	I-FUN
+el	da0ms	I-FUN
+planeamiento	ncms	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+despachos	ncmp	I-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+diferentes	aqcp	I-FUN
+clientes	nccp	I-FUN
+,	fc	O
+asegurándose	vmi	B-FUN
+que	cs	I-FUN
+los	da0mp	I-FUN
+repartos	ncmp	I-FUN
+se	p0000	I-FUN
+realicen	vms	I-FUN
+con	sp	I-FUN
+eficiencia	ncfs	I-FUN
+.	fp	O
+
+Coordinar	vmn	B-FUN
+constantemente	rg	I-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+proveedores	ncmp	I-FUN
+en	sp	I-FUN
+la	da0fs	I-FUN
+entrega	ncfs	I-FUN
+de	sp	I-FUN
+insumos	ncmp	I-FUN
+y	cc	I-FUN
+recepción	vmi	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+prendas	ncfp	I-FUN
+terminadas	vmp	I-FUN
+.	fp	O
+
+Supervisar	vmn	B-FUN
+el	da0ms	I-FUN
+cumplimiento	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+normas	ncfp	I-FUN
+y	cc	I-FUN
+procedimientos	ncmp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+organización	ncfs	I-FUN
+.	fp	O
+
+Manejar	vmn	B-FUN
+y	cc	I-FUN
+ver	vmn	I-FUN
+el	da0ms	I-FUN
+desarrollo	ncms	I-FUN
+de	sp	I-FUN
+personal	ncms	I-FUN
+bajo	sp	I-FUN
+su	dp3cs	I-FUN
+cargo	ncms	I-FUN
+.	fp	O
+
+Manejar	vmn	B-FUN
+los	da0mp	I-FUN
+inventarios	ncmp	I-FUN
+que	pr0cn	I-FUN
+se	p0000	I-FUN
+realizarán	vmi	I-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+almacén	ncms	I-FUN
+.	fp	O
+
+Organizar	vmn	B-FUN
+y	cc	I-FUN
+distribuir	vmn	I-FUN
+el	da0ms	I-FUN
+ingreso	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+prendas	ncfp	I-FUN
+terminadas	vmp	I-FUN
+según	sp	I-FUN
+codificación	rg	I-FUN
+,	fc	I-FUN
+color	ncms	I-FUN
+,	fc	I-FUN
+talla	ncfs	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	O
+
+Verificar	vmn	B-FUN
+el	da0ms	I-FUN
+correcto	aqms	I-FUN
+control	ncms	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+despachos	ncmp	I-FUN
+diarios	aqmp	I-FUN
+,	fc	I-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+procedimientos	ncmp	I-FUN
+exactos	aqmp	I-FUN
+.	fp	O
+
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+tiempos	ncmp	I-FUN
+exactos	aqmp	I-FUN
+de	sp	I-FUN
+entrega	ncfs	I-FUN
+y	cc	O
+recepción	vmi	B-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+despachos	ncmp	I-FUN
+.	fp	O
+
+Competencias	ncfp	O
+/	fh	O
+habilidades	ncfp	O
+a	sp	O
+evaluar	vmn	O
+:	fd	O
+
+Liderazgo	ncms	B-REQ
+.	fp	O
+
+Orden	ncms	B-REQ
+y	cc	O
+planificación	ncfs	B-REQ
+.	fp	O
+
+Trabajo	ncms	B-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+.	fp	O
+
+Comunicación	ncfs	B-REQ
+a	sp	O
+todo	di0ms	O
+nivel	ncms	O
+.	fp	O
+
+Adecuarse	vmn	O
+a	sp	O
+las	da0fp	O
+normas	ncfp	B-REQ
+de	sp	I-REQ
+seguridad	ncfs	I-REQ
+
+Lugar	ncms	O
+de	sp	O
+trabajo	ncms	O
+
+Zona	ncfs	B-LUG
+sur	ncms	I-LUG
+
+Horario	ncms	O
+de	sp	O
+trabajo	ncms	O
+
+Lunes	w	B-DATE
+a	sp	I-DATE
+viernes	w	I-DATE
+de	sp	I-DATE
+08:00	w	I-DATE
+a	sp	I-DATE
+17:00	w	I-DATE
+horas	ncfp	I-DATE
+y	cc	O
+sabados	w	B-DATE
+08:00	w	I-DATE
+a	sp	I-DATE
+13:00	w	I-DATE
+horas	ncfp	I-DATE
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Bachiller	ncms	O
+y/o	cc	O
+titulado	aqms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+industrial	np00	I-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+textil	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+de	sp	O
+más	ncms	O
+de	sp	O
+2	z	O
+años	ncmp	O
+como	cs	O
+jefe	ncms	B-JOB
+de	sp	O
+almacén	ncms	B-AREA
+en	sp	O
+empresas	ncfp	O
+del	sp	O
+rubro	ncms	O
+textil	aqcs	B-AREA
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+ERP	np00	B-REQ
+módulo	ncms	I-REQ
+almacén	ncms	I-REQ
+y/o	cc	I-REQ
+textil	aqcs	I-REQ
+sistemas	ncmp	B-REQ
+de	sp	I-REQ
+almacenamiento	ncms	I-REQ
+.	fp	O
+
+Manejo	ncms	O
+del	sp	O
+excel	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+avanzado	aqms	O
+
+Conocimiento	ncms	O
+de	sp	O
+normas	ncfp	B-REQ
+de	sp	I-REQ
+seguridad	ncfs	I-REQ
+y	cc	I-REQ
+salud	ncfs	I-REQ
+en	sp	I-REQ
+el	da0ms	I-REQ
+trabajo	ncms	I-REQ
+(	fpa	O
+deseable	aqcs	O
+)	fpt	O
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+la	da0fs	O
+realización	ncfs	O
+de	sp	O
+inventarios	ncmp	B-REQ
+,	fc	O
+manejo	ncms	O
+de	sp	O
+diferentes	di0cp	B-REQ
+artículos	ncmp	I-REQ
+,	fc	O
+insumos	ncmp	B-REQ
+,	fc	O
+etc	fs	O
+.	fp	O
+

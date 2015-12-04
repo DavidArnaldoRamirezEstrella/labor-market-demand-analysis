@@ -1,0 +1,86 @@
+promotores	nc	B-JOB
+de	sp	I-JOB
+celulares	nc	I-JOB
+y	cc	I-JOB
+telecomunicaciones	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+promover	vmn	B-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+y	cc	I-FUN
+servicios	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+marca	nc	I-FUN
+.	fp	O
+
+levantar	vmn	B-FUN
+información	nc	I-FUN
+y	cc	O
+presentar	vmn	B-FUN
+reportes	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+ventas	nc	I-FUN
+y	cc	I-FUN
+rotacion	vmi	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+.	fp	O
+
+asesorar	vmn	B-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+respecto	sp	I-FUN
+al	sp	I-FUN
+uso	nc	I-FUN
+adecuado	adj	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+servicios	nc	I-FUN
+y	cc	I-FUN
+productos	nc	I-FUN
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+en	sp	O
+cadenas	nc	O
+de	sp	O
+tiendas	nc	O
+similares	adj	O
+.	fp	O
+
+disponibilidad	nc	O
+para	sp	O
+tramitar	vmn	O
+carné	nc	O
+de	sp	O
+sanidad	nc	O
+.	fp	O
+
+disposición	nc	O
+a	sp	O
+tiempo	nc	O
+completo	adj	O
+para	sp	O
+trabajar	vmn	O
+en	sp	O
+el	det	O
+horario	nc	O
+que	pron	O
+requiera	vms	O
+el	det	O
+pdv	nc	B-LUG
+asignado	vmp	O
+.	fp	O
+

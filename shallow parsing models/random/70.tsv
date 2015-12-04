@@ -1,0 +1,150 @@
+VENDEDOR	nc	B-JOB
+-	fg	O
+CAJAMARCA	np	B-LUG
+
+Empresa	nc	O
+Líder	adj	O
+en	sp	O
+TELECOMUNICACIONES	np	O
+
+Se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+:	fd	O
+
+*	fz	O
+VENDEDOR	nc	B-JOB
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+(	fpa	O
+mínimo	adj	O
+01	z	O
+año	nc	O
+)	fpt	O
+CAMPO	nc	O
+-	fg	O
+Ventas	nc	B-AREA
+de	sp	O
+tarjetas	nc	O
+,	fc	O
+gestores	nc	O
+,	fc	O
+etc	fs	O
+.	fp	O
+
+*	fz	O
+Alto	adj	O
+grado	nc	O
+de	sp	O
+comunicación	nc	B-REQ
+,	fc	O
+fluidez	nc	B-REQ
+verbal	adj	I-REQ
+,	fc	O
+dinámico	adj	B-REQ
+,	fc	O
+proactivo	adj	B-REQ
+,	fc	O
+perseverante	adj	B-REQ
+,	fc	O
+responsable	adj	B-REQ
+,	fc	O
+liderazgo	nc	B-REQ
+,	fc	O
+etc	fs	O
+.	fp	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+a	sp	O
+tiempo	nc	B-MISC
+completo	adj	I-MISC
+en	sp	O
+zonas	nc	O
+(	fpa	O
+90	zp	B-FUN
+%	zp	I-FUN
+de	sp	I-FUN
+visitas	nc	I-FUN
+y	cc	I-FUN
+citas	nc	I-FUN
+con	sp	I-FUN
+clientes	nc	I-FUN
+)	fpt	O
+
+*	fz	O
+Tolerancia	nc	O
+al	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Conocer	vmn	O
+rutas	nc	O
+de	sp	O
+la	det	O
+Ciudad	nc	O
+de	sp	O
+CAJAMARCA	np	B-LUG
+
+OFRECEMOS	vmi	O
+:	fd	O
+
+*	fz	O
+Sueldo	nc	O
+Básico	adj	B-SAL
++	fz	I-SAL
+Variable	adj	I-SAL
++	fz	I-SAL
+Movilidad	nc	I-SAL
+
+*	fz	O
+Incentivos	nc	B-BEN
+y	cc	I-BEN
+bonos	nc	I-BEN
+semanales	adj	I-BEN
+y	cc	I-BEN
+mensuales	adj	I-BEN
+
+*	fz	O
+Desarrollo	nc	B-BEN
+profesional	adj	I-BEN
+,	fc	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+
+*	fz	O
+Capacitaciones	nc	B-BEN
+constantes	adj	I-BEN
+
+Secundaria	nc	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Ventas	np	B-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

@@ -1,0 +1,298 @@
+Técnico	ncms	B-REQ
+de	sp	O
+manejo	ncms	O
+de	sp	O
+datos	ncmp	B-REQ
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Recopilar	vmn	B-FUN
+la	pp3fs	I-FUN
+información	ncfs	I-FUN
+de	sp	I-FUN
+campo	ncms	I-FUN
+y	cc	I-FUN
+colocarlas	vmi	I-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+sistema	ncms	I-FUN
+de	sp	I-FUN
+b.d	ncms	I-FUN
+del	sp	I-FUN
+yacimiento	ncms	I-FUN
+
+Validar	vmn	B-FUN
+la	da0fs	I-FUN
+consistencia	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+datos	ncmp	I-FUN
+recibidos	aqmp	I-FUN
+,	fc	O
+informando	vmg	B-FUN
+de	sp	I-FUN
+posibles	aqcp	I-FUN
+desviaciones	ncfp	I-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+áreas	ncfp	I-FUN
+de	sp	I-FUN
+desarrollo	ncms	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+geociencias	ncfp	I-FUN
+.	fp	O
+
+Buscar	vmn	B-FUN
+y	cc	I-FUN
+proponer	vmn	I-FUN
+soluciones	ncfp	I-FUN
+informáticas	aqfp	I-FUN
+para	sp	I-FUN
+la	da0fs	I-FUN
+operabilidad	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+b.d	ncfp	I-FUN
+.	fp	I-FUN
+con	sp	I-FUN
+el	da0ms	I-FUN
+apoyo	ncms	I-FUN
+de	sp	I-FUN
+AIT	np00	I-FUN
+
+Validar	vmn	B-FUN
+las	da0fp	I-FUN
+pruebas	ncfp	I-FUN
+de	sp	I-FUN
+producción	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+pozos	ncmp	I-FUN
+(	fpa	I-FUN
+comportamiento	ncms	I-FUN
+diario	aqms	I-FUN
+de	sp	I-FUN
+producción	ncfs	I-FUN
+de	sp	I-FUN
+cada	di0cs	I-FUN
+uno	pi0ms	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+pozos	ncmp	I-FUN
+y	cc	I-FUN
+del	sp	I-FUN
+yacimiento	ncms	I-FUN
+)	fpt	I-FUN
+asegurando	vmg	I-FUN
+pruebas	ncfp	I-FUN
+confiables	aqcp	I-FUN
+versus	sp	I-FUN
+pruebas	ncfp	I-FUN
+representativas	aqfp	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+la	da0fs	I-FUN
+reconciliación	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+producción	ncfs	I-FUN
+mensual	aqcs	I-FUN
+de	sp	I-FUN
+pozos	ncmp	I-FUN
+/	fh	I-FUN
+yacimiento	ncms	I-FUN
+versus	sp	I-FUN
+el	da0ms	I-FUN
+volumen	ncms	I-FUN
+de	sp	I-FUN
+fiscalización	ncfs	I-FUN
+de	sp	I-FUN
+petróleo	ncms	I-FUN
+(	fpa	O
+la	da0fs	O
+diferencia	ncfs	O
+se	p0000	O
+llama	vmi	O
+factor	ncms	O
+de	sp	O
+campo	ncms	O
+que	pr0cn	O
+por	sp	O
+lo	da0ns	O
+general	aqcs	O
+es	vsi	O
+menor	aqcs	O
+a	sp	O
+1	z	O
+pero	cc	O
+no	rn	O
+menor	aqcs	O
+a	sp	O
+0.95	z	O
+)	fpt	O
+.	fp	O
+
+Estimar	vmn	B-FUN
+el	da0ms	I-FUN
+factor	ncms	I-FUN
+de	sp	I-FUN
+campo	ncms	I-FUN
+mensual	aqcs	I-FUN
+y	cc	I-FUN
+re	aqcn	I-FUN
+calcular	vmn	I-FUN
+las	da0fp	I-FUN
+pruebas	ncfp	I-FUN
+para	sp	I-FUN
+ingresar	vmn	I-FUN
+el	da0ms	I-FUN
+resultado	ncms	I-FUN
+final	aqcs	I-FUN
+en	sp	I-FUN
+las	da0fp	I-FUN
+bases	nccp	I-FUN
+de	sp	I-FUN
+datos	ncmp	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Egresado	ncms	O
+de	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+ingeniería	np00	B-CARR
+de	sp	I-CARR
+petróleo	np00	I-CARR
+
+Conocimiento	ncms	O
+de	sp	O
+manejo	ncms	O
+de	sp	O
+datos	ncmp	B-REQ
+de	sp	I-REQ
+producción	ncmn	I-REQ
+de	sp	I-REQ
+hidrocarburos	ncmp	I-REQ
+
+Conocimiento	ncms	O
+de	sp	O
+procesos	ncmp	B-REQ
+de	sp	I-REQ
+producción	ncfs	I-REQ
+de	sp	I-REQ
+pozos	ncmp	I-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+automatizaciones	ncfp	B-REQ
+de	sp	I-REQ
+instalaciones	ncfp	I-REQ
+.	fp	O
+
+Dominio	ncms	O
+de	sp	O
+inglés	np00	B-REQ
+intermedio	aqms	O
+(	fpa	O
+especialmente	rg	O
+técnico	aqms	O
+)	fpt	O
+
+Deseable	aqcs	O
+conocimiento	ncms	O
+de	sp	O
+AVM	np00	B-REQ
+(	fpa	O
+data	np00	B-REQ
+managment	np00	I-REQ
+)	fpt	O
+
+Manejo	ncms	O
+de	sp	O
+microsoft	np00	B-REQ
+access	np00	I-REQ
+y	cc	O
+excel	np00	B-REQ
+avanzado	aqms	O
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+2	z	O
+años	ncmp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+6	z	O
+meses	ncmp	O
+en	sp	O
+posiciones	ncfp	O
+similares	aqcp	O
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+
+Conciencia	ncfs	B-REQ
+corporativa	aqfs	I-REQ
+
+Flexibilidad	ncfs	B-REQ
+
+Logro	ncms	B-REQ
+de	sp	I-REQ
+resultados	ncmp	I-REQ
+
+Mejoramiento	ncms	B-REQ
+continuo	aqms	I-REQ
+
+Capacidad	ncfs	O
+de	sp	O
+análisis	ncms	B-REQ
+y	cc	O
+toma	ncfs	B-REQ
+efectiva	aqfs	I-REQ
+de	sp	I-REQ
+decisiones	ncfp	I-REQ
+
+Trabajo	ncms	B-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+
+Compromiso	ncms	B-REQ
+con	sp	I-REQ
+el	da0ms	I-REQ
+cliente	nccs	I-REQ
+
+Creativo	aqms	B-REQ
+
+Proactivo	aqms	B-REQ
+
+Manejo	ncms	O
+de	sp	O
+presión	ncfs	B-REQ
+
+Tolerancia	ncfs	B-REQ
+a	sp	I-REQ
+la	da0fs	I-REQ
+presión	ncfs	I-REQ
+
+Condiciones	ncfp	O
+:	fd	O
+
+Disponibilidad	ncfs	O
+para	sp	O
+trabajar	vmn	B-MISC
+en	sp	I-MISC
+provincia	ncfs	I-MISC
+.	fp	O
+

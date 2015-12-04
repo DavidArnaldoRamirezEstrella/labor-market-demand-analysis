@@ -1,0 +1,232 @@
+Tomadora	ncfs	B-JOB
+de	sp	I-JOB
+Muestra	ncfs	I-JOB
+y	cc	O
+Atención	ncfs	B-AREA
+al	sp	I-AREA
+Cliente	nccs	I-AREA
+-	fg	O
+Sede	ncfs	O
+Arequipa	np00	B-LUG
+.	fp	O
+
+Empresa	ncfs	O
+líder	nccs	O
+en	sp	O
+el	da0ms	O
+sector	ncms	O
+de	sp	O
+laboratorio	ncms	O
+clínico	aqms	O
+esta	dd0fs	O
+solicitando	vmg	O
+profesionales	nccp	B-REQ
+técnicos	aqmp	I-REQ
+en	sp	O
+laboratorio	np00	B-CARR
+clínico	np00	I-CARR
+,	fc	O
+para	sp	O
+laborar	vmn	O
+en	sp	O
+la	da0fs	O
+sede	ncfs	O
+de	sp	O
+la	da0fs	O
+ciudad	ncfs	O
+de	sp	O
+Arequipa	np00	B-LUG
+
+La	da0fs	O
+persona	ncfs	O
+debe	vmi	O
+contar	vmn	O
+con	sp	O
+01	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+laborando	vmg	O
+en	sp	O
+laboratorios	ncmp	B-AREA
+clínicos	aqmp	I-AREA
+,	fc	O
+clínicas	ncfp	B-AREA
+u	cc	O
+hospitales	ncmp	B-AREA
+de	sp	O
+prestigio	ncms	O
+.	fp	O
+Debe	vmi	O
+tener	vmn	O
+experiencia	ncfs	O
+y	cc	O
+destreza	ncfs	O
+en	sp	O
+la	da0fs	O
+toma	ncfs	B-FUN
+de	sp	I-FUN
+muestras	ncfp	I-FUN
+sanguíneas	aqfp	I-FUN
+con	sp	I-FUN
+vacutainer	np00	I-FUN
+y	cc	O
+toma	vmi	B-FUN
+de	sp	I-FUN
+gases	ncmp	I-FUN
+arteriales	aqmp	I-FUN
+a	sp	I-FUN
+todo	di0ms	I-FUN
+tipo	ncms	I-FUN
+de	sp	I-FUN
+pacientes	nccp	I-FUN
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Residir	vmn	O
+en	sp	O
+la	da0fs	O
+ciudad	ncfs	O
+de	sp	O
+Arequipa	np00	B-LUG
+
+*	fz	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+laborando	vmg	O
+en	sp	O
+laboratorios	ncmp	B-AREA
+clínicos	aqmp	I-AREA
+,	fc	O
+clínicas	ncfp	B-AREA
+u	cc	O
+hospitales	ncmp	B-AREA
+de	sp	O
+prestigio	ncms	O
+.	fp	O
+
+*	fz	O
+Ambos	dn0mp	O
+sexos	ncmp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+disponibilidad	ncfs	B-MISC
+Inmediata	aqfs	I-MISC
+para	sp	O
+laborar	vmn	O
+de	sp	O
+lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+7am	w	I-DATE
+-	fg	I-DATE
+4pm	w	I-DATE
+-	fg	O
+Sabado	w	B-DATE
+7am	w	I-DATE
+-	fg	I-DATE
+1pm	w	I-DATE
+
+COMPETENCIAS	ncfp	O
+:	fd	O
+
+*	fz	O
+Responsabilidad	ncfs	B-REQ
+
+*	fz	O
+Vocación	ncfs	O
+de	sp	O
+Servicio	ncms	O
+
+*	fz	O
+Orientación	ncfs	B-REQ
+al	sp	I-REQ
+Paciente	nccs	I-REQ
+
+*	fz	O
+Empatía	ncfs	B-REQ
+
+*	fz	O
+Tolerancia	ncfs	B-REQ
+
+BENEFICIOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+planilla	ncfs	B-BEN
+
+*	fz	O
+Pertenecer	vmn	O
+a	sp	O
+Laboratorio	ncms	O
+Clínico	aqms	O
+Líder	aqcs	O
+en	sp	O
+el	da0ms	O
+Sector	ncms	O
+
+*	fz	O
+Duración	ncfs	B-BEN
+Permanente	aqcs	I-BEN
+
+*	fz	O
+Remuneración	ncfs	O
+acorde	aqcs	B-SAL
+al	sp	I-SAL
+mercado	ncms	I-SAL
+
+*	fz	O
+Seguro	ncms	B-BEN
+de	sp	I-BEN
+Salud	ncfs	I-BEN
+
+Las	da0fp	O
+personas	ncfp	O
+interesadas	aqfp	O
+enviar	vmn	O
+su	dp3cs	O
+CV	np00	O
+con	sp	O
+foto	ncfs	O
+indispensable	aqcs	O
+,	fc	O
+indicando	vmg	O
+en	sp	O
+asunto	ncms	O
+:	fd	O
+TMX	np00	O
+/	fh	O
+REP	ncms	O
+Arequipa	np00	B-LUG
+al	sp	O
+correo	ncms	O
+:	fd	O
+xxxxxxxxx	np00	B-MISC
+@	fz	I-MISC
+xxxxxx	np00	I-MISC
+.	fp	I-MISC
+xxx	np00	I-MISC
+.	fp	I-MISC
+xx	np00	I-MISC
+
+Las	da0fp	O
+personas	ncfp	O
+que	pr0cn	O
+no	rn	O
+cumplan	vms	O
+con	sp	O
+el	da0ms	O
+perfil	ncms	O
+por	sp	O
+favor	sp	O
+abstenerse	vmn	O
+.	fp	O
+

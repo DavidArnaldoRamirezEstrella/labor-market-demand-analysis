@@ -1,0 +1,90 @@
+Auxiliar	nc	B-JOB
+Contable	adj	I-JOB
+
+Se	pron	O
+requiere	vmi	O
+Auxiliar	nc	B-JOB
+Contable	adj	I-JOB
+para	sp	O
+cumplir	vmn	O
+las	det	O
+siguientes	adj	O
+funciones	nc	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	B-FUN
+de	sp	I-FUN
+información	nc	I-FUN
+al	sp	I-FUN
+sistema	nc	I-FUN
+contable	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Revisión	nc	B-FUN
+de	sp	I-FUN
+registros	nc	I-FUN
+y	cc	I-FUN
+reportes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Archivo	nc	B-FUN
+de	sp	I-FUN
+documentación	nc	I-FUN
+contable	adj	I-FUN
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Señorita	nc	O
+,	fc	O
+estudiante	nc	O
+universitaria	adj	O
+o	cc	O
+técnica	nc	B-REQ
+de	sp	O
+contabilidad	np	B-CARR
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+ingreso	nc	B-FUN
+de	sp	I-FUN
+información	nc	I-FUN
+a	sp	I-FUN
+sistema	nc	I-FUN
+(	fpa	I-FUN
+s	np	I-FUN
+)	fpt	I-FUN
+contable	adj	I-FUN
+(	fpa	I-FUN
+s	np	I-FUN
+)	fpt	I-FUN
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+01	z	O
+año	nc	O
+en	sp	O
+área	nc	O
+de	sp	O
+contabilidad	nc	B-AREA
+.	fp	O
+
+Enviar	vmn	O
+CV	np	O
+a	sp	O
+xxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xx	np	I-MISC
+

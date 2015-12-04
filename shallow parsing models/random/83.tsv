@@ -1,0 +1,145 @@
+Prácticas	nc	O
+Profesionales	adj	O
+-	fg	O
+Programadora	nc	B-JOB
+PHP	np	I-JOB
+
+Nuestra	det	O
+institución	nc	O
+desea	vmi	O
+contar	vmn	O
+con	sp	O
+una	det	O
+practicante	nc	B-JOB
+Programadora	adj	I-JOB
+en	sp	I-JOB
+PHP	np	I-JOB
+/	fh	I-JOB
+MYSQL	np	I-JOB
+:	fd	O
+
+Requisitos	nc	O
+profesionales	adj	O
+:	fd	O
+
+*	fz	O
+Profesional	nc	O
+en	sp	O
+Sistemas	np	B-CARR
+o	cc	O
+Tco	nc	B-REQ
+.	fp	I-REQ
+Informática	np	B-CARR
+,	fc	O
+recién	rg	O
+egresada	adj	O
+o	cc	O
+de	sp	O
+últimos	adj	O
+ciclos	nc	O
+de	sp	O
+Universidad	nc	O
+o	cc	O
+Instituto	nc	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+en	sp	O
+análisis	nc	B-REQ
+,	fc	O
+diseño	nc	B-REQ
+y	cc	I-REQ
+desarrollo	nc	I-REQ
+en	sp	I-REQ
+PHP	np	I-REQ
+.	fp	O
+(	fpa	O
+indispensable	adj	O
+)	fpt	O
+
+*	fz	O
+Conocimientos	nc	O
+en	sp	O
+desarrollo	nc	B-REQ
+con	sp	I-REQ
+PHP	np	I-REQ
+5.x	np	I-REQ
+,	fc	O
+de	sp	O
+base	nc	B-REQ
+de	sp	I-REQ
+datos	nc	I-REQ
+Mysql	adj	I-REQ
+,	fc	O
+uso	nc	O
+Jquery	np	B-REQ
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+de	sp	O
+diseño	nc	B-REQ
+y	cc	I-REQ
+maquetación	adj	I-REQ
+web	adj	I-REQ
+(	fpa	O
+indispensable	adj	O
+)	fpt	O
+
+Requisitos	nc	O
+humanos	adj	O
+:	fd	O
+
+*	fz	O
+Pasión	nc	O
+por	sp	O
+TI	np	O
+y	cc	O
+espíritu	nc	O
+innovador	adj	O
+
+*	fz	O
+Honestidad	nc	B-REQ
+
+*	fz	O
+Responsabilidad	nc	B-REQ
+
+*	fz	O
+Puntualidad	nc	B-REQ
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+
+*	fz	O
+Aplicar	vmn	O
+y	cc	O
+ampliar	vmn	O
+los	det	O
+conocimientos	nc	O
+de	sp	O
+la	det	O
+carrera	nc	O
+en	sp	O
+Proyectos	nc	O
+reales	adj	O
+.	fp	O
+
+*	fz	O
+Posibilidad	nc	O
+,	fc	O
+según	sp	O
+desempeño	nc	O
+,	fc	O
+de	sp	O
+hacer	vmn	O
+carrera	nc	B-BEN
+profesional	adj	I-BEN
+.	fp	O
+

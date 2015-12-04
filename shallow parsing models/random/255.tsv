@@ -1,0 +1,100 @@
+Atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+-	fg	O
+part	np	B-MISC
+time	np	I-MISC
+
+Contrataremos	vmi	O
+Señoritas	nc	O
+estudiantes	nc	O
+para	sp	O
+nuestra	det	O
+campaña	nc	O
+de	sp	O
+ayuda	nc	O
+humanitaria	adj	O
+dentro	sp	O
+del	sp	O
+programa	nc	O
+:	fd	O
+"	fe	O
+ACTITUD	np	B-ORG
+SOLIDARIA	np	I-ORG
+"	fe	O
+a	sp	O
+través	sp	O
+de	sp	O
+eventos	nc	O
+y	cc	O
+charlas	nc	O
+informativas	adj	O
+en	sp	O
+el	det	O
+PERÚ	np	B-LUG
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Buen	adj	B-REQ
+trato	nc	I-REQ
+
+*	fz	O
+Mayores	rg	O
+de	sp	O
+18	z	O
+-	fg	O
+25	z	O
+años	nc	O
+
+*	fz	O
+LUNES	w	B-DATE
+-	fg	I-DATE
+SÁBADOS	w	I-DATE
+
+*	fz	O
+Por	sp	O
+las	det	O
+Mañanas	nc	O
+:	fd	O
+
+8:30	w	B-DATE
+am	w	I-DATE
+-	fg	I-DATE
+2:00	w	I-DATE
+pm	w	I-DATE
+
+*	fz	O
+Por	sp	O
+las	det	O
+tardes	nc	O
+:	fd	O
+
+2:30	w	B-DATE
+pm	w	I-DATE
+-	fg	I-DATE
+8:00	w	I-DATE
+pm	w	I-DATE
+
+*	fz	O
+c/s	sp	O
+experiencia	nc	O
+
+*	fz	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Becas	nc	B-BEN
+de	sp	I-BEN
+estudio	nc	I-BEN
+
+*	fz	O
+Oportunidad	nc	B-BEN
+de	sp	I-BEN
+viajes	nc	I-BEN
+

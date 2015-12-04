@@ -1,0 +1,144 @@
+Ayudante	ncms	B-JOB
+Mecánico	aqms	I-JOB
+-	fg	O
+Arequipa	np00	B-LUG
+.	fp	O
+
+Empresa	ncfs	O
+Transnacional	aqcs	O
+requiere	vmi	O
+contar	vmn	O
+con	sp	O
+2	z	O
+profesionales	aqcp	B-REQ
+Técnicos	ncmp	I-REQ
+en	sp	O
+Maquinaria	ncfs	B-REQ
+Pesada	aqfs	I-REQ
+que	pr0cn	O
+residan	vms	O
+en	sp	O
+la	da0fs	O
+ciudad	ncfs	O
+de	sp	O
+Arequipa	np00	B-LUG
+
+REQUISITO	ncms	O
+:	fd	O
+
+Experiencia	ncfs	O
+en	sp	O
+mantenimiento	ncms	B-REQ
+de	sp	I-REQ
+maquinaria	ncfs	I-REQ
+pesada	aqfs	I-REQ
+de	sp	O
+al	rg	O
+menos	rg	O
+2	z	O
+años	ncmp	O
+.	fp	O
+
+Profesión	ncfs	O
+:	fd	O
+Mecánico	np00	B-CARR
+eléctrico	np00	I-CARR
+o	cc	O
+con	sp	O
+conocimientos	ncmp	O
+de	sp	O
+electricidad	ncfs	B-REQ
+y	cc	O
+Electrónica	ncfs	B-REQ
+.	fp	O
+
+De	sp	O
+preferencia	ncfs	O
+egresados	ncmp	O
+de	sp	O
+TECSUP	np00	B-ORG
+o	cc	O
+SENATI	np00	B-ORG
+
+Contar	vmn	O
+con	sp	O
+licencia	ncfs	O
+de	sp	O
+conducir	vmn	O
+A2B	np00	O
+(	fpa	O
+indispensable	aqms	O
+)	fpt	O
+
+FUNCIONES	ncfp	O
+:	fd	O
+
+Apoyar	vmn	B-FUN
+al	sp	I-FUN
+Técnico	ncms	I-FUN
+mecánico	aqms	I-FUN
+para	sp	O
+diagnosticar	vmn	B-FUN
+fallas	ncfp	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+máquinas	ncfp	I-FUN
+de	sp	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Servir	vmn	B-FUN
+de	sp	I-FUN
+apoyo	ncms	I-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+decisiones	ncfp	I-FUN
+a	sp	I-FUN
+tomar	vmn	I-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+mantenimiento	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+maquinaria	ncfs	I-FUN
+pesada	aqfs	I-FUN
+.	fp	O
+
+Brindar	vmn	B-FUN
+el	da0ms	I-FUN
+soporte	ncms	I-FUN
+preventivo	aqms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+máquinas	ncfp	I-FUN
+de	sp	I-FUN
+terreno	ncms	I-FUN
+.	fp	O
+
+Se	p0000	O
+ofrece	vmi	O
+:	fd	O
+
+Planilla	ncfs	B-BEN
+desde	sp	O
+el	da0ms	O
+primer	aoms	O
+día	ncms	O
+.	fp	O
+
+Remuneración	ncfs	O
+Acorde	aqcn	B-SAL
+al	sp	I-SAL
+mercado	ncms	I-SAL
+
+EPS	np00	B-BEN
+y	cc	O
+seguro	aqms	B-BEN
+de	sp	I-BEN
+vida	ncfs	I-BEN
+.	fp	O
+
+Capacitación	ncfs	B-BEN
+constante	aqcs	I-BEN
+.	fp	O
+

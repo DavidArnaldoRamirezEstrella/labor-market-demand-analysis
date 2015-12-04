@@ -1,0 +1,141 @@
+EDITOR	ncms	B-JOB
+DE	sp	I-JOB
+TEXTOS	ncmp	I-JOB
+,	fc	O
+CORRECTOR	ncms	B-JOB
+LITERARIO	aqms	I-JOB
+.	fp	O
+
+Estamos	vmi	O
+en	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+un	di0ms	O
+profesional	nccs	O
+de	sp	O
+letras	np00	B-CARR
+o	cc	O
+comunicación	np00	B-CARR
+con	sp	O
+experiencia	ncfs	O
+comprobable	aqfs	O
+en	sp	O
+edición	ncfs	B-FUN
+de	sp	I-FUN
+textos	ncmp	I-FUN
+web	aqcn	I-FUN
+.	fp	O
+
+Si	cs	O
+te	pp2cs	O
+interesa	vmi	O
+nuestra	dp1fs	O
+propuesta	ncfs	O
+,	fc	O
+envíanos	vmi	O
+tu	dp2cs	O
+CV	np00	O
+a	sp	O
+espanolvivilia	np00	B-MISC
+.	fp	I-MISC
+com	np00	I-MISC
+y	cc	O
+te	p020s	O
+brindaremos	vmi	O
+más	rg	O
+información	ncfs	O
+.	fp	O
+
+Asunto	ncms	O
+:	fd	O
+Corrector	ncms	B-JOB
+Perú	np00	B-LUG
+
+Gracias	sp	O
+
+Su	dp3cs	O
+tarea	ncfs	O
+será	vsi	O
+:	fd	O
+revisar	vmn	B-FUN
+textos	ncmp	I-FUN
+y	cc	I-FUN
+corregirlos	vmi	I-FUN
+para	sp	I-FUN
+que	cs	I-FUN
+queden	vms	I-FUN
+sin	sp	I-FUN
+errores	ncmp	I-FUN
+ortográficos	aqmp	I-FUN
+o	cc	I-FUN
+gramaticales	aqcp	I-FUN
+.	fp	O
+Hacer	vmn	B-FUN
+control	ncms	I-FUN
+de	sp	I-FUN
+estilo	ncms	I-FUN
+y	cc	I-FUN
+modismos	ncmp	I-FUN
+.	fp	O
+
+Los	da0mp	O
+textos	ncmp	O
+deberán	vmi	O
+quedar	vmn	O
+publicables	aqcp	O
+,	fc	O
+sin	sp	O
+ningún	di0ms	O
+tipo	ncms	O
+de	sp	O
+error	ncms	O
+.	fp	O
+
+Universitario	ncms	O
+egresado	aqms	O
+en	sp	O
+Lenguas	np00	B-CARR
+Modernas	np00	I-CARR
+,	fc	O
+Interpretación	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+egresado	aqms	O
+en	sp	O
+Lingüística	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+egresado	aqms	O
+en	sp	O
+Literatura	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+egresado	aqms	O
+en	sp	O
+Traducción	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+Egresado	aqms	O
+en	sp	O
+Comunicación	np00	B-CARR
+Social	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Medios	ncmp	B-AREA
+Digitales	aqcp	I-AREA
+/	fh	O
+Internet	ncfs	B-AREA
+.	fp	O
+

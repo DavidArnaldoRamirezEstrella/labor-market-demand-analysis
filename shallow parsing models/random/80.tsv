@@ -1,0 +1,100 @@
+ventas	nc	B-AREA
+puente	np	B-LUG
+piedra	np	I-LUG
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+secundaria	adj	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+ventas	nc	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+edad	nc	O
+de	sp	O
+20	z	O
+-	fg	O
+31	z	O
+años	nc	O
+
+ambos	det	O
+sexos	nc	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+6	z	O
+meses	nc	O
+
+facilidad	nc	B-REQ
+verbal	adj	I-REQ
+
+manejo	nc	O
+de	sp	O
+cliente	nc	B-REQ
+
+manejo	nc	O
+de	sp	O
+comisiones	nc	B-REQ
+
+manejo	nc	O
+de	sp	O
+productos	nc	B-REQ
+de	sp	I-REQ
+retail	adj	I-REQ
+
+horario	nc	O
+
+lunes	w	B-DATE
+a	sp	I-DATE
+domingo	w	I-DATE
+:	fd	O
+1	z	B-MISC
+dia	nc	I-MISC
+de	sp	I-MISC
+descanso	nc	I-MISC
+rotativo	nc	I-MISC
+
+de	sp	B-DATE
+9:00	w	I-DATE
+am	w	I-DATE
+-	fg	I-DATE
+6:00	w	I-DATE
+pm	w	I-DATE
+/	fh	I-DATE
+11:00	w	I-DATE
+am	w	I-DATE
+-	fg	I-DATE
+8:00	w	I-DATE
+pm	w	I-DATE
+
+horarios	nc	B-MISC
+rotativos	adj	I-MISC
+
+asunto	nc	O
+:	fd	O
+médico	vmi	B-JOB
+ocupacional	adj	I-JOB
+
+o	cc	O
+llamar	vmn	O
+al	sp	O
+444	z	B-MISC
+4051	z	I-MISC
+

@@ -1,0 +1,181 @@
+Asesor	nc	B-JOB
+de	sp	I-JOB
+Creditos	nc	I-JOB
+VIP	np	I-JOB
+-	fg	O
+Tacna	np	B-LUG
+
+Por	sp	O
+encargo	nc	O
+de	sp	O
+nuestro	det	O
+cliente	nc	O
+,	fc	O
+importante	adj	O
+Entidad	nc	O
+Financiera	adj	O
+requiere	vmi	O
+incorporar	vmn	O
+a	sp	O
+su	det	O
+staff	nc	O
+de	sp	O
+colaboradores	nc	O
+:	fd	O
+
+Ejecutivos	nc	B-JOB
+VIP	np	I-JOB
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Experiencia	nc	O
+de	sp	O
+1	z	O
+año	nc	O
+en	sp	O
+el	det	O
+cargo	nc	O
+.	fp	O
+
+*	fz	O
+Haber	van	O
+laborado	vmn	O
+en	sp	O
+entidades	nc	O
+financieras	adj	O
+y	cc	O
+experiencia	nc	O
+con	sp	O
+clientes	nc	O
+VIP	adj	O
+.	fp	O
+
+*	fz	O
+Contar	vmi	O
+con	sp	O
+cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+en	sp	O
+distintas	det	O
+zonas	nc	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+en	sp	O
+estados	nc	B-REQ
+financieros	adj	I-REQ
+.	fp	O
+
+*	fz	O
+De	sp	O
+preferencia	nc	O
+que	pron	O
+cuenten	vms	O
+con	sp	O
+cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+.	fp	O
+
+Objetivos	nc	O
+/	fh	O
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Mantenimiento	nc	B-FUN
+de	sp	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+para	sp	I-FUN
+el	det	I-FUN
+BBVA	np	I-FUN
+,	fc	I-FUN
+dentro	rg	I-FUN
+del	sp	I-FUN
+segmento	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Ingresar	vmi	B-FUN
+datos	nc	I-FUN
+de	sp	I-FUN
+estado	nc	I-FUN
+financiero	adj	I-FUN
+al	sp	I-FUN
+formato	nc	I-FUN
+establecido	vmp	I-FUN
+por	sp	I-FUN
+el	det	I-FUN
+BBVA	np	I-FUN
+.	fp	O
+
+*	fz	O
+Lectura	nc	B-FUN
+de	sp	I-FUN
+estados	nc	I-FUN
+financieros	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Completar	vmi	B-FUN
+expedientes	nc	I-FUN
+en	sp	I-FUN
+base	nc	I-FUN
+al	sp	I-FUN
+Check	np	I-FUN
+List	np	I-FUN
+por	sp	I-FUN
+el	det	I-FUN
+banco	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-FUN
+de	sp	I-FUN
+Oficina	nc	I-FUN
+.	fp	O
+
+Ofrece	vmm	O
+:	fd	O
+
+*	fz	O
+Salario	nc	O
+de	sp	B-SAL
+acorde	nc	I-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+Básico	np	I-SAL
++	fz	I-SAL
+comisiones	nc	I-SAL
+por	sp	I-SAL
+encima	sp	I-SAL
+del	sp	I-SAL
+mercado	nc	I-SAL
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Ingreso	nc	O
+Inmediato	adj	O
+.	fp	O
+
+*	fz	O
+Estabilidad	nc	B-BEN
+Laboral	adj	I-BEN
+

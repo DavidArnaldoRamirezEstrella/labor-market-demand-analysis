@@ -1,0 +1,274 @@
+Programador	ncms	B-JOB
+java	np00	B-REQ
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Educación	ncfs	O
+
+Egresado	ncms	O
+,	fc	O
+bachiller	ncms	O
+o	cc	O
+titulado	ncms	B-REQ
+universitario	aqms	O
+en	sp	O
+ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+computación	np00	I-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+de	sp	I-CARR
+sistemas	np00	I-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+informática	np00	I-CARR
+o	cc	O
+nivel	ncms	O
+equivalente	aqcs	O
+.	fp	O
+
+Grado	ncms	O
+técnico	aqms	B-REQ
+en	sp	O
+computación	np00	B-CARR
+e	cc	I-CARR
+informatica	np00	I-CARR
+
+Habilidades	ncfp	O
+técnicas	aqfp	O
+
+Conocimientos	ncmp	O
+de	sp	O
+lenguaje	ncms	O
+de	sp	O
+programación	ncfs	O
+java	np00	B-REQ
+
+Conocimientos	ncmp	O
+de	sp	O
+herramientas	ncfp	O
+relacionados	vmp	O
+con	sp	O
+java	np00	B-REQ
+:	fd	O
+eclipse	ncms	B-REQ
+
+Conocimientos	ncmp	O
+en	sp	O
+frameworks	ncmp	B-REQ
+spring	np00	I-REQ
+y	cc	O
+hibernate	np00	B-REQ
+
+Conocimientos	ncmp	O
+en	sp	O
+base	sp	B-REQ
+datos	ncmp	I-REQ
+de	sp	O
+preferencia	ncfs	O
+Oracle	np00	B-REQ
+,	fc	O
+se	p0000	O
+valora	vmi	O
+el	da0ms	O
+conocimiento	ncms	O
+en	sp	O
+sqlserver	np00	B-REQ
+o	cc	O
+postgresql	np00	B-REQ
+
+Conocimientos	ncmp	O
+en	sp	O
+Poo	np00	B-REQ
+y	cc	O
+patrones	ncmp	B-REQ
+de	sp	I-REQ
+diseño	ncms	I-REQ
+
+Conocimientos	ncmp	O
+de	sp	O
+SQL	np00	B-REQ
+,	fc	O
+ODBC	np00	B-REQ
+/	fh	O
+JDBC	np00	B-REQ
+,	fc	O
+XML	np00	B-REQ
+
+Conocimientos	ncmp	O
+en	sp	O
+desarrollo	ncms	B-REQ
+multiplataforma	aqcs	I-REQ
+(	fpa	O
+linux	np00	B-REQ
+,	fc	O
+unix	np00	B-REQ
+,	fc	O
+windows	np00	B-REQ
+)	fpt	O
+
+Conocimientos	ncmp	O
+de	sp	O
+UML	np00	B-REQ
+y	cc	O
+metodologías	ncfp	B-REQ
+de	sp	I-REQ
+software	ncms	I-REQ
+(	fpa	O
+Scrum	np00	B-REQ
+,	fc	O
+Rup	np00	B-REQ
+)	fpt	O
+
+Conocimientos	ncmp	O
+de	sp	O
+gestión	ncfs	B-FUN
+de	sp	I-FUN
+configuración	ncfs	I-FUN
+de	sp	I-FUN
+software	ncms	I-FUN
+(	fpa	O
+Svn	np00	B-REQ
+,	fc	O
+Maven	np00	B-REQ
+)	fpt	O
+
+Conocimientos	ncmp	O
+de	sp	O
+Tomcat	np00	B-REQ
+6	z	I-REQ
+y/o	cc	O
+superior	aqcs	O
+,	fc	O
+Jboss	np00	B-REQ
+,	fc	O
+Glassfish	np00	B-REQ
+,	fc	O
+u	cc	O
+otro	di0ms	O
+contenedor	ncms	B-REQ
+Jee	np00	I-REQ
+
+Conocimientos	ncmp	O
+en	sp	O
+herramientas	ncfp	O
+,	fc	O
+librerías	ncfp	O
+y	cc	O
+productos	ncmp	B-REQ
+open	np00	I-REQ
+source	np00	I-REQ
+
+Lo	da0ns	O
+siguiente	aqcs	O
+sería	vmi	O
+un	di0ms	O
+plus	ncms	O
+:	fd	O
+
+Conocimientos	ncmp	O
+de	sp	O
+criptografía	ncfs	B-REQ
+:	fd	O
+Pki	np00	B-REQ
+,	fc	O
+Pkcs	np00	B-REQ
+
+Conocimientos	ncmp	O
+de	sp	O
+otros	di0mp	O
+frameworks	ncmp	B-REQ
+de	sp	I-REQ
+vista	ncfs	I-REQ
+(	fpa	O
+Velocity	np00	B-REQ
+.	fp	O
+)	fpt	O
+
+Conocimientos	ncmp	O
+en	sp	O
+framework	ncms	B-REQ
+de	sp	I-REQ
+pruebas	ncfp	I-REQ
+unitarias	aqfp	I-REQ
+Junit	ncfp	B-REQ
+
+Conocimentos	ncmp	O
+en	sp	O
+herramientos	ncms	O
+de	sp	O
+pruebas	ncfp	B-REQ
+automatizadas	aqfp	I-REQ
+
+Prácticas	ncfp	B-REQ
+ágiles	aqcp	I-REQ
+:	fd	O
+TDD	np00	B-REQ
+,	fc	O
+CI	np00	B-REQ
+,	fc	O
+Pair	np00	B-REQ
+programming	np00	I-REQ
+,	fc	O
+Code	np00	B-REQ
+Reviews	np00	I-REQ
+
+Experiencia	ncfs	O
+trabajando	vmg	O
+con	sp	O
+Angularjs	np00	B-REQ
+,	fc	O
+Jquery	np00	B-REQ
+o	cc	O
+similar	aqcs	O
+
+Inglés	np00	B-REQ
+intermedio	aqms	O
+
+Competencias	ncfp	O
+
+Habilidad	ncfs	O
+de	sp	O
+trabajar	vmn	B-REQ
+solo	aqms	I-REQ
+y	cc	I-REQ
+como	cs	I-REQ
+parte	ncfs	I-REQ
+de	sp	I-REQ
+un	di0ms	I-REQ
+equipo	ncms	I-REQ
+
+Buenas	aqfp	O
+capacidades	ncfp	B-REQ
+analíticas	aqfp	I-REQ
+para	sp	O
+asumir	vmn	O
+nuevos	aqmp	O
+retos	ncmp	O
+
+Buenas	aqfp	O
+habilidades	ncfp	O
+de	sp	O
+comunicación	ncfs	B-REQ
+,	fc	O
+organizado	aqms	B-REQ
+y	cc	O
+motivado	aqms	B-REQ
+,	fc	O
+persistente	aqcs	B-REQ
+,	fc	O
+orientado	vmp	B-REQ
+a	sp	I-REQ
+completar	vmn	I-REQ
+tareas	ncfp	I-REQ
+
+Responsable	aqcs	B-REQ
+y	cc	O
+confiable	aqcs	B-REQ
+

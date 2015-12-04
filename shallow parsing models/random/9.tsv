@@ -1,0 +1,52 @@
+arquitecto	nc	B-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+arquitecto	nc	B-CARR
+con	sp	O
+más	nc	O
+de	sp	O
+3	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+en	sp	O
+acabados	nc	B-REQ
+de	sp	I-REQ
+edificaciones	nc	I-REQ
+(	fpa	O
+drywall	np	O
+,	fc	O
+ventanas	nc	O
+,	fc	O
+carpintería	vmi	O
+de	sp	O
+madera	nc	O
+y	cc	O
+aluminio	nc	O
+)	fpt	O
+.	fp	O
+
+capacidad	nc	O
+de	sp	O
+gestión	nc	B-REQ
+y	cc	O
+organización	nc	B-REQ
+.	fp	O
+
+facilidad	nc	O
+para	sp	O
+relacionarse	nc	O
+a	sp	O
+todo	det	O
+nivel	nc	O
+.	fp	O
+
+inglés	nc	B-REQ
+intermedio	adj	O
+.	fp	O
+

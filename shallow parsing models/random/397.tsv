@@ -1,0 +1,168 @@
+promotor	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+técnico	nc	B-REQ
+en	sp	O
+ventas	nc	B-AREA
+.	fp	O
+
+técnico	nc	B-REQ
+en	sp	O
+cajero	nc	B-JOB
+/	fh	O
+promotor	nc	B-JOB
+de	sp	I-JOB
+servicios	nc	I-JOB
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+ventas	nc	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+microsoft	np	B-REQ
+word	np	I-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+,	fc	O
+microsoft	np	B-REQ
+excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+.	fp	O
+
+promoción	nc	B-FUN
+,	fc	I-FUN
+seguimiento	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+(	fpa	I-FUN
+cotizaciones	nc	I-FUN
+)	fpt	I-FUN
+,	fc	O
+negociación	nc	B-FUN
+de	sp	I-FUN
+mejores	adj	I-FUN
+cotizaciones	nc	I-FUN
+y	cc	I-FUN
+cierre	nc	I-FUN
+de	sp	I-FUN
+ventas	nc	I-FUN
+para	sp	I-FUN
+alcanzar	vmn	I-FUN
+los	det	I-FUN
+resultados	nc	I-FUN
+comerciales	adj	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+tiendas	nc	I-FUN
+a	sp	I-FUN
+su	det	I-FUN
+cargo	nc	I-FUN
+.	fp	O
+
+seguimiento	nc	B-FUN
+del	sp	I-FUN
+avance	nc	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+campañas	nc	I-FUN
+de	sp	I-FUN
+venta	nc	I-FUN
+y	cc	I-FUN
+promoción	nc	I-FUN
+de	sp	I-FUN
+estos	det	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+ffvv	np	I-FUN
+.	fp	O
+
+concertar	vmn	B-FUN
+y	cc	I-FUN
+planificar	vmn	I-FUN
+las	det	I-FUN
+visitas	nc	I-FUN
+en	sp	I-FUN
+las	det	I-FUN
+tiendas	nc	I-FUN
+de	sp	I-FUN
+concesionarios	nc	I-FUN
+asignadas	vmp	I-FUN
+a	sp	I-FUN
+su	det	I-FUN
+cargo	nc	I-FUN
+.	fp	O
+
+controlar	vmn	B-FUN
+el	det	I-FUN
+kardex	np	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+packs	nc	I-FUN
+de	sp	I-FUN
+bienvenida	nc	I-FUN
+a	sp	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+elaborar	vmn	B-FUN
+reportes	nc	I-FUN
+de	sp	I-FUN
+gestión	nc	I-FUN
+.	fp	O
+
+seguimiento	nc	B-FUN
+de	sp	I-FUN
+pago	nc	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+

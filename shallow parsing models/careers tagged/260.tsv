@@ -1,0 +1,288 @@
+Gerente	nccs	B-JOB
+EHS	np00	O
+-	fg	O
+Piura	np00	B-LUG
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Consolidar	vmn	B-FUN
+y	cc	I-FUN
+analizar	vmn	I-FUN
+las	da0fp	I-FUN
+necesidades	ncfp	I-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+de	sp	I-FUN
+su	dp3cs	I-FUN
+área	ncfs	I-FUN
+.	fp	O
+
+Elaborar	vmn	B-FUN
+el	da0ms	I-FUN
+presupuesto	ncms	I-FUN
+de	sp	I-FUN
+inversión	ncfs	I-FUN
+anual	aqcs	I-FUN
+del	sp	I-FUN
+área	ncfs	I-FUN
+.	fp	O
+
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+las	da0fp	I-FUN
+dependencias	ncfp	I-FUN
+para	sp	I-FUN
+que	pr0cn	I-FUN
+se	p0000	I-FUN
+ejecuten	vms	I-FUN
+las	da0fp	I-FUN
+funciones	ncfp	I-FUN
+de	sp	I-FUN
+seguridad	ncfs	I-FUN
+,	fc	I-FUN
+salud	ncfs	I-FUN
+y	cc	I-FUN
+cuidado	ncms	I-FUN
+del	sp	I-FUN
+medio	dn0ms	I-FUN
+ambiente	ncms	I-FUN
+.	fp	O
+
+Promover	vmn	B-FUN
+las	da0fp	I-FUN
+capacitaciones	ncfp	I-FUN
+continuas	aqfp	I-FUN
+propia	aqfs	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+terceros	ncmp	I-FUN
+de	sp	I-FUN
+inducción	ncfs	I-FUN
+y	cc	I-FUN
+entrenamiento	ncms	I-FUN
+.	fp	O
+
+Elaborar	vmn	B-FUN
+el	da0ms	I-FUN
+plan	ncms	I-FUN
+anual	aqcs	I-FUN
+de	sp	I-FUN
+actividades	ncfp	I-FUN
+del	sp	I-FUN
+area	ncfs	I-FUN
+para	sp	I-FUN
+garantizar	vmn	I-FUN
+la	da0fs	I-FUN
+seguridad	ncfs	I-FUN
+,	fc	I-FUN
+salud	ncfs	I-FUN
+y	cc	I-FUN
+cuidado	ncms	I-FUN
+del	sp	I-FUN
+medio	dn0ms	I-FUN
+ambiente	ncms	I-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+organización	ncfs	I-FUN
+.	fp	O
+
+Realizar	vmn	B-FUN
+el	da0ms	I-FUN
+seguimiento	ncms	I-FUN
+y	cc	I-FUN
+control	ncms	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+actividades	ncfp	I-FUN
+planificadas	vmp	I-FUN
+.	fp	O
+
+Planificar	vmn	B-FUN
+el	da0ms	I-FUN
+soporte	ncms	I-FUN
+de	sp	I-FUN
+ehs	ncms	I-FUN
+en	sp	I-FUN
+base	nccs	I-FUN
+al	sp	I-FUN
+planeamiento	ncms	I-FUN
+del	sp	I-FUN
+área	ncfs	I-FUN
+usuario	ncms	I-FUN
+.	fp	O
+
+Autorizar	vmn	B-FUN
+los	da0mp	I-FUN
+requerimientos	ncmp	I-FUN
+del	sp	I-FUN
+área	ncfs	I-FUN
+y	cc	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+de	sp	I-FUN
+seguridad	ncfs	I-FUN
+.	fp	O
+
+Coordinar	vmn	B-FUN
+para	sp	I-FUN
+la	da0fs	I-FUN
+instalación	ncfs	I-FUN
+y	cc	I-FUN
+revisión	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+seguridad	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+áreas	ncfp	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Formación	ncfs	O
+básica	aqfs	O
+:	fd	O
+ingeniero	np00	B-CARR
+industrial	np00	I-CARR
+;	fx	O
+ingeniero	np00	B-CARR
+mecánico	np00	I-CARR
+;	fx	O
+ingeniero	np00	B-CARR
+de	sp	I-CARR
+petróleo	np00	I-CARR
+;	fx	O
+ingeniero	np00	B-CARR
+químico	np00	I-CARR
+;	fx	O
+ingeniero	np00	B-CARR
+de	sp	I-CARR
+seguridad	np00	I-CARR
+industrial	np00	I-CARR
+
+Otra	di0fs	O
+formación	ncfs	O
+complementaria	aqfs	O
+:	fd	O
+especialización	ncfs	B-REQ
+en	sp	O
+prevención	ncfs	B-REQ
+de	sp	I-REQ
+riesgos	ncmp	I-REQ
+y	cc	I-REQ
+salud	ncfs	I-REQ
+ocupacional	aqcs	I-REQ
+
+Experiencia	ncfs	O
+de	sp	O
+5	z	O
+años	ncmp	O
+en	sp	O
+posición	ncfs	O
+similar	aqcs	O
+del	sp	O
+sector	ncms	O
+hidrocarburos	ncmp	B-AREA
+
+Experiencia	ncfs	O
+no	rn	O
+menor	aqcs	O
+a	sp	O
+7	z	O
+años	ncmp	O
+en	sp	O
+actividades	ncfp	O
+relacionadas	aqfp	O
+a	sp	O
+EHS	np00	B-AREA
+
+Idioma	ncms	O
+:	fd	O
+Inglés	np00	B-REQ
+básico	aqfp	O
+
+Conocimiento	ncms	O
+de	sp	O
+Ms	np00	B-REQ
+Oficce	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Indispensable	aqcs	O
+:	fd	O
+disponibilidad	ncfs	O
+para	sp	O
+residir	vmn	O
+en	sp	O
+Piura	np00	B-LUG
+(	fpa	O
+alrededores	ncmp	O
+)	fpt	O
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+
+Liderazgo	ncms	B-REQ
+
+Resolución	ncfs	B-REQ
+de	sp	I-REQ
+problemas	ncmp	I-REQ
+
+Toma	ncfs	B-REQ
+de	sp	I-REQ
+decisiones	ncfp	I-REQ
+
+Planificación	ncfs	B-REQ
+y	cc	O
+organización	ncfs	B-REQ
+
+Atención	ncfs	B-REQ
+a	sp	I-REQ
+los	da0mp	I-REQ
+detalles	ncmp	I-REQ
+
+Proactivo	aqms	B-REQ
+
+Comunicación	ncfs	B-REQ
+
+Control	ncms	B-REQ
+directivo	aqms	I-REQ
+
+Personas	ncfp	O
+interesadas	aqfp	O
+y	cc	O
+que	pr0cn	O
+cumplan	vms	O
+con	sp	O
+el	da0ms	O
+perfil	ncms	O
+enviar	vmn	O
+su	dp3cs	O
+hoja	ncfs	O
+de	sp	O
+vida	ncfs	O
+a	sp	O
+mirianvega	np00	O
+@	fz	O
+hrp	np00	O
+.	fp	O
+com	np00	O
+.	fp	O
+pe	np00	O
+con	sp	O
+el	da0ms	O
+título	ncms	O
+como	cs	O
+asunto	ncms	O
+.	fp	O
+

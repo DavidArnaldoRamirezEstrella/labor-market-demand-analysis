@@ -1,0 +1,137 @@
+UR	np	B-ORG
+Topografía	np	I-ORG
+Solicita	vmi	O
+Topógrafos	nc	B-JOB
+
+Estudios	nc	O
+superiores	adj	O
+Técnico	nc	B-REQ
+en	sp	O
+Topografía	np	B-CARR
+subterránea	np	I-CARR
+y	cc	I-CARR
+superficial	np	I-CARR
+.	fp	O
+
+Más	rg	O
+de	sp	O
+dos	det	O
+años	nc	O
+en	sp	O
+topografía	nc	B-AREA
+de	sp	I-AREA
+minas	nc	I-AREA
+.	fp	O
+
+Disponibilidad	nc	B-MISC
+para	sp	I-MISC
+viajar	vmn	I-MISC
+,	fc	O
+trabajo	nc	B-MISC
+en	sp	I-MISC
+sistema	nc	I-MISC
+
+Funciones	nc	O
+:	fd	O
+
+Realiza	vmi	B-FUN
+levantamientos	nc	I-FUN
+topográficos	adj	I-FUN
+,	fc	I-FUN
+replanteos	vmi	I-FUN
+de	sp	I-FUN
+obras	nc	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+proyectos	nc	I-FUN
+de	sp	I-FUN
+ingeniería	nc	I-FUN
+.	fp	O
+
+Efectúa	vmi	B-FUN
+cálculos	nc	I-FUN
+y	cc	I-FUN
+representaciones	nc	I-FUN
+gráficas	adj	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+mediciones	nc	I-FUN
+topográficas	adj	I-FUN
+.	fp	O
+
+Localiza	vmi	B-FUN
+puntos	nc	I-FUN
+de	sp	I-FUN
+operaciones	nc	I-FUN
+apropiados	adj	I-FUN
+para	sp	I-FUN
+efectuar	vmn	I-FUN
+levantamientos	nc	I-FUN
+topográficos	adj	I-FUN
+
+Efectúa	vmi	B-FUN
+nivelaciones	nc	I-FUN
+de	sp	I-FUN
+terrenos	nc	I-FUN
+y	cc	I-FUN
+mediciones	nc	I-FUN
+topográficas	adj	I-FUN
+.	fp	O
+
+Elabora	vmi	B-FUN
+dibujos	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+levantamientos	nc	I-FUN
+topográficos	adj	I-FUN
+.	fp	O
+
+Manejo	nc	O
+de	sp	O
+autocad	np	B-REQ
+,	fc	O
+nivel	nc	O
+avanzado	adj	O
+
+Vela	vmi	B-FUN
+por	sp	I-FUN
+el	det	I-FUN
+mantenimiento	nc	I-FUN
+preventivo	adj	I-FUN
+y	cc	I-FUN
+correctivo	adj	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+equipos	nc	I-FUN
+de	sp	I-FUN
+topografía	nc	I-FUN
+.	fp	O
+
+Cumple	vmi	B-FUN
+con	sp	I-FUN
+las	det	I-FUN
+normas	nc	I-FUN
+y	cc	I-FUN
+procedimientos	nc	I-FUN
+en	sp	I-FUN
+materia	nc	I-FUN
+de	sp	I-FUN
+seguridad	nc	I-FUN
+integral	adj	I-FUN
+,	fc	I-FUN
+establecidos	vmp	I-FUN
+por	sp	I-FUN
+la	det	I-FUN
+organización	nc	I-FUN
+
+Otros	pron	O
+que	pron	O
+le	pron	O
+asigne	vmi	O
+la	det	O
+Jefatura	nc	O
+de	sp	O
+Planeamiento	nc	O
+y	cc	O
+Productividad	nc	O
+

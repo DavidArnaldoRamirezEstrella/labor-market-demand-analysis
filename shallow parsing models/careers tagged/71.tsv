@@ -1,0 +1,143 @@
+Técnicos	ncmp	B-REQ
+electricistas	np00	B-CARR
+de	sp	O
+Campo	ncms	O
+.	fp	O
+
+Importante	aqcs	O
+empresa	ncfs	O
+solicita	vmi	O
+Técnicos	ncmp	B-REQ
+de	sp	O
+Electricidad	np00	B-CARR
+(	fpa	O
+de	sp	O
+campo	ncms	O
+)	fpt	O
+para	sp	O
+realizar	vmn	B-FUN
+instalaciones	ncfp	I-FUN
+a	sp	I-FUN
+domicilio	ncms	I-FUN
+de	sp	I-FUN
+rapiduchas	ncfp	I-FUN
+,	fc	I-FUN
+termas	ncfp	I-FUN
+,	fc	I-FUN
+campanas	ncfp	I-FUN
+.	fp	O
+
+*	fz	O
+Sólidos	aqmp	O
+conocimientos	ncmp	O
+
+*	fz	O
+Disponibilidad	ncfs	O
+a	sp	O
+tiempo	ncms	B-MISC
+completo	aqms	I-MISC
+(	fpa	O
+no	rn	O
+estudiantes	nccp	O
+)	fpt	O
+
+*	fz	O
+Responsable	aqcs	O
+con	sp	O
+el	da0ms	O
+trabajo	ncms	O
+
+Beneficios	ncmp	O
+:	fd	O
+
+*	fz	O
+SCTR	np00	B-BEN
+
+*	fz	O
+uniforme	ncms	B-BEN
+
+*	fz	O
+capacitaciones	ncfp	B-BEN
+
+Horario	ncms	O
+de	sp	O
+trabajo	ncms	O
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+sábado	w	I-DATE
+de	sp	I-DATE
+8:00am	w	I-DATE
+a	sp	I-DATE
+6	w	I-DATE
+:	fd	I-DATE
+pm	w	I-DATE
+
+Localidad	ncfs	O
+:	fd	O
+Lima	np00	B-LUG
+
+Departamento	ncms	O
+:	fd	O
+Lima	np00	B-LUG
+
+Salario	ncms	O
+:	fd	O
+S/.1200	zm	B-SAL
+a	sp	I-SAL
+1400	zm	I-SAL
+(	fpa	O
+destajo	ncms	O
+)	fpt	O
+
+Comienzo	ncms	B-BEN
+:	fd	I-BEN
+Inmediato	aqms	I-BEN
+
+Duración	ncfs	B-BEN
+:	fd	I-BEN
+Indefinido	aqms	I-BEN
+
+Tipo	ncms	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+Tiempo	ncms	B-MISC
+Completo	aqms	I-MISC
+
+Solicitudes	ncfp	O
+:	fd	O
+Asunto	ncms	O
+colocar	vmi	O
+:	fd	O
+Técnico	ncms	B-REQ
+electricista	np00	B-CARR
+
+Empresa	ncfs	O
+:	fd	O
+Servicio	np00	B-ORG
+Senior	np00	I-ORG
+Sac	np00	I-ORG
+
+Contacto	ncms	O
+:	fd	O
+Raúl	np00	B-NOM
+Quineche	np00	I-NOM
+
+Teléfono	ncms	O
+:	fd	O
+
+Fax	ncms	O
+:	fd	O
+
+Correo	ncms	O
+-	fg	O
+E	np00	O
+:	fd	O
+xxxxxx	np00	B-MISC
+#	fz	I-MISC
+@	fz	I-MISC
+xxxxxxxxxxxxxx	np00	I-MISC
+.	fp	I-MISC
+xxx	np00	I-MISC
+

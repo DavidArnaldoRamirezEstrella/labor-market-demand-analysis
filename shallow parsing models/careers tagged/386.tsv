@@ -1,0 +1,62 @@
+Químicos	np00	B-CARR
+Farmaceúticos	np00	I-CARR
+para	sp	O
+Botica	ncfs	O
+en	sp	O
+Piura	np00	B-LUG
+.	fp	O
+
+Se	p0000	O
+necesita	vmi	O
+con	sp	O
+urgencia	ncfs	O
+para	sp	O
+regencia	ncfs	O
+de	sp	O
+Botica	ncfs	O
+en	sp	O
+Piura	np00	B-LUG
+
+Habilidad	ncfs	B-REQ
+departamental	aqfs	I-REQ
+al	sp	O
+día	ncms	O
+
+Copia	ncfs	O
+de	sp	O
+renuncia	ncfs	O
+a	sp	O
+regencia	ncfs	O
+anterior	aqfs	O
+
+Vivir	vmn	B-MISC
+en	sp	I-MISC
+zonas	ncfp	I-MISC
+cercanas	aqfp	I-MISC
+
+Se	p0000	O
+ofrece	vmi	O
+muy	rg	B-SAL
+buen	aqms	I-SAL
+pago	ncms	I-SAL
+por	sp	O
+su	dp3cs	O
+regencia	ncfs	O
+.	fp	O
+
+Enviar	vmn	O
+hoja	ncfs	O
+de	sp	O
+vida	ncfs	O
+y	cc	O
+colocar	vmn	O
+asunto	ncms	O
+QF	np00	O
+-	fg	O
+PIURA	np00	B-LUG
+
+y	cc	O
+llamar	vmn	O
+al	sp	O
+966391928	z	B-MISC
+

@@ -1,0 +1,268 @@
+ATENCION	nc	B-AREA
+AL	sp	I-AREA
+CLIENTE	nc	I-AREA
+LOS	np	B-LUG
+OLIVOS	np	I-LUG
+
+Chicas	nc	O
+y	cc	O
+chicos	nc	O
+proactivos	adj	B-REQ
+,	fc	O
+entusiastas	adj	B-REQ
+,	fc	O
+con	sp	O
+deseos	nc	O
+de	sp	O
+superación	nc	O
+para	sp	O
+el	det	O
+puesto	nc	O
+de	sp	O
+Asistencia	nc	B-JOB
+Telefónica	adj	I-JOB
+.	fp	O
+
+Vacantes	nc	O
+:	fd	O
+01	z	O
+
+Sexo	nc	O
+:	fd	O
+Indistinto	adj	O
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Atender	vmn	B-FUN
+llamadas	nc	I-FUN
+entrantes	adj	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+usuarios	nc	I-FUN
+y	cc	I-FUN
+brindarles	vmi	I-FUN
+una	det	I-FUN
+atención	nc	I-FUN
+personalizada	adj	I-FUN
+.	fp	O
+Oportunidad	nc	O
+de	sp	O
+realizar	vmn	B-FUN
+ventas	nc	I-FUN
+.	fp	O
+
+Horario	nc	O
+disponible	adj	O
+de	sp	O
+trabajo	nc	O
+:	fd	O
+08:00	w	B-DATE
+am	w	I-DATE
+-	fg	I-DATE
+12:00	w	I-DATE
+pm	w	I-DATE
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Estudios	nc	O
+técnicos	adj	B-REQ
+o	cc	O
+superiores	adj	O
+Egresados	nc	O
+,	fc	O
+en	sp	O
+curso	nc	O
+o	cc	O
+truncos	adj	O
+.	fp	O
+
+*	fz	O
+Experiencia	nc	O
+laboral	adj	O
+mínima	adj	O
+de	sp	O
+3	z	O
+meses	nc	O
+en	sp	O
+Atención	nc	B-AREA
+al	sp	I-AREA
+Cliente	nc	I-AREA
+(	fpa	O
+Deseable	adj	O
+3	z	O
+meses	nc	O
+en	sp	O
+Call	np	B-AREA
+center	np	I-AREA
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+de	sp	O
+Computación	np	B-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+una	det	O
+formación	nc	O
+por	sp	O
+las	det	O
+tardes	nc	O
+
+*	fz	O
+Importante	adj	O
+:	fd	O
+Residir	vmn	O
+por	sp	O
+distritos	nc	O
+aledaños	adj	O
+a	sp	O
+Los	np	B-LUG
+Olivos	np	I-LUG
+.	fp	O
+
+SALARIO	nc	O
+:	fd	O
+
+BASICO	adj	B-SAL
+S/.375	zm	I-SAL
++	fz	I-SAL
+BONO	nc	I-SAL
+S/.60	zm	I-SAL
+(	fpa	I-SAL
+POR	sp	I-SAL
+OBJETIVOS	nc	I-SAL
+)	fpt	I-SAL
++	fz	I-SAL
+EN	sp	I-SAL
+PLANILLA	nc	I-SAL
+
+BENEFICIOS	nc	O
+.	fp	O
+
+*	fz	O
+Planilla	nc	B-BEN
+desde	sp	O
+el	det	O
+primer	adj	O
+día	nc	O
+.	fp	O
+
+*	fz	O
+Pagos	nc	B-BEN
+puntuales	adj	I-BEN
+.	fp	O
+
+Interesados	nc	O
+Enviar	vmn	O
+tu	det	O
+cv	nc	O
+con	sp	O
+ASUNTO	nc	O
+:	fd	O
+ACLIENTE	np	O
+-	fg	O
+L.O	np	O
+.	fp	O
+PART	np	B-MISC
+TIME	np	I-MISC
+
+seleccionrh	np	B-MISC
+*	fz	I-MISC
+aviparh	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+
+ENTREVISTAS	nc	O
+:	fd	O
+Lunes	w	B-DATE
+-	fg	I-DATE
+Miércoles	w	I-DATE
+-	fg	I-DATE
+Viernes	w	I-DATE
+en	sp	O
+Los	np	B-LUG
+Olivos	np	I-LUG
+
+10:00	w	B-DATE
+am	w	I-DATE
+A	sp	I-DATE
+12:00	w	I-DATE
+pm	w	I-DATE
+
+Referencia	nc	O
+:	fd	O
+Alt	np	B-LUG
+.	fp	I-LUG
+cuadra	nc	I-LUG
+15	z	I-LUG
+de	sp	I-LUG
+la	det	I-LUG
+Av	np	I-LUG
+.	fp	I-LUG
+Tomas	np	I-LUG
+Valle	np	I-LUG
+antes	rg	I-LUG
+de	sp	I-LUG
+Universitaria	np	I-LUG
+.	fp	O
+
+Técnico	nc	B-REQ
+Ciclos	nc	O
+Finales	adj	O
+en	sp	O
+Marketing	np	B-CARR
+.	fp	O
+
+Otros	det	O
+Estudios	nc	O
+:	fd	O
+Curso	nc	O
+en	sp	O
+Ventas	nc	B-REQ
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Ventas	np	B-AREA
+con	sp	O
+3	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Idioma	nc	O
+
+Español	np	B-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

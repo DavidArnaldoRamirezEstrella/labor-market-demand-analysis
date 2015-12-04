@@ -1,0 +1,209 @@
+Ventas	nc	B-JOB
+en	sp	O
+el	det	O
+Rubro	nc	O
+Publicitario	adj	B-AREA
+
+Buscamos	vmi	O
+los	det	O
+mejores	adj	O
+talentos	nc	O
+,	fc	O
+ambos	det	O
+sexos	nc	O
+con	sp	O
+habilidad	nc	O
+y	cc	O
+pasión	nc	O
+por	sp	O
+las	det	O
+ventas	nc	B-AREA
+,	fc	O
+100	zp	O
+%	zp	O
+entusiastas	adj	O
+con	sp	O
+gran	adj	O
+desenvolvimiento	nc	O
+,	fc	O
+y	cc	O
+facilidad	nc	B-REQ
+de	sp	I-REQ
+palabra	nc	I-REQ
+a	sp	O
+todo	det	O
+nivel	nc	O
+.	fp	O
+
+con	sp	O
+experiencia	nc	O
+en	sp	O
+el	det	O
+sector	nc	O
+del	sp	O
+diseño	nc	B-AREA
+y	cc	O
+la	det	O
+publicidad	nc	B-AREA
+Únete	vmi	O
+a	sp	O
+nuestro	det	O
+equipo	nc	O
+,	fc	O
+ofrecemos	vmi	O
+múltiples	adj	O
+beneficios	nc	O
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+Captación	nc	B-FUN
+de	sp	I-FUN
+Clientes	nc	I-FUN
+:	fd	I-FUN
+negocios	nc	I-FUN
+,	fc	I-FUN
+tiendas	nc	I-FUN
+,	fc	I-FUN
+compañías	nc	I-FUN
+y	cc	I-FUN
+público	nc	I-FUN
+en	sp	I-FUN
+general	adj	I-FUN
+.	fp	O
+
+Abrir	vmn	B-FUN
+mercados	nc	I-FUN
+
+Recopilar	vmn	B-FUN
+pedidos	nc	I-FUN
+y	cc	I-FUN
+reportar	vmn	I-FUN
+a	sp	I-FUN
+Gerencia	nc	I-FUN
+de	sp	I-FUN
+Ventas	nc	I-FUN
+
+REQUISITOS	nc	O
+:	fd	O
+
+Estudiante	nc	O
+o	cc	O
+técnicos	nc	B-REQ
+de	sp	O
+diversas	det	O
+carreras	nc	O
+con	sp	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-FUN
+de	sp	I-FUN
+productos	nc	I-FUN
+y	cc	I-FUN
+servicios	nc	I-FUN
+a	sp	I-FUN
+empresas	nc	I-FUN
+y	cc	I-FUN
+público	vmi	I-FUN
+en	sp	I-FUN
+general	adj	I-FUN
+.	fp	O
+
+Gran	adj	O
+poder	nc	O
+de	sp	O
+convencimiento	nc	B-REQ
+y	cc	O
+persuación	nc	B-REQ
+
+Conocimiento	nc	O
+de	sp	O
+computación	nc	B-REQ
+.	fp	O
+
+Cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+(	fpa	O
+indispensable	adj	O
+,	fc	O
+pero	cc	O
+no	rn	O
+excluyente	adj	O
+)	fpt	O
+
+FUNCIONES	nc	O
+
+*	fz	O
+Captación	nc	B-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+
+*	fz	O
+Reporte	nc	B-FUN
+de	sp	I-FUN
+pedidos	nc	I-FUN
+
+*	fz	O
+Cumplimiento	nc	B-FUN
+de	sp	I-FUN
+metas	nc	I-FUN
+asignadas	adj	I-FUN
+
+BENEFICIOS	nc	O
+:	fd	O
+
+Pagos	nc	B-BEN
+puntuales	adj	I-BEN
+y	cc	O
+altas	adj	B-BEN
+comisiones	nc	I-BEN
+por	sp	I-BEN
+ventas	nc	I-BEN
+.	fp	O
+Formar	vmn	B-BEN
+parte	nc	I-BEN
+de	sp	I-BEN
+una	det	I-BEN
+empresa	nc	I-BEN
+con	sp	I-BEN
+sólida	adj	I-BEN
+reputación	nc	I-BEN
+.	fp	O
+
+Gran	adj	B-BEN
+programa	nc	I-BEN
+de	sp	I-BEN
+incentivos	nc	I-BEN
+y	cc	O
+cómodo	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+.	fp	O
+
+Las	det	O
+personas	nc	O
+interesadas	adj	O
+pueden	vmi	O
+enviar	vmn	O
+su	det	O
+curriculum	np	O
+vitae	np	O
+para	sp	O
+agendar	vmn	O
+una	det	O
+entrevista	nc	O
+.	fp	O
+
+Abstenerse	vmm	O
+aquellos	pron	O
+que	pron	O
+no	rn	O
+cumplen	vmi	O
+con	sp	O
+los	det	O
+requisitos	nc	O
+.	fp	O
+

@@ -1,0 +1,190 @@
+AYUDANTE	nc	B-JOB
+DE	sp	I-JOB
+REPARTO	np	I-JOB
+-	fg	O
+COMAS	np	B-LUG
+
+Empresa	nc	O
+distribuidora	adj	O
+líder	nc	O
+en	sp	O
+la	det	O
+comercialización	nc	O
+de	sp	O
+productos	nc	O
+de	sp	O
+consumo	nc	O
+masivo	adj	O
+,	fc	O
+estamos	vmi	O
+solicitando	vmg	O
+20	z	O
+personas	nc	O
+para	sp	O
+ocupar	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+"	fe	O
+VENDEDORES	nc	B-JOB
+DE	sp	I-JOB
+CAMPO	np	I-JOB
+Y	cc	I-JOB
+MERCADERISTA	np	I-JOB
+"	fe	O
+en	sp	O
+nuestra	det	O
+sede	nc	O
+de	sp	O
+LOS	np	B-LUG
+OLIVOS	np	I-LUG
+.	fp	O
+INGRESO	nc	B-BEN
+INMEDIATO	adj	I-BEN
+.	fp	O
+
+Documentos	nc	O
+para	sp	O
+la	det	O
+firma	nc	O
+de	sp	O
+Contrato	nc	O
+:	fd	O
+
+Copia	vmi	O
+de	sp	O
+DNI	np	O
+
+Recibos	nc	O
+por	sp	O
+Honorarios	nc	O
+(	fpa	O
+Sacar	vmn	O
+RUC	np	O
+gratuito	adj	O
+en	sp	O
+la	det	O
+SUNAT	np	O
+)	fpt	O
+
+01	z	O
+foto	nc	O
+tamaño	nc	O
+carnet	nc	O
+.	fp	O
+
+Copia	vmi	O
+de	sp	O
+Recibo	nc	O
+de	sp	O
+agua	nc	O
+o	cc	O
+luz	nc	O
+.	fp	O
+
+Croquis	nc	O
+de	sp	O
+su	det	O
+domicilio	nc	O
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+De	sp	O
+preferencia	nc	O
+varones	nc	O
+mayores	adj	O
+de	sp	O
+18	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Estudios	nc	O
+secundarios	adj	O
+concluidos	adj	O
+
+*	fz	O
+Vocación	nc	O
+de	sp	O
+servicio	nc	O
+,	fc	O
+honestidad	nc	B-REQ
+y	cc	O
+compromiso	nc	O
+
+*	fz	O
+vivir	vmn	O
+en	sp	O
+zonas	nc	O
+aledañas	adj	O
+al	sp	O
+lugar	nc	O
+de	sp	O
+trabajo	nc	O
+
+*	fz	O
+No	rn	O
+es	vsi	O
+indispensable	adj	O
+contar	vmn	O
+con	sp	O
+experiencia	nc	O
+.	fp	O
+
+Jóvenes	nc	O
+proactivos	adj	B-REQ
+y	cc	O
+con	sp	O
+ganas	nc	O
+de	sp	O
+superación	nc	O
+.	fp	O
+
+Se	pron	O
+ofrece	vmi	O
+:	fd	O
+
+*	fz	O
+Sueldo	nc	O
+:	fd	O
+750	z	B-SAL
++	fz	I-SAL
+250	z	I-SAL
+de	sp	I-SAL
+INCENTIVOS	nc	I-SAL
+
+Comunicarse	vmi	O
+al	sp	O
+444	z	B-MISC
+-	fg	I-MISC
+4051	z	I-MISC
+o	cc	O
+llamar	vmn	O
+992783016	z	B-MISC
+-	fg	O
+Preguntar	vmi	O
+por	sp	O
+Mercedes	np	B-NOM
+.	fp	O
+
+Secundaria	nc	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Otros	pron	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

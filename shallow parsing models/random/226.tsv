@@ -1,0 +1,48 @@
+Promotora	nc	B-JOB
+de	sp	I-JOB
+ventas	np	I-JOB
+_	fz	O
+Cusco	np	B-LUG
+
+Se	pron	O
+requiere	vmi	O
+personal	nc	O
+femenino	adj	O
+para	sp	O
+realizar	vmn	O
+funciones	nc	O
+de	sp	O
+promotora	nc	O
+y	cc	O
+mercaderismo	vmi	O
+a	sp	O
+tiempo	nc	O
+completo	adj	O
+.	fp	O
+
+Con	sp	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+productos	nc	I-AREA
+de	sp	I-AREA
+consumo	nc	I-AREA
+masivo	adj	I-AREA
+,	fc	O
+habilidad	nc	O
+,	fc	O
+comunicación	nc	B-REQ
+efectiva	adj	I-REQ
+,	fc	O
+trabajo	nc	O
+8	z	O
+horas	nc	O
+.	fp	O
+
+Buen	adj	O
+sueldo	nc	O
+mas	cc	O
+comisiones	nc	B-BEN
+.	fp	O
+

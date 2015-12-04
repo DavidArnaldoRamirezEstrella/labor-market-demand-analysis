@@ -1,0 +1,92 @@
+supervisor	nc	B-JOB
+de	sp	I-JOB
+archivo	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+título	nc	B-REQ
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	np	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+sueldo	nc	O
+:	fd	O
+entre	sp	B-SAL
+S/.751	zm	I-SAL
+y	cc	I-SAL
+S/.1500	zm	I-SAL
+
+experiencia	nc	O
+en	sp	O
+programas	nc	B-REQ
+archivos	nc	I-REQ
+
+experiencia	nc	O
+en	sp	O
+excel	np	B-REQ
+avanzado	adj	O
+
+conocimiento	nc	O
+de	sp	O
+visual	np	B-REQ
+foxpro	np	I-REQ
+.	fp	O
+
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+en	sp	O
+el	det	O
+mismo	adj	O
+puesto	nc	O
+
+de	sp	O
+preferencia	nc	O
+haber	van	O
+laborado	vmp	O
+en	sp	O
+clínicas	nc	O
+(	fpa	O
+no	rn	O
+excluyente	adj	O
+)	fpt	O
+.	fp	O
+
+manejo	nc	B-FUN
+de	sp	I-FUN
+personal	nc	I-FUN
+de	sp	I-FUN
+archivo	nc	I-FUN
+
+llevar	vmn	B-FUN
+el	det	I-FUN
+control	nc	I-FUN
+e	cc	I-FUN
+inventario	nc	I-FUN
+de	sp	I-FUN
+archivo	nc	I-FUN
+

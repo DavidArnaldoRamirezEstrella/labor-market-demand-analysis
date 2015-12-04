@@ -1,0 +1,66 @@
+Secretaria	np	B-JOB
+
+Operador	np	B-ORG
+logistico	np	I-ORG
+solicita	vmi	O
+secretaria	nc	B-JOB
+con	sp	O
+o	cc	O
+sin	sp	O
+estudios	nc	O
+.	fp	O
+
+Con	sp	O
+don	nc	B-REQ
+de	sp	I-REQ
+mando	nc	I-REQ
+,	fc	O
+tolerante	adj	O
+al	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+,	fc	O
+responsable	nc	B-REQ
+,	fc	O
+organizada	adj	B-REQ
+,	fc	O
+leal	adj	B-REQ
+.	fp	O
+
+Con	sp	O
+ganas	nc	O
+de	sp	O
+trabajar	vmn	O
+y	cc	O
+con	sp	O
+disponibilidad	nc	O
+de	sp	O
+TIEMPO	nc	O
+COMPLETO	adj	O
+.	fp	O
+
+Manejo	nc	O
+de	sp	O
+MS	np	B-REQ
+Office	np	I-REQ
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+Interesados	nc	O
+enviar	vmi	O
+CV	np	O
+al	sp	O
+correo	nc	O
+xxxxxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+
+con	sp	O
+el	det	O
+Asunto	nc	O
+SECRETARIA	np	B-JOB
+

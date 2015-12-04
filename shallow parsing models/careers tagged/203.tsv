@@ -1,0 +1,160 @@
+Administrador	ncms	B-JOB
+de	sp	I-JOB
+Tienda	ncfs	I-JOB
+.	fp	O
+
+Uno	pi0ms	O
+de	sp	O
+nuestros	dp1mp	O
+importantes	aqcp	O
+clientes	nccp	O
+,	fc	O
+una	di0fs	O
+empresa	ncfs	O
+comercializadora	aqfs	O
+de	sp	O
+prendas	ncfp	O
+de	sp	O
+vestir	vmn	O
+exclusiva	aqfs	O
+,	fc	O
+nos	pp1cp	O
+ha	vai	O
+encargado	vmp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+un	di0ms	O
+Administrador	ncms	B-JOB
+de	sp	I-JOB
+Tienda	ncfs	I-JOB
+,	fc	O
+una	di0fs	O
+para	sp	O
+Surco	np00	B-LUG
+y	cc	O
+otro	pi0ms	O
+para	sp	O
+el	da0ms	O
+Callao	np00	B-LUG
+que	pr0cn	O
+cumpla	vms	O
+con	sp	O
+las	da0fp	O
+siguientes	aqcp	O
+funciones	ncfp	O
+:	fd	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Excelente	aqcs	O
+manejo	ncms	O
+de	sp	O
+personal	ncms	B-REQ
+.	fp	O
+
+*	fz	O
+Control	ncms	B-FUN
+de	sp	I-FUN
+inventarios	ncmp	I-FUN
+y	cc	I-FUN
+mercadería	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Capacitación	ncfs	B-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+a	sp	I-FUN
+su	dp3cs	I-FUN
+cargo	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Dominio	ncms	O
+de	sp	O
+negociación	ncfs	B-REQ
+a	sp	O
+todo	di0ms	O
+nivel	ncms	O
+.	fp	O
+
+*	fz	O
+Alto	aqms	O
+sentido	ncms	O
+del	sp	O
+compromiso	ncms	B-REQ
+y	cc	O
+responsabilidad	ncfs	B-REQ
+.	fp	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+*	fz	O
+Estudios	ncmp	O
+Técnicos	aqmp	B-REQ
+o	cc	O
+Universitarios	aqmp	O
+en	sp	O
+Marketing	np00	B-CARR
+,	fc	O
+Comunicaciones	np00	B-CARR
+,	fc	O
+Administración	np00	B-CARR
+,	fc	O
+Diseño	np00	B-CARR
+de	sp	I-CARR
+Modas	np00	I-CARR
+y	cc	O
+carreras	ncfp	B-CARR
+afines	aqcp	I-CARR
+.	fp	O
+
+*	fz	O
+Deseable	aqcs	O
+Inglés	np00	B-REQ
+Intermedio	aqms	O
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+1	z	O
+año	ncms	O
+en	sp	O
+ventas	ncfp	B-AREA
+.	fp	O
+
+*	fz	O
+Haber	van	B-REQ
+liderado	vmp	I-REQ
+equipos	ncmp	I-REQ
+de	sp	I-REQ
+trabajo	ncms	I-REQ
+.	fp	O
+
+*	fz	O
+Vivir	vmn	O
+en	sp	O
+zonas	ncfp	O
+aledañas	aqfp	O
+a	sp	O
+Surco	np00	B-LUG
+y	cc	O
+San	np00	B-LUG
+Borja	np00	I-LUG
+.	fp	O
+
+*	fz	O
+Disponibilidad	ncfs	O
+inmediata	aqfs	O
+y	cc	O
+en	sp	O
+horarios	ncmp	B-MISC
+rotativos	aqmp	I-MISC
+.	fp	O
+

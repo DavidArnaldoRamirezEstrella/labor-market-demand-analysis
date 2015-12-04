@@ -1,0 +1,156 @@
+SECTORISTA	nccs	B-JOB
+EN	sp	I-JOB
+GESTIÓN	ncfs	I-JOB
+ADUANERA	aqfs	I-JOB
+.	fp	O
+
+*	fz	O
+Solicitar	vmn	B-FUN
+,	fc	I-FUN
+recibir	vmn	I-FUN
+,	fc	I-FUN
+verificar	vmn	I-FUN
+y	cc	I-FUN
+enviar	vmn	I-FUN
+a	sp	I-FUN
+operaciones	ncfp	I-FUN
+los	da0mp	I-FUN
+documentos	ncmp	I-FUN
+completos	aqmp	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+despacho	ncms	I-FUN
+
+*	fz	O
+Aperturar	vmn	B-FUN
+la	da0fs	I-FUN
+orden	ncfs	I-FUN
+y	cc	O
+registrar	vmn	B-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+del	sp	I-FUN
+SINTAD	np00	I-FUN
+para	sp	I-FUN
+elaboración	ncfs	I-FUN
+de	sp	I-FUN
+proforma	ncfs	I-FUN
+,	fc	O
+registrar	vmn	B-FUN
+incidencia	ncfs	I-FUN
+del	sp	I-FUN
+despacho	ncms	I-FUN
+
+*	fz	O
+Coordinar	vmn	B-FUN
+y	cc	I-FUN
+hacer	vmn	I-FUN
+seguimiento	ncms	I-FUN
+con	sp	I-FUN
+las	da0fp	I-FUN
+áreas	ncfp	I-FUN
+de	sp	I-FUN
+operaciones	ncfp	I-FUN
+sobre	sp	I-FUN
+la	da0fs	I-FUN
+numeración	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+DAM	np00	I-FUN
+.	fp	O
+
+*	fz	O
+Solicitar	vmn	B-FUN
+al	sp	I-FUN
+área	ncfs	I-FUN
+de	sp	I-FUN
+transporte	ncms	I-FUN
+la	da0fs	I-FUN
+programación	ncfs	I-FUN
+de	sp	I-FUN
+unidad	ncfs	I-FUN
+vehicular	aqcs	I-FUN
+para	sp	I-FUN
+la	da0fs	I-FUN
+entrega	vmi	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+carga	ncfs	I-FUN
+
+*	fz	O
+Coordinar	vmn	B-FUN
+con	sp	I-FUN
+transporte	ncms	I-FUN
+y	cc	I-FUN
+operaciones	ncfp	I-FUN
+el	da0ms	I-FUN
+retiro	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+carga	ncfs	I-FUN
+y	cc	I-FUN
+hacer	vmn	I-FUN
+seguimiento	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+entrega	ncfs	I-FUN
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Administración	np00	B-CARR
+de	sp	I-CARR
+Negocios	np00	I-CARR
+Internacionales	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Administración	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Contabilidad	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Comercio	np00	B-CARR
+Exterior	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Comercio	ncms	B-AREA
+Exterior	aqcs	I-AREA
+/	fh	O
+Aduanas	ncfp	B-AREA
+con	sp	O
+3	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+

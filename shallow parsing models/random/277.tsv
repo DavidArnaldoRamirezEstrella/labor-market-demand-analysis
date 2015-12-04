@@ -1,0 +1,128 @@
+Operarios	nc	B-JOB
+de	sp	I-JOB
+Embalaje	nc	I-JOB
+
+Nuestra	det	O
+empresa	nc	O
+está	vmi	O
+a	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+personal	nc	O
+para	sp	O
+ser	vsn	O
+contratado	vmp	O
+como	cs	O
+Operario	nc	B-JOB
+de	sp	I-JOB
+Embalado	nc	I-JOB
+.	fp	O
+
+Perfil	nc	O
+:	fd	O
+
+Varones	nc	O
+
+Experiencia	nc	O
+previa	adj	O
+en	sp	O
+Embalar	vmn	B-FUN
+producto	nc	I-FUN
+terminado	vmp	I-FUN
+.	fp	O
+
+Funciones	nc	O
+:	fd	O
+
+Doblar	vmn	B-FUN
+,	fc	I-FUN
+embalar	vmn	I-FUN
+y	cc	I-FUN
+pesar	sp	I-FUN
+sacos	nc	I-FUN
+de	sp	I-FUN
+polipropileno	np	I-FUN
+.	fp	O
+
+Horarios	nc	O
+de	sp	O
+Trabajo	nc	O
+:	fd	O
+
+Lunes	w	B-MISC
+a	sp	I-MISC
+viernes	w	I-MISC
+de	sp	I-MISC
+7.30	w	I-MISC
+a	sp	I-MISC
+17.00	w	I-MISC
+
+Sábado	w	B-MISC
+7.30	w	I-MISC
+a	sp	I-MISC
+13.00	w	I-MISC
+
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	B-MISC
+en	sp	I-MISC
+horas	nc	I-MISC
+extras	adj	I-MISC
+.	fp	O
+
+Los	det	O
+interesados	adj	O
+,	fc	O
+por	sp	O
+favor	sp	O
+enviar	vmn	O
+CV	np	O
+a	sp	O
+mail	nc	O
+de	sp	O
+contacto	nc	O
+,	fc	O
+indicar	vmn	O
+en	sp	O
+el	det	O
+asunto	nc	O
+-	fg	O
+EMBALADOR	nc	B-JOB
+.	fp	O
+
+Acercarse	vmi	O
+con	sp	O
+CV	np	O
+a	sp	O
+Calle	np	B-LUG
+Delta	np	I-LUG
+135	z	I-LUG
+-	fg	O
+Parque	np	B-LUG
+Industrial	np	I-LUG
+Callao	np	I-LUG
+(	fpa	O
+frente	sp	O
+la	det	O
+puerta	nc	O
+08	z	O
+de	sp	O
+la	det	O
+Universidad	np	B-ORG
+San	np	I-ORG
+Marcos	np	I-ORG
+-	fg	O
+altura	nc	O
+de	sp	O
+la	det	O
+cuadra	nc	B-LUG
+54	z	I-LUG
+de	sp	I-LUG
+la	det	I-LUG
+Av	np	I-LUG
+.	fp	I-LUG
+Colonial	np	I-LUG
+)	fpt	O
+.	fp	O
+

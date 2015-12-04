@@ -1,0 +1,84 @@
+Gerente	nccs	B-JOB
+ventas	ncfp	I-JOB
+servicios	ncmp	I-JOB
+TI	np00	I-JOB
+para	sp	O
+sector	ncms	O
+gobierno	ncms	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Titulación	ncfs	B-REQ
+superior	aqcs	O
+en	sp	O
+ingeniería	np00	B-CARR
+de	sp	I-CARR
+sistemas	np00	I-CARR
+,	fc	O
+informática	np00	B-CARR
+,	fc	O
+industrial	np00	B-CARR
+,	fc	O
+telecomunicaciones	np00	B-CARR
+,	fc	O
+física	np00	B-CARR
+,	fc	O
+matemáticas	np00	B-CARR
+
+Experiencia	ncfs	O
+como	cs	O
+gerente	nccs	B-JOB
+de	sp	I-JOB
+cuentas	ncfp	I-JOB
+en	sp	O
+venta	ncfs	B-FUN
+de	sp	I-FUN
+servicios	ncmp	I-FUN
+de	sp	I-FUN
+tecnología	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+de	sp	O
+al	rg	O
+menos	rg	O
+5	z	O
+años	ncmp	O
+
+Conocimientos	ncmp	O
+sobre	sp	O
+la	da0fs	O
+ley	ncfs	B-REQ
+de	sp	I-REQ
+contratos	ncmp	I-REQ
+del	sp	I-REQ
+estado	ncms	I-REQ
+peruano	aqms	I-REQ
+y	cc	O
+experiencia	ncfs	O
+en	sp	O
+licitaciones	ncfp	B-AREA
+publicas	aqfp	I-AREA
+.	fp	O
+
+De	sp	O
+preferencia	ncfs	O
+experiencia	ncfs	O
+en	sp	O
+jefatura	ncfs	B-AREA
+o	cc	O
+gerenciamiento	ncms	B-AREA
+de	sp	I-AREA
+proyectos	ncmp	I-AREA
+TI	np00	I-AREA
+
+Valorable	aqcs	O
+conocimientos	ncmp	O
+en	sp	O
+SAP	np00	B-REQ
+

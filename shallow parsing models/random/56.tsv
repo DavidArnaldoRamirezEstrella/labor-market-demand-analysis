@@ -1,0 +1,106 @@
+Psicólogos	np	B-JOB
+.	fp	O
+Colegio	np	B-ORG
+Manuel	np	I-ORG
+Scorza	np	I-ORG
+de	sp	O
+Carabayllo	np	B-LUG
+
+Colegio	np	O
+de	sp	O
+prestigio	nc	O
+en	sp	O
+Carabayllo	np	B-LUG
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	nc	O
+de	sp	O
+incorporar	vmn	O
+en	sp	O
+su	det	O
+Staff	np	O
+UN	det	O
+PSICOLOGO	np	B-JOB
+dinámicos	adj	B-REQ
+,	fc	O
+con	sp	O
+experiencia	nc	O
+,	fc	O
+ofrecemos	vmi	O
+buen	adj	B-BEN
+clima	nc	I-BEN
+laboral	adj	I-BEN
+,	fc	O
+para	sp	O
+cubrir	vmn	O
+plaza	nc	O
+en	sp	O
+Local	nc	O
+Carabayllo	np	B-LUG
+,	fc	O
+periodo	nc	B-DATE
+2014	w	I-DATE
+(	fpa	O
+MARZO	w	B-DATE
+-	fg	I-DATE
+Diciembre	w	I-DATE
+)	fpt	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Estudiante	nc	O
+Universitario	adj	O
+o	cc	O
+egresado	vmp	O
+
+*	fz	O
+Disponibilidad	nc	O
+inmediata	adj	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+el	det	O
+dictando	nc	B-FUN
+a	sp	I-FUN
+nivel	nc	I-FUN
+escolar	adj	I-FUN
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Agradable	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Beneficios	nc	B-BEN
+Sociales	adj	I-BEN
+
+*	fz	O
+Crecimiento	nc	B-BEN
+profesional	adj	I-BEN
+.	fp	O
+
+¡	fa	O
+Tú	pron	O
+puedes	vmi	O
+ser	vsn	O
+parte	nc	O
+de	sp	O
+nuestro	det	O
+equipo	nc	O
+,	fc	O
+no	rn	O
+dejes	vmi	O
+pasar	vmn	O
+esta	det	O
+gran	adj	O
+oportunidad	nc	O
+!	fa	O
+

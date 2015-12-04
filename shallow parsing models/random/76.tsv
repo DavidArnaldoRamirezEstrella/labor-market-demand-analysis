@@ -1,0 +1,198 @@
+Asesor	nc	B-JOB
+Comercial	adj	I-JOB
+
+Somos	vsi	O
+una	det	O
+Empresa	nc	O
+dedicada	adj	O
+al	sp	O
+rubro	nc	O
+de	sp	O
+Mecánica	np	O
+Automotriz	np	O
+,	fc	O
+representantes	nc	O
+de	sp	O
+la	det	O
+marca	nc	O
+Bosch	np	B-ORG
+,	fc	O
+solicitamos	vmi	O
+asesor	nc	B-JOB
+comercial	adj	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+Edad	nc	O
+:	fd	O
+20	z	O
+-	fg	O
+25	z	O
+años	nc	O
+
+Sexo	nc	O
+:	fd	O
+Indistinto	adj	O
+
+Experiencia	nc	O
+:	fd	O
+6	z	O
+meses	nc	O
+
+Estudios	nc	O
+:	fd	O
+Superiores	adj	O
+Concluidos	adj	O
+o	cc	O
+inconclusos	adj	O
+(	fpa	O
+Universidad	nc	O
+y/o	np	O
+Instituto	nc	O
+.	fp	O
+)	fpt	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Deseable	adj	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+y/o	cc	O
+atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+.	fp	O
+
+*	fz	O
+Recepción	nc	B-FUN
+de	sp	I-FUN
+componentes	nc	I-FUN
+y/o	cc	I-FUN
+unidades	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	van	B-FUN
+informado	vmp	I-FUN
+a	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+del	sp	I-FUN
+Estatus	nc	I-FUN
+de	sp	I-FUN
+sus	det	I-FUN
+componentes	nc	I-FUN
+y/o	adj	I-FUN
+unidades	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Coordinación	nc	B-FUN
+de	sp	I-FUN
+entrega	nc	I-FUN
+de	sp	I-FUN
+trabajos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Facturación	nc	B-FUN
+.	fp	O
+
+COMPETENCIAS	nc	O
+:	fd	O
+
+*	fz	O
+Integridad	nc	B-REQ
+y	cc	O
+valores	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Comunicación	nc	B-REQ
+efectiva	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Proactividad	nc	B-REQ
+y	cc	O
+eficiencia	nc	B-REQ
+.	fp	O
+
+También	rg	O
+puede	vmi	O
+acercarse	vmn	O
+personalmente	rg	O
+a	sp	O
+dejar	vmn	O
+su	det	O
+Curriculum	np	O
+Vitae	np	O
+a	sp	O
+la	det	O
+siguiente	adj	O
+dirección	nc	O
+:	fd	O
+Calle	nc	B-LUG
+los	np	I-LUG
+Negocios	np	I-LUG
+N°426	z	I-LUG
+-	fg	O
+Surquillo	np	B-LUG
+.	fp	O
+Referencias	nc	O
+:	fd	O
+Alt	np	B-LUG
+.	fp	I-LUG
+Cdra	nc	I-LUG
+42	z	I-LUG
+República	np	I-LUG
+de	sp	I-LUG
+Panamá	np	I-LUG
+entre	sp	O
+Domingo	np	B-LUG
+Orué	np	I-LUG
+y	cc	O
+Aramburú	np	B-LUG
+,	fc	O
+Preguntar	vmi	O
+por	sp	O
+la	det	O
+Srta	nc	O
+.	fp	O
+Eni	np	B-NOM
+Lopez	np	I-NOM
+de	sp	O
+preferencia	nc	O
+enviar	vmi	O
+C.V	np	O
+:	fd	O
+xxxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+.	fp	I-MISC
+xx	np	I-MISC
+

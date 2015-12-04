@@ -1,0 +1,191 @@
+Configurador	nc	B-JOB
+de	sp	I-JOB
+Smart	np	I-JOB
+
+Somos	vsi	O
+una	det	O
+empresa	nc	O
+líder	nc	O
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+servicios	nc	O
+de	sp	O
+telecomunicaciones	nc	O
+,	fc	O
+en	sp	O
+crecimiento	nc	O
+que	pron	O
+busca	vmi	O
+incorporar	vmn	O
+a	sp	O
+un	det	O
+nuevo	adj	O
+colaborador	nc	O
+para	sp	O
+ocupar	vmn	O
+el	det	O
+cargo	nc	O
+de	sp	O
+CONFIGURADOR	nc	B-JOB
+DE	sp	I-JOB
+SMART	np	I-JOB
+.	fp	O
+
+Se	pron	O
+requiere	vmi	O
+personal	nc	O
+tiempo	nc	B-MISC
+completo	adj	I-MISC
+.	fp	O
+
+Beneficios	nc	O
+:	fd	O
+
+*	fz	O
+Sueldo	nc	O
+900.00	zm	B-SAL
+soles	zm	I-SAL
+.	fp	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	O
+todos	det	O
+los	det	O
+Beneficios	nc	B-BEN
+de	sp	I-BEN
+Ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+La	det	O
+oportunidad	nc	O
+de	sp	O
+desarrollar	vmn	O
+una	det	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+en	sp	O
+la	det	O
+Empresa	nc	O
+.	fp	O
+
+*	fz	O
+Excelente	adj	B-BEN
+clima	nc	I-BEN
+laboral	adj	I-BEN
+y	cc	O
+reconocimiento	nc	B-BEN
+a	sp	I-BEN
+su	det	I-BEN
+trabajo	nc	I-BEN
+.	fp	O
+
+Fecha	nc	O
+de	sp	O
+cierre	nc	O
+de	sp	O
+reclutamiento	nc	O
+:	fd	O
+Miércoles	w	B-DATE
+13	w	I-DATE
+del	sp	O
+presente	nc	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Edad	nc	O
+entre	sp	O
+20	z	O
+y	cc	O
+26	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Estudiante	nc	O
+universitario	adj	O
+o	cc	O
+técnico	nc	B-REQ
+
+*	fz	O
+Conocimientos	nc	O
+Básicos	adj	O
+de	sp	O
+sistemas	nc	B-REQ
+operativos	adj	I-REQ
+móviles	adj	I-REQ
+
+(	fpa	O
+Android	np	B-REQ
+,	fc	O
+IOS	np	B-REQ
+,	fc	O
+Windows	np	B-REQ
+Phone	np	I-REQ
+y	cc	O
+RIM	np	B-REQ
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Conocimientos	nc	O
+Básicos	adj	O
+de	sp	O
+los	det	O
+últimos	adj	O
+modelos	nc	B-REQ
+de	sp	I-REQ
+terminales	nc	I-REQ
+y	cc	O
+sus	det	O
+características	nc	O
+
+*	fz	O
+Conocimientos	nc	O
+informáticos	adj	B-REQ
+
+(	fpa	O
+Internet	nc	B-REQ
+y	cc	O
+Office	np	B-REQ
+)	fpt	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+habilidades	nc	O
+de	sp	O
+servicio	nc	B-REQ
+al	sp	I-REQ
+cliente	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Facilidad	nc	B-REQ
+de	sp	I-REQ
+comunicación	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+resolución	nc	B-REQ
+de	sp	I-REQ
+problemas	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Actitud	nc	B-REQ
+proactiva	adj	I-REQ
+y	cc	I-REQ
+resolutiva	adj	I-REQ
+.	fp	O
+

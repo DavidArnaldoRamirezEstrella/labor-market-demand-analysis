@@ -1,0 +1,155 @@
+Vendedores	nc	B-JOB
+de	sp	I-JOB
+Campo	nc	I-JOB
+TRUJILLO	np	B-LUG
+
+Somos	vsi	O
+una	det	O
+empresa	nc	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+:	fd	O
+
+05	z	O
+Vendedores	nc	B-JOB
+de	sp	I-JOB
+campo	nc	I-JOB
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Jóvenes	nc	O
+emprendedores	adj	O
+con	sp	O
+experiencia	nc	O
+en	sp	O
+el	det	O
+manejo	nc	O
+de	sp	O
+cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Proactivos	adj	B-REQ
+y	cc	O
+disciplinados	adj	B-REQ
+.	fp	O
+
+*	fz	O
+Vocación	nc	O
+de	sp	O
+servicio	nc	O
+.	fp	O
+
+*	fz	O
+Orientación	nc	B-REQ
+a	sp	I-REQ
+los	det	I-REQ
+resultados	nc	I-REQ
+
+*	fz	O
+Con	sp	O
+experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+de	sp	I-AREA
+campo	nc	I-AREA
+(	fpa	O
+Movistar	np	B-ORG
+,	fc	O
+Claro	np	B-ORG
+,	fc	O
+Edificar	np	B-ORG
+,	fc	O
+Pacífico	np	B-ORG
+,	fc	O
+etc	fs	O
+.	fp	O
+)	fpt	O
+
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Captar	vmn	B-FUN
+y	cc	I-FUN
+atender	vmn	I-FUN
+a	sp	I-FUN
+nuestros	det	I-FUN
+clientes	nc	I-FUN
+,	fc	O
+brindando	vmg	B-FUN
+asesoría	nc	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+uso	nc	I-FUN
+de	sp	I-FUN
+nuestros	det	I-FUN
+productos	nc	I-FUN
+y	cc	I-FUN
+servicios	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Lograr	vmn	B-FUN
+la	det	I-FUN
+cuota	nc	I-FUN
+asignada	vmp	I-FUN
+mensualmente	rg	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+fidelizada	vmp	I-FUN
+a	sp	I-FUN
+la	det	I-FUN
+cartera	nc	I-FUN
+de	sp	I-FUN
+clientes	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Reportar	vmn	B-FUN
+diariamente	rg	I-FUN
+las	det	I-FUN
+ventas	nc	I-FUN
+realizadas	adj	I-FUN
+.	fp	O
+
+Ofrecemos	vmi	O
+:	fd	O
+
+*	fz	O
+Ingresos	nc	O
+en	sp	O
+base	nc	B-SAL
+a	sp	I-SAL
+resultados	nc	I-SAL
+(	fpa	O
+Las	det	O
+mejores	adj	O
+comisiones	nc	B-SAL
+del	sp	I-SAL
+mercado	nc	I-SAL
++	fz	O
+incentivos	nc	B-SAL
+)	fpt	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+Planilla	nc	B-BEN
+.	fp	O
+
+*	fz	O
+Oportunidad	nc	O
+de	sp	O
+crecimiento	nc	B-BEN
+laboral	adj	I-BEN
+.	fp	O
+

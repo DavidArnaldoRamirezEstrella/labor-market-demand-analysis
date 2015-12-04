@@ -1,0 +1,54 @@
+Médico	np	B-JOB
+General	np	I-JOB
+
+Entidad	nc	O
+de	sp	O
+medicina	nc	O
+preventiva	adj	O
+y	cc	O
+ocupacional	adj	O
+,	fc	O
+requiere	vmi	O
+con	sp	O
+urgencia	nc	O
+incorporar	vmn	O
+a	sp	O
+su	det	O
+staff	nc	O
+médico	adj	O
+2	z	O
+profesionales	nc	O
+,	fc	O
+que	pron	O
+cumplan	vms	O
+con	sp	O
+los	det	O
+siguientes	adj	O
+requisitos	nc	O
+:	fd	O
+
+Edad	nc	O
+25	z	O
+a	sp	O
+40	z	O
+años	nc	O
+.	fp	O
+
+Experiencia	nc	O
+en	sp	O
+la	det	O
+realización	nc	B-FUN
+de	sp	I-FUN
+exámenes	nc	I-FUN
+medicos	adj	I-FUN
+.	fp	O
+
+Disponibilidad	nc	O
+Inmediata	adj	O
+,	fc	O
+horario	nc	B-MISC
+completo	adj	I-MISC
+(	fpa	O
+Indispensable	adj	O
+)	fpt	O
+

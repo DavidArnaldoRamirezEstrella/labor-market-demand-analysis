@@ -1,0 +1,152 @@
+asistente	nc	B-JOB
+de	sp	I-JOB
+operaciones	np	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+apoyar	vmn	B-FUN
+en	sp	I-FUN
+la	det	I-FUN
+revisión	nc	I-FUN
+y	cc	I-FUN
+control	nc	I-FUN
+de	sp	I-FUN
+indicadores	nc	I-FUN
+
+apoyar	vmn	B-FUN
+con	sp	I-FUN
+el	det	I-FUN
+analisis	nc	I-FUN
+del	sp	I-FUN
+proceso	nc	I-FUN
+y	cc	I-FUN
+la	det	I-FUN
+implementación	nc	I-FUN
+de	sp	I-FUN
+mejoras	nc	I-FUN
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+bachillerato	nc	O
+en	sp	O
+ingeniería	np	B-CARR
+industrial	np	I-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+operaciones	np	B-AREA
+con	sp	O
+6	z	O
+meses	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+microsoft	np	B-REQ
+word	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+access	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+
+mínima	rg	O
+de	sp	O
+03	z	O
+meses	nc	O
+en	sp	O
+áreas	nc	O
+ingenieria	adj	B-AREA
+de	sp	I-AREA
+procesos	nc	I-AREA
+en	sp	O
+empresas	nc	O
+del	sp	O
+sector	nc	O
+industrial	adj	B-AREA
+(	fpa	O
+de	sp	O
+preferencia	nc	O
+)	fpt	O
+.	fp	O
+
+competencias	nc	O
+:	fd	O
+
+facilidad	nc	O
+para	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+
+capacidad	nc	O
+de	sp	O
+análisis	nc	B-REQ
+
+orientado	vmp	O
+al	sp	O
+cumplimiento	nc	B-REQ
+de	sp	I-REQ
+objetivos	nc	I-REQ
+
+conocimientos	nc	O
+técnicos	adj	O
+:	fd	O
+
+microsoft	np	B-REQ
+office	np	I-REQ
+y	cc	O
+ambiente	nc	O
+windows	np	B-REQ
+nivel	nc	O
+usuario	adj	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+microsoft	np	B-REQ
+word	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+power	np	I-REQ
+point	nc	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

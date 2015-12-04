@@ -1,0 +1,301 @@
+ASISTENTE	nc	B-JOB
+DE	sp	I-JOB
+SERVICIOS	nc	I-JOB
+Part	np	B-MISC
+Time	np	I-MISC
+-	fg	O
+Tienda	np	B-ORG
+Ferretera	np	I-ORG
+
+Nuestro	det	O
+cliente	nc	O
+importante	adj	O
+empresa	nc	O
+de	sp	O
+retail	np	O
+Ferretero	np	O
+en	sp	O
+pleno	adj	O
+proceso	nc	O
+de	sp	O
+expansión	nc	O
+y	cc	O
+con	sp	O
+gran	adj	O
+presencia	nc	O
+y	cc	O
+aceptación	nc	O
+en	sp	O
+el	det	O
+mercado	nc	O
+nos	pron	O
+ha	vai	O
+encomendado	vmp	O
+para	sp	O
+la	det	O
+selección	nc	O
+de	sp	O
+sus	det	O
+diversas	adj	O
+tiendas	nc	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+ASESOR	nc	B-JOB
+DE	sp	I-JOB
+SERVICIO	nc	I-JOB
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Mayores	rg	O
+de	sp	O
+20	z	O
+años	nc	O
+.	fp	O
+
+*	fz	O
+Secundaria	nc	O
+Completa	adj	O
+.	fp	O
+
+*	fz	O
+Deseable	adj	O
+experiencia	nc	O
+en	sp	O
+atención	nc	B-AREA
+al	sp	I-AREA
+cliente	nc	I-AREA
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Trasladar	vmn	B-FUN
+rápidamente	rg	I-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+comprados	adj	I-FUN
+por	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+con	sp	I-FUN
+el	det	I-FUN
+fin	nc	I-FUN
+de	sp	I-FUN
+agilizar	vmn	I-FUN
+el	det	I-FUN
+tránsito	nc	I-FUN
+en	sp	I-FUN
+caja	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Trasladar	vmn	B-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+comprados	adj	I-FUN
+desde	sp	I-FUN
+la	det	I-FUN
+caja	nc	I-FUN
+hasta	sp	I-FUN
+la	det	I-FUN
+movilidad	nc	I-FUN
+del	sp	I-FUN
+cliente	nc	I-FUN
+con	sp	I-FUN
+amabilidad	nc	I-FUN
+y	cc	I-FUN
+respeto	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Abordar	vmn	B-FUN
+y	cc	I-FUN
+asesorar	vmn	I-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Ubicar	vmn	B-FUN
+en	sp	I-FUN
+el	det	I-FUN
+lugar	nc	I-FUN
+correspondiente	adj	I-FUN
+los	det	I-FUN
+productos	nc	I-FUN
+devueltos	vmp	I-FUN
+por	sp	I-FUN
+el	det	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Distribuir	vmn	B-FUN
+y	cc	I-FUN
+mantener	vmn	I-FUN
+limpios	adj	I-FUN
+los	det	I-FUN
+coches	nc	I-FUN
+o	cc	I-FUN
+canastillas	vmi	I-FUN
+cuidando	vmg	I-FUN
+mantener	vmn	I-FUN
+el	det	I-FUN
+respectivo	adj	I-FUN
+orden	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+con	sp	I-FUN
+el	det	I-FUN
+precio	nc	I-FUN
+y	cc	I-FUN
+surtido	vmi	I-FUN
+los	det	I-FUN
+check	nc	I-FUN
+outs	adj	I-FUN
+.	fp	O
+
+COMPETENCIAS	nc	O
+:	fd	O
+
+*	fz	O
+Devoción	nc	B-REQ
+al	sp	I-REQ
+cliente	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Integridad	nc	B-REQ
+y	cc	O
+valores	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Motivación	nc	B-REQ
+por	sp	I-REQ
+desarrollarse	vmn	I-REQ
+e	cc	O
+innovar	vmn	B-REQ
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Comunicación	nc	B-REQ
+efectiva	adj	I-REQ
+.	fp	O
+
+*	fz	O
+Adaptabilidad	nc	B-REQ
+/	fh	O
+flexibilidad	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Dinamismo	nc	B-REQ
+y	cc	O
+proactividad	nc	B-REQ
+.	fp	O
+
+SE	pron	O
+OFRECE	vms	O
+:	fd	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+de	sp	I-BEN
+trabajo	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Con	sp	O
+posibilidad	nc	O
+de	sp	O
+hacer	vmn	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Bonos	nc	B-BEN
+por	sp	I-BEN
+cumplimiento	nc	I-BEN
+de	sp	I-BEN
+objetivo	nc	I-BEN
+.	fp	O
+
+Remuneración	nc	O
+:	fd	O
+Superior	adj	B-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+.	fp	O
+
+Se	pron	O
+ofrece	vmi	O
+ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+,	fc	O
+capacitación	nc	B-BEN
+constante	adj	I-BEN
+,	fc	O
+línea	nc	B-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+
+HORARIOS	nc	O
+
+*	fz	O
+De	sp	B-DATE
+Lunes	w	I-DATE
+a	sp	I-DATE
+Domingo	w	I-DATE
+completando	vmg	O
+entre	sp	O
+24	z	B-MISC
+y	cc	I-MISC
+32	z	I-MISC
+horas	nc	I-MISC
+a	sp	I-MISC
+la	det	I-MISC
+semana	nc	I-MISC
+.	fp	O
+
+*	fz	O
+Descansos	nc	O
+un	det	O
+día	nc	O
+a	sp	O
+la	det	O
+semana	nc	O
+.	fp	O
+

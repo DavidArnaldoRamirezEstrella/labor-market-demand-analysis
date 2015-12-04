@@ -1,0 +1,85 @@
+Consultor	ncms	B-JOB
+SAP	np00	B-REQ
+SD	np00	I-REQ
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+otros	pi0mp	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+otros	pi0mp	O
+con	sp	O
+3	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Experiencia	ncfs	O
+comprobada	vmp	O
+en	sp	O
+configuración	ncfs	B-FUN
+e	cc	I-FUN
+implementaciones	ncfp	I-FUN
+.	fp	O
+5	z	O
+años	ncmp	O
+como	cs	O
+mínimo	rg	O
+en	sp	O
+los	da0mp	O
+módulos	ncmp	O
+mencionados	aqmp	O
+
+Facilidad	ncfs	O
+para	sp	O
+realizar	vmn	B-FUN
+especificaciones	ncfp	I-FUN
+técnicas	aqfp	I-FUN
+si	cs	I-FUN
+fueran	vss	I-FUN
+necesarias	aqfp	I-FUN
+.	fp	O
+
+Proactivo	aqms	B-REQ
+.	fp	O
+
+Trabajo	ncms	B-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+y	cc	O
+comunicación	ncfs	B-REQ
+en	sp	O
+el	da0ms	O
+proyecto	ncms	O
+.	fp	O
+
+Capacidad	ncfs	O
+para	sp	O
+dar	vmn	B-FUN
+soporte	ncms	I-FUN
+pre	aqcn	I-FUN
+y	cc	I-FUN
+post	aqcn	I-FUN
+-	fg	I-FUN
+implementación	ncfs	I-FUN
+.	fp	O
+
+propias	aqfp	O
+del	sp	O
+puesto	ncms	O
+

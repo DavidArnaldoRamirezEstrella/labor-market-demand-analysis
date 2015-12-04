@@ -1,0 +1,269 @@
+Promotor	ncms	B-JOB
+de	sp	I-JOB
+Servicios	ncmp	I-JOB
+Médicos	aqmp	I-JOB
+-	fg	O
+Arequipa	np00	B-LUG
+.	fp	O
+
+Empresa	ncms	O
+líder	nccs	O
+en	sp	O
+Análisis	ncmp	O
+Clínicos	aqmp	O
+y	cc	O
+de	sp	O
+imágenes	ncfp	O
+,	fc	O
+se	p0000	O
+encuentra	vmi	O
+en	sp	O
+la	da0fs	O
+búsqueda	ncfs	O
+de	sp	O
+TÉCNICOS	ncmp	B-REQ
+O	cc	O
+PROFESIONALES	nccp	O
+EN	sp	O
+SALUD	ncfs	B-AREA
+PARA	sp	O
+VENTAS	ncfp	B-AREA
+para	sp	O
+nuestra	dp1fs	O
+Sede	ncfs	O
+en	sp	O
+Arequipa	np00	B-LUG
+
+EXPERIENCIA	ncfs	O
+:	fd	O
+
+6	z	O
+meses	ncmp	O
+a	sp	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+como	cs	O
+Visitador	ncms	B-JOB
+Médico	aqms	I-JOB
+o	cc	O
+Promotor	ncms	B-JOB
+de	sp	I-JOB
+Servicios	ncmp	I-JOB
+Médicos	aqmp	I-JOB
+
+ESTUDIOS	ncmp	O
+:	fd	O
+
+Nivel	ncms	O
+Educativo	aqms	O
+:	fd	O
+Técnico	ncms	B-REQ
+
+Profesión	ncfs	O
+u	cc	O
+Ocupación	ncfs	O
+:	fd	O
+Técnico	ncms	B-REQ
+en	sp	O
+Enfermería	np00	B-CARR
+,	fc	O
+Laboratorio	np00	B-CARR
+,	fc	O
+Visitador	np00	B-CARR
+Médico	np00	I-CARR
+u	cc	O
+otras	di0fp	O
+relacionadas	aqfp	O
+con	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+salud	ncfs	B-AREA
+
+Grado	ncms	O
+Académico	aqms	O
+:	fd	O
+Estudiante	nccs	O
+o	cc	O
+Egresado	ncms	O
+
+CONOCIMIENTO	ncms	O
+:	fd	O
+
+Conocimiento	ncms	O
+de	sp	O
+atención	ncfs	B-REQ
+al	sp	I-REQ
+cliente	nccs	I-REQ
+
+Conocimiento	ncms	O
+sobre	sp	O
+técnica	ncfs	B-REQ
+de	sp	I-REQ
+ventas	ncfp	I-REQ
+
+Opcional	aqcs	O
+Conocimiento	ncms	O
+de	sp	O
+los	da0mp	O
+servicios	ncmp	B-REQ
+ofrecidos	aqmp	I-REQ
+en	sp	I-REQ
+laboratorio	ncms	I-REQ
+.	fp	O
+
+HABILIDADES	ncfp	O
+:	fd	O
+
+Habilidad	ncfs	O
+para	sp	O
+comunicarse	vmi	B-REQ
+(	fpa	O
+comunicación	ncfs	B-REQ
+persuasiva	aqfs	I-REQ
+)	fpt	O
+
+Habilidad	ncfs	O
+para	sp	O
+la	da0fs	O
+negociación	ncfs	B-REQ
+efectiva	aqfs	I-REQ
+con	sp	O
+los	da0mp	O
+clientes	nccp	O
+
+Habilidad	ncfs	O
+para	sp	O
+la	da0fs	O
+interrelación	ncfs	B-REQ
+(	fpa	O
+socialización	ncfs	B-REQ
+)	fpt	O
+y	cc	O
+lograr	vmn	B-REQ
+objetivos	ncmp	I-REQ
+de	sp	I-REQ
+venta	ncfs	I-REQ
+
+Habilidad	ncfs	O
+para	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+
+Habilidad	ncfs	O
+para	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+situaciones	ncfp	I-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+
+Habilidad	ncfs	O
+para	sp	O
+manejar	vmn	B-REQ
+quejas	ncfp	I-REQ
+,	fc	O
+rebatir	vmn	B-REQ
+objeciones	ncfp	I-REQ
+y	cc	O
+evitar	vmn	B-REQ
+conflictos	ncmp	I-REQ
+
+ACTITUDES	ncfp	O
+:	fd	O
+
+Tolerancia	ncfs	B-REQ
+
+Empática	aqfs	B-REQ
+
+Persuasiva	aqfs	B-REQ
+y	cc	O
+con	sp	O
+buen	aqms	O
+nivel	ncms	O
+de	sp	O
+ascendencia	ncfs	B-REQ
+
+Colaboradora	ncfs	B-REQ
+
+Autoconfianza	ncfs	B-REQ
+y	cc	O
+seguridad	ncfs	B-REQ
+
+Proactiva	aqfs	B-REQ
+y	cc	O
+con	sp	O
+iniciativa	ncfs	B-REQ
+
+Adaptabilidad	ncfs	B-REQ
+
+Estabilidad	ncfs	B-REQ
+emocional	aqcs	I-REQ
+
+Inteligencia	ncfs	B-REQ
+social	aqcs	I-REQ
+(	fpa	O
+sociabilidad	ncfs	B-REQ
+)	fpt	O
+
+Con	sp	O
+afán	ncms	B-REQ
+de	sp	I-REQ
+vencer	vmn	I-REQ
+y	cc	I-REQ
+lograr	vmn	I-REQ
+
+Dinámica	aqfs	B-REQ
+
+Combativa	aqfs	B-REQ
+comercialmente	rg	I-REQ
+
+Vocación	ncfs	O
+de	sp	O
+servicio	ncms	O
+
+Compromiso	ncms	B-REQ
+y	cc	O
+responsabilidad	ncfs	B-REQ
+
+Horario	ncms	O
+
+De	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+de	sp	I-DATE
+8:00am	w	I-DATE
+-	fg	I-DATE
+6:30pm	w	I-DATE
+
+Las	da0fp	O
+personas	ncfp	O
+interesadas	aqfp	O
+enviar	vmn	O
+su	dp3cs	O
+Hoja	ncfs	O
+de	sp	O
+Vida	ncfs	O
+con	sp	O
+Foto	ncfs	O
+reciente	aqcs	O
+,	fc	O
+indicando	vmg	O
+sus	dp3cp	O
+pretensiones	ncfp	O
+salariales	aqcp	O
+al	sp	O
+correo	ncms	O
+de	sp	O
+xxxxxxxx	np00	B-MISC
+.	fp	I-MISC
+xxxxxxxxxxxxxx	np00	I-MISC
+@	fz	I-MISC
+xxxxxxxx	np00	I-MISC
+.	fp	I-MISC
+xxx	np00	I-MISC
+

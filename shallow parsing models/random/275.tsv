@@ -1,0 +1,121 @@
+Asistente	nc	B-JOB
+de	sp	I-JOB
+Flota	nc	I-JOB
+
+Empresa	nc	O
+dedicada	vmp	O
+al	sp	O
+sector	nc	O
+Transporte	nc	O
+de	sp	O
+Carga	nc	O
+Pesada	adj	O
+,	fc	O
+está	vmi	O
+en	sp	O
+busca	nc	O
+de	sp	O
+una	det	O
+personas	nc	O
+para	sp	O
+ocupar	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+Auxiliar	nc	B-JOB
+de	sp	I-JOB
+Flota	nc	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Varon	nc	O
+o	cc	O
+Mujer	nc	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+empresa	nc	B-AREA
+de	sp	I-AREA
+transportes	nc	I-AREA
+mínima	adj	O
+6	z	O
+meses	nc	O
+
+*	fz	O
+Control	nc	B-FUN
+de	sp	I-FUN
+check	np	I-FUN
+list	np	I-FUN
+de	sp	I-FUN
+unidades	nc	I-FUN
+
+*	fz	O
+Control	nc	B-FUN
+de	sp	I-FUN
+aseguramiento	nc	I-FUN
+de	sp	I-FUN
+carga	nc	I-FUN
+
+*	fz	O
+Conocimiento	nc	O
+básicos	adj	O
+de	sp	O
+office	np	B-REQ
+
+*	fz	O
+Proactivo	adj	B-REQ
+
+*	fz	O
+Dinámico	adj	B-REQ
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+trabajo	nc	B-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+
+Se	pron	O
+ofrece	vmi	O
+ingreso	nc	O
+a	sp	O
+planillas	nc	B-BEN
+desde	sp	O
+el	det	O
+inicio	nc	O
+de	sp	O
+actividades	nc	O
+,	fc	O
+con	sp	O
+todos	det	B-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+Interesados	nc	O
+enviar	vmi	O
+CV	np	O
+actualizado	vmp	O
+indicando	vmg	O
+en	sp	O
+el	det	O
+asunto	nc	O
+ASIS	np	O
+-	fg	O
+FLOTA	np	O
+a	sp	O
+xxxxxxxxx	np	B-MISC
+.	fp	I-MISC
+xxxxxxx	np	I-MISC
+@	fz	I-MISC
+xxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+o	cc	O
+

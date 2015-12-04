@@ -1,0 +1,229 @@
+Nutricionista	np00	B-CARR
+.	fp	O
+
+Importante	aqcs	O
+Empresa	ncfs	O
+internacional	aqfs	O
+del	sp	O
+rubro	ncms	O
+de	sp	O
+gastronomía	ncfs	O
+industrial	aqcs	O
+requiere	vmi	O
+incorporar	vmn	O
+a	sp	O
+su	dp3cs	O
+staff	ncmn	O
+un	di0ms	O
+profesional	nccs	O
+altamente	rg	O
+calificado	aqcs	O
+que	cs	O
+reúna	vms	O
+los	da0mp	O
+siguientes	aqmp	O
+requisitos	ncmp	O
+:	fd	O
+
+NUTRICIONISTA	np00	B-CARR
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Con	sp	O
+estudios	ncmp	O
+universitarios	aqmp	O
+en	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+Nutrición	np00	B-CARR
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+1	z	O
+año	ncms	O
+en	sp	O
+puestos	ncmp	O
+similares	aqmp	O
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+en	sp	O
+Comedores	ncmp	B-REQ
+Industriales	aqmp	I-REQ
+
+*	fz	O
+Experiencia	ncfs	O
+en	sp	O
+Zonas	ncfp	B-MISC
+remotas	aqfp	I-MISC
+.	fp	O
+
+*	fz	O
+Conocimiento	ncms	O
+en	sp	O
+alimentación	ncfs	B-REQ
+masiva	aqfs	I-REQ
+y	cc	I-REQ
+laboral	aqcs	I-REQ
+.	fp	O
+
+*	fz	O
+Con	sp	O
+licencia	ncfs	B-REQ
+para	sp	I-REQ
+conducir	vmn	I-REQ
+autos	ncmp	O
+A1	np00	O
+
+FUNCIONES	ncmp	O
+:	fd	O
+
+*	fz	O
+Elaboración	ncfs	B-FUN
+de	sp	I-FUN
+menús	ncmp	I-FUN
+diarios	aqmp	I-FUN
+con	sp	I-FUN
+amplia	aqfs	I-FUN
+rotación	ncfs	I-FUN
+
+*	fz	O
+Estructurar	vmn	B-FUN
+menús	ncmp	I-FUN
+de	sp	I-FUN
+manera	ncfs	I-FUN
+variada	aqfs	I-FUN
+y	cc	I-FUN
+balanceada	aqfs	I-FUN
+
+*	fz	O
+Valorar	vmn	B-FUN
+nutrimentalmente	rg	I-FUN
+menú	ncms	I-FUN
+diario	aqms	I-FUN
+para	sp	I-FUN
+distintos	di0mp	I-FUN
+perfiles	ncmp	I-FUN
+de	sp	I-FUN
+usuarios	ncmp	I-FUN
+
+*	fz	O
+Citas	ncfp	B-FUN
+con	sp	I-FUN
+clientes	nccp	I-FUN
+para	sp	I-FUN
+conocer	vmn	I-FUN
+su	dp3cs	I-FUN
+gasto	ncms	I-FUN
+diario	aqms	I-FUN
+contra	sp	I-FUN
+la	da0fs	I-FUN
+ingesta	ncfs	I-FUN
+diaria	aqfs	I-FUN
+y	cc	I-FUN
+armar	vmn	I-FUN
+una	di0fs	I-FUN
+estrategia	ncfs	I-FUN
+nutrimental	aqfs	I-FUN
+de	sp	I-FUN
+acuerdo	sp	I-FUN
+a	sp	I-FUN
+sus	dp3cp	I-FUN
+requerimientos	ncmp	I-FUN
+.	fp	O
+
+*	fz	O
+Elaborar	vmn	B-FUN
+regímenes	ncmp	I-FUN
+alimenticios	aqmp	I-FUN
+al	sp	I-FUN
+personal	ncms	I-FUN
+de	sp	I-FUN
+nuestro	dp1ms	I-FUN
+cliente	ncms	I-FUN
+(	fpa	I-FUN
+solo	rg	I-FUN
+algunos	pi0mp	I-FUN
+)	fpt	O
+
+BENEFICIOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Sueldo	ncms	O
+acorde	aqms	B-SAL
+al	sp	I-SAL
+mercado	ncms	I-SAL
+.	fp	O
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+planillas	ncfp	B-BEN
+.	fp	O
+
+*	fz	O
+Oportunidad	ncfs	O
+de	sp	O
+pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	di0fs	I-BEN
+empresa	ncfs	I-BEN
+de	sp	I-BEN
+prestigio	ncms	I-BEN
+.	fp	O
+
+COMPETENCIAS	ncfp	O
+:	fd	O
+
+*	fz	O
+Liderazgo	ncfs	B-REQ
+
+*	fz	O
+Comunicación	ncfs	B-REQ
+efectiva	aqfs	I-REQ
+
+*	fz	O
+Buenas	aqfp	O
+relaciones	ncfp	B-REQ
+interpersonales	aqfp	I-REQ
+.	fp	O
+
+*	fz	O
+Tolerancia	ncfs	O
+al	sp	O
+trabajo	ncms	B-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+laboral	aqcs	I-REQ
+
+Las	da0fp	O
+personas	ncfp	O
+interesadas	aqfp	O
+deberán	vmi	O
+enviar	vmn	O
+su	dp3cs	O
+CV	np00	O
+indicando	vmg	O
+expectativas	ncfp	O
+salariales	aqfp	O
+al	sp	O
+siguiente	aqcs	O
+correo	ncms	O
+xxxxxxx	np00	B-MISC
+@	fz	I-MISC
+xxx	np00	I-MISC
+.	fp	I-MISC
+xx	np00	I-MISC
+con	sp	O
+el	da0ms	O
+asunto	ncms	O
+NUTRICIONISTA	nccs	B-JOB
+

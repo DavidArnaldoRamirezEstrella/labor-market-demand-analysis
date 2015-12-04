@@ -1,0 +1,210 @@
+Asistente	nccs	B-JOB
+o	cc	O
+Practicante	nccs	O
+de	sp	O
+Diseñadoras	np00	B-CARR
+de	sp	I-CARR
+Modas	np00	I-CARR
+.	fp	O
+
+Somos	vsi	O
+una	di0fs	O
+empresa	ncfs	O
+de	sp	O
+confección	ncfs	O
+y	cc	O
+Servicio	np00	O
+textil	aqcs	O
+,	fc	O
+estamos	vai	O
+abocados	vmp	O
+a	sp	O
+la	da0fs	O
+fabricación	ncfs	O
+de	sp	O
+prendas	ncfp	O
+de	sp	O
+vestir	vmn	O
+que	cs	O
+cumple	vmi	O
+con	sp	O
+los	da0mp	O
+más	rg	O
+altos	aqmp	O
+estándares	ncmp	O
+de	sp	O
+calidad	ncfs	O
+,	fc	O
+con	sp	O
+un	di0ms	O
+sólido	ncms	O
+y	cc	O
+sostenible	aqcs	O
+crecimiento	ncms	O
+permanente	aqcs	O
+,	fc	O
+por	sp	O
+lo	da0ns	O
+cual	pr0cs	O
+requerimos	vmi	O
+de	sp	O
+un	di0ms	O
+Asistente	nccs	B-JOB
+o	cc	O
+Practicante	nccs	O
+de	sp	O
+Diseñadoras	np00	B-CARR
+de	sp	I-CARR
+Modas	np00	I-CARR
+con	sp	O
+o	cc	O
+sin	sp	O
+/	fh	O
+experiencia	ncfs	O
+en	sp	O
+Moda	ncfs	B-AREA
+Femenina	aqfs	I-AREA
+y	cc	O
+que	pr0cn	O
+cumpla	vms	O
+con	sp	O
+lo	da0ns	O
+siguiente	aqcs	O
+:	fd	O
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+Lo	da0ns	O
+que	pr0cn	O
+aprenderás	vmi	O
+.	fp	O
+
+*	fz	O
+Conocimiento	ncms	O
+de	sp	O
+combinaciones	ncfp	B-REQ
+de	sp	I-REQ
+colores	ncmp	I-REQ
+.	fp	O
+
+*	fz	O
+Conocimientos	ncmp	O
+en	sp	O
+moda	ncfs	B-REQ
+de	sp	I-REQ
+tendencias	ncfp	I-REQ
+.	fp	O
+
+*	fz	O
+Desarrollo	ncms	B-FUN
+de	sp	I-FUN
+productos	ncmp	I-FUN
+,	fc	O
+elaboración	ncfs	B-FUN
+de	sp	I-FUN
+fichas	ncfp	I-FUN
+técnicas	aqfp	I-FUN
+.	fp	O
+
+COMPETENCIAS	ncfp	O
+:	fd	O
+
+*	fz	O
+Sólida	aqfs	O
+formación	ncfs	O
+de	sp	O
+valores	ncmp	B-REQ
+.	fp	O
+
+*	fz	O
+Liderazgo	ncms	B-REQ
+.	fp	O
+
+*	fz	O
+Organizado	aqms	B-REQ
+.	fp	O
+
+*	fz	O
+Analítico	aqms	B-REQ
+.	fp	O
+
+*	fz	O
+Capacidad	ncfs	O
+de	sp	O
+trabajo	ncms	B-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+.	fp	O
+
+*	fz	O
+Comunicación	ncfs	B-REQ
+eficaz	aqcs	I-REQ
+.	fp	O
+
+*	fz	O
+Adaptabilidad	ncfs	B-REQ
+.	fp	O
+
+OFRECEMOS	vmi	O
+:	fd	O
+
+*	fz	O
+Pertenecer	vmn	O
+a	sp	O
+una	di0fs	O
+sólida	aqfs	O
+y	cc	O
+reconocida	aqfs	O
+empresa	ncfs	O
+.	fp	O
+
+*	fz	O
+Excelentes	aqcs	O
+posibilidades	ncfp	O
+de	sp	O
+desarrollo	ncms	B-BEN
+profesional	aqcs	I-BEN
+y	cc	I-BEN
+personal	aqcs	I-BEN
+.	fp	O
+
+*	fz	O
+Buen	aqms	B-BEN
+clima	ncms	I-BEN
+laboral	aqcs	I-BEN
+.	fp	O
+
+Interesados	ncmp	O
+,	fc	O
+enviar	vmn	O
+su	dp3cs	O
+CV	np00	O
+.	fp	O
+A	sp	O
+la	da0fs	O
+dirección	ncfs	O
+del	sp	O
+correo	ncms	O
+electrónico	aqms	O
+indicando	vmg	O
+,	fc	O
+en	sp	O
+el	da0ms	O
+asunto	ncms	O
+:	fd	O
+"	fe	O
+ASISTENTE	nccs	B-JOB
+O	cc	O
+PRACTICANTE	nccs	O
+DE	sp	O
+DISEÑADORAS	np00	B-CARR
+DE	sp	I-CARR
+MODAS	np00	I-CARR
+"	fe	O
+e	cc	O
+indicar	vmn	O
+expectativas	ncfp	O
+económicas	aqfp	O
+.	fp	O
+

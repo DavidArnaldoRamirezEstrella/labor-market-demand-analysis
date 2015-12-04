@@ -1,0 +1,66 @@
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+Comunicaciones	ncfp	I-JOB
+(	fpa	O
+Diseño	ncms	B-AREA
+y	cc	I-AREA
+Social	np00	I-AREA
+Media	np00	I-AREA
+)	fpt	O
+.	fp	O
+
+Recién	rg	O
+egresado	aqms	O
+o	cc	O
+practicante	aqcs	O
+de	sp	O
+comunicaciones	np00	B-CARR
+,	fc	O
+marketing	np00	B-CARR
+,	fc	O
+diseño	np00	B-CARR
+gráfico	np00	I-CARR
+u	cc	O
+otras	di0fp	B-CARR
+afines	aqcp	I-CARR
+.	fp	O
+
+Diseño	ncms	B-FUN
+de	sp	I-FUN
+avisos	ncmp	I-FUN
+
+Seguimiento	ncms	B-FUN
+en	sp	I-FUN
+Social	np00	I-FUN
+Media	np00	I-FUN
+
+Participación	ncfs	B-FUN
+en	sp	I-FUN
+Ferias	ncfp	I-FUN
+
+Comunicaciones	ncfp	B-REQ
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+Social	np00	B-REQ
+Media	np00	I-REQ
+,	fc	O
+Diseño	ncms	B-REQ
+Gráfico	aqms	I-REQ
+,	fc	O
+entre	sp	O
+otros	pi0mp	O
+.	fp	O
+
+Trabajo	ncms	B-MISC
+in	nc00	I-MISC
+-	fg	I-MISC
+house	np00	I-MISC
+.	fp	O
+Inglés	np00	B-REQ
+intermedio	aqms	O
+.	fp	O
+Disponibilidad	ncfs	B-MISC
+inmediata	aqfs	I-MISC
+

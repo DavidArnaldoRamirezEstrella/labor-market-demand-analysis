@@ -1,0 +1,139 @@
+Jefe	ncms	B-JOB
+de	sp	O
+proyecto	ncms	B-AREA
+organización	ncfs	I-AREA
+archivística	aqfs	I-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+Bibliotecología	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+Bibliotecología	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+Administración	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+Administración	np00	B-CARR
+.	fp	O
+
+Técnico	ncms	B-REQ
+titulado	aqms	I-REQ
+en	sp	O
+Archivística	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+Contabilidad	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+Contabilidad	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+Historia	np00	B-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+Historia	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+administración	ncfs	B-AREA
+/	fh	O
+servicios	ncmp	B-AREA
+generales	aqcp	I-AREA
+con	sp	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Word	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+,	fc	O
+Microsoft	np00	B-REQ
+Excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Profesional	nccs	B-REQ
+título	ncms	I-REQ
+y/o	cc	O
+bachiller	ncms	O
+en	sp	O
+las	da0fp	O
+especialidades	ncfp	O
+de	sp	O
+:	fd	O
+bibliotecología	np00	B-CARR
+,	fc	O
+técnico	ncms	B-REQ
+en	sp	O
+archivo	np00	B-CARR
+,	fc	O
+administración	np00	B-CARR
+,	fc	O
+historia	np00	B-CARR
+,	fc	O
+contabilidad	np00	B-CARR
+u	cc	O
+otras	di0fp	O
+ciencias	np00	B-CARR
+sociales	np00	I-CARR
+.	fp	O
+los	da0mp	O
+estudios	ncmp	O
+deberán	vmi	O
+ser	vsn	O
+acreditados	vmp	O
+con	sp	O
+los	da0mp	O
+correspondientes	aqcp	O
+diplomas	ncmp	O
+.	fp	O
+

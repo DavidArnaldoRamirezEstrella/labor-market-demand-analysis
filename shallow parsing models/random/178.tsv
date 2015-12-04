@@ -1,0 +1,229 @@
+Asistente	nc	B-JOB
+de	sp	I-JOB
+Ventas	nc	I-JOB
+
+Empresa	nc	O
+se	pron	O
+dedica	vmi	O
+a	sp	O
+la	det	O
+comercialización	nc	O
+de	sp	O
+productos	nc	O
+para	sp	O
+mantenimiento	nc	O
+industrial	adj	O
+,	fc	O
+automotriz	adj	O
+y	cc	O
+minero	adj	O
+,	fc	O
+requiere	vmi	O
+Srta	nc	O
+.	fp	O
+Para	sp	O
+desempeñarse	vmn	O
+como	cs	O
+asistente	nc	B-JOB
+de	sp	I-JOB
+ventas	nc	I-JOB
+que	pron	O
+cumpla	vms	O
+con	sp	O
+los	det	O
+siguientes	adj	O
+requisitos	nc	O
+:	fd	O
+
+PRINCIPALES	adj	O
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Seguimiento	nc	B-FUN
+de	sp	I-FUN
+Pedidos	nc	I-FUN
+y	cc	I-FUN
+Presupuestos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Elaboración	nc	B-FUN
+y	cc	I-FUN
+Envío	nc	I-FUN
+de	sp	I-FUN
+E	np	I-FUN
+-	fg	I-FUN
+mail	np	I-FUN
+,	fc	I-FUN
+Presupuestos	nc	I-FUN
+y	cc	I-FUN
+Cartas	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Emisión	nc	B-FUN
+de	sp	I-FUN
+Facturas	nc	I-FUN
+y	cc	I-FUN
+Guías	nc	I-FUN
+de	sp	I-FUN
+Remisión	np	I-FUN
+.	fp	O
+
+*	fz	O
+Atención	nc	B-FUN
+al	sp	I-FUN
+Cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Otras	det	O
+Funciones	nc	O
+.	fp	O
+
+PRINCIPALES	adj	O
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Formación	nc	O
+Técnica	adj	B-REQ
+o	cc	O
+Universitaria	adj	O
+.	fp	O
+
+*	fz	O
+Facilidad	nc	B-REQ
+de	sp	I-REQ
+Expresión	nc	I-REQ
+y	cc	O
+Capacidad	nc	O
+de	sp	O
+Convencimiento	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Sexo	nc	O
+Femenino	adj	O
+,	fc	O
+Edad	nc	O
+Entre	sp	O
+18	z	O
+y	cc	O
+25	z	O
+Años	nc	O
+.	fp	O
+
+*	fz	O
+Preferiblemente	rg	O
+con	sp	O
+Experiencia	nc	O
+en	sp	O
+Puestos	nc	O
+Similares	adj	O
+.	fp	O
+
+*	fz	O
+Proactiva	adj	B-REQ
+y	cc	O
+Dinámica	adj	B-REQ
+,	fc	O
+Orientada	adj	O
+al	sp	O
+Cumplimiento	nc	B-REQ
+de	sp	I-REQ
+Objetivos	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Computación	np	B-REQ
+Básica	adj	I-REQ
+(	fpa	O
+Word	np	B-REQ
+,	fc	O
+Excel	np	B-REQ
+,	fc	O
+Power	np	B-REQ
+Point	np	I-REQ
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Residir	vmn	O
+en	sp	O
+Lima	np	B-LUG
+Norte	np	I-LUG
+(	fpa	O
+No	rn	O
+Indispensable	adj	O
+)	fpt	O
+.	fp	O
+
+*	fz	O
+Muy	adj	O
+Buena	adj	O
+Presencia	nc	O
+.	fp	O
+
+OFRECEMOS	vmi	O
+:	fd	O
+
+*	fz	O
+Sueldo	nc	O
+Básico	adj	B-SAL
+Acorde	adj	I-SAL
+con	sp	I-SAL
+el	det	I-SAL
+Mercado	nc	I-SAL
+.	fp	O
+
+*	fz	O
+Incentivos	nc	B-BEN
+por	sp	I-BEN
+Cumplimiento	nc	I-BEN
+de	sp	I-BEN
+Objetivos	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Horario	nc	O
+de	sp	O
+Oficina	nc	O
+.	fp	O
+
+*	fz	O
+Capacitación	nc	B-BEN
+.	fp	O
+
+Las	det	O
+señoritas	nc	O
+interesadas	adj	O
+enviar	vmn	O
+su	det	O
+currículo	nc	O
+adjuntando	adj	O
+foto	nc	O
+e	cc	O
+indicar	vmn	O
+pretensiones	nc	O
+salariales	adj	O
+,	fc	O
+al	sp	O
+e	np	O
+-	fg	O
+mail	np	O
+:	fd	O
+xxxxxxxx	np	B-MISC
+@	fz	I-MISC
+xxxxxxxxxxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+o	cc	O
+llamar	vmn	O
+al	sp	O
+999	z	B-MISC
+555	z	I-MISC
+809	z	I-MISC
+.	fp	O
+

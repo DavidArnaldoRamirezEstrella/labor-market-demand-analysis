@@ -1,0 +1,122 @@
+Docente	nccs	B-JOB
+física	ncfs	B-AREA
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+titulo	ncms	B-REQ
+en	sp	O
+física	np00	B-CARR
+.	fp	O
+
+experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+otros	pi0mp	O
+con	sp	O
+3	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Licenciado	aqms	O
+en	sp	O
+ciencias	np00	B-CARR
+fisicas	np00	I-CARR
+.	fp	O
+
+Con	sp	O
+experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+3	z	O
+años	ncmp	O
+en	sp	O
+la	da0fs	O
+docencia	ncfs	B-AREA
+universitaria	aqfs	I-AREA
+.	fp	O
+
+Cronograma	ncms	O
+:	fd	O
+
+Publicación	ncfs	O
+de	sp	O
+convocatoria	ncfs	O
+:	fd	O
+02	w	B-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+
+Adquisición	ncfs	O
+de	sp	O
+bases	nccp	O
+e	cc	O
+inscripción	ncfs	O
+de	sp	O
+postulantes	ncmp	O
+:	fd	O
+del	sp	O
+03	w	B-DATE
+al	sp	I-DATE
+18	w	I-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+
+Instalación	ncfs	O
+del	sp	O
+jurado	ncms	O
+y	cc	O
+declaración	ncfs	O
+de	sp	O
+aptos	ncmp	O
+:	fd	O
+24	w	B-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+
+Citación	ncfs	O
+de	sp	O
+postulantes	nccp	O
+:	fd	O
+26	w	B-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+
+Clases	ncfp	O
+modelo	nccs	O
+,	fc	O
+entrevista	ncfs	O
+personal	aqcs	O
+:	fd	O
+27	w	B-DATE
+y	cc	I-DATE
+28	w	I-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+
+Resultados	ncmp	O
+finales	aqcp	O
+:	fd	O
+28	w	B-DATE
+de	sp	I-DATE
+marzo	w	I-DATE
+.	fp	O
+
+Telf	ncms	O
+.	fp	O
+6347474	z	B-MISC
+an	ncms	I-MISC
+.	fp	I-MISC
+7101	z	I-MISC
+

@@ -1,0 +1,105 @@
+MECÁNICO	ncms	B-JOB
+DE	sp	I-JOB
+SOLDADURA	ncfs	I-JOB
+.	fp	O
+
+Nuestro	dp1ms	O
+cliente	nccs	O
+,	fc	O
+una	di0fs	O
+importante	aqcs	O
+empresa	ncfs	O
+pesquera	aqfs	O
+,	fc	O
+se	p0000	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	ncfs	O
+de	sp	O
+personal	ncms	O
+para	sp	O
+ocupar	vmn	O
+la	da0fs	O
+posición	ncfs	O
+de	sp	O
+"	fe	O
+Electricista	nccs	B-JOB
+de	sp	I-JOB
+Mantenimiento	ncms	I-JOB
+"	fe	O
+
+FUNCIONES	ncfp	O
+:	fd	O
+
+Ejecutar	vmn	B-FUN
+los	da0mp	I-FUN
+trabajos	ncmp	I-FUN
+de	sp	I-FUN
+mantenimiento	ncms	I-FUN
+y	cc	I-FUN
+de	sp	I-FUN
+soldadura	ncfs	I-FUN
+,	fc	I-FUN
+según	sp	I-FUN
+el	da0ms	I-FUN
+programa	ncms	I-FUN
+de	sp	I-FUN
+mantenimiento	ncms	I-FUN
+u	cc	I-FUN
+órdenes	ncfp	I-FUN
+recibidas	aqfp	I-FUN
+.	fp	O
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+Mecánica	np00	B-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Mantenimiento	np00	B-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Mecatrónica	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Indispensable	aqcs	O
+conocimiento	ncms	O
+en	sp	O
+soldadura	ncfs	B-REQ
+de	sp	I-REQ
+acero	ncms	I-REQ
+inoxidable	aqcs	I-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+en	sp	O
+mecánica	ncfs	B-REQ
+industrial	aqcs	I-REQ
+y	cc	O
+mantenimiento	ncms	B-REQ
+de	sp	I-REQ
+equipos	ncmp	I-REQ
+industriales	aqcp	I-REQ
+.	fp	O
+
+BENEFICIOS	ncfs	O
+:	fd	O
+
+Ingreso	ncms	O
+a	sp	O
+planilla	ncfs	B-BEN
+.	fp	O
+
+Beneficios	ncmp	B-BEN
+de	sp	I-BEN
+Ley	ncfs	I-BEN
+.	fp	O
+
+Sueldo	ncms	B-SAL
+fijo	aqms	I-SAL
+.	fp	O
+

@@ -1,0 +1,128 @@
+ayudante	nc	B-JOB
+de	sp	I-JOB
+cocina	nc	I-JOB
+-	fg	O
+arequipa	np	B-LUG
+
+funciones	nc	O
+:	fd	O
+
+participar	vmn	B-FUN
+en	sp	I-FUN
+la	det	I-FUN
+preparación	nc	I-FUN
+preliminar	adj	I-FUN
+de	sp	I-FUN
+alimentos	nc	I-FUN
+.	fp	O
+
+mantener	vmn	B-FUN
+buenas	adj	I-FUN
+prácticas	vmi	I-FUN
+de	sp	I-FUN
+manufactura	nc	I-FUN
+
+apoyo	nc	B-FUN
+en	sp	I-FUN
+la	det	I-FUN
+elaboración	nc	I-FUN
+de	sp	I-FUN
+alimentos	nc	I-FUN
+en	sp	I-FUN
+apoyo	nc	I-FUN
+con	sp	I-FUN
+el	det	I-FUN
+cocinero	nc	I-FUN
+.	fp	O
+
+apoyo	nc	B-FUN
+al	sp	I-FUN
+cocinero	nc	I-FUN
+en	sp	I-FUN
+la	det	I-FUN
+elaboración	nc	I-FUN
+de	sp	I-FUN
+arroz	nc	I-FUN
+,	fc	I-FUN
+sopas	nc	I-FUN
+,	fc	I-FUN
+entradas	nc	I-FUN
+(	fpa	I-FUN
+frías	adj	I-FUN
+/	fh	I-FUN
+calientes	adj	I-FUN
+)	fpt	O
+.	fp	O
+
+requerimientos	nc	O
+:	fd	O
+
+contar	vmn	O
+con	sp	O
+secundaria	nc	O
+completa	adj	O
+(	fpa	O
+certificado	vmp	O
+de	sp	O
+estudios	nc	O
+)	fpt	O
+.	fp	O
+
+estudios	nc	O
+concluidos	adj	O
+o	cc	O
+truncos	adj	O
+en	sp	O
+gastronomia	np	B-CARR
+.	fp	O
+
+tener	vmn	O
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+6	z	o
+meses	nc	O
+en	sp	O
+el	det	O
+puesto	nc	O
+,	fc	O
+en	sp	O
+restaurantes	nc	B-AREA
+de	sp	I-AREA
+gran	adj	I-AREA
+producción	nc	I-AREA
+o	cc	O
+concesionarias	nc	B-AREA
+de	sp	I-AREA
+alimentos	nc	I-AREA
+(	fpa	O
+aprox	rg	O
+.	fp	O
+350	z	O
+personas	nc	O
+)	fpt	O
+.	fp	O
+
+contar	vmn	O
+con	sp	O
+certificados	nc	O
+o	cc	O
+constancias	vmi	O
+de	sp	O
+trabajo	nc	O
+.	fp	O
+
+tener	vmn	O
+conocimiento	nc	O
+en	sp	O
+prácticas	nc	O
+de	np	O
+manipulacion	nc	B-REQ
+de	sp	I-REQ
+alimentos	nc	I-REQ
+,	fc	O
+panadería	nc	B-REQ
+y	cc	O
+pastelería	nc	B-REQ
+.	fp	O
+

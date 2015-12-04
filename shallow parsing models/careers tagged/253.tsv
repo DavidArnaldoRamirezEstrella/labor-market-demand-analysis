@@ -1,0 +1,87 @@
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+relaciones	ncfp	I-JOB
+laborales	aqcp	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Egresado	ncms	O
+de	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+Relaciones	np00	B-CARR
+Industriales	np00	I-CARR
+,	fc	O
+Derecho	np00	B-CARR
+,	fc	O
+Ing	np00	B-CARR
+.	fp	I-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Administración	np00	B-CARR
+,	fc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+mayor	aqcs	O
+de	sp	O
+3	z	O
+años	ncmp	O
+en	sp	O
+el	da0ms	O
+cargo	ncms	O
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+leyes	ncfp	B-REQ
+laborales	aqcp	I-REQ
+.	fp	O
+
+Deseable	aqcs	O
+tener	vmn	O
+experiencia	ncfs	O
+en	sp	O
+relaciones	ncfp	B-REQ
+sindicales	aqcp	I-REQ
+.	fp	O
+
+Deseable	aqcs	O
+conocimiento	ncms	O
+de	sp	O
+reglamento	ncms	B-REQ
+interno	aqms	I-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+de	sp	O
+office	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+(	fpa	O
+excel	np00	B-REQ
+avanzado	aqms	O
+)	fpt	O
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+
+Organizado	aqms	B-REQ
+.	fp	O
+
+Comunicativo	aqms	B-REQ
+.	fp	O
+
+Proactivo	aqms	B-REQ
+.	fp	O
+

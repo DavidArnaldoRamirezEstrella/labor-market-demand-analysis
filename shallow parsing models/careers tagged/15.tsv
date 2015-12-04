@@ -1,0 +1,64 @@
+BAILARINA	ncfs	B-JOB
+ANFITRIONA	ncfs	I-JOB
+MODELO	ncfs	I-JOB
+.	fp	O
+
+Se	p0000	O
+necesitan	vmi	O
+chicas	ncfp	O
+en	sp	O
+el	da0ms	O
+campo	ncms	O
+de	sp	O
+modelaje	ncms	B-AREA
+no	rn	O
+requiere	vmi	O
+experiencia	ncfs	O
+pero	cc	O
+si	cs	O
+versatilidad	ncfs	B-REQ
+y	cc	O
+espontaneidad	ncfs	B-REQ
+,	fc	O
+chicas	ncfp	O
+carismáticas	aqfp	B-REQ
+para	sp	O
+modelar	vmn	B-FUN
+prendas	ncfp	I-FUN
+de	sp	I-FUN
+vestir	ncms	I-FUN
+de	sp	I-FUN
+temporada	ncfs	I-FUN
+jean	ncms	I-FUN
+,	fc	I-FUN
+sacos	ncmp	I-FUN
+etc	fs	O
+interesadas	vmi	O
+mandar	vmn	O
+su	dp3cs	O
+CV	np00	O
+con	sp	O
+foto	ncfs	O
+actual	aqcs	O
+tamaño	ncms	O
+natural	aqcs	O
+.	fp	O
+producciones_lacruzhotmail	np00	B-MISC
+.	fp	I-MISC
+com	np00	I-MISC
+
+Secundaria	ncfs	O
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Marketing	ncms	B-AREA
+/	fh	O
+Publicidad	ncfs	B-AREA
+.	fp	O
+

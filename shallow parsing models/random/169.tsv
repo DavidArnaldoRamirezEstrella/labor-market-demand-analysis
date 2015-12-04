@@ -1,0 +1,101 @@
+Vendedor	nc	B-JOB
+
+Importadora	nc	O
+de	sp	O
+Productos	nc	O
+en	sp	O
+general	rg	O
+industriales	adj	O
+solicita	vmi	O
+personal	adj	O
+con	sp	O
+el	det	O
+siguiente	adj	O
+perfil	nc	O
+:	fd	O
+
+*	fz	O
+Buena	adj	O
+presencia	nc	O
+
+*	fz	O
+Experiencia	nc	O
+en	sp	O
+ventas	nc	B-AREA
+mínima	adj	O
+6	z	O
+meses	nc	O
+
+*	fz	O
+Edad	nc	O
+entre	sp	O
+18	z	O
+a	sp	O
+25	z	O
+años	nc	O
+
+*	fz	O
+Venta	nc	B-REQ
+directa	adj	I-REQ
+a	sp	I-REQ
+empresas	nc	I-REQ
+
+*	fz	O
+Ordenes	nc	B-REQ
+de	sp	I-REQ
+Compra	nc	I-REQ
+
+*	fz	O
+Cotizaciones	nc	B-REQ
+
+*	fz	O
+Cartera	nc	B-REQ
+de	sp	I-REQ
+clientes	nc	I-REQ
+(	fpa	O
+No	rn	O
+es	vsi	O
+necesario	adj	O
+)	fpt	O
+
+*	fz	O
+Conocimiento	nc	O
+en	sp	O
+computación	np	B-REQ
+
+*	fz	O
+Pro	adj	B-REQ
+-	fg	I-REQ
+activa	adj	I-REQ
+y	cc	O
+con	sp	O
+buen	adj	B-REQ
+trato	nc	I-REQ
+al	sp	I-REQ
+público	nc	I-REQ
+
+Sueldo	nc	O
+:	fd	O
+
+Básico	adj	B-SAL
++	fz	I-SAL
+Altas	adj	I-SAL
+comisiones	nc	I-SAL
+en	sp	I-SAL
+dólares	zm	I-SAL
+,	fc	O
+sin	sp	B-BEN
+tope	nc	I-BEN
+de	sp	I-BEN
+comisiones	nc	I-BEN
+puedes	vmi	B-BEN
+vender	vmn	I-BEN
+y	cc	I-BEN
+comisionar	vmn	I-BEN
+todo	det	I-BEN
+el	det	I-BEN
+dinero	nc	I-BEN
+que	pron	I-BEN
+quieras	vms	I-BEN
+.	fp	O
+

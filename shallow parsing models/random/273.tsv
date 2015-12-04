@@ -1,0 +1,53 @@
+supervisores	nc	B-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+técnico	nc	B-REQ
+en	sp	O
+otros	pron	O
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+operaciones	nc	B-AREA
+con	sp	O
+2	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+2	z	O
+años	nc	O
+.	fp	O
+
+preferencia	nc	O
+con	sp	O
+estudios	nc	O
+técnicos	adj	B-REQ
+.	fp	O
+
+proactivo	adj	B-REQ
+,	fc	O
+honesto	adj	B-REQ
+,	fc	O
+motivado	vmp	O
+a	sp	O
+cumplir	vmn	B-REQ
+objetivos	nc	I-REQ
+y	cc	O
+trabajo	nc	B-REQ
+a	sp	I-REQ
+presión	nc	I-REQ
+

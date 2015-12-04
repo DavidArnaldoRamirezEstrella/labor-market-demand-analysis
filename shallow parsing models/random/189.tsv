@@ -1,0 +1,51 @@
+auditores	nc	B-JOB
+asistentes	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+inconcluso	adj	O
+en	sp	O
+contabilidad	nc	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+auditoría	np	B-AREA
+.	fp	O
+
+estudiantes	nc	O
+de	sp	O
+ultimos	adj	O
+ciclos	nc	O
+en	sp	O
+adelante	rg	O
+
+conocimiento	nc	O
+de	sp	O
+nia	np	B-REQ
+s	np	I-REQ
+-	fg	O
+nic	np	B-REQ
+s	np	I-REQ
+
+manejo	nc	O
+de	sp	O
+microsoft	np	B-REQ
+office	np	I-REQ
+
+experiencia	nc	O
+deseable	adj	O
+,	fc	O
+no	rn	O
+indispensable	adj	O
+

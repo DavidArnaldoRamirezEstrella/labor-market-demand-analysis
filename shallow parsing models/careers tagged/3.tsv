@@ -1,0 +1,179 @@
+Asesor	ncms	B-JOB
+comercial	aqcs	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Asesoría	ncfs	B-FUN
+comercial	aqcs	I-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+potenciales	aqcp	I-FUN
+clientes	nccp	I-FUN
+para	sp	I-FUN
+adquirir	vmn	I-FUN
+equipos	ncmp	I-FUN
+gastronómicos	aqmp	I-FUN
+adecuados	aqmp	I-FUN
+a	sp	I-FUN
+su	dp3cs	I-FUN
+necesidad	ncfs	I-FUN
+.	fp	O
+
+Coordinación	ncfs	B-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+facturación	ncfs	I-FUN
+y	cc	I-FUN
+despacho	ncms	I-FUN
+de	sp	I-FUN
+sus	dp3cp	I-FUN
+pedidos	ncmp	I-FUN
+.	fp	O
+
+Liderar	vmn	B-FUN
+equipos	ncmp	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+para	sp	I-FUN
+cumplir	vmn	I-FUN
+los	da0mp	I-FUN
+compromisos	ncmp	I-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+clientes	nccp	I-FUN
+.	fp	O
+
+Prospección	ncfs	B-FUN
+de	sp	I-FUN
+clientes	nccp	I-FUN
+en	sp	I-FUN
+funcion	ncms	I-FUN
+al	sp	I-FUN
+canal	ncms	I-FUN
+asignado	vmp	I-FUN
+.	fp	O
+
+Desarrollar	vmn	B-FUN
+casos	ncmp	I-FUN
+de	sp	I-FUN
+negocios	ncmp	I-FUN
+,	fc	O
+
+Diseñar	vmn	B-FUN
+,	fc	O
+ejecutar	vmn	B-FUN
+y	cc	I-FUN
+hacer	vmn	I-FUN
+seguimiento	ncms	I-FUN
+a	sp	I-FUN
+planes	ncmp	I-FUN
+de	sp	I-FUN
+venta	ncfs	I-FUN
+y	cc	I-FUN
+post	aqcn	I-FUN
+-	fg	I-FUN
+venta	ncfs	I-FUN
+.	fp	O
+
+Competencias	ncfp	O
+
+Excelente	aqcs	O
+trato	ncms	B-REQ
+y	cc	O
+relación	ncfs	B-REQ
+a	sp	O
+todo	di0ms	O
+nivel	ncms	O
+
+Liderazgo	ncms	B-REQ
+
+Orientación	ncfs	B-REQ
+a	sp	I-REQ
+resultados	ncmp	I-REQ
+
+Proactividad	ncfs	B-REQ
+
+Tolerancia	ncfs	B-REQ
+a	sp	I-REQ
+la	da0fs	I-REQ
+presión	ncfs	I-REQ
+
+Capacidad	ncfs	B-REQ
+analítica	aqfs	I-REQ
+
+Salario	ncms	O
+:	fd	O
+S/.3000	zu	B-SAL
++	fz	O
+atractivas	aqfp	B-BEN
+comisiones	ncfp	I-BEN
++	fz	O
+bonos	ncmp	B-BEN
++	fz	O
+movilidad	ncfs	B-BEN
+
+requerimientos	ncmp	O
+:	fd	O
+
+Egresados	ncmp	O
+de	sp	O
+carrera	ncfs	B-REQ
+universitaria	aqfs	I-REQ
+o	cc	I-REQ
+técnica	aqfs	I-REQ
+de	sp	O
+Administración	np00	B-CARR
+,	fc	O
+Negocios	np00	B-CARR
+Internacionales	np00	I-CARR
+,	fc	O
+Ingeniería	np00	B-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Hotelería	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+3	z	O
+años	ncmp	O
+comprobada	vmp	O
+en	sp	O
+ventas	ncfp	B-AREA
+.	fp	O
+de	sp	O
+preferencia	ncfs	O
+en	sp	O
+ventas	ncfp	B-AREA
+de	sp	I-AREA
+equipos	ncmp	I-AREA
+para	sp	O
+cocinas	ncfp	O
+industriales	aqcp	O
+y	cc	O
+comerciales	aqcp	O
+.	fp	O
+
+Manejo	ncms	O
+de	sp	O
+windows	np00	B-REQ
+office	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Contar	vmn	O
+con	sp	O
+auto	ncms	O
+propio	aqms	O
+(	fpa	O
+indispensable	aqcs	O
+)	fpt	O
+.	fp	O
+

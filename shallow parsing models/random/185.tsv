@@ -1,0 +1,28 @@
+trabajo	nc	O
+para	sp	O
+jóvenes	nc	O
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+confirmar	vmn	O
+su	det	O
+asistencia	nc	O
+a	sp	O
+jmertz	np	B-MISC
+@	fz	I-MISC
+wallstreet	np	I-MISC
+-	fg	I-MISC
+peru	np	I-MISC
+.	fp	I-MISC
+com	np	I-MISC
+
+saludos	nc	O
+,	fc	O
+
+gerencia	np	B-ORG
+wse	np	I-ORG
+

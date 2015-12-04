@@ -1,0 +1,245 @@
+Asesor	ncms	B-JOB
+Técnico	aqms	I-JOB
+Comercial	aqcs	I-JOB
+-	fg	O
+Rubro	ncms	O
+Iluminación	ncfs	B-AREA
+.	fp	O
+
+Empresa	ncfs	O
+con	sp	O
+una	di0fs	O
+amplia	aqfs	O
+experiencia	ncfs	O
+en	sp	O
+el	da0ms	O
+desarrollo	ncms	O
+de	sp	O
+Proyectos	ncmp	O
+de	sp	O
+Iluminación	ncfs	O
+,	fc	O
+se	p0000	O
+encuentra	vmi	O
+en	sp	O
+búsqueda	ncfs	O
+de	sp	O
+un	di0ms	O
+Arquitecto	ncms	B-JOB
+o	cc	O
+diseñador	ncms	B-JOB
+con	sp	O
+experiencia	ncfs	O
+en	sp	O
+el	da0ms	O
+rubro	ncms	O
+de	sp	O
+Iluminación	ncfs	B-AREA
+que	pr0cn	O
+cumpla	vms	O
+con	sp	O
+el	da0ms	O
+siguiente	aqcs	O
+perfil	ncms	O
+:	fd	O
+
+REQUISITOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Con	sp	O
+estudios	ncmp	O
+de	sp	O
+Arquitectura	np00	B-CARR
+y/o	cc	O
+Diseño	np00	B-CARR
+de	sp	I-CARR
+Interiores	np00	I-CARR
+.	fp	O
+
+*	fz	O
+Con	sp	O
+experiencia	ncfs	O
+en	sp	O
+ventas	ncfp	B-AREA
+de	sp	I-AREA
+proyectos	ncmp	I-AREA
+(	fpa	O
+Indispensable	aqcs	O
+)	fpt	O
+
+*	fz	O
+De	sp	O
+preferencia	vmi	O
+contar	vmn	O
+con	sp	O
+cartera	ncfs	B-REQ
+de	sp	I-REQ
+clientes	nccp	I-REQ
+.	fp	O
+
+*	fz	O
+Manejo	ncms	O
+de	sp	O
+Office	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+*	fz	O
+De	sp	O
+preferencia	ncfs	O
+con	sp	O
+el	da0ms	O
+manejo	ncms	O
+del	sp	O
+idioma	ncms	O
+Inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+Intermedio	aqms	O
+.	fp	O
+
+FUNCIONES	ncfp	O
+:	fd	O
+
+*	fz	O
+Venta	ncfs	B-FUN
+,	fc	I-FUN
+diseño	ncms	I-FUN
+y	cc	I-FUN
+seguimiento	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+colocación	ncfs	I-FUN
+de	sp	I-FUN
+los	da0mp	I-FUN
+proyectos	ncmp	I-FUN
+de	sp	I-FUN
+Iluminación	ncfs	I-FUN
+
+*	fz	O
+Realizar	vmn	B-FUN
+visitas	ncfp	I-FUN
+de	sp	I-FUN
+campo	ncms	I-FUN
+y	cc	O
+visitas	ncfp	B-FUN
+con	sp	I-FUN
+los	da0mp	I-FUN
+clientes	nccp	I-FUN
+.	fp	O
+
+*	fz	O
+Captación	ncfs	B-FUN
+de	sp	I-FUN
+clientes	nccp	I-FUN
+y	cc	O
+manejo	ncms	B-FUN
+de	sp	I-FUN
+cartera	ncfs	I-FUN
+brindada	aqfs	I-FUN
+por	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+y	cc	O
+desarrollo	ncms	B-FUN
+de	sp	I-FUN
+cartera	ncfs	I-FUN
+(	fpa	I-FUN
+constructoras	ncfp	I-FUN
+,	fc	I-FUN
+estudios	ncmp	I-FUN
+de	sp	I-FUN
+diseño	ncms	I-FUN
+,	fc	I-FUN
+arquitectos	ncmp	I-FUN
+,	fc	I-FUN
+etc	fs	I-FUN
+.	fp	I-FUN
+)	fpt	I-FUN
+
+*	fz	O
+Búsqueda	ncfs	B-FUN
+de	sp	I-FUN
+proyectos	ncmp	I-FUN
+de	sp	I-FUN
+Iluminación	ncfs	I-FUN
+.	fp	O
+
+BENEFICIOS	ncmp	O
+:	fd	O
+
+*	fz	O
+Ingreso	ncms	O
+a	sp	O
+Planilla	ncfs	B-BEN
+con	sp	O
+todos	di0mp	B-BEN
+los	da0mp	I-BEN
+beneficios	ncmp	I-BEN
+de	sp	I-BEN
+ley	ncfs	I-BEN
+desde	sp	I-BEN
+el	da0ms	I-BEN
+primer	aoms	I-BEN
+día	ncms	I-BEN
+.	fp	O
+
+*	fz	O
+EPS	np00	B-BEN
+
+*	fz	O
+Meta	ncfs	O
+anual	aqcs	O
+con	sp	O
+premio	ncms	O
+en	sp	O
+efectivo	ncms	O
+
+*	fz	O
+Meta	ncfs	O
+trimestral	aqcs	O
+con	sp	O
+premio	ncms	O
+en	sp	O
+efectivo	ncms	O
+
+*	fz	O
+Movilidad	ncfs	B-BEN
+cubierta	aqfs	I-BEN
+
+HORARIO	ncms	O
+DE	sp	O
+TRABAJO	ncms	O
+:	fd	O
+
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+de	sp	I-DATE
+8:00	w	I-DATE
+am	w	I-DATE
+a	sp	I-DATE
+6:30	w	I-DATE
+pm	w	I-DATE
+
+LUGAR	ncms	O
+DE	sp	O
+TRABAJO	ncms	O
+:	fd	O
+
+*	fz	O
+San	np00	B-LUG
+Isidro	np00	I-LUG
+
+REPORTARÁ	vmi	O
+:	fd	O
+
+*	fz	O
+A	sp	O
+la	da0fs	O
+Gerencia	ncfs	O
+Comercial	aqcs	O
+

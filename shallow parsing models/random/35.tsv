@@ -1,0 +1,136 @@
+RECEPCIONISTA	nc	B-JOB
+
+*	fz	O
+Recepción	nc	B-FUN
+de	sp	I-FUN
+llamadas	nc	I-FUN
+y	cc	O
+atención	nc	B-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Guiar	vmn	B-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+a	sp	I-FUN
+través	sp	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+procesos	nc	I-FUN
+de	sp	I-FUN
+compra	nc	I-FUN
+y	cc	O
+realizar	vmn	B-FUN
+venta	nc	I-FUN
+sugestiva	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Generar	vmn	B-FUN
+comprobantes	nc	I-FUN
+(	fpa	I-FUN
+boletas	nc	I-FUN
+facturas	nc	I-FUN
+,	fc	I-FUN
+órdenes	vms	I-FUN
+de	sp	I-FUN
+compra	nc	I-FUN
+,	fc	I-FUN
+cotizaciones	nc	I-FUN
+)	fpt	I-FUN
+
+Llevar	vmi	B-FUN
+el	det	I-FUN
+control	nc	I-FUN
+de	sp	I-FUN
+pedido	nc	I-FUN
+y	cc	I-FUN
+pagos	nc	I-FUN
+.	fp	O
+
+Mantener	vmn	B-FUN
+comunicación	nc	I-FUN
+post	adj	I-FUN
+venta	nc	I-FUN
+con	sp	I-FUN
+los	det	I-FUN
+clientes	nc	I-FUN
+
+Coordinar	vmn	B-FUN
+entregas	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+pedidos	nc	I-FUN
+.	fp	O
+
+Verificar	vmi	B-FUN
+la	det	I-FUN
+calidad	nc	I-FUN
+de	sp	I-FUN
+nuestros	det	I-FUN
+productos	nc	I-FUN
+antes	rg	I-FUN
+de	sp	I-FUN
+salir	vmn	I-FUN
+a	sp	I-FUN
+ruta	nc	I-FUN
+.	fp	O
+
+Técnico	nc	B-REQ
+Egresado	adj	O
+en	sp	O
+Asistente	nc	B-CARR
+de	sp	I-CARR
+Gerencia	np	I-CARR
+/	fh	O
+Secretariado	np	B-CARR
+.	fp	O
+
+Otros	det	O
+Estudios	nc	O
+:	fd	O
+Taller	nc	O
+en	sp	O
+atención	nc	B-REQ
+al	sp	I-REQ
+cliente	nc	I-REQ
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Atención	nc	B-AREA
+al	sp	I-AREA
+Cliente	nc	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+Idioma	nc	O
+
+Inglés	np	B-REQ
+a	sp	O
+nivel	nc	O
+básico	adj	O
+
+Manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+Microsoft	np	B-REQ
+Excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

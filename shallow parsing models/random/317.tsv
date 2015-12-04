@@ -1,0 +1,157 @@
+Asesor	nc	B-JOB
+comercial	adj	I-JOB
+-	fg	O
+Inmobiliaria	nc	O
+
+Importante	adj	O
+constructora	nc	O
+inmobiliaria	adj	O
+,	fc	O
+requiere	vmi	O
+con	sp	O
+urgencia	nc	O
+la	det	O
+persona	nc	O
+idónea	adj	O
+para	sp	O
+ocupar	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+Asesor	nc	B-JOB
+comercial	adj	I-JOB
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Profesional	nc	O
+de	sp	O
+las	det	O
+carreras	nc	O
+de	sp	O
+Administración	np	B-CARR
+hotelera	np	I-CARR
+,	fc	O
+Marketing	np	B-CARR
+,	fc	O
+diseño	np	B-CARR
+de	sp	I-CARR
+interiores	np	I-CARR
+.	fp	O
+
+*	fz	O
+Mínimo	rg	O
+Carrera	nc	O
+Técnica	adj	B-REQ
+.	fp	O
+
+*	fz	O
+Un	det	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+como	cs	O
+minimo	rg	O
+en	sp	O
+venta	nc	B-AREA
+de	sp	I-AREA
+productos	nc	I-AREA
+tangibles	adj	I-AREA
+al	sp	O
+cliente	nc	O
+final	adj	O
+.	fp	O
+
+Funciones	nc	O
+del	sp	O
+puesto	nc	O
+:	fd	O
+
+*	fz	O
+Informar	vmn	B-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+acerca	sp	I-FUN
+del	sp	I-FUN
+proyecto	nc	I-FUN
+en	sp	I-FUN
+general	adj	I-FUN
+.	fp	O
+
+*	fz	O
+Brindar	vmn	B-FUN
+información	nc	I-FUN
+detallada	vmp	I-FUN
+acerca	sp	I-FUN
+de	sp	I-FUN
+las	det	I-FUN
+diferentes	adj	I-FUN
+propuestas	nc	I-FUN
+de	sp	I-FUN
+distribución	nc	I-FUN
+de	sp	I-FUN
+departamentos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Orientar	vmn	B-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+potencial	adj	I-FUN
+hacia	sp	I-FUN
+la	det	I-FUN
+mejor	adj	I-FUN
+alternativa	nc	I-FUN
+de	sp	I-FUN
+compra	nc	I-FUN
+.	fp	O
+
+Salario	nc	O
+:	fd	O
+
+*	fz	O
+De	sp	O
+acuerdo	rg	B-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+más	cc	O
+comisiones	nc	B-BEN
+.	fp	O
+
+*	fz	O
+Bonos	nc	B-BEN
+anuales	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Seguro	nc	B-BEN
+de	sp	I-BEN
+vida	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Utilidades	nc	B-BEN
+.	fp	O
+
+Las	det	O
+personas	nc	O
+que	pron	O
+estén	vas	O
+interesados	vmp	O
+enviar	vmn	O
+su	det	O
+CV	np	O
+al	sp	O
+correo	nc	O
+líneas	nc	O
+abajo	rg	O
+con	sp	O
+asunto	nc	O
+:	fd	O
+ASESOR	nc	B-JOB
+COMERCIAL	adj	I-JOB
+-	fg	O
+INMOBILIARIA	nc	O
+

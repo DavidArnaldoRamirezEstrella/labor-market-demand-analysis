@@ -1,0 +1,331 @@
+Chofer	nc	B-JOB
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Secundaria	nc	O
+completa	adj	O
+.	fp	O
+
+*	fz	O
+Edad	nc	O
+:	fd	O
+27	z	O
+a	sp	O
+35	z	O
+años	nc	O
+de	sp	O
+preferencia	nc	O
+(	fpa	O
+no	rn	O
+restrictivo	adj	O
+)	fpt	O
+
+*	fz	O
+Licencia	nc	O
+de	sp	O
+conducir	vmn	O
+A1	np	O
+
+EXPERIENCIA	nc	O
+:	fd	O
+
+*	fz	O
+No	rg	O
+menor	adj	O
+a	sp	O
+2	z	O
+en	sp	O
+distribución	nc	O
+de	sp	O
+preferencia	nc	O
+en	sp	O
+empresas	nc	O
+retail	adj	O
+
+CONOCIMIENTOS	nc	O
+:	fd	O
+
+*	fz	O
+Trato	nc	B-REQ
+con	sp	I-REQ
+clientes	nc	I-REQ
+,	fc	O
+guía	nc	B-REQ
+de	sp	I-REQ
+remisión	nc	I-REQ
+,	fc	O
+entre	sp	O
+otros	pron	O
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+básico	adj	O
+en	sp	O
+mecánica	nc	B-REQ
+y	cc	O
+mantenimiento	nc	B-REQ
+de	sp	I-REQ
+autos	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Conocimiento	nc	O
+básico	adj	O
+de	sp	O
+seguridad	nc	B-REQ
+del	sp	I-REQ
+área	nc	I-REQ
+de	sp	I-REQ
+trabajo	nc	I-REQ
+.	fp	O
+
+FUNCIONES	nc	O
+:	fd	O
+
+*	fz	O
+Revisar	vmn	B-FUN
+la	det	I-FUN
+unidad	nc	I-FUN
+al	sp	I-FUN
+inicio	nc	I-FUN
+y	cc	I-FUN
+término	nc	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+jornada	nc	I-FUN
+,	fc	O
+inspeccionando	vmg	B-FUN
+su	det	I-FUN
+estado	nc	I-FUN
+y	cc	I-FUN
+correcto	adj	I-FUN
+funcionamiento	nc	I-FUN
+para	sp	I-FUN
+iniciar	vmn	I-FUN
+la	det	I-FUN
+operación	nc	I-FUN
+,	fc	O
+controlando	vmg	B-FUN
+con	sp	I-FUN
+el	det	I-FUN
+respectivo	adj	I-FUN
+check	nc	I-FUN
+list	nc	I-FUN
+de	sp	I-FUN
+entrega	nc	I-FUN
+y	cc	I-FUN
+distribución	nc	I-FUN
+de	sp	I-FUN
+productos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Conducir	vmn	B-FUN
+el	det	I-FUN
+equipo	nc	I-FUN
+transportando	vmg	I-FUN
+materiales	nc	I-FUN
+y/o	cc	I-FUN
+ejecutando	vmg	I-FUN
+labores	nc	I-FUN
+de	sp	I-FUN
+apoyo	nc	I-FUN
+en	sp	I-FUN
+reparto	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Mantener	vmn	B-FUN
+la	det	I-FUN
+limpieza	nc	I-FUN
+y	cc	I-FUN
+condiciones	nc	I-FUN
+óptimas	adj	I-FUN
+de	sp	I-FUN
+la	det	I-FUN
+unidad	nc	I-FUN
+,	fc	O
+cuidando	vmg	B-FUN
+de	sp	I-FUN
+ella	pron	I-FUN
+e	cc	I-FUN
+informando	vmg	I-FUN
+de	sp	I-FUN
+eventuales	adj	I-FUN
+anormalidades	nc	I-FUN
+de	sp	I-FUN
+su	det	I-FUN
+funcionamiento	nc	I-FUN
+a	sp	I-FUN
+quien	pron	I-FUN
+corresponda	vms	I-FUN
+para	sp	I-FUN
+su	det	I-FUN
+reparación	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Cumplir	vmn	B-FUN
+las	det	I-FUN
+políticas	nc	I-FUN
+,	fc	I-FUN
+procedimientos	nc	I-FUN
+e	cc	I-FUN
+instructivos	nc	I-FUN
+de	sp	I-FUN
+seguridad	nc	I-FUN
+y	cc	I-FUN
+calidad	nc	I-FUN
+impartidas	adj	I-FUN
+por	sp	I-FUN
+la	det	I-FUN
+Gerencia	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Asistencia	nc	B-FUN
+en	sp	I-FUN
+las	det	I-FUN
+demás	det	I-FUN
+labores	nc	I-FUN
+de	sp	I-FUN
+Almacén	nc	I-FUN
+
+COMPETENCIAS	nc	O
+:	fd	O
+
+*	fz	O
+Puntualidad	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Responsabilidad	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Calidad	nc	B-REQ
+de	sp	I-REQ
+trabajo	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Autonomía	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Iniciativa	nc	B-REQ
+.	fp	O
+
+*	fz	O
+Seguridad	nc	B-REQ
+y	cc	I-REQ
+medio	pron	I-REQ
+ambiente	nc	I-REQ
+.	fp	O
+
+*	fz	O
+Vocación	nc	O
+de	sp	O
+servicio	nc	O
+.	fp	O
+
+HORARIO	nc	O
+Y	cc	O
+DISPONIBILIDAD	nc	O
+:	fd	O
+
+lunes	w	B-MISC
+a	sp	I-MISC
+viernes	w	I-MISC
+8:30	w	I-MISC
+a.m.	w	I-MISC
+a	sp	I-MISC
+6:30	w	I-MISC
+p.m	w	I-MISC
+.	fp	O
+
+SE	pron	O
+OFRECE	vmi	O
+:	fd	O
+
+*	fz	O
+Pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	det	I-BEN
+empresa	nc	I-BEN
+de	sp	I-BEN
+prestigio	nc	I-BEN
+,	fc	I-BEN
+sólida	adj	I-BEN
+y	cc	I-BEN
+confiable	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Estabilidad	nc	B-BEN
+y	cc	O
+adecuado	adj	B-BEN
+clima	nc	I-BEN
+laboral	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+desde	sp	O
+el	det	O
+primer	adj	O
+día	nc	O
+con	sp	O
+todos	det	B-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+(	fpa	O
+Gratificaciones	nc	B-BEN
+,	fc	O
+CTS	np	B-BEN
+,	fc	O
+vacaciones	nc	B-BEN
+,	fc	O
+seguro	adj	B-BEN
+de	sp	I-BEN
+vida	nc	I-BEN
+ley	nc	I-BEN
+,	fc	O
+etc	fs	O
+.	fp	O
+)	fpt	O
+
+REMUNERACION	nc	O
+:	fd	O
+
+S/.1,000	zm	B-SAL
+al	sp	O
+inicio	nc	O
+de	sp	O
+su	det	O
+labor	nc	O
+
+Bonos	nc	B-BEN
+según	sp	I-BEN
+Desempeño	nc	I-BEN
+*	fz	I-BEN
+a	sp	I-BEN
+partir	vmn	I-BEN
+del	sp	I-BEN
+4to	adj	I-BEN
+mes	nc	I-BEN
+

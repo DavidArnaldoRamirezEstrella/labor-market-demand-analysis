@@ -1,0 +1,197 @@
+Azafata	nc	B-JOB
+o	cc	O
+mozo	nc	B-JOB
+Part	np	B-MISC
+Time	np	I-MISC
+turno	nc	B-MISC
+noche	nc	I-MISC
+
+El	det	B-ORG
+Pez	np	I-ORG
+On	np	I-ORG
+,	fc	O
+importante	adj	O
+cadena	nc	O
+de	sp	O
+restaurantes	nc	O
+en	sp	O
+expansión	nc	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+personal	nc	O
+para	sp	O
+el	det	O
+cargo	nc	O
+de	sp	O
+Azafata	np	B-JOB
+o	cc	O
+mozo	np	B-JOB
+part	nc	B-MISC
+time	vms	I-MISC
+para	sp	O
+el	det	O
+turno	nc	B-MISC
+noche	nc	I-MISC
+,	fc	O
+para	sp	O
+que	pron	O
+se	pron	O
+incorpore	vmi	O
+a	sp	O
+nuestra	np	O
+sede	nc	O
+de	sp	O
+Miraflores	np	B-LUG
+
+FUNCIONES	nc	O
+:	fd	O
+
+·	fz	O
+Responsable	nc	B-FUN
+de	sp	I-FUN
+brindar	vmn	I-FUN
+una	det	I-FUN
+adecuada	adj	I-FUN
+atención	nc	I-FUN
+al	sp	I-FUN
+cliente	nc	I-FUN
+,	fc	O
+garantizando	vmi	B-FUN
+la	det	I-FUN
+calidad	nc	I-FUN
+en	sp	I-FUN
+el	det	I-FUN
+servicio	nc	I-FUN
+ofrecido	adj	I-FUN
+.	fp	O
+
+·	vmi	O
+Mantener	vmn	B-FUN
+buenas	adj	I-FUN
+prácticas	nc	I-FUN
+de	sp	I-FUN
+manufactura	nc	I-FUN
+durante	sp	I-FUN
+su	det	I-FUN
+servicio	nc	I-FUN
+.	fp	O
+
+·	fz	O
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+otras	det	I-FUN
+funciones	nc	I-FUN
+que	pron	I-FUN
+,	fc	I-FUN
+en	sp	I-FUN
+materia	nc	I-FUN
+de	sp	I-FUN
+su	det	I-FUN
+competencia	nc	I-FUN
+le	pron	I-FUN
+sean	vss	I-FUN
+asignadas	vmp	I-FUN
+para	sp	I-FUN
+el	det	I-FUN
+logro	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+objetivos	nc	I-FUN
+del	sp	I-FUN
+área	nc	I-FUN
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+Ser	vmn	O
+Extrovertidos	adj	B-REQ
+
+Estudiantes	nc	O
+de	sp	O
+Administración	np	B-CARR
+Hotelera	np	I-CARR
+,	fc	O
+Restaurantes	np	B-CARR
+y	cc	O
+afines	adj	B-CARR
+
+Experiencia	nc	O
+como	cs	O
+mozo	nc	B-JOB
+como	cs	O
+mínimo	rg	O
+06	z	O
+meses	nc	O
+de	sp	O
+preferencia	nc	O
+.	fp	O
+
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+en	sp	O
+horarios	nc	O
+de	sp	O
+19:00	w	B-DATE
+a	sp	I-DATE
+23:00	w	I-DATE
+
+Manejo	nc	O
+del	sp	O
+idioma	nc	O
+Inglés	np	B-REQ
+,	fc	O
+para	sp	O
+atención	nc	B-FUN
+a	sp	I-FUN
+extranjeros	nc	I-FUN
+
+BENEFICIOS	nc	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	I-BEN
+todos	det	I-BEN
+los	det	I-BEN
+beneficios	nc	I-BEN
+de	sp	I-BEN
+acuerdo	nc	I-BEN
+a	sp	I-BEN
+ley	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Sueldo	nc	O
+S/.425.00	zm	B-SAL
+nuevos	zm	I-SAL
+soles	zm	I-SAL
+
+*	fz	O
+Oportunidad	nc	O
+de	sp	O
+desarrollo	nc	B-BEN
+profesional	adj	I-BEN
+y	cc	O
+grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+.	fp	O
+
+Lugar	nc	O
+de	sp	O
+trabajo	nc	O
+Miraflores	np	B-LUG
+,	fc	O
+Lima	np	B-LUG
+
+Postularme	vmi	O
+

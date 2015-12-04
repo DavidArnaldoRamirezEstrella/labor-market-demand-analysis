@@ -1,0 +1,70 @@
+docentes	nc	B-JOB
+arquitectura	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+lugar	nc	O
+de	sp	O
+trabajo	nc	O
+:	fd	O
+sede	nc	O
+los	np	B-LUG
+olivos	np	I-LUG
+o	cc	O
+sede	nc	O
+lima	np	B-LUG
+centro	np	I-LUG
+
+indicar	vmn	O
+pretensiones	nc	O
+económicas	adj	O
+
+requerimientos	nc	O
+:	fd	O
+
+tener	vmn	O
+grado	nc	O
+(	fpa	O
+titulado	adj	B-REQ
+)	fpt	O
+arquitecto	np	B-CARR
+o	cc	O
+carrera	nc	B-CARR
+afin	rg	I-CARR
+,	fc	O
+para	sp	O
+asignaturas	nc	B-AREA
+teóricas	adj	I-AREA
+.	fp	O
+
+con	sp	O
+estudios	nc	O
+de	sp	O
+postgrado	nc	B-REQ
+relacionados	vmp	O
+con	sp	O
+arquitectura	np	B-CARR
+y/o	cc	O
+docencia	nc	B-REQ
+universitaria	adj	I-REQ
+.	fp	O
+
+contar	vmn	O
+con	sp	O
+experiencia	nc	O
+relevante	adj	O
+y	cc	O
+debidamente	rg	O
+documentada	vmp	O
+en	sp	O
+el	det	O
+campo	nc	O
+profesional	adj	O
+y/o	cc	O
+de	sp	O
+investigación	nc	B-AREA
+en	sp	I-AREA
+arquitectura	nc	I-AREA
+.	fp	O
+

@@ -1,0 +1,228 @@
+Analista	nccs	B-JOB
+funcional	aqcs	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Educación	ncfs	O
+
+Egresado	ncms	O
+,	fc	O
+bachiller	ncms	O
+o	cc	O
+titulado	aqms	B-REQ
+universitario	aqms	O
+en	sp	O
+ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+computación	np00	I-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+de	sp	I-CARR
+sistemas	np00	I-CARR
+,	fc	O
+ingeniería	np00	B-CARR
+informática	np00	I-CARR
+o	cc	O
+nivel	ncms	B-CARR
+equivalente	aqcs	I-CARR
+.	fp	O
+
+Grado	ncms	O
+técnico	aqms	B-REQ
+en	sp	O
+computación	np00	B-CARR
+e	cc	I-CARR
+informática	np00	I-CARR
+de	sp	O
+reconocidos	vmp	O
+institutos	ncmp	O
+tecnológicos	aqmp	O
+.	fp	O
+
+Habilidades	ncfp	O
+técnicas	aqfp	O
+y	cc	O
+competencias	ncfp	O
+
+Al	rg	O
+menos	rg	O
+2	z	O
+años	ncmp	O
+en	sp	O
+una	di0fs	O
+posición	ncfs	O
+similar	aqcs	O
+
+Experiencia	ncfs	O
+en	sp	O
+la	da0fs	O
+traducción	ncfs	B-FUN
+de	sp	I-FUN
+requerimientos	ncmp	I-FUN
+a	sp	I-FUN
+especificaciones	ncfp	I-FUN
+
+Experiencia	ncfs	O
+de	sp	O
+cara	ncfs	O
+al	sp	O
+cliente	nccs	O
+para	sp	O
+la	da0fs	O
+toma	ncfs	B-FUN
+de	sp	I-FUN
+requerimientos	ncmp	I-FUN
+
+Experiencia	ncfs	O
+creando	vmg	B-FUN
+historias	ncfp	I-FUN
+de	sp	I-FUN
+usuario	ncms	I-FUN
+(	fpa	I-FUN
+user	np00	I-FUN
+stories	np00	I-FUN
+)	fpt	I-FUN
+,	fc	I-FUN
+o	cc	I-FUN
+artefactos	ncmp	I-FUN
+similares	aqcp	I-FUN
+
+Experiencia	ncfs	O
+realizando	vmg	B-FUN
+el	da0ms	I-FUN
+análisis	ncms	I-FUN
+de	sp	I-FUN
+deficiencias	ncfp	I-FUN
+(	fpa	I-FUN
+gap	np00	I-FUN
+analyisis	np00	I-FUN
+)	fpt	I-FUN
+
+Experiencia	ncfs	O
+en	sp	O
+comunicación	ncfs	B-REQ
+con	sp	I-REQ
+equipos	ncmp	I-REQ
+técnicos	aqmp	I-REQ
+
+Conocimientos	ncmp	O
+de	sp	O
+SDLC	np00	B-REQ
+
+Experiencia	ncfs	O
+trabajando	vmg	B-FUN
+en	sp	I-FUN
+estrecha	aqfs	I-FUN
+colaboración	ncfs	I-FUN
+con	sp	I-FUN
+ingenieros	ncmp	I-FUN
+de	sp	I-FUN
+software	ncms	I-FUN
+
+Orientado	vmp	B-REQ
+al	sp	I-REQ
+cliente	nccs	I-REQ
+
+Buenas	aqfp	O
+habilidades	ncfp	B-REQ
+analíticas	aqfp	I-REQ
+con	sp	O
+ganas	ncfp	O
+de	sp	O
+asumir	vmn	O
+nuevos	aqmp	O
+retos	ncmp	O
+
+Buenas	aqfp	O
+habilidades	ncfp	O
+de	sp	O
+comunicación	ncfs	B-REQ
+,	fc	O
+organizado	aqms	B-REQ
+y	cc	O
+motivado	aqms	B-REQ
+,	fc	O
+persistente	aqcs	B-REQ
+,	fc	O
+orientado	vmp	B-REQ
+a	sp	I-REQ
+completar	vmn	I-REQ
+tareas	ncfp	I-REQ
+
+Responsable	aqcs	B-REQ
+y	cc	O
+confiable	aqcs	B-REQ
+
+Es	vsi	O
+indispensable	aqcs	O
+que	pr0cn	O
+pueda	vms	O
+dar	vmn	O
+una	di0fs	O
+evaluación	aqfs	O
+técnica	ncfs	O
+oral	aqcs	O
+en	sp	O
+inglés	np00	B-REQ
+(	fpa	O
+es	vsi	O
+aceptable	aqcs	O
+un	di0ms	O
+nivel	ncms	O
+intermedio	aqms	O
+de	sp	O
+conversación	ncfs	O
+pero	cc	O
+no	rn	O
+básico	vmi	O
+)	fpt	O
+.	fp	O
+
+Lo	da0ns	O
+siguiente	aqcs	O
+sería	vmi	O
+un	di0ms	O
+plus	ncms	O
+:	fd	O
+
+Experiencia	ncfs	O
+previa	aqfs	O
+como	cs	O
+analista	nccs	B-JOB
+desarrollador	ncms	I-JOB
+o	cc	O
+ingeniero	ncms	B-JOB
+de	sp	I-JOB
+QA	np00	I-JOB
+
+Experiencia	ncfs	O
+previa	aqfs	O
+en	sp	O
+el	da0ms	O
+mercado	ncms	B-AREA
+electoral	aqcs	I-AREA
+,	fc	O
+conocimiento	ncms	O
+de	sp	O
+diferentes	di0cp	O
+modelos	ncmp	B-REQ
+electorales	aqcp	I-REQ
+
+Competencia	ncfs	O
+en	sp	O
+definición	ncms	B-FUN
+de	sp	I-FUN
+criterios	ncmp	I-FUN
+de	sp	I-FUN
+condiciones	ncfp	I-FUN
+de	sp	I-FUN
+satisfacción	ncfs	I-FUN
+y	cc	I-FUN
+aceptación	ncmn	I-FUN
+

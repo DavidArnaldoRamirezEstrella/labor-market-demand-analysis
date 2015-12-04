@@ -1,0 +1,53 @@
+Servicio	ncms	O
+de	sp	O
+elaboración	ncfs	O
+propuesta	aqfs	O
+normativa	ncfs	O
+para	sp	O
+la	da0fs	O
+planificación	ncfs	O
+tema	ncms	O
+ambiental	aqcs	O
+.	fp	O
+
+*	fz	O
+Profesional	nccs	O
+en	sp	O
+ciencias	np00	B-CARR
+atmósfera	np00	I-CARR
+(	fpa	O
+meteorología	np00	B-CARR
+y/o	cc	O
+hidrología	np00	B-CARR
+)	fpt	O
+
+*	fz	O
+Experiencia	ncfs	O
+de	sp	O
+un	di0ms	O
+año	ncms	O
+en	sp	O
+temas	ncmp	O
+de	sp	O
+meteorología	ncfs	B-AREA
+y	cc	O
+climatología	ncfs	B-AREA
+
+*	fz	O
+Tener	vmn	O
+experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+un	di0ms	O
+año	ncms	O
+en	sp	O
+elaboración	ncfs	B-FUN
+de	sp	I-FUN
+planes	ncmp	I-FUN
+de	sp	I-FUN
+estudios	ncmp	I-FUN
+sobre	sp	I-FUN
+temas	ncmp	I-FUN
+meteorológico	aqmp	I-FUN
+.	fp	O
+

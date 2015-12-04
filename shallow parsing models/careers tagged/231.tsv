@@ -1,0 +1,157 @@
+(	fpa	O
+T	np00	B-ORG
+-	fg	O
+COL	np00	B-ORG
+)	fpt	O
+Técnico	ncms	B-REQ
+Audiovisual	np00	B-CARR
+.	fp	O
+
+Empresa	ncfs	O
+del	sp	O
+Sector	ncms	O
+de	sp	O
+Tecnología	ncfs	O
+requiere	vmi	O
+incorporar	vmn	O
+a	sp	O
+su	dp3cs	O
+Staff	ncfs	O
+de	sp	O
+Operaciones	ncfs	O
+Ingenierio	ncms	B-REQ
+/	fh	O
+Técnico	ncms	B-REQ
+Especialista	aqcs	O
+en	sp	O
+Sistemas	ncmp	B-AREA
+de	sp	I-AREA
+Videoconferencia	ncfs	I-AREA
+y	cc	I-AREA
+Audiovisuales	ncmp	I-AREA
+.	fp	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+Experiencia	ncfs	O
+en	sp	O
+Instalación	ncfs	B-FUN
+y	cc	I-FUN
+Configuración	ncfs	I-FUN
+de	sp	I-FUN
+Videoconferencia	ncfs	I-FUN
+Polycom	np00	I-FUN
+,	fc	I-FUN
+Audiovisuales	ncmp	I-FUN
+.	fp	O
+
+Experiencia	ncfs	O
+en	sp	O
+Instalación	ncfs	B-FUN
+y	cc	I-FUN
+Configuración	ncfs	I-FUN
+de	sp	I-FUN
+Proyectores	ncmp	I-FUN
+,	fc	I-FUN
+Ecrans	np00	I-FUN
+
+Experiencia	ncfs	O
+comprobada	vmp	O
+en	sp	O
+Instalación	ncfs	B-FUN
+de	sp	I-FUN
+Proyectos	ncmp	I-FUN
+
+Buen	aqms	O
+conocimiento	ncms	O
+de	sp	O
+Inglés	np00	B-REQ
+(	fpa	O
+Lectura	ncfs	O
+y	cc	O
+Escritura	ncfs	O
+)	fpt	O
+
+Buen	aqms	O
+estado	ncms	O
+de	sp	O
+salud	ncfs	O
+(	fpa	O
+dentadura	ncfs	O
+,	fc	O
+peso	ncms	O
+,	fc	O
+oído	ncms	O
+,	fc	O
+etc	fs	O
+)	fpt	O
+
+No	rn	O
+tener	vmn	O
+antecedentes	ncmp	O
+penales	aqcp	O
+y/o	cc	O
+judiciales	aqcp	O
+
+Se	p0000	O
+ofrece	vmi	O
+:	fd	O
+
+Pertener	vmn	B-BEN
+a	sp	I-BEN
+nuestro	dp1ms	I-BEN
+staff	ncms	I-BEN
+de	sp	O
+Ingenieros	ncmp	B-REQ
+/	fh	O
+Técnicos	ncmp	B-REQ
+especialistas	nccp	O
+.	fp	O
+
+Trabajo	ncms	B-BEN
+continuo	aqms	I-BEN
+en	sp	I-BEN
+proyectos	ncmp	I-BEN
+de	sp	I-BEN
+envergadura	ncfs	I-BEN
+.	fp	O
+
+Posibilidad	ncfs	O
+de	sp	O
+aprender	vmn	B-BEN
+de	sp	I-BEN
+soluciones	ncfp	I-BEN
+de	sp	I-BEN
+Seguridad	np00	I-BEN
+Electrónica	np00	I-BEN
+,	fc	I-BEN
+Redes	ncfp	I-BEN
+de	sp	I-BEN
+Datos	ncmp	I-BEN
+
+Línea	ncfs	B-BEN
+de	sp	I-BEN
+Carrera	ncfs	I-BEN
+y	cc	O
+posibilidades	ncfp	B-BEN
+de	sp	I-BEN
+Crecimiento	ncms	I-BEN
+.	fp	O
+
+Enviar	vmn	O
+CV	np00	O
+documentado	vmp	O
+indicando	vmg	O
+pretensiones	ncfp	O
+salariales	aqcp	O
+al	sp	O
+correo	ncms	O
+con	sp	O
+el	da0ms	O
+Codido	ncms	O
+:	fd	O
+T	np00	O
+-	fg	O
+COL	np00	O
+

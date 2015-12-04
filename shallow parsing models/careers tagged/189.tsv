@@ -1,0 +1,242 @@
+INSPECTOR	ncms	B-JOB
+DE	sp	I-JOB
+CONTROL	ncms	I-JOB
+INTERNO	aqms	I-JOB
+CALLAO	np00	B-LUG
+HIDROCARBUROS	ncmp	B-AREA
+.	fp	O
+
+*	fz	O
+Supervisar	vmn	B-FUN
+la	da0fs	I-FUN
+operación	ncfs	I-FUN
+en	sp	I-FUN
+planta	ncfs	I-FUN
+:	fd	O
+asegurar	vmn	B-FUN
+el	da0ms	I-FUN
+cumplimiento	ncms	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+calidad	ncfs	I-FUN
+,	fc	O
+análisis	ncmn	B-FUN
+de	sp	I-FUN
+resultados	ncmp	I-FUN
+y	cc	I-FUN
+mermas	ncfp	I-FUN
+.	fp	O
+
+*	fz	O
+Controlar	vmn	B-FUN
+el	da0ms	I-FUN
+proceso	ncms	I-FUN
+productivo	aqms	I-FUN
+desde	sp	I-FUN
+la	da0fs	I-FUN
+sala	ncfs	I-FUN
+de	sp	I-FUN
+control	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Cumplimiento	ncms	B-FUN
+de	sp	I-FUN
+condiciones	ncfp	I-FUN
+de	sp	I-FUN
+seguridad	ncfs	I-FUN
+en	sp	I-FUN
+planta	ncfs	I-FUN
+.	fp	O
+
+*	fz	O
+Administración	ncfs	B-FUN
+del	sp	I-FUN
+personal	ncms	I-FUN
+del	sp	I-FUN
+turno	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Gestionar	vmn	B-FUN
+con	sp	I-FUN
+mantenimiento	ncms	I-FUN
+las	da0fp	I-FUN
+necesidades	ncfp	I-FUN
+de	sp	I-FUN
+planta	ncfs	I-FUN
+
+*	fz	O
+Cumplir	vmn	B-FUN
+con	sp	I-FUN
+el	da0ms	I-FUN
+programa	ncms	I-FUN
+de	sp	I-FUN
+producción	ncfs	I-FUN
+
+Requisitos	ncmp	O
+:	fd	O
+
+*	fz	O
+Profesional	nccs	O
+Bachiller	ncms	O
+en	sp	O
+Ingeniería	np00	B-CARR
+Industrial	np00	I-CARR
+,	fc	O
+Ingeniería	np00	B-CARR
+Química	np00	I-CARR
+,	fc	O
+Industrial	np00	B-CARR
+Alimentarias	np00	I-CARR
+o	cc	O
+carrera	ncfs	B-CARR
+afín	aqms	I-CARR
+y	cc	O
+pertenecer	vmn	O
+al	sp	O
+CUERPO	ncms	O
+GENERAL	aqcs	O
+DE	sp	O
+BOMBEROS	ncmp	O
+VOLUNTARIOS	aqmp	O
+DEL	sp	O
+PERÚ	np00	B-LUG
+.	fp	O
+
+*	fz	O
+Mínimo	rg	O
+un	di0ms	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+en	sp	O
+proyectos	ncmp	B-AREA
+,	fc	O
+automatización	ncfs	B-AREA
+o	cc	O
+producción	ncfs	B-AREA
+industrial	aqcs	I-AREA
+
+*	fz	O
+Experiencia	ncfs	O
+en	sp	O
+manejo	ncms	O
+de	sp	O
+personal	ncms	B-REQ
+.	fp	O
+
+*	fz	O
+Experiencia	ncfs	O
+en	sp	O
+plantas	ncfp	B-AREA
+industriales	aqcp	I-AREA
+.	fp	O
+
+*	fz	O
+Conocimiento	ncms	O
+de	sp	O
+inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+Beneficios	ncmp	O
+:	fd	O
+
+*	fz	O
+Turno	ncms	B-MISC
+de	sp	I-MISC
+08	z	I-MISC
+horas	ncfp	I-MISC
+
+*	fz	O
+Horario	ncms	O
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+
+*	fz	O
+En	sp	O
+Planilla	ncfs	B-BEN
+con	sp	O
+todos	di0mp	B-BEN
+los	da0mp	I-BEN
+beneficios	ncmp	I-BEN
+.	fp	O
+
+*	fz	O
+Sueldo	ncms	O
+de	sp	O
+S/.1900.00	zm	B-SAL
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Ingeniería	np00	B-CARR
+Química	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+Bachiller	ncms	O
+en	sp	O
+Ingeniería	np00	B-CARR
+Petroquímica	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+Titulado	aqms	B-REQ
+en	sp	O
+Ingeniería	np00	B-CARR
+Industrial	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+Ingeniería	ncfs	B-AREA
+con	sp	O
+2	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Idioma	ncms	O
+
+Inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+,	fc	O
+Microsoft	np00	B-REQ
+Power	np00	I-REQ
+Point	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+,	fc	O
+Microsoft	np00	B-REQ
+Word	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+

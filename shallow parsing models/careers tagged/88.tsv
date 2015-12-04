@@ -1,0 +1,245 @@
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+investigación	ncfs	I-JOB
+de	sp	I-JOB
+mercado	ncms	I-JOB
+(	fpa	O
+Asistente	nccs	B-JOB
+Cualitativo	aqms	I-JOB
+)	fpt	O
+.	fp	O
+
+Asistente	nccs	B-JOB
+de	sp	I-JOB
+investigación	ncfs	I-JOB
+de	sp	I-JOB
+mercado	ncms	I-JOB
+:	fd	O
+
+Requisitos	ncmp	O
+:	fd	O
+
+*	fz	O
+Egresada	ncfs	O
+/	fh	O
+Bachiller	ncms	O
+de	sp	O
+las	da0fp	O
+carreras	ncfp	O
+de	sp	O
+Psicología	np00	B-CARR
+,	fc	O
+Psicología	np00	B-CARR
+Social	np00	I-CARR
+,	fc	O
+Antropología	np00	B-CARR
+,	fc	O
+Ciencias	np00	B-CARR
+de	sp	I-CARR
+la	da0fs	I-CARR
+Comunicación	np00	I-CARR
+,	fc	O
+Sociología	np00	B-CARR
+o	cc	O
+afines	aqcp	B-CARR
+.	fp	O
+
+*	fz	O
+Microsoft	np00	B-REQ
+Office	np00	I-REQ
+intermedio	aqms	O
+
+*	fz	O
+Experiencia	ncfs	O
+previa	aqfs	O
+,	fc	O
+de	sp	O
+1	z	O
+año	ncms	O
+como	cs	O
+mínimo	aqms	O
+en	sp	O
+cargos	ncmp	O
+o	cc	O
+puestos	ncmp	O
+similares	aqcp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+*	fz	O
+Responsable	aqcs	O
+de	sp	O
+procesar	vmn	B-FUN
+oportunamente	rg	I-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+de	sp	I-FUN
+investigación	ncfs	I-FUN
+de	sp	I-FUN
+mercados	ncmp	I-FUN
+
+*	fz	O
+Almacenar	vmn	B-FUN
+,	fc	I-FUN
+ordenar	vmn	I-FUN
+y	cc	I-FUN
+fichar	vmn	I-FUN
+toda	di0fs	I-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+recopilada	vmp	I-FUN
+en	sp	I-FUN
+las	da0fp	I-FUN
+investigaciones	ncfp	I-FUN
+de	sp	I-FUN
+mercado	ncms	I-FUN
+
+*	fz	O
+Controlar	vmn	B-FUN
+el	da0ms	I-FUN
+cumplimiento	ncms	I-FUN
+del	sp	I-FUN
+plan	ncms	I-FUN
+de	sp	I-FUN
+trabajo	ncms	I-FUN
+establecido	aqms	I-FUN
+.	fp	O
+
+*	fz	O
+Asistir	vmn	B-FUN
+en	sp	I-FUN
+la	da0fs	I-FUN
+elaboración	ncfs	I-FUN
+de	sp	I-FUN
+informes	ncmp	I-FUN
+de	sp	I-FUN
+investigación	ncfs	I-FUN
+de	sp	I-FUN
+mercado	ncms	I-FUN
+.	fp	O
+
+*	fz	O
+Brindar	vmn	B-FUN
+soporte	ncms	I-FUN
+en	sp	I-FUN
+el	da0ms	I-FUN
+análisis	ncmn	I-FUN
+y	cc	I-FUN
+procesamiento	ncms	I-FUN
+de	sp	I-FUN
+información	ncfs	I-FUN
+cualitativa	aqfs	I-FUN
+o	cc	I-FUN
+cuantitativa	aqfs	I-FUN
+.	fp	O
+
+*	fz	O
+Apoyar	vmn	B-FUN
+en	sp	I-FUN
+la	da0fs	I-FUN
+evaluación	ncfs	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+calidad	ncfs	I-FUN
+y	cc	I-FUN
+confiabilidad	vmi	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+información	ncfs	I-FUN
+de	sp	I-FUN
+las	da0fp	I-FUN
+investigaciones	ncfp	I-FUN
+y	cc	I-FUN
+estudios	ncmp	I-FUN
+tanto	rg	I-FUN
+internos	aqmp	I-FUN
+como	cs	I-FUN
+externos	aqmp	I-FUN
+
+*	fz	O
+Contacto	ncms	B-FUN
+directo	aqms	I-FUN
+con	sp	I-FUN
+reclutadores	ncmp	I-FUN
+y	cc	I-FUN
+transcriptores	ncmp	I-FUN
+
+*	fz	O
+Encargado	ncms	O
+de	sp	O
+filtrar	vmn	B-FUN
+a	sp	I-FUN
+los	da0mp	I-FUN
+participantes	nccp	I-FUN
+para	sp	I-FUN
+el	da0ms	I-FUN
+ingreso	ncms	I-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+sesiones	ncfp	I-FUN
+de	sp	I-FUN
+focus	ncmn	I-FUN
+group	ncms	I-FUN
+
+Competencias	ncfp	O
+:	fd	O
+
+*	fz	O
+Puntualidad	ncfs	B-REQ
+
+*	fz	O
+Responsabilidad	ncfs	B-REQ
+
+*	fz	O
+Proactividad	ncfs	B-REQ
+
+*	fz	O
+Establecer	vmn	B-REQ
+prioridades	ncfp	I-REQ
+
+*	fz	O
+Pensamiento	ncms	B-REQ
+analítico	aqms	I-REQ
+y	cc	O
+solución	ncfs	B-REQ
+de	sp	I-REQ
+problemas	ncmp	I-REQ
+
+*	fz	O
+Iniciativa	ncfs	B-REQ
+y	cc	O
+seguimiento	ncms	B-REQ
+de	sp	I-REQ
+lo	da0ns	I-REQ
+planificado	aqms	I-REQ
+
+*	fz	O
+Comunicación	ncfs	B-REQ
+con	sp	O
+claridad	ncfs	O
+efectividad	ncfs	B-REQ
+
+*	fz	O
+Trabajo	ncms	B-REQ
+efectivo	aqms	I-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+
+Enviar	vmn	O
+CV	np00	O
+a	sp	O
+:	fd	O
+xxxxxxxxxx	np00	B-MISC
+@	fz	I-MISC
+xxxxxxxxxx	np00	I-MISC
+.	fp	I-MISC
+xxx	np00	I-MISC
+
+Asunto	ncms	O
+:	fd	O
+Asistente	nccs	B-JOB
+investigación	ncfs	I-JOB
+de	sp	I-JOB
+Mercado	ncms	I-JOB
+

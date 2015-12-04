@@ -1,0 +1,137 @@
+auxiliar	nc	B-JOB
+ii	z	I-JOB
+y	cc	I-JOB
+i	z	I-JOB
+de	sp	I-JOB
+operaciones	nc	I-JOB
+
+funciones	nc	O
+:	fd	O
+
+administrar	vmn	B-FUN
+la	det	I-FUN
+información	nc	I-FUN
+solicitada	adj	I-FUN
+por	sp	I-FUN
+las	det	I-FUN
+áreas	nc	I-FUN
+.	fp	O
+
+revisión	nc	B-FUN
+de	sp	I-FUN
+aplicativos	nc	I-FUN
+.	fp	O
+
+trasladar	vmn	B-FUN
+la	pron	I-FUN
+información	nc	I-FUN
+de	sp	I-FUN
+los	det	I-FUN
+aplicativos	nc	I-FUN
+en	sp	I-FUN
+cuadros	nc	I-FUN
+
+excel	np	B-REQ
+según	rg	O
+las	det	O
+solicitudes	nc	O
+(	fpa	O
+digitar	vmn	B-FUN
+y	cc	I-FUN
+grabar	vmn	I-FUN
+la	det	I-FUN
+información	nc	I-FUN
+)	fpt	O
+.	fp	O
+
+elaboración	nc	B-FUN
+de	sp	I-FUN
+cuadros	nc	I-FUN
+en	sp	I-FUN
+excel	np	I-FUN
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	nc	O
+bachillerato	nc	O
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	nc	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+personas	nc	O
+con	sp	O
+estudios	nc	O
+universitarios	adj	O
+a	sp	O
+partir	rg	O
+del	sp	O
+iii	z	O
+ciclo	nc	O
+
+con	sp	O
+carreras	nc	O
+o	cc	O
+especialidades	nc	O
+en	sp	O
+administración	np	B-CARR
+,	fc	O
+
+economía	np	B-CARR
+,	fc	O
+ing	np	B-CARR
+.	fp	I-CARR
+industrial	np	I-CARR
+,	fc	O
+contabilidad	np	B-CARR
+,	fc	O
+sistemas	np	B-CARR
+,	fc	O
+computación	np	B-CARR
+,	fc	O
+informática	np	B-CARR
+y	cc	O
+marketing	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+en	sp	O
+labores	nc	B-FUN
+administrativas	adj	I-FUN
+
+tener	vmn	O
+habilidad	nc	B-REQ
+en	sp	I-REQ
+digitación	nc	I-REQ
+
+manejo	nc	O
+de	sp	O
+excel	np	B-REQ
+nivel	nc	O
+básico	adj	O
+/	fh	O
+intermedio	adj	O
+.	fp	O
+

@@ -1,0 +1,36 @@
+Purser	nccs	B-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Técnico	ncms	B-REQ
+en	sp	O
+administración	np00	B-CARR
+turismo	np00	I-CARR
+y	cc	I-CARR
+hotelería	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+hotelería	ncfs	B-AREA
+/	fh	O
+turismo	ncms	B-AREA
+/	fh	O
+restaurantes	ncmp	B-AREA
+con	sp	O
+3	z	O
+meses	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+

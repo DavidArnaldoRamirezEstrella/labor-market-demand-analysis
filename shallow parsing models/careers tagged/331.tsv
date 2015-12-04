@@ -1,0 +1,196 @@
+Supervisor	ncms	B-JOB
+comercial	aqcs	I-JOB
+Zona	ncfs	B-MISC
+Sur	ncms	I-MISC
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+mecánica	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+industrial	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+metalúrgica	np00	I-CARR
+.	fp	O
+
+Universitario	ncms	O
+título	ncms	B-REQ
+en	sp	O
+ingeniería	np00	B-CARR
+de	sp	I-CARR
+minas	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+comercial	aqcs	B-AREA
+con	sp	O
+3	z	O
+años	ncmp	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Idioma	ncms	O
+
+Inglés	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+
+Manejo	ncms	O
+de	sp	O
+programas	ncmp	O
+:	fd	O
+
+Microsoft	np00	B-REQ
+Excel	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+,	fc	O
+Microsoft	np00	B-REQ
+Power	nc00	I-REQ
+Point	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+,	fc	O
+Microsoft	np00	B-REQ
+Word	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+,	fc	O
+Autocad	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+intermedio	aqms	O
+.	fp	O
+
+En	sp	O
+puestos	ncmp	O
+similares	aqcp	O
+,	fc	O
+negociación	ncfs	B-REQ
+y	cc	O
+trato	ncms	B-REQ
+con	sp	I-REQ
+clientes	nccp	I-REQ
+mínima	rg	O
+tres	z	O
+(	fpa	O
+3	z	O
+)	fpt	O
+años	ncmp	O
+en	sp	O
+el	da0ms	O
+sector	ncms	O
+minero	aqms	B-AREA
+.	fp	O
+
+Liderando	vmg	B-FUN
+equipos	ncmp	I-FUN
+mayores	aqcp	I-FUN
+a	sp	I-FUN
+10	z	I-FUN
+personas	ncfp	I-FUN
+(	fpa	O
+no	rn	O
+indispensable	aqcs	O
+)	fpt	O
+.	fp	O
+
+Habilidades	ncfp	O
+:	fd	O
+
+*	fz	O
+Proactivo	aqms	B-REQ
+
+*	fz	O
+Analítico	aqms	B-REQ
+
+*	fz	O
+Acostumbrado	aqms	O
+a	sp	O
+trabajar	vmn	B-REQ
+en	sp	I-REQ
+equipo	ncms	I-REQ
+
+*	fz	O
+Actitud	ncfs	B-REQ
+líder	nccs	I-REQ
+
+*	fz	O
+Capacidad	ncfs	O
+de	sp	O
+toma	ncfs	B-REQ
+de	sp	I-REQ
+decisiones	ncfp	I-REQ
+
+*	fz	O
+Poder	ncms	B-REQ
+negociación	ncfs	I-REQ
+
+Requisitos	ncmp	O
+:	fd	O
+
+Licencia	ncfs	O
+de	sp	O
+conducir	vmn	O
+A	np00	O
+-	fg	O
+1	z	O
+.	fp	O
+
+Disponibilidad	ncfs	B-MISC
+para	sp	I-MISC
+viajar	vmn	I-MISC
+.	fp	O
+oficina	ncfs	B-MISC
+(	fpa	I-MISC
+40	zp	I-MISC
+%	zp	I-MISC
+)	fpt	I-MISC
+viajes	ncmp	B-MISC
+(	fpa	I-MISC
+60	zp	I-MISC
+%	zp	I-MISC
+)	fpt	I-MISC
+
+Ambiente	ncms	O
+de	sp	O
+trabajo	ncms	O
+:	fd	O
+oficina	ncfs	B-MISC
+central	aqcs	I-MISC
+y	cc	I-MISC
+campo	ncms	I-MISC
+(	fpa	I-MISC
+minas	ncfp	I-MISC
+)	fpt	I-MISC
+.	fp	O
+

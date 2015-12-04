@@ -1,0 +1,160 @@
+ETIQUETADOR	nc	B-JOB
+MANUAL	adj	I-JOB
+
+Descripción	nc	O
+de	sp	O
+Funciones	nc	O
+:	fd	O
+
+*	fz	O
+Etiquetado	nc	B-FUN
+de	sp	I-FUN
+Mercadería	nc	I-FUN
+
+*	fz	O
+Preparación	nc	B-FUN
+y	cc	I-FUN
+embalado	nc	I-FUN
+de	sp	I-FUN
+mercadería	nc	I-FUN
+para	sp	I-FUN
+envío	nc	I-FUN
+.	fp	O
+
+Perfil	nc	O
+del	sp	O
+Candidato	nc	O
+:	fd	O
+
+*	fz	O
+Experiencia	nc	O
+mínima	adj	O
+de	sp	O
+1	z	O
+año	nc	O
+en	sp	O
+almacenes	nc	B-AREA
+de	sp	O
+preferencia	nc	O
+en	sp	O
+tiendas	nc	O
+tipo	nc	O
+retail	np	O
+cumpliendo	vmg	O
+funciones	nc	O
+de	sp	O
+etiquetado	nc	B-FUN
+
+*	fz	O
+Estudios	nc	O
+secundarios	adj	O
+concluidos	nc	O
+y/o	cc	O
+técnicos	adj	B-REQ
+truncos	adj	O
+o	cc	O
+por	sp	O
+concluir	vmn	O
+
+*	fz	O
+Capacidad	nc	O
+de	sp	O
+trabajo	nc	B-REQ
+en	sp	I-REQ
+equipo	nc	I-REQ
+y	cc	I-REQ
+bajo	sp	I-REQ
+presión	nc	I-REQ
+
+*	fz	O
+Actitud	nc	O
+y	cc	O
+predisposición	nc	O
+para	sp	O
+el	det	O
+trabajo	nc	B-REQ
+operativo	adj	I-REQ
+
+*	fz	O
+Habilidad	nc	B-REQ
+cuantitativa	adj	I-REQ
+y	cc	I-REQ
+manual	adj	I-REQ
+
+*	fz	O
+Enfoque	nc	B-REQ
+al	sp	I-REQ
+detalle	nc	I-REQ
+
+Ofrecemos	vmi	O
+:	fd	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+con	sp	O
+beneficios	nc	B-BEN
+de	sp	I-BEN
+ley	nc	I-BEN
+y	cc	O
+beneficios	nc	B-BEN
+según	sp	I-BEN
+política	nc	I-BEN
+interna	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Pertenecer	vmn	B-BEN
+a	sp	I-BEN
+una	det	I-BEN
+empresa	nc	I-BEN
+con	sp	I-BEN
+proyección	nc	I-BEN
+de	sp	I-BEN
+crecimiento	nc	I-BEN
+y	cc	I-BEN
+línea	nc	I-BEN
+de	sp	I-BEN
+carrera	nc	I-BEN
+.	fp	O
+
+*	fz	O
+Seguro	nc	B-BEN
+Médico	adj	I-BEN
+Privado	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Horario	nc	O
+de	sp	O
+trabajo	nc	O
+de	sp	O
+lunes	w	B-DATE
+a	sp	I-DATE
+sábado	w	I-DATE
+
+Secundaria	nc	O
+.	fp	O
+
+Experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+Almacén	nc	B-AREA
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+

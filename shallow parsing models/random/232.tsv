@@ -1,0 +1,73 @@
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+universitario	adj	O
+bachiller	nc	O
+en	sp	O
+administración	np	B-CARR
+.	fp	O
+
+universitario	adj	O
+bachiller	nc	O
+en	sp	O
+guía	nc	B-CARR
+oficial	adj	I-CARR
+de	sp	I-CARR
+turismo	nc	I-CARR
+.	fp	O
+
+universitario	adj	O
+bachiller	nc	O
+en	sp	O
+administración	np	B-CARR
+turismo	np	B-CARR
+y	cc	O
+hotelería	np	B-CARR
+.	fp	O
+
+experiencia	nc	O
+:	fd	O
+
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+administración	np	B-AREA
+/	fh	O
+servicios	nc	B-AREA
+generales	adj	I-AREA
+con	sp	O
+4	z	O
+años	nc	O
+de	sp	O
+experiencia	nc	O
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+:	fd	O
+
+microsoft	np	B-REQ
+excel	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+word	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+,	fc	O
+microsoft	np	B-REQ
+power	np	I-REQ
+point	np	I-REQ
+a	sp	O
+nivel	nc	O
+intermedio	adj	O
+.	fp	O
+

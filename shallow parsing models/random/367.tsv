@@ -1,0 +1,161 @@
+Mensajero	nc	B-JOB
+Motorizado	adj	I-JOB
+
+Nuestro	det	O
+cliente	nc	O
+importante	adj	O
+empresa	nc	O
+de	sp	O
+servicios	nc	O
+de	sp	O
+transporte	nc	O
+de	sp	O
+carga	nc	O
+a	sp	O
+nivel	nc	O
+nacional	adj	O
+e	cc	O
+internacional	adj	O
+,	fc	O
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+la	det	O
+búsqueda	nc	O
+de	sp	O
+un	z	O
+:	fd	O
+
+MENSAJERO	nc	B-JOB
+MOTORIZADO	adj	I-JOB
+CON	sp	O
+MOTO	nc	O
+
+FUNCIONES	nc	O
+PRINCIPALES	adj	O
+:	fd	O
+
+*	fz	O
+Mensajería	nc	B-FUN
+,	fc	I-FUN
+trasladar	vmn	I-FUN
+documentos	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Asistir	vmn	B-FUN
+a	sp	I-FUN
+bancos	nc	I-FUN
+para	sp	I-FUN
+realizar	vmn	I-FUN
+trámites	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Realizar	vmn	B-FUN
+pagos	nc	I-FUN
+y	cc	I-FUN
+compras	nc	I-FUN
+.	fp	O
+
+*	fz	O
+Reportar	vmn	B-FUN
+durante	sp	I-FUN
+el	det	I-FUN
+día	nc	I-FUN
+su	det	I-FUN
+ubicación	nc	I-FUN
+y	cc	I-FUN
+al	sp	I-FUN
+final	nc	I-FUN
+del	sp	I-FUN
+día	nc	I-FUN
+entregar	vmn	I-FUN
+hoja	nc	I-FUN
+de	sp	I-FUN
+ruta	nc	I-FUN
+.	fp	O
+
+REQUISITOS	nc	O
+:	fd	O
+
+*	fz	O
+Disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+de	sp	O
+Lunes	w	B-DATE
+a	sp	I-DATE
+Viernes	w	I-DATE
+en	sp	O
+un	det	O
+horario	nc	O
+de	sp	O
+9:00a.m	w	B-DATE
+.	fp	I-DATE
+a	sp	I-DATE
+6:30p.m	w	I-DATE
+.	fp	O
+y	cc	O
+los	det	O
+días	nc	O
+sábados	nc	B-DATE
+de	sp	I-DATE
+9:00	w	I-DATE
+a.m.	w	I-DATE
+a	sp	I-DATE
+2:30p.m	w	I-DATE
+.	fp	O
+
+*	fz	O
+Contar	vmn	O
+con	sp	O
+Licencia	nc	O
+de	sp	O
+conducir	vmn	O
+para	sp	O
+moto	nc	O
+.	fp	O
+
+*	fz	O
+De	np	O
+preferencia	nc	O
+contar	vmn	O
+con	sp	O
+1	z	O
+año	nc	O
+de	sp	O
+experiencia	nc	O
+en	sp	O
+puestos	nc	O
+similares	adj	O
+.	fp	O
+
+*	fz	O
+Tener	vmn	O
+moto	nc	O
+y	cc	O
+la	det	O
+documentación	nc	O
+en	sp	O
+regla	nc	O
+.	fp	O
+
+BENEFICIOS	nc	O
+
+*	fz	O
+Remuneración	nc	O
+acorde	adj	B-SAL
+al	sp	I-SAL
+mercado	nc	I-SAL
+.	fp	O
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+planilla	nc	B-BEN
+de	sp	O
+forma	nc	O
+inmediata	adj	O
+.	fp	O
+

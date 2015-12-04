@@ -1,0 +1,115 @@
+Practicante	nccs	O
+profesional	aqcs	O
+de	sp	O
+derecho	np00	B-CARR
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Proyectar	vmn	B-FUN
+escritos	ncmp	I-FUN
+de	sp	I-FUN
+oposición	ncfs	I-FUN
+y	cc	I-FUN
+recursos	ncmp	I-FUN
+administrativos	aqmp	I-FUN
+.	fp	O
+
+Asesoría	ncfs	B-FUN
+a	sp	I-FUN
+las	da0fp	I-FUN
+áreas	ncfp	I-FUN
+internas	aqfp	I-FUN
+de	sp	I-FUN
+la	da0fs	I-FUN
+empresa	ncfs	I-FUN
+.	fp	O
+
+Seguimiento	ncms	B-FUN
+y	cc	I-FUN
+trámites	ncmp	I-FUN
+en	sp	I-FUN
+INDECOPI	np00	I-FUN
+.	fp	O
+
+Archivamiento	ncms	B-FUN
+de	sp	I-FUN
+documentación	ncfs	I-FUN
+.	fp	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Egresado	ncms	O
+de	sp	O
+la	da0fs	O
+carrera	ncfs	O
+de	sp	O
+derecho	np00	B-CARR
+.	fp	O
+
+Con	sp	O
+interés	ncmp	O
+y	cc	O
+conocimiento	ncms	O
+de	sp	O
+propiedad	ncfs	B-REQ
+intelectual	aqcs	I-REQ
+.	fp	O
+
+Deseable	aqcs	O
+que	cs	O
+haya	vas	O
+practicado	vmp	O
+en	sp	O
+INDECOPI	np00	B-ORG
+o	cc	O
+en	sp	O
+estudios	ncmp	O
+de	sp	O
+abogados	ncmp	O
+,	fc	O
+en	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+propiedad	ncfs	B-AREA
+intelectual	aqcs	I-AREA
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+análisis	ncms	B-REQ
+,	fc	O
+proactividad	ncfs	B-REQ
+,	fc	O
+orientación	ncfs	B-REQ
+a	sp	I-REQ
+resultados	ncmp	I-REQ
+y	cc	O
+capacidad	ncfs	O
+de	sp	O
+aprendizaje	ncms	B-REQ
+.	fp	O
+
+Office	np00	B-REQ
+a	sp	O
+nivel	ncms	O
+avanzado	aqms	O
+.	fp	O
+
+Inglés	np00	B-REQ
+avanzado	aqms	O
+.	fp	O
+
+lugar	ncms	O
+de	sp	O
+trabajo	ncms	O
+
+Santiago	np00	B-LUG
+de	sp	I-LUG
+Surco	np00	I-LUG
+,	fc	O
+Lima	np00	B-REQ
+

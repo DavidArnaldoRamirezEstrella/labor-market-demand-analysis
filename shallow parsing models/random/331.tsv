@@ -1,0 +1,207 @@
+R	np	B-ORG
+&	np	I-ORG
+B	np	I-ORG
+TELESERVICES	np	I-ORG
+requiere	vmi	O
+20	z	O
+Teleoperadores	nc	B-JOB
+C/S	sp	O
+exp	nc	O
+.	fp	O
+
+R	np	B-ORG
+&	np	I-ORG
+B	np	I-ORG
+TELESERVICES	np	I-ORG
+call	np	B-AREA
+center	np	I-AREA
+se	pron	O
+encuentra	vmi	O
+en	sp	O
+requerimiento	nc	O
+de	sp	O
+personal	nc	O
+para	sp	O
+ocupar	vmn	O
+el	det	O
+puesto	nc	O
+de	sp	O
+teleoperador	nc	B-JOB
+en	sp	O
+el	det	O
+área	nc	O
+de	sp	O
+ventas	nc	B-AREA
+.	fp	O
+dirigido	vmp	O
+al	rg	O
+público	nc	O
+latino	adj	O
+en	sp	O
+USA	np	B-LUG
+Y	cc	O
+CANADA	np	B-LUG
+.	fp	O
+
+Requisitos	nc	O
+:	fd	O
+
+*	fz	O
+Personas	nc	O
+con	sp	O
+/	fh	O
+sin	sp	O
+experiencia	nc	O
+en	sp	O
+Call	np	B-AREA
+Center	np	I-AREA
+.	fp	O
+
+*	fz	O
+Con	sp	O
+facilidad	nc	B-REQ
+de	sp	I-REQ
+palabra	nc	I-REQ
+,	fc	O
+persuasiva	adj	B-REQ
+,	fc	O
+competitivos	adj	B-REQ
+.	fp	O
+
+*	fz	O
+El	det	O
+perfil	nc	O
+que	pron	O
+necesitamos	vmi	O
+es	vsi	O
+personal	adj	O
+proactiva	adj	B-REQ
+,	fc	O
+dinámica	nc	B-REQ
+y	cc	O
+emprendedora	adj	B-REQ
+.	fp	O
+
+*	fz	O
+Voluntad	nc	O
+de	sp	O
+trabajo	nc	O
+
+*	fz	O
+Manejo	nc	O
+de	sp	O
+PC	np	B-REQ
+nivel	nc	O
+usuario	adj	O
+
+Ofrecemos	vmi	O
+:	fd	O
+
+*	fz	O
+Grato	adj	B-BEN
+ambiente	nc	I-BEN
+laboral	adj	I-BEN
+
+*	fz	O
+Pagos	nc	B-BEN
+puntuales	adj	I-BEN
+.	fp	O
+
+*	fz	O
+Capacitaciones	nc	B-BEN
+constantes	adj	I-BEN
+
+*	fz	O
+Básico	adj	B-SAL
++	fz	O
+Comisiones	nc	B-BEN
++	fz	O
+bonos	nc	B-BEN
+
+*	fz	O
+Ingreso	nc	O
+a	sp	O
+Planilla	nc	B-BEN
+
+*	fz	O
+Línea	nc	B-BEN
+de	sp	I-BEN
+Carrera	nc	I-BEN
+a	sp	O
+corto	adj	O
+plazo	nc	O
+
+*	fz	O
+Horario	nc	B-MISC
+no	rn	I-MISC
+rotativos	adj	I-MISC
+
+Horarios	nc	O
+de	sp	O
+Trabajo	nc	O
+:	fd	O
+
+Mañana	rg	B-MISC
+
+Lun	w	B-DATE
+a	sp	I-DATE
+Vie	w	I-DATE
+:	fd	O
+9:00AM	w	B-DATE
+a	sp	I-DATE
+4:00PM	w	I-DATE
+
+Sábados	w	B-DATE
+:	fd	O
+9:00	w	B-DATE
+AM	w	I-DATE
+a	sp	I-DATE
+2:00PM	w	I-DATE
+
+Tarde	rg	B-MISC
+
+Lun	w	B-DATE
+a	sp	I-DATE
+Vie	w	I-DATE
+:	fd	O
+3:00	w	B-DATE
+PM	w	I-DATE
+a	sp	I-DATE
+10:00	w	I-DATE
+PM	w	I-DATE
+
+Sábados	w	B-DATE
+:	fd	O
+2:00	w	B-DATE
+PM	w	I-DATE
+a	sp	I-DATE
+7:00PM	w	I-DATE
+
+Interesados	adj	O
+:	fd	O
+
+Llamar	vmi	O
+al	sp	O
+Número	nc	O
+:	fd	O
+569	z	B-MISC
+9650	z	I-MISC
+-	fg	O
+Recursos	nc	O
+Humanos	adj	O
+
+O	cc	O
+enviar	vmn	O
+su	det	O
+C	np	O
+.	fp	O
+V	np	O
+.	fp	O
+Al	sp	O
+correo	nc	O
+rrhh1	np	B-MISC
+@	fz	I-MISC
+xxxxxxxxxxxxxx	np	I-MISC
+.	fp	I-MISC
+xxx	np	I-MISC
+

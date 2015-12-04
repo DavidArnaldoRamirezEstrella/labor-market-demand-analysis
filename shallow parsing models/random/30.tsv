@@ -1,0 +1,92 @@
+teleoperadores	nc	B-JOB
+atc	np	I-JOB
+-	fg	O
+part	np	B-MISC
+time	np	I-MISC
+03am	np	B-DATE
+6:55am	np	I-DATE
+
+funciones	nc	O
+:	fd	O
+
+requerimientos	nc	O
+:	fd	O
+
+secundaria	adj	O
+completa	adj	O
+o	cc	O
+con	sp	O
+estudios	nc	O
+completos	adj	O
+o	cc	O
+truncos	vmi	O
+en	sp	O
+institutos	nc	O
+/	fh	O
+universidades	nc	O
+.	fp	O
+
+experiencia	nc	O
+mínima	adj	O
+de	sp	O
+3	z	O
+meses	nc	O
+en	sp	O
+atc	nc	B-AREA
+presencial	adj	O
+o	cc	O
+por	sp	O
+call	nc	B-AREA
+center	nc	I-AREA
+.	fp	O
+
+manejo	nc	O
+de	sp	O
+programas	nc	O
+de	sp	O
+computación	np	O
+(	fpa	O
+word	np	B-REQ
+,	fc	O
+excel	np	B-REQ
+)	fpt	O
+.	fp	O
+
+disponibilidad	nc	O
+para	sp	O
+trabajar	vmn	O
+de	sp	O
+3am	w	B-DATE
+-	w	I-DATE
+6:55am	w	I-DATE
+(	fpa	O
+incluye	vmm	O
+transporte	nc	B-BEN
+de	sp	I-BEN
+recojo	nc	I-BEN
+)	fpt	O
+
+disponibilidad	nc	O
+para	sp	O
+capacitarse	vmn	O
+15	z	O
+dias	nc	O
+de	sp	O
+7am	w	B-DATE
+a	w	I-DATE
+3:45pm	w	I-DATE
+(	fpa	O
+capacitación	nc	B-BEN
+pagada	adj	I-BEN
+)	fpt	O
+
+vivir	vmn	O
+en	sp	O
+distritos	nc	O
+aledaños	adj	O
+al	sp	O
+callao	np	B-LUG
+-	fg	O
+bellavista	np	B-LUG
+.	fp	O
+

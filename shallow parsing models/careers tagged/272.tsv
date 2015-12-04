@@ -1,0 +1,57 @@
+Practicante	nccs	O
+de	sp	O
+arqueología	np00	B-CARR
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Bachiller	ncms	O
+en	sp	O
+arqueología	np00	B-CARR
+
+Conocimiento	ncms	O
+de	sp	O
+Microsoft	np00	B-REQ
+Office	np00	I-REQ
+a	sp	O
+nivel	ncms	O
+usuario	aqms	O
+(	fpa	O
+Word	np00	B-REQ
+,	fc	O
+Excel	np00	B-REQ
+)	fpt	O
+
+Conocimiento	ncms	O
+de	sp	O
+Autocad	np00	B-REQ
+y	cc	O
+Corel	np00	B-REQ
+Draw	np00	B-REQ
+.	fp	O
+
+Conocimiento	ncms	O
+del	sp	O
+reglamento	ncms	B-REQ
+de	sp	I-REQ
+investigaciones	ncfp	I-REQ
+arqueológicas	aqfp	I-REQ
+,	fc	O
+así	rg	O
+como	cs	O
+de	sp	O
+las	da0fp	O
+nuevas	aqfp	O
+disposiciones	ncfp	O
+emitidas	aqfp	O
+por	sp	O
+el	da0ms	O
+Ministerio	np00	B-ORG
+de	sp	I-ORG
+Cultura	np00	I-ORG
+.	fp	O
+

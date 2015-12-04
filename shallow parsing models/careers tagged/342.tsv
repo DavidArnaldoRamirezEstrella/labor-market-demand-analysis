@@ -1,0 +1,102 @@
+Analista	nccs	B-JOB
+de	sp	I-JOB
+color	ncms	I-JOB
+.	fp	O
+
+Funciones	ncfp	O
+:	fd	O
+
+Requerimientos	ncmp	O
+:	fd	O
+
+Universitario	ncms	O
+bachillerato	ncms	O
+en	sp	O
+ingeniería	np00	B-CARR
+química	np00	I-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+:	fd	O
+
+En	sp	O
+el	da0ms	O
+área	ncfs	O
+de	sp	O
+producción	ncfs	B-AREA
+con	sp	O
+1	z	O
+año	ncms	O
+de	sp	O
+experiencia	ncfs	O
+.	fp	O
+
+Profesional	nccs	O
+en	sp	O
+ing	np00	B-CARR
+.	fp	I-CARR
+química	np00	I-CARR
+,	fc	O
+textil	np00	B-CARR
+o	cc	O
+técnico	ncms	B-REQ
+en	sp	O
+química	np00	B-CARR
+.	fp	O
+
+Experiencia	ncfs	O
+mínima	aqfs	O
+de	sp	O
+2	z	O
+años	ncmp	O
+en	sp	O
+el	da0ms	O
+puesto	ncms	O
+.	fp	O
+
+Manejo	ncms	O
+del	sp	O
+espectrofotómetro	ncms	B-REQ
+,	fc	O
+Autolab	np00	B-REQ
+,	fc	O
+conocimiento	ncms	O
+de	sp	O
+teñidos	ncmp	B-REQ
+reactivos	aqmp	I-REQ
+,	fc	I-REQ
+directos	aqmp	I-REQ
+y	cc	I-REQ
+dispersos	aqmp	I-REQ
+.	fp	O
+
+Horarios	ncmp	B-MISC
+rotativos	aqmp	I-MISC
+.	fp	O
+
+De	sp	O
+preferencia	ncfs	O
+sexo	ncms	O
+masculino	aqms	O
+.	fp	O
+
+Competencias	ncfp	O
+:	fd	O
+
+Proactiva	aqfs	B-REQ
+,	fc	O
+organizada	aqfs	B-REQ
+,	fc	O
+dispuesta	aqfs	O
+a	sp	O
+trabajar	vmn	B-REQ
+bajo	sp	I-REQ
+presión	ncfs	I-REQ
+y	cc	O
+con	sp	O
+alto	aqms	O
+sentido	ncms	B-REQ
+del	sp	I-REQ
+deber	ncms	I-REQ
+.	fp	O
+
