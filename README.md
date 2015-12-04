@@ -1,2 +1,12 @@
-# labor-market-demand-analysis
-peruvian labor market demand analysis using natural language processing and machine learning tools
+This repository contains the necesary code and data to reproduce the study presented in:
+
+R.A. Cardenas, K.S. Bello. "Labor market demand analysis for engineering majors in Peru using Shallow Parsing and Topic Modeling". In Poster Session of the Machine Learning Summer School Kyoto 2015, Kyoto, Japan.
+
+The dataset used for this study consisted of more than 200000 job ads extracted from several job hunting websites in Peru. Data for other Latin American countries is available as well, although not included in the analysis.
+
+Each dataset used in the models used is available here or upon request, and explained below.
+<ul>
+	<li><b>Tokenized job ads:</b> </li>
+	<li>Shallow Parsing models [annotated data.zip]: Consisting of 800 job ads, each one tokenized and manually annotated with POS tag information (<a href="http://nlp.lsi.upc.edu/freeling/doc/tagsets/tagset-es.html">EAGLE</a> format for Spanish data) and Entity Label in BIO format</li>
+	<li>Topic models: Consisting of nearly 9000 job ads sampled from the database, tokenized and filtered from low-frequency words and tokens of no interest (phone numbers, salary, office hours, emails, urls). Then, the shallow parsers extract the relevant phrases.</li>
+</ul>
