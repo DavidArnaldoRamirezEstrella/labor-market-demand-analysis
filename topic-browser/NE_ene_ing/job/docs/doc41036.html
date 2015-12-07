@@ -1,0 +1,203 @@
+{% extends "browser/base.html" %}
+{% load static from staticfiles %}
+
+{% block js2 %}
+<script language="JavaScript" src="{% static 'browser/js/pie.js' %}"></script>
+
+<script type="text/JavaScript">
+    <!--
+    var array = [[327.403846154, "{% url 'topic' '{sistemas,_informática,_computación}' %}", "{sistemas,_informática,_computación}"], [177.403846154, "{% url 'topic' '{desarrollo,_sistemas,_implementación}' %}", "{desarrollo,_sistemas,_implementación}"], [89.9038461538, "{% url 'topic' '{información,_seguimiento,_elaborar}' %}", "{información,_seguimiento,_elaborar}"], [77.4038461538, "{% url 'topic' '{proactivo,_responsable,_presión}' %}", "{proactivo,_responsable,_presión}"], [77.4038461538, "{% url 'topic' '{operaciones,_office,_mantenimiento}' %}", "{operaciones,_office,_mantenimiento}"], [64.9038461538, "{% url 'topic' '{seguridad,_industrial,_riesgos}' %}", "{seguridad,_industrial,_riesgos}"], [39.9038461538, "{% url 'topic' '{análisis,_elaboración,_gestión}' %}", "{análisis,_elaboración,_gestión}"], [39.9038461538, "{% url 'topic' '{asistente,_administración,_industrial}' %}", "{asistente,_administración,_industrial}"], [27.4038461538, "{% url 'topic' '{sistemas,_analista,_programador}' %}", "{sistemas,_analista,_programador}"], [27.4038461538, "{% url 'topic' '{eléctricos,_mantenimiento,_instalación}' %}", "{eléctricos,_mantenimiento,_instalación}"], [14.9038461538, "{% url 'topic' '{administración,_analista,_contabilidad}' %}", "{administración,_analista,_contabilidad}"], [2.40384615385, "{% url 'topic' '{ventas,_comercial,_marketing}' %}", "{ventas,_comercial,_marketing}"], [2.40384615385, "{% url 'topic' '{orientación,_comunicación,_presión}' %}", "{orientación,_comunicación,_presión}"], [2.40384615385, "{% url 'topic' '{coordinar,_supervisar,_controlar}' %}", "{coordinar,_supervisar,_controlar}"], [2.40384615385, "{% url 'topic' '{mecánica,_mantenimiento,_mecánico}' %}", "{mecánica,_mantenimiento,_mecánico}"], [2.40384615385, "{% url 'topic' '{calidad,_control,_productos}' %}", "{calidad,_control,_productos}"], [2.40384615385, "{% url 'topic' '{procesos,_gestión,_proyectos}' %}", "{procesos,_gestión,_proyectos}"], [2.40384615385, "{% url 'topic' '{seguridad,_gestión,_ambiental}' %}", "{seguridad,_gestión,_ambiental}"], [2.40384615385, "{% url 'topic' '{proyectos,_obra,_obras}' %}", "{proyectos,_obra,_obras}"], [2.40384615385, "{% url 'topic' '{cliente,_atención,_servicio}' %}", "{cliente,_atención,_servicio}"], [2.40384615385, "{% url 'topic' '{personas,_docente,_informática}' %}", "{personas,_docente,_informática}"], [2.40384615385, "{% url 'topic' '{supervisor,_excel,_word}' %}", "{supervisor,_excel,_word}"], [2.40384615385, "{% url 'topic' '{logística,_almacén,_administración}' %}", "{logística,_almacén,_administración}"], [2.40384615385, "{% url 'topic' '{mantenimiento,_supervisor,_planta}' %}", "{mantenimiento,_supervisor,_planta}"], [2.40384615385, "{% url 'topic' '{ventas,_negocio,_vendedor}' %}", "{ventas,_negocio,_vendedor}"], [2.40384615385, "{% url 'topic' '{jefe,_industrial,_administración}' %}", "{jefe,_industrial,_administración}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+{% endblock %}
+
+{% block content %}
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+    <table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td>
+        <td class="linked"><a>Topics</a>
+              <ul> 
+                      <li><a href="{% url 'topic-list' %}">List of Terms</a></li> 
+                      <li><a href="{% url 'topic-graph' %}">Term Distributions</a></li>
+                      <li><a href="{% url 'topic-presence' %}">Relative Presence</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Documents</a>
+              <ul>
+                      <li><a href="{% url 'doc-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Terms</a>
+              <ul>
+                      <li><a href="{% url 'term-list' %}">List by Frequency</a></li>
+                      <li><a href="{% url 'term-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>About</a>
+              <ul>
+                      <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+              </ul>
+        </td>
+        </td>
+        <td></td>
+        <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+        <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span></td>
+    </tr></table>
+    </div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">doc41036</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{sistemas,_informática,_computación}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{sistemas,_informática,_computación}'">{sistemas, informática, computación}</td></tr>
+<tr class="list"><td id="{desarrollo,_sistemas,_implementación}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{desarrollo,_sistemas,_implementación}'">{desarrollo, sistemas, implementación}</td></tr>
+<tr class="list"><td id="{información,_seguimiento,_elaborar}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{información,_seguimiento,_elaborar}'">{información, seguimiento, elaborar}</td></tr>
+<tr class="list"><td id="{proactivo,_responsable,_presión}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{proactivo,_responsable,_presión}'">{proactivo, responsable, presión}</td></tr>
+<tr class="list"><td id="{operaciones,_office,_mantenimiento}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{operaciones,_office,_mantenimiento}'">{operaciones, office, mantenimiento}</td></tr>
+<tr class="list"><td id="{seguridad,_industrial,_riesgos}" onmouseover="highlight(5)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{seguridad,_industrial,_riesgos}'">{seguridad, industrial, riesgos}</td></tr>
+<tr class="list"><td id="{asistente,_administración,_industrial}" onmouseover="highlight(6)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{asistente,_administración,_industrial}'">{asistente, administración, industrial}</td></tr>
+<tr class="list"><td id="{análisis,_elaboración,_gestión}" onmouseover="highlight(7)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{análisis,_elaboración,_gestión}'">{análisis, elaboración, gestión}</td></tr>
+<tr class="list"><td id="{eléctricos,_mantenimiento,_instalación}" onmouseover="highlight(8)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{eléctricos,_mantenimiento,_instalación}'">{eléctricos, mantenimiento, instalación}</td></tr>
+<tr class="list"><td id="{sistemas,_analista,_programador}" onmouseover="highlight(9)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{sistemas,_analista,_programador}'">{sistemas, analista, programador}</td></tr>
+<tr class="list"><td id="{administración,_analista,_contabilidad}" onmouseover="highlight(10)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{administración,_analista,_contabilidad}'">{administración, analista, contabilidad}</td></tr>
+<tr class="list"><td id="{coordinar,_supervisar,_controlar}" onmouseover="highlight(11)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{coordinar,_supervisar,_controlar}'">{coordinar, supervisar, controlar}</td></tr>
+<tr class="list"><td id="{mecánica,_mantenimiento,_mecánico}" onmouseover="highlight(12)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{mecánica,_mantenimiento,_mecánico}'">{mecánica, mantenimiento, mecánico}</td></tr>
+<tr class="list"><td id="{calidad,_control,_productos}" onmouseover="highlight(13)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{calidad,_control,_productos}'">{calidad, control, productos}</td></tr>
+<tr class="list"><td id="{procesos,_gestión,_proyectos}" onmouseover="highlight(14)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{procesos,_gestión,_proyectos}'">{procesos, gestión, proyectos}</td></tr>
+<tr class="list"><td id="{seguridad,_gestión,_ambiental}" onmouseover="highlight(15)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{seguridad,_gestión,_ambiental}'">{seguridad, gestión, ambiental}</td></tr>
+<tr class="list"><td id="{cliente,_atención,_servicio}" onmouseover="highlight(16)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{cliente,_atención,_servicio}'">{cliente, atención, servicio}</td></tr>
+<tr class="list"><td id="{personas,_docente,_informática}" onmouseover="highlight(17)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{personas,_docente,_informática}'">{personas, docente, informática}</td></tr>
+<tr class="list"><td id="{supervisor,_excel,_word}" onmouseover="highlight(18)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{supervisor,_excel,_word}'">{supervisor, excel, word}</td></tr>
+<tr class="list"><td id="{logística,_almacén,_administración}" onmouseover="highlight(19)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{logística,_almacén,_administración}'">{logística, almacén, administración}</td></tr>
+<tr class="list"><td id="{ventas,_negocio,_vendedor}" onmouseover="highlight(20)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{ventas,_negocio,_vendedor}'">{ventas, negocio, vendedor}</td></tr>
+<tr class="list"><td id="{mantenimiento,_supervisor,_planta}" onmouseover="highlight(21)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{mantenimiento,_supervisor,_planta}'">{mantenimiento, supervisor, planta}</td></tr>
+<tr class="list"><td id="{jefe,_industrial,_administración}" onmouseover="highlight(22)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{jefe,_industrial,_administración}'">{jefe, industrial, administración}</td></tr>
+<tr class="list"><td id="{proyectos,_obra,_obras}" onmouseover="highlight(23)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{proyectos,_obra,_obras}'">{proyectos, obra, obras}</td></tr>
+<tr class="list"><td id="{ventas,_comercial,_marketing}" onmouseover="highlight(24)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{ventas,_comercial,_marketing}'">{ventas, comercial, marketing}</td></tr>
+<tr class="list"><td id="{orientación,_comunicación,_presión}" onmouseover="highlight(25)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{orientación,_comunicación,_presión}'">{orientación, comunicación, presión}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    <p>Ingeniero de Software
+Importante empresa de servicios requiere contratar los servicios de un Ingeniero de Software para su área de Back Office :
+REQUISITOS :
+* Profesional egresado de las carreras de Ingeniería de Sistemas , Computación e Informática , Ingeniería Informática o afines
+* Experiencia de dos años como mínimo en trabajos de soporte y mantenimiento de aplicativos de software y de soporte a usuarios .
+FUNCIONES :
+* Realizar el análisis , desarrollo , soporte y mantenimiento de software relacionado con el negocio de la empresa .
+* Brindar soporte a procesos internos e interacción con usuarios .
+CONOCIMIENTO ESPECÍFICOS :
+* Conocimientos básicos en sistemas de administración de tarjetas de crédito y débito ( deseable ) .
+* Conocimientos del lenguaje C , Pro * C . Desarrollo en entorno . NET . Dominio de Java ( IDE <RARE> ) .
+* Administración básica de sistemas operativos Microsoft , Unix / <RARE> .
+* Desarrollo <RARE> - SQL en base de datos Oracle y SQL Server , administración deseable .
+* Manejo de Servidores ( Web , <RARE> , <RARE> , Mail , <RARE> ) deseable .
+* Conocimientos de diseño <RARE> .
+* Conocimientos del idioma inglés ( nivel intermedio ) .
+HABILIDADES :
+* Facilidad de comunicación .
+* Análisis y solución de problemas .
+* Orientación a resultados .
+* Proactividad y facilidad para la innovación .
+* Predisposición a la investigación .
+* Capacidad de negociación y de aprendizaje .
+* Capacidad para trabajar en equipo y bajo presión .
+JORNADA :
+Lunes a viernes : De <HOUR> <HOUR> a <HOUR> <SINGLE_CHAR> . m .
+SE OFRECE :
+* Ingreso a planilla
+* Modalidad de contratación : Estable
+* Acceso a EPS y beneficios de ley
+* Buen ambiente de trabajo
+" Abstenerse los candidatos que no cumplan dicho perfil
+</p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc24109'">tecnico mecanico electrico experiencia e</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc20306'">supervisor auditoria</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc510'">digitador libertad</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc38522'">tecnico seguridad electronica madre madr</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc56861'">docentes matematica fisica quimica</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc42710'">senorita practicante sistemas</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc51869'">asesor negocios ventanilla</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc10071'">supervisor qa qc</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc30069'">analista marketing</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc48238'">analista soporte servicio</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc57074'">asistente comercial operaciones</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc32390'">choferes a3c</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc56758'">analista soporte informatico arequipa</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc21841'">consultor seguridad ocupacional medio am</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc52775'">mecanico</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc60814'">tecnico mantenimiento callao</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc22294'">tecnicos mecanicos camiones tractos</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc10252'">tecnico computacion informatica experien</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc8936'">analista programado</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc3898'">asesor comercial</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc17260'">sistemas colegiado</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc37871'">salario</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc46821'">analista creditos mibanco ventanilla cal</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc32700'">especialista mantenimiento chancadora</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc41910'">tecnico mecanico camiones</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc39678'">tecnico proyectores</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc63207'">asistente supervision obra arquitecto</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc46858'">panelista sala control</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc20357'">asistente logistica</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc8892'">asesor comercial servicios wifi para neg</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+
+{% endblock %}

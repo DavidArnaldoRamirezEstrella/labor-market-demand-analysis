@@ -1,0 +1,27 @@
+{% load static from staticfiles %}
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="{% static 'browser/js/browser_adjust.js' %}"></script>
+    <script language="JavaScript" src="{% static 'browser/js/search.js' %}"></script>
+
+    {% block js2 %}
+    {% endblock %}
+
+    <script type="text/JavaScript">
+    <!--
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title><tmv-title>Empleatron data</title>
+<link href="{% static 'browser/styling.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+{% block content %}
+{% endblock %}
+</html>

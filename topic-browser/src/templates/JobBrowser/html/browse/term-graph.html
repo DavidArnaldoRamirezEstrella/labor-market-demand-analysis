@@ -1,0 +1,25 @@
+{% extends "browser/base.html" %}
+{% load static from staticfiles %}
+
+{% block js2 %} {{ block.super }} {% endblock %}
+
+{% block content %}
+
+  <body onload="init()">
+
+<tmv-nav-bar>
+<div id="top"></div>
+<div id="header">
+<h1><tmv-title> Terms</h1>
+<h2>Topic Distributions Per Term</h2>
+<hr noshade>
+</div>
+<div id="graph">
+<tmv-term-graph>
+</div>
+<div id="footer">
+<br>
+<hr noshade>
+</div>
+  </body>
+{% endblock %}

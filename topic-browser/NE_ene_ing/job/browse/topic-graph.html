@@ -1,0 +1,1123 @@
+{% extends "browser/base.html" %}
+{% load static from staticfiles %}
+
+{% block js2 %} {{ block.super }} {% endblock %}
+
+{% block content %}
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+    <table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td>
+        <td class="linked"><a>Topics</a>
+              <ul> 
+                      <li><a href="{% url 'topic-list' %}">List of Terms</a></li> 
+                      <li><a href="{% url 'topic-graph' %}">Term Distributions</a></li>
+                      <li><a href="{% url 'topic-presence' %}">Relative Presence</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Documents</a>
+              <ul>
+                      <li><a href="{% url 'doc-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Terms</a>
+              <ul>
+                      <li><a href="{% url 'term-list' %}">List by Frequency</a></li>
+                      <li><a href="{% url 'term-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>About</a>
+              <ul>
+                      <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+              </ul>
+        </td>
+        </td>
+        <td></td>
+        <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+        <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span></td>
+    </tr></table>
+    </div>
+<div id="top"></div>
+<div id="header">
+<h1>Empleatron data Topics</h1>
+<h2>Term Distributions Per Topic</h2>
+<hr noshade>
+</div>
+<div id="graph">
+<table width="100.0%">
+<tr><td>
+
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{sistemas,_analista,_programador}'">{sistemas, analista, programador}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{orientación,_comunicación,_presión}'">{orientación, comunicación, presión}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{administración,_analista,_contabilidad}'">{administración, analista, contabilidad}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{sistemas,_informática,_computación}'">{sistemas, informática, computación}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{mecánica,_mantenimiento,_mecánico}'">{mecánica, mantenimiento, mecánico}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{ventas,_comercial,_marketing}'">{ventas, comercial, marketing}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{proyectos,_obra,_obras}'">{proyectos, obra, obras}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{supervisor,_excel,_word}'">{supervisor, excel, word}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{cliente,_atención,_servicio}'">{cliente, atención, servicio}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{proactivo,_responsable,_presión}'">{proactivo, responsable, presión}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{eléctricos,_mantenimiento,_instalación}'">{eléctricos, mantenimiento, instalación}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{jefe,_industrial,_administración}'">{jefe, industrial, administración}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{coordinar,_supervisar,_controlar}'">{coordinar, supervisar, controlar}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{asistente,_administración,_industrial}'">{asistente, administración, industrial}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{seguridad,_gestión,_ambiental}'">{seguridad, gestión, ambiental}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{logística,_almacén,_administración}'">{logística, almacén, administración}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{información,_seguimiento,_elaborar}'">{información, seguimiento, elaborar}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{análisis,_elaboración,_gestión}'">{análisis, elaboración, gestión}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{calidad,_control,_productos}'">{calidad, control, productos}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{procesos,_gestión,_proyectos}'">{procesos, gestión, proyectos}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{seguridad,_industrial,_riesgos}'">{seguridad, industrial, riesgos}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{operaciones,_office,_mantenimiento}'">{operaciones, office, mantenimiento}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{desarrollo,_sistemas,_implementación}'">{desarrollo, sistemas, implementación}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{mantenimiento,_supervisor,_planta}'">{mantenimiento, supervisor, planta}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{personas,_docente,_informática}'">{personas, docente, informática}</td></tr></table>
+<table width="250px"><tr><td class="dark-hover" onclick="window.location.href='/peru/browser/topics/{ventas,_negocio,_vendedor}'">{ventas, negocio, vendedor}</td></tr></table>
+
+</td><td class="bars">
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="11.4281679738%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="9.9943516326%" title="analista" onclick="window.location.href='/peru/browser/terms/analista'"></td>
+<td class="clickable" width="6.75740261997%" title="programador" onclick="window.location.href='/peru/browser/terms/programador'"></td>
+<td class="clickable" width="5.91014750929%" title="sql" onclick="window.location.href='/peru/browser/terms/sql'"></td>
+<td class="clickable" width="5.3127240338%" title="informática" onclick="window.location.href='/peru/browser/terms/informática'"></td>
+<td class="clickable" width="3.81373422259%" title="programación" onclick="window.location.href='/peru/browser/terms/programación'"></td>
+<td class="clickable" width="3.48786687233%" title="server" onclick="window.location.href='/peru/browser/terms/server'"></td>
+<td class="clickable" width="2.76009645674%" title="java" onclick="window.location.href='/peru/browser/terms/java'"></td>
+<td class="clickable" width="2.40164237145%" title="oracle" onclick="window.location.href='/peru/browser/terms/oracle'"></td>
+<td class="clickable" width="2.36905563642%" title="visual" onclick="window.location.href='/peru/browser/terms/visual'"></td>
+<td class="clickable" width="2.18439747127%" title="computación" onclick="window.location.href='/peru/browser/terms/computación'"></td>
+<td class="clickable" width="2.0974995112%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="1.99973930612%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="1.61956073081%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="1.25024440051%" title="mysql" onclick="window.location.href='/peru/browser/terms/mysql'"></td>
+<td class="clickable" width="1.09817297039%" title="diseño" onclick="window.location.href='/peru/browser/terms/diseño'"></td>
+<td class="clickable" width="0.91351480524%" title="aplicaciones" onclick="window.location.href='/peru/browser/terms/aplicaciones'"></td>
+<td class="clickable" width="0.91351480524%" title="lenguaje" onclick="window.location.href='/peru/browser/terms/lenguaje'"></td>
+<td class="clickable" width="0.902652560231%" title="basic" onclick="window.location.href='/peru/browser/terms/basic'"></td>
+<td class="clickable" width="0.880928070214%" title="jquery" onclick="window.location.href='/peru/browser/terms/jquery'"></td>
+<td class="clickable" width="0.859203580196%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="0.848341335187%" title="services" onclick="window.location.href='/peru/browser/terms/services'"></td>
+<td class="clickable" width="0.804892355152%" title="html" onclick="window.location.href='/peru/browser/terms/html'"></td>
+<td class="clickable" width="0.72885664009%" title="asp" onclick="window.location.href='/peru/browser/terms/asp'"></td>
+<td class="clickable" width="0.72885664009%" title="desarrollador" onclick="window.location.href='/peru/browser/terms/desarrollador'"></td>
+<td class="clickable" width="0.663683170038%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.64195868002%" title="funcional" onclick="window.location.href='/peru/browser/terms/funcional'"></td>
+<td class="clickable" width="0.587647454976%" title="css" onclick="window.location.href='/peru/browser/terms/css'"></td>
+<td width="26.0411461841%" title="junior, framework, mvc, metodologías, bases, builder, windows, cobol, modelamiento, analistas, lenguajes, proactivo, vb, investigación, objetos, escrita...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="8.27483832363%" title="orientación" onclick="window.location.href='/peru/browser/terms/orientación'"></td>
+<td class="clickable" width="8.12524452832%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="7.07808796115%" title="presión" onclick="window.location.href='/peru/browser/terms/presión'"></td>
+<td class="clickable" width="4.8802098916%" title="responsabilidad" onclick="window.location.href='/peru/browser/terms/responsabilidad'"></td>
+<td class="clickable" width="4.62705116108%" title="proactividad" onclick="window.location.href='/peru/browser/terms/proactividad'"></td>
+<td class="clickable" width="3.38427193851%" title="liderazgo" onclick="window.location.href='/peru/browser/terms/liderazgo'"></td>
+<td class="clickable" width="2.7513751122%" title="compromiso" onclick="window.location.href='/peru/browser/terms/compromiso'"></td>
+<td class="clickable" width="2.7513751122%" title="tolerancia" onclick="window.location.href='/peru/browser/terms/tolerancia'"></td>
+<td class="clickable" width="2.63630296196%" title="iniciativa" onclick="window.location.href='/peru/browser/terms/iniciativa'"></td>
+<td class="clickable" width="2.62479574693%" title="relaciones" onclick="window.location.href='/peru/browser/terms/relaciones'"></td>
+<td class="clickable" width="2.61328853191%" title="planificación" onclick="window.location.href='/peru/browser/terms/planificación'"></td>
+<td class="clickable" width="2.45218752158%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="2.29108651124%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="2.14149271593%" title="interpersonales" onclick="window.location.href='/peru/browser/terms/interpersonales'"></td>
+<td class="clickable" width="2.11847828589%" title="negociación" onclick="window.location.href='/peru/browser/terms/negociación'"></td>
+<td class="clickable" width="2.02642056569%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="1.28995880417%" title="habilidades" onclick="window.location.href='/peru/browser/terms/habilidades'"></td>
+<td class="clickable" width="1.22091551403%" title="orientado" onclick="window.location.href='/peru/browser/terms/orientado'"></td>
+<td class="clickable" width="1.209408299%" title="empatía" onclick="window.location.href='/peru/browser/terms/empatía'"></td>
+<td class="clickable" width="1.19790108398%" title="dinamismo" onclick="window.location.href='/peru/browser/terms/dinamismo'"></td>
+<td class="clickable" width="1.08282893374%" title="flexibilidad" onclick="window.location.href='/peru/browser/terms/flexibilidad'"></td>
+<td class="clickable" width="1.00227842857%" title="analítica" onclick="window.location.href='/peru/browser/terms/analítica'"></td>
+<td class="clickable" width="0.852684633265%" title="electrónica" onclick="window.location.href='/peru/browser/terms/electrónica'"></td>
+<td class="clickable" width="0.841177418241%" title="aprendizaje" onclick="window.location.href='/peru/browser/terms/aprendizaje'"></td>
+<td class="clickable" width="0.80665577317%" title="decisiones" onclick="window.location.href='/peru/browser/terms/decisiones'"></td>
+<td class="clickable" width="0.783641343122%" title="toma" onclick="window.location.href='/peru/browser/terms/toma'"></td>
+<td class="clickable" width="0.737612483027%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="0.737612483027%" title="habilidad" onclick="window.location.href='/peru/browser/terms/habilidad'"></td>
+<td class="clickable" width="0.726105268003%" title="solución" onclick="window.location.href='/peru/browser/terms/solución'"></td>
+<td class="clickable" width="0.714598052979%" title="adaptabilidad" onclick="window.location.href='/peru/browser/terms/adaptabilidad'"></td>
+<td class="clickable" width="0.691583622931%" title="actividad" onclick="window.location.href='/peru/browser/terms/actividad'"></td>
+<td class="clickable" width="0.668569192884%" title="adaptación" onclick="window.location.href='/peru/browser/terms/adaptación'"></td>
+<td class="clickable" width="0.65706197786%" title="pensamiento" onclick="window.location.href='/peru/browser/terms/pensamiento'"></td>
+<td class="clickable" width="0.65706197786%" title="creatividad" onclick="window.location.href='/peru/browser/terms/creatividad'"></td>
+<td class="clickable" width="0.599525902741%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.588018687717%" title="orden" onclick="window.location.href='/peru/browser/terms/orden'"></td>
+<td class="clickable" width="0.541989827622%" title="personales" onclick="window.location.href='/peru/browser/terms/personales'"></td>
+<td class="clickable" width="0.50746818255%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td width="21.1088352397%" title="actitud, resolución, facilidad, síntesis, honestidad, analítico, relacionarse, conflictos, disciplina, asertiva, frustración, verbal, criterio, escrita...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="14.3497056398%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="9.42948152783%" title="analista" onclick="window.location.href='/peru/browser/terms/analista'"></td>
+<td class="clickable" width="8.88911009357%" title="contabilidad" onclick="window.location.href='/peru/browser/terms/contabilidad'"></td>
+<td class="clickable" width="8.73268678365%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="8.49094166833%" title="economía" onclick="window.location.href='/peru/browser/terms/economía'"></td>
+<td class="clickable" width="3.85512357441%" title="asesor" onclick="window.location.href='/peru/browser/terms/asesor'"></td>
+<td class="clickable" width="2.53263559057%" title="ciencias" onclick="window.location.href='/peru/browser/terms/ciencias'"></td>
+<td class="clickable" width="1.73629874008%" title="marketing" onclick="window.location.href='/peru/browser/terms/marketing'"></td>
+<td class="clickable" width="1.59409573107%" title="fidelización" onclick="window.location.href='/peru/browser/terms/fidelización'"></td>
+<td class="clickable" width="1.25280850943%" title="finanzas" onclick="window.location.href='/peru/browser/terms/finanzas'"></td>
+<td class="clickable" width="1.13904610222%" title="ejecutivos" onclick="window.location.href='/peru/browser/terms/ejecutivos'"></td>
+<td class="clickable" width="1.08216489861%" title="comercial" onclick="window.location.href='/peru/browser/terms/comercial'"></td>
+<td class="clickable" width="0.925741588692%" title="financiero" onclick="window.location.href='/peru/browser/terms/financiero'"></td>
+<td class="clickable" width="0.897300986889%" title="económicas" onclick="window.location.href='/peru/browser/terms/económicas'"></td>
+<td class="clickable" width="0.840419783283%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="0.826199482381%" title="ejecutivo" onclick="window.location.href='/peru/browser/terms/ejecutivo'"></td>
+<td class="clickable" width="0.811979181479%" title="microfinanzas" onclick="window.location.href='/peru/browser/terms/microfinanzas'"></td>
+<td class="clickable" width="0.811979181479%" title="titulados" onclick="window.location.href='/peru/browser/terms/titulados'"></td>
+<td class="clickable" width="0.811979181479%" title="contables" onclick="window.location.href='/peru/browser/terms/contables'"></td>
+<td class="clickable" width="0.797758880578%" title="derecho" onclick="window.location.href='/peru/browser/terms/derecho'"></td>
+<td class="clickable" width="0.797758880578%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="0.712437075168%" title="administrativas" onclick="window.location.href='/peru/browser/terms/administrativas'"></td>
+<td class="clickable" width="0.683996473365%" title="bancaria" onclick="window.location.href='/peru/browser/terms/bancaria'"></td>
+<td class="clickable" width="0.641335570661%" title="creditos" onclick="window.location.href='/peru/browser/terms/creditos'"></td>
+<td class="clickable" width="0.627115269759%" title="agronomía" onclick="window.location.href='/peru/browser/terms/agronomía'"></td>
+<td class="clickable" width="0.598674667956%" title="económica" onclick="window.location.href='/peru/browser/terms/económica'"></td>
+<td class="clickable" width="0.584454367054%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="0.584454367054%" title="promotor" onclick="window.location.href='/peru/browser/terms/promotor'"></td>
+<td class="clickable" width="0.54179346435%" title="estadística" onclick="window.location.href='/peru/browser/terms/estadística'"></td>
+<td class="clickable" width="0.527573163448%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="0.513352862547%" title="funcionario" onclick="window.location.href='/peru/browser/terms/funcionario'"></td>
+<td class="clickable" width="0.513352862547%" title="crediticios" onclick="window.location.href='/peru/browser/terms/crediticios'"></td>
+<td width="22.8662438497%" title="ofimática, relacionarse, título, junior, intangibles, sociales, grupos, credito, captación, financieras, tangibles, grupal, palabra, zootecnia, facilidad...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="12.6364399664%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="10.3071422768%" title="informática" onclick="window.location.href='/peru/browser/terms/informática'"></td>
+<td class="clickable" width="7.76116573224%" title="computación" onclick="window.location.href='/peru/browser/terms/computación'"></td>
+<td class="clickable" width="4.55161019474%" title="electrónica" onclick="window.location.href='/peru/browser/terms/electrónica'"></td>
+<td class="clickable" width="3.35987649305%" title="windows" onclick="window.location.href='/peru/browser/terms/windows'"></td>
+<td class="clickable" width="2.65567021478%" title="comunicaciones" onclick="window.location.href='/peru/browser/terms/comunicaciones'"></td>
+<td class="clickable" width="2.5202459305%" title="operativos" onclick="window.location.href='/peru/browser/terms/operativos'"></td>
+<td class="clickable" width="1.51810622681%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="1.49102136995%" title="tecnico" onclick="window.location.href='/peru/browser/terms/tecnico'"></td>
+<td class="clickable" width="1.47747894152%" title="configuración" onclick="window.location.href='/peru/browser/terms/configuración'"></td>
+<td class="clickable" width="1.40976679938%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="1.2743425151%" title="operador" onclick="window.location.href='/peru/browser/terms/operador'"></td>
+<td class="clickable" width="1.2743425151%" title="servidores" onclick="window.location.href='/peru/browser/terms/servidores'"></td>
+<td class="clickable" width="1.13891823082%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="1.11183337396%" title="xp" onclick="window.location.href='/peru/browser/terms/xp'"></td>
+<td class="clickable" width="1.09829094553%" title="hardware" onclick="window.location.href='/peru/browser/terms/hardware'"></td>
+<td class="clickable" width="1.04412123182%" title="outlook" onclick="window.location.href='/peru/browser/terms/outlook'"></td>
+<td class="clickable" width="0.935781804393%" title="administrador" onclick="window.location.href='/peru/browser/terms/administrador'"></td>
+<td class="clickable" width="0.935781804393%" title="red" onclick="window.location.href='/peru/browser/terms/red'"></td>
+<td class="clickable" width="0.908696947537%" title="estructurado" onclick="window.location.href='/peru/browser/terms/estructurado'"></td>
+<td class="clickable" width="0.895154519109%" title="mesa" onclick="window.location.href='/peru/browser/terms/mesa'"></td>
+<td class="clickable" width="0.88161209068%" title="responsabilidad" onclick="window.location.href='/peru/browser/terms/responsabilidad'"></td>
+<td class="clickable" width="0.868069662252%" title="instalación" onclick="window.location.href='/peru/browser/terms/instalación'"></td>
+<td class="clickable" width="0.854527233824%" title="usuarios" onclick="window.location.href='/peru/browser/terms/usuarios'"></td>
+<td class="clickable" width="0.827442376967%" title="cableado" onclick="window.location.href='/peru/browser/terms/cableado'"></td>
+<td class="clickable" width="0.827442376967%" title="impresoras" onclick="window.location.href='/peru/browser/terms/impresoras'"></td>
+<td class="clickable" width="0.773272663254%" title="ayuda" onclick="window.location.href='/peru/browser/terms/ayuda'"></td>
+<td class="clickable" width="0.773272663254%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.773272663254%" title="cómputo" onclick="window.location.href='/peru/browser/terms/cómputo'"></td>
+<td class="clickable" width="0.759730234826%" title="ofimática" onclick="window.location.href='/peru/browser/terms/ofimática'"></td>
+<td class="clickable" width="0.732645377969%" title="resolución" onclick="window.location.href='/peru/browser/terms/resolución'"></td>
+<td class="clickable" width="0.732645377969%" title="pc" onclick="window.location.href='/peru/browser/terms/pc'"></td>
+<td class="clickable" width="0.692018092684%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="0.6513908074%" title="presión" onclick="window.location.href='/peru/browser/terms/presión'"></td>
+<td class="clickable" width="0.543051379974%" title="operativo" onclick="window.location.href='/peru/browser/terms/operativo'"></td>
+<td class="clickable" width="0.543051379974%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="0.543051379974%" title="telefonía" onclick="window.location.href='/peru/browser/terms/telefonía'"></td>
+<td class="clickable" width="0.543051379974%" title="informatica" onclick="window.location.href='/peru/browser/terms/informatica'"></td>
+<td class="clickable" width="0.543051379974%" title="informáticos" onclick="window.location.href='/peru/browser/terms/informáticos'"></td>
+<td class="clickable" width="0.529508951545%" title="infraestructura" onclick="window.location.href='/peru/browser/terms/infraestructura'"></td>
+<td class="clickable" width="0.515966523117%" title="server" onclick="window.location.href='/peru/browser/terms/server'"></td>
+<td class="clickable" width="0.502424094689%" title="monitoreo" onclick="window.location.href='/peru/browser/terms/monitoreo'"></td>
+<td width="25.2837138756%" title="información, cctv, computadoras, ccna, activo, desk, diagnostico, compromiso, lan, remoto, informatico, electronico, coordinador, electrónico, solución...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="11.4808474214%" title="mecánica" onclick="window.location.href='/peru/browser/terms/mecánica'"></td>
+<td class="clickable" width="8.4696279539%" title="mantenimiento" onclick="window.location.href='/peru/browser/terms/mantenimiento'"></td>
+<td class="clickable" width="5.96282596069%" title="mecánico" onclick="window.location.href='/peru/browser/terms/mecánico'"></td>
+<td class="clickable" width="3.9298706857%" title="eléctrica" onclick="window.location.href='/peru/browser/terms/eléctrica'"></td>
+<td class="clickable" width="3.86872917367%" title="electricidad" onclick="window.location.href='/peru/browser/terms/electricidad'"></td>
+<td class="clickable" width="3.48659472349%" title="electrónica" onclick="window.location.href='/peru/browser/terms/electrónica'"></td>
+<td class="clickable" width="3.16560178533%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="2.64589893308%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="2.63061355507%" title="planta" onclick="window.location.href='/peru/browser/terms/planta'"></td>
+<td class="clickable" width="2.477759775%" title="industriales" onclick="window.location.href='/peru/browser/terms/industriales'"></td>
+<td class="clickable" width="2.32490599493%" title="plantas" onclick="window.location.href='/peru/browser/terms/plantas'"></td>
+<td class="clickable" width="1.8663446547%" title="maquinaria" onclick="window.location.href='/peru/browser/terms/maquinaria'"></td>
+<td class="clickable" width="1.53006633854%" title="mecanico" onclick="window.location.href='/peru/browser/terms/mecanico'"></td>
+<td class="clickable" width="1.33135642444%" title="autocad" onclick="window.location.href='/peru/browser/terms/autocad'"></td>
+<td class="clickable" width="1.31607104644%" title="soldadura" onclick="window.location.href='/peru/browser/terms/soldadura'"></td>
+<td class="clickable" width="1.2396441564%" title="tecnico" onclick="window.location.href='/peru/browser/terms/tecnico'"></td>
+<td class="clickable" width="1.05621962031%" title="pesada" onclick="window.location.href='/peru/browser/terms/pesada'"></td>
+<td class="clickable" width="1.01036348629%" title="electricista" onclick="window.location.href='/peru/browser/terms/electricista'"></td>
+<td class="clickable" width="0.979792730274%" title="reparación" onclick="window.location.href='/peru/browser/terms/reparación'"></td>
+<td class="clickable" width="0.949221974259%" title="máquinas" onclick="window.location.href='/peru/browser/terms/máquinas'"></td>
+<td class="clickable" width="0.933936596252%" title="mecatrónica" onclick="window.location.href='/peru/browser/terms/mecatrónica'"></td>
+<td class="clickable" width="0.903365840237%" title="tratamiento" onclick="window.location.href='/peru/browser/terms/tratamiento'"></td>
+<td class="clickable" width="0.903365840237%" title="eléctrico" onclick="window.location.href='/peru/browser/terms/eléctrico'"></td>
+<td class="clickable" width="0.88808046223%" title="mecánicos" onclick="window.location.href='/peru/browser/terms/mecánicos'"></td>
+<td class="clickable" width="0.857509706215%" title="operador" onclick="window.location.href='/peru/browser/terms/operador'"></td>
+<td class="clickable" width="0.750512060163%" title="operario" onclick="window.location.href='/peru/browser/terms/operario'"></td>
+<td class="clickable" width="0.689370548134%" title="operación" onclick="window.location.href='/peru/browser/terms/operación'"></td>
+<td class="clickable" width="0.674085170126%" title="electrotecnia" onclick="window.location.href='/peru/browser/terms/electrotecnia'"></td>
+<td class="clickable" width="0.674085170126%" title="neumática" onclick="window.location.href='/peru/browser/terms/neumática'"></td>
+<td class="clickable" width="0.674085170126%" title="neumáticos" onclick="window.location.href='/peru/browser/terms/neumáticos'"></td>
+<td class="clickable" width="0.643514414111%" title="mecanica" onclick="window.location.href='/peru/browser/terms/mecanica'"></td>
+<td class="clickable" width="0.597658280089%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="0.597658280089%" title="hidráulicos" onclick="window.location.href='/peru/browser/terms/hidráulicos'"></td>
+<td class="clickable" width="0.582372902082%" title="automatización" onclick="window.location.href='/peru/browser/terms/automatización'"></td>
+<td width="27.9080431659%" title="instrumentación, fallas, preventivo, ayudante, lectura, bombas, maquinas, aguas, hidráulica, planos, efectuar, metal, electromecánica, office, metalúrgica...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="14.4476855598%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="11.1367797982%" title="comercial" onclick="window.location.href='/peru/browser/terms/comercial'"></td>
+<td class="clickable" width="4.70659626112%" title="marketing" onclick="window.location.href='/peru/browser/terms/marketing'"></td>
+<td class="clickable" width="3.71651833241%" title="ejecutivo" onclick="window.location.href='/peru/browser/terms/ejecutivo'"></td>
+<td class="clickable" width="3.49295234851%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="3.37584635694%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="3.19486436997%" title="comerciales" onclick="window.location.href='/peru/browser/terms/comerciales'"></td>
+<td class="clickable" width="3.03517438147%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="1.85346846655%" title="asesor" onclick="window.location.href='/peru/browser/terms/asesor'"></td>
+<td class="clickable" width="1.21470851254%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="0.969850530171%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="0.969850530171%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="0.959204530937%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="0.788868543201%" title="consultor" onclick="window.location.href='/peru/browser/terms/consultor'"></td>
+<td class="clickable" width="0.756930545501%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="0.6611165524%" title="representante" onclick="window.location.href='/peru/browser/terms/representante'"></td>
+<td class="clickable" width="0.618532555466%" title="industriales" onclick="window.location.href='/peru/browser/terms/industriales'"></td>
+<td class="clickable" width="0.607886556232%" title="ingles" onclick="window.location.href='/peru/browser/terms/ingles'"></td>
+<td class="clickable" width="0.597240556999%" title="negocio" onclick="window.location.href='/peru/browser/terms/negocio'"></td>
+<td class="clickable" width="0.586594557765%" title="negociación" onclick="window.location.href='/peru/browser/terms/negociación'"></td>
+<td class="clickable" width="0.565302559298%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="0.554656560065%" title="cuentas" onclick="window.location.href='/peru/browser/terms/cuentas'"></td>
+<td class="clickable" width="0.544010560831%" title="gerente" onclick="window.location.href='/peru/browser/terms/gerente'"></td>
+<td class="clickable" width="0.522718562364%" title="propuestas" onclick="window.location.href='/peru/browser/terms/propuestas'"></td>
+<td class="clickable" width="0.512072563131%" title="comunicaciones" onclick="window.location.href='/peru/browser/terms/comunicaciones'"></td>
+<td class="clickable" width="0.501426563897%" title="producto" onclick="window.location.href='/peru/browser/terms/producto'"></td>
+<td class="clickable" width="0.501426563897%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td width="38.6077162202%" title="financiero, canal, estrategias, iniciativa, desarrollar, cotizaciones, vendedor, manager, retail, fuerza, campañas, prospección, ejecutivos, incrementar...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="6.5441101738%" title="proyectos" onclick="window.location.href='/peru/browser/terms/proyectos'"></td>
+<td class="clickable" width="5.42611037707%" title="obra" onclick="window.location.href='/peru/browser/terms/obra'"></td>
+<td class="clickable" width="4.57490598638%" title="obras" onclick="window.location.href='/peru/browser/terms/obras'"></td>
+<td class="clickable" width="4.32081512349%" title="autocad" onclick="window.location.href='/peru/browser/terms/autocad'"></td>
+<td class="clickable" width="3.22822441305%" title="diseño" onclick="window.location.href='/peru/browser/terms/diseño'"></td>
+<td class="clickable" width="2.51676999695%" title="presupuestos" onclick="window.location.href='/peru/browser/terms/presupuestos'"></td>
+<td class="clickable" width="2.45324728123%" title="arquitectura" onclick="window.location.href='/peru/browser/terms/arquitectura'"></td>
+<td class="clickable" width="2.31349730664%" title="colegiado" onclick="window.location.href='/peru/browser/terms/colegiado'"></td>
+<td class="clickable" width="2.18645187519%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="2.02129281431%" title="project" onclick="window.location.href='/peru/browser/terms/project'"></td>
+<td class="clickable" width="1.97047464173%" title="costos" onclick="window.location.href='/peru/browser/terms/costos'"></td>
+<td class="clickable" width="1.90695192601%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="1.86883829657%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="1.52581563167%" title="elaboración" onclick="window.location.href='/peru/browser/terms/elaboración'"></td>
+<td class="clickable" width="1.51311108853%" title="ejecución" onclick="window.location.href='/peru/browser/terms/ejecución'"></td>
+<td class="clickable" width="1.36065657079%" title="supervisión" onclick="window.location.href='/peru/browser/terms/supervisión'"></td>
+<td class="clickable" width="1.20820205305%" title="planos" onclick="window.location.href='/peru/browser/terms/planos'"></td>
+<td class="clickable" width="1.06845207846%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="1.00492936274%" title="civiles" onclick="window.location.href='/peru/browser/terms/civiles'"></td>
+<td class="clickable" width="0.852474845005%" title="estructuras" onclick="window.location.href='/peru/browser/terms/estructuras'"></td>
+<td class="clickable" width="0.827065758715%" title="mecánico" onclick="window.location.href='/peru/browser/terms/mecánico'"></td>
+<td class="clickable" width="0.827065758715%" title="edificaciones" onclick="window.location.href='/peru/browser/terms/edificaciones'"></td>
+<td class="clickable" width="0.763543042992%" title="arquitecto" onclick="window.location.href='/peru/browser/terms/arquitecto'"></td>
+<td class="clickable" width="0.750838499848%" title="jefe" onclick="window.location.href='/peru/browser/terms/jefe'"></td>
+<td class="clickable" width="0.725429413558%" title="interiores" onclick="window.location.href='/peru/browser/terms/interiores'"></td>
+<td class="clickable" width="0.712724870414%" title="diseñador" onclick="window.location.href='/peru/browser/terms/diseñador'"></td>
+<td class="clickable" width="0.67461124098%" title="eléctrica" onclick="window.location.href='/peru/browser/terms/eléctrica'"></td>
+<td class="clickable" width="0.661906697835%" title="expedientes" onclick="window.location.href='/peru/browser/terms/expedientes'"></td>
+<td class="clickable" width="0.649202154691%" title="infraestructura" onclick="window.location.href='/peru/browser/terms/infraestructura'"></td>
+<td class="clickable" width="0.649202154691%" title="hidrocarburos" onclick="window.location.href='/peru/browser/terms/hidrocarburos'"></td>
+<td class="clickable" width="0.611088525257%" title="lectura" onclick="window.location.href='/peru/browser/terms/lectura'"></td>
+<td class="clickable" width="0.534861266389%" title="3d" onclick="window.location.href='/peru/browser/terms/3d'"></td>
+<td class="clickable" width="0.522156723244%" title="metrados" onclick="window.location.href='/peru/browser/terms/metrados'"></td>
+<td class="clickable" width="0.522156723244%" title="valorizaciones" onclick="window.location.href='/peru/browser/terms/valorizaciones'"></td>
+<td width="40.7028153268%" title="fabricación, habilitado, desarrollo, mecánica, concreto, propuestas, diseños, saneamiento, especialista, planeamiento, sap, contratos, dibujante, agua...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="12.370672503%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="10.3644382544%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="6.20274572224%" title="word" onclick="window.location.href='/peru/browser/terms/word'"></td>
+<td class="clickable" width="6.0866825839%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="5.70533227219%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="5.09185568378%" title="administrador" onclick="window.location.href='/peru/browser/terms/administrador'"></td>
+<td class="clickable" width="4.92605120042%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="4.56128133705%" title="power" onclick="window.location.href='/peru/browser/terms/power'"></td>
+<td class="clickable" width="4.41205730203%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="4.04728743865%" title="point" onclick="window.location.href='/peru/browser/terms/point'"></td>
+<td class="clickable" width="2.91981695185%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="2.53846664014%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="1.85866825839%" title="consumo" onclick="window.location.href='/peru/browser/terms/consumo'"></td>
+<td class="clickable" width="1.69286377504%" title="marketing" onclick="window.location.href='/peru/browser/terms/marketing'"></td>
+<td class="clickable" width="1.65970287837%" title="masivo" onclick="window.location.href='/peru/browser/terms/masivo'"></td>
+<td class="clickable" width="1.16228942831%" title="jefe" onclick="window.location.href='/peru/browser/terms/jefe'"></td>
+<td class="clickable" width="0.979904496618%" title="administrativas" onclick="window.location.href='/peru/browser/terms/administrativas'"></td>
+<td class="clickable" width="0.880421806606%" title="comprometido" onclick="window.location.href='/peru/browser/terms/comprometido'"></td>
+<td class="clickable" width="0.847260909935%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="0.847260909935%" title="project" onclick="window.location.href='/peru/browser/terms/project'"></td>
+<td class="clickable" width="0.698036874917%" title="distribuidora" onclick="window.location.href='/peru/browser/terms/distribuidora'"></td>
+<td class="clickable" width="0.631715081576%" title="planificación" onclick="window.location.href='/peru/browser/terms/planificación'"></td>
+<td width="19.5151876907%" title="powerpoint, outlook, especialización, procesos, vendedores, sucursal, administradora, regional, junior, visio, titulado, retail, access, cuenten, redacción...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="11.4793110147%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="8.30635239267%" title="atención" onclick="window.location.href='/peru/browser/terms/atención'"></td>
+<td class="clickable" width="5.10101664184%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="4.06494852037%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="2.9479375769%" title="informática" onclick="window.location.href='/peru/browser/terms/informática'"></td>
+<td class="clickable" width="2.8993718837%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="2.78605193291%" title="computación" onclick="window.location.href='/peru/browser/terms/computación'"></td>
+<td class="clickable" width="2.39752638736%" title="orientación" onclick="window.location.href='/peru/browser/terms/orientación'"></td>
+<td class="clickable" width="2.057566535%" title="contabilidad" onclick="window.location.href='/peru/browser/terms/contabilidad'"></td>
+<td class="clickable" width="1.63666386065%" title="comercial" onclick="window.location.href='/peru/browser/terms/comercial'"></td>
+<td class="clickable" width="1.62047529625%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="1.50715534546%" title="economía" onclick="window.location.href='/peru/browser/terms/economía'"></td>
+<td class="clickable" width="1.32908113708%" title="gestor" onclick="window.location.href='/peru/browser/terms/gestor'"></td>
+<td class="clickable" width="1.2319497507%" title="cobranza" onclick="window.location.href='/peru/browser/terms/cobranza'"></td>
+<td class="clickable" width="1.2157611863%" title="dinámicos" onclick="window.location.href='/peru/browser/terms/dinámicos'"></td>
+<td class="clickable" width="1.2157611863%" title="promotor" onclick="window.location.href='/peru/browser/terms/promotor'"></td>
+<td class="clickable" width="1.1833840575%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="1.15100692871%" title="facilidad" onclick="window.location.href='/peru/browser/terms/facilidad'"></td>
+<td class="clickable" width="1.13481836431%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="1.03768697792%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.956744155928%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="0.908178462734%" title="cobranzas" onclick="window.location.href='/peru/browser/terms/cobranzas'"></td>
+<td class="clickable" width="0.891989898336%" title="palabra" onclick="window.location.href='/peru/browser/terms/palabra'"></td>
+<td class="clickable" width="0.875801333938%" title="ejecutivo" onclick="window.location.href='/peru/browser/terms/ejecutivo'"></td>
+<td class="clickable" width="0.875801333938%" title="proactivos" onclick="window.location.href='/peru/browser/terms/proactivos'"></td>
+<td class="clickable" width="0.827235640743%" title="promotores" onclick="window.location.href='/peru/browser/terms/promotores'"></td>
+<td class="clickable" width="0.762481383151%" title="llamadas" onclick="window.location.href='/peru/browser/terms/llamadas'"></td>
+<td class="clickable" width="0.68153856116%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="0.649161432364%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="0.649161432364%" title="código" onclick="window.location.href='/peru/browser/terms/código'"></td>
+<td class="clickable" width="0.632972867966%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="0.632972867966%" title="responsables" onclick="window.location.href='/peru/browser/terms/responsables'"></td>
+<td class="clickable" width="0.60059573917%" title="vocación" onclick="window.location.href='/peru/browser/terms/vocación'"></td>
+<td class="clickable" width="0.584407174772%" title="asistentes" onclick="window.location.href='/peru/browser/terms/asistentes'"></td>
+<td class="clickable" width="0.568218610374%" title="ciencias" onclick="window.location.href='/peru/browser/terms/ciencias'"></td>
+<td class="clickable" width="0.552030045976%" title="aprendizaje" onclick="window.location.href='/peru/browser/terms/aprendizaje'"></td>
+<td width="32.0468820825%" title="teleoperadores, directo, recepcionista, asesor, público, teléfono, persuasión, paquete, financiero, reclamos, telefónicas, efectivo, atencion, citas, banca...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="9.48556648359%" title="proactivo" onclick="window.location.href='/peru/browser/terms/proactivo'"></td>
+<td class="clickable" width="7.61751181505%" title="responsable" onclick="window.location.href='/peru/browser/terms/responsable'"></td>
+<td class="clickable" width="4.18476178311%" title="presión" onclick="window.location.href='/peru/browser/terms/presión'"></td>
+<td class="clickable" width="3.22678503002%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="3.16291991314%" title="liderazgo" onclick="window.location.href='/peru/browser/terms/liderazgo'"></td>
+<td class="clickable" width="2.95535828331%" title="dinámico" onclick="window.location.href='/peru/browser/terms/dinámico'"></td>
+<td class="clickable" width="2.17301060161%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="2.14107804317%" title="entrevista" onclick="window.location.href='/peru/browser/terms/entrevista'"></td>
+<td class="clickable" width="2.09317920552%" title="orientado" onclick="window.location.href='/peru/browser/terms/orientado'"></td>
+<td class="clickable" width="1.99738153021%" title="ordenado" onclick="window.location.href='/peru/browser/terms/ordenado'"></td>
+<td class="clickable" width="1.82175245881%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="1.48646059522%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="1.42259547835%" title="facilidad" onclick="window.location.href='/peru/browser/terms/facilidad'"></td>
+<td class="clickable" width="1.34276408226%" title="proactiva" onclick="window.location.href='/peru/browser/terms/proactiva'"></td>
+<td class="clickable" width="1.27889896539%" title="responsabilidad" onclick="window.location.href='/peru/browser/terms/responsabilidad'"></td>
+<td class="clickable" width="1.24696640695%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="1.23100012773%" title="personas" onclick="window.location.href='/peru/browser/terms/personas'"></td>
+<td class="clickable" width="1.23100012773%" title="supervision" onclick="window.location.href='/peru/browser/terms/supervision'"></td>
+<td class="clickable" width="1.18310129008%" title="marketing" onclick="window.location.href='/peru/browser/terms/marketing'"></td>
+<td class="clickable" width="1.08730361477%" title="iniciativa" onclick="window.location.href='/peru/browser/terms/iniciativa'"></td>
+<td class="clickable" width="1.07133733555%" title="organizado" onclick="window.location.href='/peru/browser/terms/organizado'"></td>
+<td class="clickable" width="1.05537105633%" title="honesto" onclick="window.location.href='/peru/browser/terms/honesto'"></td>
+<td class="clickable" width="0.975539660238%" title="secundaria" onclick="window.location.href='/peru/browser/terms/secundaria'"></td>
+<td class="clickable" width="0.943607101801%" title="analítico" onclick="window.location.href='/peru/browser/terms/analítico'"></td>
+<td class="clickable" width="0.943607101801%" title="comprometido" onclick="window.location.href='/peru/browser/terms/comprometido'"></td>
+<td class="clickable" width="0.943607101801%" title="tecnicos" onclick="window.location.href='/peru/browser/terms/tecnicos'"></td>
+<td class="clickable" width="0.943607101801%" title="creatividad" onclick="window.location.href='/peru/browser/terms/creatividad'"></td>
+<td class="clickable" width="0.943607101801%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="0.911674543364%" title="logros" onclick="window.location.href='/peru/browser/terms/logros'"></td>
+<td class="clickable" width="0.86377570571%" title="disposición" onclick="window.location.href='/peru/browser/terms/disposición'"></td>
+<td class="clickable" width="0.847809426491%" title="presion" onclick="window.location.href='/peru/browser/terms/presion'"></td>
+<td class="clickable" width="0.831843147273%" title="word" onclick="window.location.href='/peru/browser/terms/word'"></td>
+<td class="clickable" width="0.815876868055%" title="actitud" onclick="window.location.href='/peru/browser/terms/actitud'"></td>
+<td class="clickable" width="0.7679780304%" title="dinámica" onclick="window.location.href='/peru/browser/terms/dinámica'"></td>
+<td class="clickable" width="0.7679780304%" title="copia" onclick="window.location.href='/peru/browser/terms/copia'"></td>
+<td class="clickable" width="0.752011751181%" title="activo" onclick="window.location.href='/peru/browser/terms/activo'"></td>
+<td class="clickable" width="0.752011751181%" title="productividad" onclick="window.location.href='/peru/browser/terms/productividad'"></td>
+<td class="clickable" width="0.752011751181%" title="eficiente" onclick="window.location.href='/peru/browser/terms/eficiente'"></td>
+<td class="clickable" width="0.736045471963%" title="eficaz" onclick="window.location.href='/peru/browser/terms/eficaz'"></td>
+<td class="clickable" width="0.720079192745%" title="interpersonal" onclick="window.location.href='/peru/browser/terms/interpersonal'"></td>
+<td class="clickable" width="0.688146634308%" title="pueden" onclick="window.location.href='/peru/browser/terms/pueden'"></td>
+<td class="clickable" width="0.67218035509%" title="asertiva" onclick="window.location.href='/peru/browser/terms/asertiva'"></td>
+<td class="clickable" width="0.656214075872%" title="coordinar" onclick="window.location.href='/peru/browser/terms/coordinar'"></td>
+<td class="clickable" width="0.656214075872%" title="comunicativo" onclick="window.location.href='/peru/browser/terms/comunicativo'"></td>
+<td class="clickable" width="0.656214075872%" title="palabra" onclick="window.location.href='/peru/browser/terms/palabra'"></td>
+<td class="clickable" width="0.57638267978%" title="programas" onclick="window.location.href='/peru/browser/terms/programas'"></td>
+<td class="clickable" width="0.560416400562%" title="establecidas" onclick="window.location.href='/peru/browser/terms/establecidas'"></td>
+<td class="clickable" width="0.560416400562%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="0.560416400562%" title="habilidades" onclick="window.location.href='/peru/browser/terms/habilidades'"></td>
+<td class="clickable" width="0.528483842125%" title="impreso" onclick="window.location.href='/peru/browser/terms/impreso'"></td>
+<td width="24.1761399923%" title="acercase, comprometida, confirmada, metódico, envia, superación, persona, criterio, creativo, supervisión, comunicarse, organizarse, perseverante, supervisores...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="6.23915392423%" title="eléctricos" onclick="window.location.href='/peru/browser/terms/eléctricos'"></td>
+<td class="clickable" width="4.99492485511%" title="mantenimiento" onclick="window.location.href='/peru/browser/terms/mantenimiento'"></td>
+<td class="clickable" width="4.97855341999%" title="instalación" onclick="window.location.href='/peru/browser/terms/instalación'"></td>
+<td class="clickable" width="4.38918175567%" title="electricista" onclick="window.location.href='/peru/browser/terms/electricista'"></td>
+<td class="clickable" width="4.27458170983%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="4.04538161815%" title="instalaciones" onclick="window.location.href='/peru/browser/terms/instalaciones'"></td>
+<td class="clickable" width="2.96486690023%" title="eléctricas" onclick="window.location.href='/peru/browser/terms/eléctricas'"></td>
+<td class="clickable" width="2.39186667103%" title="eléctrico" onclick="window.location.href='/peru/browser/terms/eléctrico'"></td>
+<td class="clickable" width="2.37549523591%" title="medición" onclick="window.location.href='/peru/browser/terms/medición'"></td>
+<td class="clickable" width="2.16266657935%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="1.94983792279%" title="electricidad" onclick="window.location.href='/peru/browser/terms/electricidad'"></td>
+<td class="clickable" width="1.90072361743%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="1.68789496087%" title="electrónico" onclick="window.location.href='/peru/browser/terms/electrónico'"></td>
+<td class="clickable" width="1.65515209063%" title="propias" onclick="window.location.href='/peru/browser/terms/propias'"></td>
+<td class="clickable" width="1.63878065551%" title="reparación" onclick="window.location.href='/peru/browser/terms/reparación'"></td>
+<td class="clickable" width="1.63878065551%" title="cableado" onclick="window.location.href='/peru/browser/terms/cableado'"></td>
+<td class="clickable" width="1.57329491503%" title="electrónica" onclick="window.location.href='/peru/browser/terms/electrónica'"></td>
+<td class="clickable" width="1.55692347991%" title="tableros" onclick="window.location.href='/peru/browser/terms/tableros'"></td>
+<td class="clickable" width="1.42595199895%" title="planos" onclick="window.location.href='/peru/browser/terms/planos'"></td>
+<td class="clickable" width="1.26223764775%" title="motores" onclick="window.location.href='/peru/browser/terms/motores'"></td>
+<td class="clickable" width="1.26223764775%" title="automatización" onclick="window.location.href='/peru/browser/terms/automatización'"></td>
+<td class="clickable" width="1.03303755607%" title="eléctrica" onclick="window.location.href='/peru/browser/terms/eléctrica'"></td>
+<td class="clickable" width="1.01666612095%" title="puesta" onclick="window.location.href='/peru/browser/terms/puesta'"></td>
+<td class="clickable" width="0.951180380472%" title="correctivo" onclick="window.location.href='/peru/browser/terms/correctivo'"></td>
+<td class="clickable" width="0.951180380472%" title="preventivo" onclick="window.location.href='/peru/browser/terms/preventivo'"></td>
+<td class="clickable" width="0.934808945352%" title="acondicionado" onclick="window.location.href='/peru/browser/terms/acondicionado'"></td>
+<td class="clickable" width="0.918437510232%" title="aire" onclick="window.location.href='/peru/browser/terms/aire'"></td>
+<td class="clickable" width="0.869323204872%" title="marcha" onclick="window.location.href='/peru/browser/terms/marcha'"></td>
+<td class="clickable" width="0.820208899512%" title="informes" onclick="window.location.href='/peru/browser/terms/informes'"></td>
+<td class="clickable" width="0.787466029272%" title="lectura" onclick="window.location.href='/peru/browser/terms/lectura'"></td>
+<td class="clickable" width="0.689237418552%" title="instrumentos" onclick="window.location.href='/peru/browser/terms/instrumentos'"></td>
+<td class="clickable" width="0.672865983432%" title="energía" onclick="window.location.href='/peru/browser/terms/energía'"></td>
+<td class="clickable" width="0.640123113192%" title="especificaciones" onclick="window.location.href='/peru/browser/terms/especificaciones'"></td>
+<td class="clickable" width="0.574637372712%" title="configuración" onclick="window.location.href='/peru/browser/terms/configuración'"></td>
+<td class="clickable" width="0.574637372712%" title="electrónicos" onclick="window.location.href='/peru/browser/terms/electrónicos'"></td>
+<td class="clickable" width="0.574637372712%" title="baja" onclick="window.location.href='/peru/browser/terms/baja'"></td>
+<td class="clickable" width="0.574637372712%" title="estructurado" onclick="window.location.href='/peru/browser/terms/estructurado'"></td>
+<td class="clickable" width="0.525523067352%" title="transformadores" onclick="window.location.href='/peru/browser/terms/transformadores'"></td>
+<td class="clickable" width="0.525523067352%" title="diagramas" onclick="window.location.href='/peru/browser/terms/diagramas'"></td>
+<td width="29.9973805704%" title="preparar, realizados, pruebas, interpretar, instrumentación, montaje, mecánicos, ubicación, determinar, mecánico, tecnico, canalización, programación, diagnóstico...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="16.45750669%" title="jefe" onclick="window.location.href='/peru/browser/terms/jefe'"></td>
+<td class="clickable" width="6.09178431915%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="6.01488726892%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="3.81563163237%" title="proyectos" onclick="window.location.href='/peru/browser/terms/proyectos'"></td>
+<td class="clickable" width="3.78487281228%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="3.49266402141%" title="especialización" onclick="window.location.href='/peru/browser/terms/especialización'"></td>
+<td class="clickable" width="3.41576697118%" title="coordinador" onclick="window.location.href='/peru/browser/terms/coordinador'"></td>
+<td class="clickable" width="3.04666113008%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="2.52376118852%" title="gerente" onclick="window.location.href='/peru/browser/terms/gerente'"></td>
+<td class="clickable" width="2.18541416751%" title="sap" onclick="window.location.href='/peru/browser/terms/sap'"></td>
+<td class="clickable" width="1.78554950632%" title="procesos" onclick="window.location.href='/peru/browser/terms/procesos'"></td>
+<td class="clickable" width="1.57023776568%" title="maestría" onclick="window.location.href='/peru/browser/terms/maestría'"></td>
+<td class="clickable" width="1.55485835563%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="1.3087877949%" title="planificación" onclick="window.location.href='/peru/browser/terms/planificación'"></td>
+<td class="clickable" width="1.24727015472%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="1.15499369444%" title="psicología" onclick="window.location.href='/peru/browser/terms/psicología'"></td>
+<td class="clickable" width="1.12423487435%" title="diplomado" onclick="window.location.href='/peru/browser/terms/diplomado'"></td>
+<td class="clickable" width="1.09347605426%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="0.955061363846%" title="consultor" onclick="window.location.href='/peru/browser/terms/consultor'"></td>
+<td class="clickable" width="0.955061363846%" title="erp" onclick="window.location.href='/peru/browser/terms/erp'"></td>
+<td class="clickable" width="0.955061363846%" title="título" onclick="window.location.href='/peru/browser/terms/título'"></td>
+<td class="clickable" width="0.908923133709%" title="liderazgo" onclick="window.location.href='/peru/browser/terms/liderazgo'"></td>
+<td class="clickable" width="0.893543723663%" title="industriales" onclick="window.location.href='/peru/browser/terms/industriales'"></td>
+<td class="clickable" width="0.893543723663%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="0.785887853342%" title="operaciones" onclick="window.location.href='/peru/browser/terms/operaciones'"></td>
+<td class="clickable" width="0.693611393067%" title="negociación" onclick="window.location.href='/peru/browser/terms/negociación'"></td>
+<td class="clickable" width="0.678231983021%" title="relaciones" onclick="window.location.href='/peru/browser/terms/relaciones'"></td>
+<td class="clickable" width="0.662852572975%" title="riesgos" onclick="window.location.href='/peru/browser/terms/riesgos'"></td>
+<td class="clickable" width="0.601334932792%" title="comercial" onclick="window.location.href='/peru/browser/terms/comercial'"></td>
+<td class="clickable" width="0.601334932792%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="0.585955522746%" title="planeamiento" onclick="window.location.href='/peru/browser/terms/planeamiento'"></td>
+<td class="clickable" width="0.555196702655%" title="operativo" onclick="window.location.href='/peru/browser/terms/operativo'"></td>
+<td class="clickable" width="0.539817292609%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="0.524437882563%" title="legislación" onclick="window.location.href='/peru/browser/terms/legislación'"></td>
+<td class="clickable" width="0.509058472517%" title="rr" onclick="window.location.href='/peru/browser/terms/rr'"></td>
+<td width="26.0327273846%" title="implementación, principales, metodologías, directo, hh, identificación, corporativo, monitoreo, retail, dirigir, responsable, leyes, jefatura, satisfacción...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="2.52060071541%" title="coordinar" onclick="window.location.href='/peru/browser/terms/coordinar'"></td>
+<td class="clickable" width="2.51335969066%" title="supervisar" onclick="window.location.href='/peru/browser/terms/supervisar'"></td>
+<td class="clickable" width="2.35405714617%" title="controlar" onclick="window.location.href='/peru/browser/terms/controlar'"></td>
+<td class="clickable" width="1.75305209193%" title="procesos" onclick="window.location.href='/peru/browser/terms/procesos'"></td>
+<td class="clickable" width="1.65167774543%" title="jefe" onclick="window.location.href='/peru/browser/terms/jefe'"></td>
+<td class="clickable" width="1.56478544844%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="1.49961622569%" title="asegurar" onclick="window.location.href='/peru/browser/terms/asegurar'"></td>
+<td class="clickable" width="1.27514445844%" title="operaciones" onclick="window.location.href='/peru/browser/terms/operaciones'"></td>
+<td class="clickable" width="1.1810111367%" title="elaborar" onclick="window.location.href='/peru/browser/terms/elaborar'"></td>
+<td class="clickable" width="1.15928806245%" title="gestionar" onclick="window.location.href='/peru/browser/terms/gestionar'"></td>
+<td class="clickable" width="1.1375649882%" title="desarrollar" onclick="window.location.href='/peru/browser/terms/desarrollar'"></td>
+<td class="clickable" width="1.11584191395%" title="evaluar" onclick="window.location.href='/peru/browser/terms/evaluar'"></td>
+<td class="clickable" width="1.0651547407%" title="responsable" onclick="window.location.href='/peru/browser/terms/responsable'"></td>
+<td class="clickable" width="1.04343166645%" title="políticas" onclick="window.location.href='/peru/browser/terms/políticas'"></td>
+<td class="clickable" width="1.0361906417%" title="indicadores" onclick="window.location.href='/peru/browser/terms/indicadores'"></td>
+<td class="clickable" width="1.0361906417%" title="planificar" onclick="window.location.href='/peru/browser/terms/planificar'"></td>
+<td class="clickable" width="1.0217085922%" title="administrar" onclick="window.location.href='/peru/browser/terms/administrar'"></td>
+<td class="clickable" width="0.971021418951%" title="gerencia" onclick="window.location.href='/peru/browser/terms/gerencia'"></td>
+<td class="clickable" width="0.913093220953%" title="proponer" onclick="window.location.href='/peru/browser/terms/proponer'"></td>
+<td class="clickable" width="0.905852196203%" title="dirigir" onclick="window.location.href='/peru/browser/terms/dirigir'"></td>
+<td class="clickable" width="0.869647072454%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="0.869647072454%" title="procedimientos" onclick="window.location.href='/peru/browser/terms/procedimientos'"></td>
+<td class="clickable" width="0.847923998204%" title="garantizar" onclick="window.location.href='/peru/browser/terms/garantizar'"></td>
+<td class="clickable" width="0.833441948705%" title="organizar" onclick="window.location.href='/peru/browser/terms/organizar'"></td>
+<td class="clickable" width="0.826200923955%" title="ejecutar" onclick="window.location.href='/peru/browser/terms/ejecutar'"></td>
+<td class="clickable" width="0.826200923955%" title="monitorear" onclick="window.location.href='/peru/browser/terms/monitorear'"></td>
+<td class="clickable" width="0.818959899205%" title="implementar" onclick="window.location.href='/peru/browser/terms/implementar'"></td>
+<td class="clickable" width="0.797236824956%" title="ejecución" onclick="window.location.href='/peru/browser/terms/ejecución'"></td>
+<td class="clickable" width="0.789995800206%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="0.724826577457%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="0.674139404209%" title="velar" onclick="window.location.href='/peru/browser/terms/velar'"></td>
+<td class="clickable" width="0.666898379459%" title="establecer" onclick="window.location.href='/peru/browser/terms/establecer'"></td>
+<td class="clickable" width="0.666898379459%" title="acciones" onclick="window.location.href='/peru/browser/terms/acciones'"></td>
+<td class="clickable" width="0.637934280459%" title="establecidos" onclick="window.location.href='/peru/browser/terms/establecidos'"></td>
+<td class="clickable" width="0.59448813196%" title="coordinador" onclick="window.location.href='/peru/browser/terms/coordinador'"></td>
+<td class="clickable" width="0.580006082461%" title="estrategias" onclick="window.location.href='/peru/browser/terms/estrategias'"></td>
+<td class="clickable" width="0.572765057711%" title="posiciones" onclick="window.location.href='/peru/browser/terms/posiciones'"></td>
+<td class="clickable" width="0.565524032961%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="0.558283008211%" title="normas" onclick="window.location.href='/peru/browser/terms/normas'"></td>
+<td class="clickable" width="0.536559933962%" title="supervisión" onclick="window.location.href='/peru/browser/terms/supervisión'"></td>
+<td class="clickable" width="0.507595834963%" title="finalidad" onclick="window.location.href='/peru/browser/terms/finalidad'"></td>
+<td class="clickable" width="0.507595834963%" title="programas" onclick="window.location.href='/peru/browser/terms/programas'"></td>
+<td class="clickable" width="0.500354810213%" title="coordinación" onclick="window.location.href='/peru/browser/terms/coordinación'"></td>
+<td class="clickable" width="0.500354810213%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="0.500354810213%" title="operación" onclick="window.location.href='/peru/browser/terms/operación'"></td>
+<td width="55.5075234247%" title="analizar, gerente, verificar, liderar, definir, mejora, información, productividad, principales, correcto, informes, necesidades, reuniones, estándares...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="22.4462115863%" title="asistente" onclick="window.location.href='/peru/browser/terms/asistente'"></td>
+<td class="clickable" width="7.82393816655%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="7.39660361934%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="5.72442495634%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="5.20419159452%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="4.55389989224%" title="auxiliar" onclick="window.location.href='/peru/browser/terms/auxiliar'"></td>
+<td class="clickable" width="3.47627364275%" title="administrativo" onclick="window.location.href='/peru/browser/terms/administrativo'"></td>
+<td class="clickable" width="2.90030099216%" title="contabilidad" onclick="window.location.href='/peru/browser/terms/contabilidad'"></td>
+<td class="clickable" width="1.87841403144%" title="operaciones" onclick="window.location.href='/peru/browser/terms/operaciones'"></td>
+<td class="clickable" width="1.04232469994%" title="contable" onclick="window.location.href='/peru/browser/terms/contable'"></td>
+<td class="clickable" width="1.04232469994%" title="computación" onclick="window.location.href='/peru/browser/terms/computación'"></td>
+<td class="clickable" width="0.949425885326%" title="administrativa" onclick="window.location.href='/peru/browser/terms/administrativa'"></td>
+<td class="clickable" width="0.949425885326%" title="gerencia" onclick="window.location.href='/peru/browser/terms/gerencia'"></td>
+<td class="clickable" width="0.837947307792%" title="secretaria" onclick="window.location.href='/peru/browser/terms/secretaria'"></td>
+<td class="clickable" width="0.837947307792%" title="redacción" onclick="window.location.href='/peru/browser/terms/redacción'"></td>
+<td class="clickable" width="0.81936754487%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="0.81936754487%" title="dinámicas" onclick="window.location.href='/peru/browser/terms/dinámicas'"></td>
+<td class="clickable" width="0.800787781948%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.800787781948%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="0.800787781948%" title="legislación" onclick="window.location.href='/peru/browser/terms/legislación'"></td>
+<td class="clickable" width="0.596410389803%" title="proactiva" onclick="window.location.href='/peru/browser/terms/proactiva'"></td>
+<td class="clickable" width="0.577830626881%" title="informática" onclick="window.location.href='/peru/browser/terms/informática'"></td>
+<td class="clickable" width="0.540671101037%" title="secretariado" onclick="window.location.href='/peru/browser/terms/secretariado'"></td>
+<td class="clickable" width="0.540671101037%" title="logística" onclick="window.location.href='/peru/browser/terms/logística'"></td>
+<td class="clickable" width="0.522091338115%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="0.503511575192%" title="psicología" onclick="window.location.href='/peru/browser/terms/psicología'"></td>
+<td width="25.6140611646%" title="contables, sistemas, sociales, administracion, macros, facturación, pdt, practicas, concar, archivo, gps, transportes, ortografía, iniciativa, ofimatica...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="11.5991752843%" title="seguridad" onclick="window.location.href='/peru/browser/terms/seguridad'"></td>
+<td class="clickable" width="5.59099255823%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="5.20440707451%" title="ambiental" onclick="window.location.href='/peru/browser/terms/ambiental'"></td>
+<td class="clickable" width="4.62452884894%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="3.1909410135%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="2.72381688734%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="2.62717051641%" title="iso" onclick="window.location.href='/peru/browser/terms/iso'"></td>
+<td class="clickable" width="2.59495505944%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="2.44998550304%" title="minas" onclick="window.location.href='/peru/browser/terms/minas'"></td>
+<td class="clickable" width="2.38555458909%" title="ocupacional" onclick="window.location.href='/peru/browser/terms/ocupacional'"></td>
+<td class="clickable" width="1.91843046294%" title="integrados" onclick="window.location.href='/peru/browser/terms/integrados'"></td>
+<td class="clickable" width="1.4190908798%" title="colegiado" onclick="window.location.href='/peru/browser/terms/colegiado'"></td>
+<td class="clickable" width="1.37076769434%" title="capacitador" onclick="window.location.href='/peru/browser/terms/capacitador'"></td>
+<td class="clickable" width="1.27412132341%" title="especialización" onclick="window.location.href='/peru/browser/terms/especialización'"></td>
+<td class="clickable" width="1.14525949551%" title="especialista" onclick="window.location.href='/peru/browser/terms/especialista'"></td>
+<td class="clickable" width="1.08082858155%" title="minero" onclick="window.location.href='/peru/browser/terms/minero'"></td>
+<td class="clickable" width="1.0163976676%" title="normas" onclick="window.location.href='/peru/browser/terms/normas'"></td>
+<td class="clickable" width="0.984182210625%" title="maestría" onclick="window.location.href='/peru/browser/terms/maestría'"></td>
+<td class="clickable" width="0.951966753648%" title="higiene" onclick="window.location.href='/peru/browser/terms/higiene'"></td>
+<td class="clickable" width="0.919751296672%" title="responsabilidad" onclick="window.location.href='/peru/browser/terms/responsabilidad'"></td>
+<td class="clickable" width="0.806997197255%" title="químico" onclick="window.location.href='/peru/browser/terms/químico'"></td>
+<td class="clickable" width="0.726458554815%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="0.726458554815%" title="habilitado" onclick="window.location.href='/peru/browser/terms/habilitado'"></td>
+<td class="clickable" width="0.726458554815%" title="ambientales" onclick="window.location.href='/peru/browser/terms/ambientales'"></td>
+<td class="clickable" width="0.710350826326%" title="química" onclick="window.location.href='/peru/browser/terms/química'"></td>
+<td class="clickable" width="0.710350826326%" title="diplomado" onclick="window.location.href='/peru/browser/terms/diplomado'"></td>
+<td class="clickable" width="0.694243097838%" title="proactiva" onclick="window.location.href='/peru/browser/terms/proactiva'"></td>
+<td class="clickable" width="0.694243097838%" title="persona" onclick="window.location.href='/peru/browser/terms/persona'"></td>
+<td class="clickable" width="0.662027640862%" title="remitir" onclick="window.location.href='/peru/browser/terms/remitir'"></td>
+<td class="clickable" width="0.645919912374%" title="especialistas" onclick="window.location.href='/peru/browser/terms/especialistas'"></td>
+<td class="clickable" width="0.645919912374%" title="dinámica" onclick="window.location.href='/peru/browser/terms/dinámica'"></td>
+<td class="clickable" width="0.629812183886%" title="derecho" onclick="window.location.href='/peru/browser/terms/derecho'"></td>
+<td class="clickable" width="0.629812183886%" title="fotografía" onclick="window.location.href='/peru/browser/terms/fotografía'"></td>
+<td class="clickable" width="0.613704455398%" title="minería" onclick="window.location.href='/peru/browser/terms/minería'"></td>
+<td class="clickable" width="0.581488998421%" title="compromiso" onclick="window.location.href='/peru/browser/terms/compromiso'"></td>
+<td class="clickable" width="0.581488998421%" title="reciente" onclick="window.location.href='/peru/browser/terms/reciente'"></td>
+<td class="clickable" width="0.581488998421%" title="flexibilidad" onclick="window.location.href='/peru/browser/terms/flexibilidad'"></td>
+<td class="clickable" width="0.565381269933%" title="ubicación" onclick="window.location.href='/peru/browser/terms/ubicación'"></td>
+<td class="clickable" width="0.565381269933%" title="entrenadores" onclick="window.location.href='/peru/browser/terms/entrenadores'"></td>
+<td class="clickable" width="0.533165812957%" title="enfermería" onclick="window.location.href='/peru/browser/terms/enfermería'"></td>
+<td class="clickable" width="0.517058084469%" title="pueden" onclick="window.location.href='/peru/browser/terms/pueden'"></td>
+<td class="clickable" width="0.517058084469%" title="mina" onclick="window.location.href='/peru/browser/terms/mina'"></td>
+<td class="clickable" width="0.500950355981%" title="distintos" onclick="window.location.href='/peru/browser/terms/distintos'"></td>
+<td class="clickable" width="0.500950355981%" title="mineras" onclick="window.location.href='/peru/browser/terms/mineras'"></td>
+<td width="29.8605070713%" title="dictar, miembros, metalúrgico, adjuntando, psicología, radicar, acreditación, amable, entrenador, acreditaciones, operaciones, acreditados, diplomados...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="5.1548627411%" title="logística" onclick="window.location.href='/peru/browser/terms/logística'"></td>
+<td class="clickable" width="5.1548627411%" title="almacén" onclick="window.location.href='/peru/browser/terms/almacén'"></td>
+<td class="clickable" width="3.96851719563%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="3.86646596591%" title="compras" onclick="window.location.href='/peru/browser/terms/compras'"></td>
+<td class="clickable" width="3.75165833248%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="2.65460761302%" title="inventarios" onclick="window.location.href='/peru/browser/terms/inventarios'"></td>
+<td class="clickable" width="2.42499234616%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="2.29742830901%" title="distribución" onclick="window.location.href='/peru/browser/terms/distribución'"></td>
+<td class="clickable" width="2.24640269415%" title="asistente" onclick="window.location.href='/peru/browser/terms/asistente'"></td>
+<td class="clickable" width="2.19537707929%" title="almacenes" onclick="window.location.href='/peru/browser/terms/almacenes'"></td>
+<td class="clickable" width="1.95300540872%" title="proveedores" onclick="window.location.href='/peru/browser/terms/proveedores'"></td>
+<td class="clickable" width="1.71063373814%" title="operaciones" onclick="window.location.href='/peru/browser/terms/operaciones'"></td>
+<td class="clickable" width="1.62133891213%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="1.55755689356%" title="sap" onclick="window.location.href='/peru/browser/terms/sap'"></td>
+<td class="clickable" width="1.42999285641%" title="despacho" onclick="window.location.href='/peru/browser/terms/despacho'"></td>
+<td class="clickable" width="1.14935197469%" title="coordinación" onclick="window.location.href='/peru/browser/terms/coordinación'"></td>
+<td class="clickable" width="1.09832635983%" title="exterior" onclick="window.location.href='/peru/browser/terms/exterior'"></td>
+<td class="clickable" width="1.04730074497%" title="inventario" onclick="window.location.href='/peru/browser/terms/inventario'"></td>
+<td class="clickable" width="1.04730074497%" title="erp" onclick="window.location.href='/peru/browser/terms/erp'"></td>
+<td class="clickable" width="1.03454434126%" title="recepción" onclick="window.location.href='/peru/browser/terms/recepción'"></td>
+<td class="clickable" width="0.958005918971%" title="abastecimiento" onclick="window.location.href='/peru/browser/terms/abastecimiento'"></td>
+<td class="clickable" width="0.932493111542%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="0.894223900398%" title="stock" onclick="window.location.href='/peru/browser/terms/stock'"></td>
+<td class="clickable" width="0.894223900398%" title="logísticos" onclick="window.location.href='/peru/browser/terms/logísticos'"></td>
+<td class="clickable" width="0.881467496683%" title="mercadería" onclick="window.location.href='/peru/browser/terms/mercadería'"></td>
+<td class="clickable" width="0.830441881825%" title="compra" onclick="window.location.href='/peru/browser/terms/compra'"></td>
+<td class="clickable" width="0.766659863251%" title="almacen" onclick="window.location.href='/peru/browser/terms/almacen'"></td>
+<td class="clickable" width="0.753903459537%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="0.728390652107%" title="guías" onclick="window.location.href='/peru/browser/terms/guías'"></td>
+<td class="clickable" width="0.690121440963%" title="coordinar" onclick="window.location.href='/peru/browser/terms/coordinar'"></td>
+<td class="clickable" width="0.690121440963%" title="carga" onclick="window.location.href='/peru/browser/terms/carga'"></td>
+<td class="clickable" width="0.664608633534%" title="kardex" onclick="window.location.href='/peru/browser/terms/kardex'"></td>
+<td class="clickable" width="0.62633942239%" title="almacenamiento" onclick="window.location.href='/peru/browser/terms/almacenamiento'"></td>
+<td class="clickable" width="0.613583018675%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="0.600826614961%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="0.600826614961%" title="logístico" onclick="window.location.href='/peru/browser/terms/logístico'"></td>
+<td class="clickable" width="0.600826614961%" title="activos" onclick="window.location.href='/peru/browser/terms/activos'"></td>
+<td class="clickable" width="0.537044596387%" title="remisión" onclick="window.location.href='/peru/browser/terms/remisión'"></td>
+<td class="clickable" width="0.524288192673%" title="importaciones" onclick="window.location.href='/peru/browser/terms/importaciones'"></td>
+<td class="clickable" width="0.511531788958%" title="coordinador" onclick="window.location.href='/peru/browser/terms/coordinador'"></td>
+<td width="38.3355444433%" title="programación, entrega, pedidos, órdenes, operación, exportación, despachos, reportes, negociar, cadena, facturas, salida, contabilidad, suministros, repuestos...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="2.82393447531%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="2.26791557067%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="2.18237420072%" title="elaborar" onclick="window.location.href='/peru/browser/terms/elaborar'"></td>
+<td class="clickable" width="2.05406214581%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="1.9792134471%" title="documentos" onclick="window.location.href='/peru/browser/terms/documentos'"></td>
+<td class="clickable" width="1.50873591241%" title="apoyo" onclick="window.location.href='/peru/browser/terms/apoyo'"></td>
+<td class="clickable" width="1.46596522743%" title="entrega" onclick="window.location.href='/peru/browser/terms/entrega'"></td>
+<td class="clickable" width="1.36973118625%" title="documentación" onclick="window.location.href='/peru/browser/terms/documentación'"></td>
+<td class="clickable" width="1.33765317252%" title="gerencia" onclick="window.location.href='/peru/browser/terms/gerencia'"></td>
+<td class="clickable" width="1.32696050127%" title="reportes" onclick="window.location.href='/peru/browser/terms/reportes'"></td>
+<td class="clickable" width="1.2841898163%" title="coordinar" onclick="window.location.href='/peru/browser/terms/coordinar'"></td>
+<td class="clickable" width="1.25211180257%" title="contratos" onclick="window.location.href='/peru/browser/terms/contratos'"></td>
+<td class="clickable" width="1.23072646008%" title="elaboración" onclick="window.location.href='/peru/browser/terms/elaboración'"></td>
+<td class="clickable" width="1.22003378884%" title="registro" onclick="window.location.href='/peru/browser/terms/registro'"></td>
+<td class="clickable" width="1.12379974765%" title="apoyar" onclick="window.location.href='/peru/browser/terms/apoyar'"></td>
+<td class="clickable" width="1.08102906268%" title="gestionar" onclick="window.location.href='/peru/browser/terms/gestionar'"></td>
+<td class="clickable" width="1.07033639144%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="0.995487692735%" title="coordinación" onclick="window.location.href='/peru/browser/terms/coordinación'"></td>
+<td class="clickable" width="0.974102350249%" title="compra" onclick="window.location.href='/peru/browser/terms/compra'"></td>
+<td class="clickable" width="0.920638994034%" title="proveedores" onclick="window.location.href='/peru/browser/terms/proveedores'"></td>
+<td class="clickable" width="0.845790295332%" title="revisión" onclick="window.location.href='/peru/browser/terms/revisión'"></td>
+<td class="clickable" width="0.813712281602%" title="solicitudes" onclick="window.location.href='/peru/browser/terms/solicitudes'"></td>
+<td class="clickable" width="0.792326939116%" title="preparar" onclick="window.location.href='/peru/browser/terms/preparar'"></td>
+<td class="clickable" width="0.792326939116%" title="informes" onclick="window.location.href='/peru/browser/terms/informes'"></td>
+<td class="clickable" width="0.77094159663%" title="responsable" onclick="window.location.href='/peru/browser/terms/responsable'"></td>
+<td class="clickable" width="0.631936870469%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="0.621244199226%" title="órdenes" onclick="window.location.href='/peru/browser/terms/órdenes'"></td>
+<td class="clickable" width="0.59985885674%" title="actualizar" onclick="window.location.href='/peru/browser/terms/actualizar'"></td>
+<td class="clickable" width="0.589166185497%" title="atender" onclick="window.location.href='/peru/browser/terms/atender'"></td>
+<td class="clickable" width="0.56778084301%" title="emisión" onclick="window.location.href='/peru/browser/terms/emisión'"></td>
+<td class="clickable" width="0.525010158038%" title="consultas" onclick="window.location.href='/peru/browser/terms/consultas'"></td>
+<td class="clickable" width="0.514317486795%" title="facturación" onclick="window.location.href='/peru/browser/terms/facturación'"></td>
+<td class="clickable" width="0.514317486795%" title="revisar" onclick="window.location.href='/peru/browser/terms/revisar'"></td>
+<td class="clickable" width="0.503624815551%" title="archivo" onclick="window.location.href='/peru/browser/terms/archivo'"></td>
+<td class="clickable" width="0.503624815551%" title="ejecutar" onclick="window.location.href='/peru/browser/terms/ejecutar'"></td>
+<td width="60.9450182845%" title="generar, administrador, cálculo, cotizaciones, validar, presentar, realizando, solicitud, controlar, principales, licitaciones, cuentas, atención, técnica...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="3.96811708471%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="3.43837776573%" title="elaboración" onclick="window.location.href='/peru/browser/terms/elaboración'"></td>
+<td class="clickable" width="3.09343123244%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="2.78544325629%" title="analista" onclick="window.location.href='/peru/browser/terms/analista'"></td>
+<td class="clickable" width="2.74848469916%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="2.47745528015%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="2.34194057064%" title="reportes" onclick="window.location.href='/peru/browser/terms/reportes'"></td>
+<td class="clickable" width="2.15714778495%" title="costos" onclick="window.location.href='/peru/browser/terms/costos'"></td>
+<td class="clickable" width="2.02163307544%" title="planeamiento" onclick="window.location.href='/peru/browser/terms/planeamiento'"></td>
+<td class="clickable" width="1.87379884689%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="1.83684028975%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="1.82452077071%" title="indicadores" onclick="window.location.href='/peru/browser/terms/indicadores'"></td>
+<td class="clickable" width="1.60276942788%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="1.35637904696%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="1.2331838565%" title="apoyo" onclick="window.location.href='/peru/browser/terms/apoyo'"></td>
+<td class="clickable" width="1.19622529936%" title="informes" onclick="window.location.href='/peru/browser/terms/informes'"></td>
+<td class="clickable" width="1.17158626127%" title="finanzas" onclick="window.location.href='/peru/browser/terms/finanzas'"></td>
+<td class="clickable" width="1.03607155177%" title="analizar" onclick="window.location.href='/peru/browser/terms/analizar'"></td>
+<td class="clickable" width="0.962154437491%" title="economía" onclick="window.location.href='/peru/browser/terms/economía'"></td>
+<td class="clickable" width="0.962154437491%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="0.962154437491%" title="financiero" onclick="window.location.href='/peru/browser/terms/financiero'"></td>
+<td class="clickable" width="0.900556842261%" title="proyectos" onclick="window.location.href='/peru/browser/terms/proyectos'"></td>
+<td class="clickable" width="0.875917804169%" title="negocio" onclick="window.location.href='/peru/browser/terms/negocio'"></td>
+<td class="clickable" width="0.875917804169%" title="presupuestos" onclick="window.location.href='/peru/browser/terms/presupuestos'"></td>
+<td class="clickable" width="0.802000689893%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="0.777361651801%" title="generación" onclick="window.location.href='/peru/browser/terms/generación'"></td>
+<td class="clickable" width="0.740403094663%" title="elaborar" onclick="window.location.href='/peru/browser/terms/elaborar'"></td>
+<td class="clickable" width="0.654166461341%" title="financieros" onclick="window.location.href='/peru/browser/terms/financieros'"></td>
+<td class="clickable" width="0.641846942295%" title="revisión" onclick="window.location.href='/peru/browser/terms/revisión'"></td>
+<td class="clickable" width="0.580249347065%" title="contabilidad" onclick="window.location.href='/peru/browser/terms/contabilidad'"></td>
+<td class="clickable" width="0.567929828019%" title="iniciativas" onclick="window.location.href='/peru/browser/terms/iniciativas'"></td>
+<td class="clickable" width="0.567929828019%" title="inversión" onclick="window.location.href='/peru/browser/terms/inversión'"></td>
+<td class="clickable" width="0.567929828019%" title="distribución" onclick="window.location.href='/peru/browser/terms/distribución'"></td>
+<td class="clickable" width="0.555610308973%" title="investigación" onclick="window.location.href='/peru/browser/terms/investigación'"></td>
+<td class="clickable" width="0.530971270882%" title="estratégico" onclick="window.location.href='/peru/browser/terms/estratégico'"></td>
+<td class="clickable" width="0.50633223279%" title="toma" onclick="window.location.href='/peru/browser/terms/toma'"></td>
+<td width="48.8050066525%" title="reporte, decisiones, sap, modelos, estadística, dinámicas, gerencia, cuentas, contar, costo, planificación, estadísticos, apoyar, cuadros, generar, proponer...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="10.2305991023%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="5.33565341833%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="3.93709750862%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="2.40844337475%" title="química" onclick="window.location.href='/peru/browser/terms/química'"></td>
+<td class="clickable" width="1.98562414623%" title="industrias" onclick="window.location.href='/peru/browser/terms/industrias'"></td>
+<td class="clickable" width="1.98562414623%" title="laboratorio" onclick="window.location.href='/peru/browser/terms/laboratorio'"></td>
+<td class="clickable" width="1.82300136603%" title="producto" onclick="window.location.href='/peru/browser/terms/producto'"></td>
+<td class="clickable" width="1.66037858583%" title="alimentarias" onclick="window.location.href='/peru/browser/terms/alimentarias'"></td>
+<td class="clickable" width="1.57906719573%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="1.46523124959%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="1.44896897157%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="1.43270669355%" title="presión" onclick="window.location.href='/peru/browser/terms/presión'"></td>
+<td class="clickable" width="1.38391985949%" title="bpm" onclick="window.location.href='/peru/browser/terms/bpm'"></td>
+<td class="clickable" width="1.36765758147%" title="responsable" onclick="window.location.href='/peru/browser/terms/responsable'"></td>
+<td class="clickable" width="1.22129707929%" title="pedidos" onclick="window.location.href='/peru/browser/terms/pedidos'"></td>
+<td class="clickable" width="1.18877252326%" title="aseguramiento" onclick="window.location.href='/peru/browser/terms/aseguramiento'"></td>
+<td class="clickable" width="1.12372341118%" title="verificación" onclick="window.location.href='/peru/browser/terms/verificación'"></td>
+<td class="clickable" width="1.09119885514%" title="excel" onclick="window.location.href='/peru/browser/terms/excel'"></td>
+<td class="clickable" width="1.02614974306%" title="asistente" onclick="window.location.href='/peru/browser/terms/asistente'"></td>
+<td class="clickable" width="1.00988746504%" title="verificar" onclick="window.location.href='/peru/browser/terms/verificar'"></td>
+<td class="clickable" width="0.896051518897%" title="elaboración" onclick="window.location.href='/peru/browser/terms/elaboración'"></td>
+<td class="clickable" width="0.879789240877%" title="mercadería" onclick="window.location.href='/peru/browser/terms/mercadería'"></td>
+<td class="clickable" width="0.814740128797%" title="iso" onclick="window.location.href='/peru/browser/terms/iso'"></td>
+<td class="clickable" width="0.749691016718%" title="normas" onclick="window.location.href='/peru/browser/terms/normas'"></td>
+<td class="clickable" width="0.717166460678%" title="reporte" onclick="window.location.href='/peru/browser/terms/reporte'"></td>
+<td class="clickable" width="0.700904182658%" title="inspección" onclick="window.location.href='/peru/browser/terms/inspección'"></td>
+<td class="clickable" width="0.684641904638%" title="rápido" onclick="window.location.href='/peru/browser/terms/rápido'"></td>
+<td class="clickable" width="0.684641904638%" title="comunicación" onclick="window.location.href='/peru/browser/terms/comunicación'"></td>
+<td class="clickable" width="0.652117348598%" title="consumos" onclick="window.location.href='/peru/browser/terms/consumos'"></td>
+<td class="clickable" width="0.603330514539%" title="terminado" onclick="window.location.href='/peru/browser/terms/terminado'"></td>
+<td class="clickable" width="0.587068236519%" title="insumos" onclick="window.location.href='/peru/browser/terms/insumos'"></td>
+<td class="clickable" width="0.587068236519%" title="adaptación" onclick="window.location.href='/peru/browser/terms/adaptación'"></td>
+<td class="clickable" width="0.554543680479%" title="aprendizaje" onclick="window.location.href='/peru/browser/terms/aprendizaje'"></td>
+<td class="clickable" width="0.538281402459%" title="alimentaria" onclick="window.location.href='/peru/browser/terms/alimentaria'"></td>
+<td class="clickable" width="0.538281402459%" title="químico" onclick="window.location.href='/peru/browser/terms/químico'"></td>
+<td class="clickable" width="0.522019124439%" title="despachar" onclick="window.location.href='/peru/browser/terms/despachar'"></td>
+<td class="clickable" width="0.522019124439%" title="inspector" onclick="window.location.href='/peru/browser/terms/inspector'"></td>
+<td class="clickable" width="0.505756846419%" title="inventarios" onclick="window.location.href='/peru/browser/terms/inventarios'"></td>
+<td class="clickable" width="0.505756846419%" title="salida" onclick="window.location.href='/peru/browser/terms/salida'"></td>
+<td width="43.0511286021%" title="procesos, textil, proactiva, elaborar, organizada, agroindustrial, despacho, word, terminados, guías, planta, stock, ingles, materia, productivos, encargado...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="9.6669070335%" title="procesos" onclick="window.location.href='/peru/browser/terms/procesos'"></td>
+<td class="clickable" width="9.40342800089%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="7.19852451742%" title="proyectos" onclick="window.location.href='/peru/browser/terms/proyectos'"></td>
+<td class="clickable" width="3.91197026847%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="2.8441868205%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="1.81800532505%" title="mejora" onclick="window.location.href='/peru/browser/terms/mejora'"></td>
+<td class="clickable" width="1.73480142001%" title="iso" onclick="window.location.href='/peru/browser/terms/iso'"></td>
+<td class="clickable" width="1.65159751498%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="1.49905702241%" title="implementación" onclick="window.location.href='/peru/browser/terms/implementación'"></td>
+<td class="clickable" width="1.20784335478%" title="project" onclick="window.location.href='/peru/browser/terms/project'"></td>
+<td class="clickable" width="1.20784335478%" title="procedimientos" onclick="window.location.href='/peru/browser/terms/procedimientos'"></td>
+<td class="clickable" width="0.944364322166%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="0.916629687153%" title="pmi" onclick="window.location.href='/peru/browser/terms/pmi'"></td>
+<td class="clickable" width="0.805691147105%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="0.791823829598%" title="gestionar" onclick="window.location.href='/peru/browser/terms/gestionar'"></td>
+<td class="clickable" width="0.736354559574%" title="costos" onclick="window.location.href='/peru/browser/terms/costos'"></td>
+<td class="clickable" width="0.722487242068%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="0.694752607056%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="0.653150654537%" title="seguridad" onclick="window.location.href='/peru/browser/terms/seguridad'"></td>
+<td class="clickable" width="0.639283337031%" title="gestion" onclick="window.location.href='/peru/browser/terms/gestion'"></td>
+<td class="clickable" width="0.639283337031%" title="analista" onclick="window.location.href='/peru/browser/terms/analista'"></td>
+<td class="clickable" width="0.625416019525%" title="especialización" onclick="window.location.href='/peru/browser/terms/especialización'"></td>
+<td class="clickable" width="0.597681384513%" title="visio" onclick="window.location.href='/peru/browser/terms/visio'"></td>
+<td class="clickable" width="0.556079431995%" title="metodología" onclick="window.location.href='/peru/browser/terms/metodología'"></td>
+<td class="clickable" width="0.542212114489%" title="indicadores" onclick="window.location.href='/peru/browser/terms/indicadores'"></td>
+<td class="clickable" width="0.528344796983%" title="documentos" onclick="window.location.href='/peru/browser/terms/documentos'"></td>
+<td class="clickable" width="0.514477479476%" title="actualización" onclick="window.location.href='/peru/browser/terms/actualización'"></td>
+<td class="clickable" width="0.514477479476%" title="ingles" onclick="window.location.href='/peru/browser/terms/ingles'"></td>
+<td class="clickable" width="0.514477479476%" title="responsabilidades" onclick="window.location.href='/peru/browser/terms/responsabilidades'"></td>
+<td width="45.918848458%" title="asignados, contar, optimización, métodos, proveedores, diseño, elaboración, normas, políticas, levantamiento, microsoft, diversas, propuestas, avance, documentación...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="12.9770686337%" title="seguridad" onclick="window.location.href='/peru/browser/terms/seguridad'"></td>
+<td class="clickable" width="3.67623476588%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="2.99470814625%" title="riesgos" onclick="window.location.href='/peru/browser/terms/riesgos'"></td>
+<td class="clickable" width="2.74080607227%" title="control" onclick="window.location.href='/peru/browser/terms/control'"></td>
+<td class="clickable" width="2.32654479367%" title="ocupacional" onclick="window.location.href='/peru/browser/terms/ocupacional'"></td>
+<td class="clickable" width="2.0993692538%" title="normas" onclick="window.location.href='/peru/browser/terms/normas'"></td>
+<td class="clickable" width="1.95237331623%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="1.59156510584%" title="prevención" onclick="window.location.href='/peru/browser/terms/prevención'"></td>
+<td class="clickable" width="1.40447936712%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="1.16394056019%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="1.16394056019%" title="auditoría" onclick="window.location.href='/peru/browser/terms/auditoría'"></td>
+<td class="clickable" width="1.12385075903%" title="participar" onclick="window.location.href='/peru/browser/terms/participar'"></td>
+<td class="clickable" width="1.07039769083%" title="procedimientos" onclick="window.location.href='/peru/browser/terms/procedimientos'"></td>
+<td class="clickable" width="1.05703442378%" title="incidentes" onclick="window.location.href='/peru/browser/terms/incidentes'"></td>
+<td class="clickable" width="1.03030788967%" title="coordinador" onclick="window.location.href='/peru/browser/terms/coordinador'"></td>
+<td class="clickable" width="0.936765020312%" title="seguimiento" onclick="window.location.href='/peru/browser/terms/seguimiento'"></td>
+<td class="clickable" width="0.936765020312%" title="inspecciones" onclick="window.location.href='/peru/browser/terms/inspecciones'"></td>
+<td class="clickable" width="0.936765020312%" title="revisar" onclick="window.location.href='/peru/browser/terms/revisar'"></td>
+<td class="clickable" width="0.883311952106%" title="apoyo" onclick="window.location.href='/peru/browser/terms/apoyo'"></td>
+<td class="clickable" width="0.816495616849%" title="ambiental" onclick="window.location.href='/peru/browser/terms/ambiental'"></td>
+<td class="clickable" width="0.803132349797%" title="higiene" onclick="window.location.href='/peru/browser/terms/higiene'"></td>
+<td class="clickable" width="0.776405815694%" title="verificar" onclick="window.location.href='/peru/browser/terms/verificar'"></td>
+<td class="clickable" width="0.722952747488%" title="estándares" onclick="window.location.href='/peru/browser/terms/estándares'"></td>
+<td class="clickable" width="0.709589480436%" title="ssoma" onclick="window.location.href='/peru/browser/terms/ssoma'"></td>
+<td class="clickable" width="0.682862946333%" title="acciones" onclick="window.location.href='/peru/browser/terms/acciones'"></td>
+<td class="clickable" width="0.669499679282%" title="iso" onclick="window.location.href='/peru/browser/terms/iso'"></td>
+<td class="clickable" width="0.616046611076%" title="controles" onclick="window.location.href='/peru/browser/terms/controles'"></td>
+<td class="clickable" width="0.589320076973%" title="elaborar" onclick="window.location.href='/peru/browser/terms/elaborar'"></td>
+<td class="clickable" width="0.535867008766%" title="preventivas" onclick="window.location.href='/peru/browser/terms/preventivas'"></td>
+<td class="clickable" width="0.535867008766%" title="peligros" onclick="window.location.href='/peru/browser/terms/peligros'"></td>
+<td class="clickable" width="0.535867008766%" title="investigación" onclick="window.location.href='/peru/browser/terms/investigación'"></td>
+<td width="49.9398652983%" title="desarrollo, auditor, atención, office, armado, legislación, instalaciones, implementación, programas, incorporar, auditoria, auxilios, charlas, medidas...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="7.95979621658%" title="operaciones" onclick="window.location.href='/peru/browser/terms/operaciones'"></td>
+<td class="clickable" width="5.05706725643%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="4.4844200466%" title="mantenimiento" onclick="window.location.href='/peru/browser/terms/mantenimiento'"></td>
+<td class="clickable" width="4.01050511433%" title="ms" onclick="window.location.href='/peru/browser/terms/ms'"></td>
+<td class="clickable" width="3.00343588326%" title="tecnico" onclick="window.location.href='/peru/browser/terms/tecnico'"></td>
+<td class="clickable" width="2.66774613957%" title="procedimientos" onclick="window.location.href='/peru/browser/terms/procedimientos'"></td>
+<td class="clickable" width="2.31230994037%" title="red" onclick="window.location.href='/peru/browser/terms/red'"></td>
+<td class="clickable" width="2.31230994037%" title="windows" onclick="window.location.href='/peru/browser/terms/windows'"></td>
+<td class="clickable" width="2.0161131077%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="1.87788791912%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="1.81864855258%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="1.79890209707%" title="licencia" onclick="window.location.href='/peru/browser/terms/licencia'"></td>
+<td class="clickable" width="1.77915564156%" title="electrónico" onclick="window.location.href='/peru/browser/terms/electrónico'"></td>
+<td class="clickable" width="1.62118399747%" title="electricista" onclick="window.location.href='/peru/browser/terms/electricista'"></td>
+<td class="clickable" width="1.58169108645%" title="elementos" onclick="window.location.href='/peru/browser/terms/elementos'"></td>
+<td class="clickable" width="1.52245171992%" title="administrativos" onclick="window.location.href='/peru/browser/terms/administrativos'"></td>
+<td class="clickable" width="1.52245171992%" title="produccion" onclick="window.location.href='/peru/browser/terms/produccion'"></td>
+<td class="clickable" width="1.40397298685%" title="atención" onclick="window.location.href='/peru/browser/terms/atención'"></td>
+<td class="clickable" width="1.36448007583%" title="energía" onclick="window.location.href='/peru/browser/terms/energía'"></td>
+<td class="clickable" width="1.34473362031%" title="comerciales" onclick="window.location.href='/peru/browser/terms/comerciales'"></td>
+<td class="clickable" width="1.28549425378%" title="implementación" onclick="window.location.href='/peru/browser/terms/implementación'"></td>
+<td class="clickable" width="1.10777615418%" title="preventivo" onclick="window.location.href='/peru/browser/terms/preventivo'"></td>
+<td class="clickable" width="1.04853678765%" title="interés" onclick="window.location.href='/peru/browser/terms/interés'"></td>
+<td class="clickable" width="1.00904387662%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="1.00904387662%" title="personas" onclick="window.location.href='/peru/browser/terms/personas'"></td>
+<td class="clickable" width="0.989297421113%" title="cumpliendo" onclick="window.location.href='/peru/browser/terms/cumpliendo'"></td>
+<td class="clickable" width="0.969550965602%" title="ejecución" onclick="window.location.href='/peru/browser/terms/ejecución'"></td>
+<td class="clickable" width="0.969550965602%" title="electrónica" onclick="window.location.href='/peru/browser/terms/electrónica'"></td>
+<td class="clickable" width="0.969550965602%" title="solución" onclick="window.location.href='/peru/browser/terms/solución'"></td>
+<td class="clickable" width="0.910311599068%" title="operación" onclick="window.location.href='/peru/browser/terms/operación'"></td>
+<td class="clickable" width="0.851072232534%" title="procesos" onclick="window.location.href='/peru/browser/terms/procesos'"></td>
+<td class="clickable" width="0.811579321512%" title="gestion" onclick="window.location.href='/peru/browser/terms/gestion'"></td>
+<td class="clickable" width="0.811579321512%" title="fijas" onclick="window.location.href='/peru/browser/terms/fijas'"></td>
+<td class="clickable" width="0.791832866%" title="incidentes" onclick="window.location.href='/peru/browser/terms/incidentes'"></td>
+<td class="clickable" width="0.752339954978%" title="emergencia" onclick="window.location.href='/peru/browser/terms/emergencia'"></td>
+<td class="clickable" width="0.693100588444%" title="correctivos" onclick="window.location.href='/peru/browser/terms/correctivos'"></td>
+<td class="clickable" width="0.673354132933%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="0.673354132933%" title="radio" onclick="window.location.href='/peru/browser/terms/radio'"></td>
+<td class="clickable" width="0.653607677422%" title="terminales" onclick="window.location.href='/peru/browser/terms/terminales'"></td>
+<td class="clickable" width="0.633861221911%" title="código" onclick="window.location.href='/peru/browser/terms/código'"></td>
+<td class="clickable" width="0.614114766399%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="0.554875399866%" title="monitoreo" onclick="window.location.href='/peru/browser/terms/monitoreo'"></td>
+<td class="clickable" width="0.535128944354%" title="liquidaciones" onclick="window.location.href='/peru/browser/terms/liquidaciones'"></td>
+<td class="clickable" width="0.535128944354%" title="deberán" onclick="window.location.href='/peru/browser/terms/deberán'"></td>
+<td class="clickable" width="0.515382488843%" title="protocolos" onclick="window.location.href='/peru/browser/terms/protocolos'"></td>
+<td width="28.1722680779%" title="planta, enlaces, llegar, tecnologías, actitud, electricidad, aprobados, cotizaciones, agencias, móvil, maquinistas, corrección, flota, emergencias, colocar...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="5.76028767642%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="4.02990320662%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="2.05618342075%" title="implementación" onclick="window.location.href='/peru/browser/terms/implementación'"></td>
+<td class="clickable" width="1.97507164873%" title="información" onclick="window.location.href='/peru/browser/terms/información'"></td>
+<td class="clickable" width="1.92099713405%" title="proyectos" onclick="window.location.href='/peru/browser/terms/proyectos'"></td>
+<td class="clickable" width="1.52895690261%" title="personas" onclick="window.location.href='/peru/browser/terms/personas'"></td>
+<td class="clickable" width="1.51543827394%" title="aplicaciones" onclick="window.location.href='/peru/browser/terms/aplicaciones'"></td>
+<td class="clickable" width="1.43432650192%" title="pruebas" onclick="window.location.href='/peru/browser/terms/pruebas'"></td>
+<td class="clickable" width="1.42080787325%" title="usuarios" onclick="window.location.href='/peru/browser/terms/usuarios'"></td>
+<td class="clickable" width="1.3532147299%" title="ejecución" onclick="window.location.href='/peru/browser/terms/ejecución'"></td>
+<td class="clickable" width="1.32617747256%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="1.21802844319%" title="diseño" onclick="window.location.href='/peru/browser/terms/diseño'"></td>
+<td class="clickable" width="1.08284215649%" title="negocio" onclick="window.location.href='/peru/browser/terms/negocio'"></td>
+<td class="clickable" width="1.05580489915%" title="usuario" onclick="window.location.href='/peru/browser/terms/usuario'"></td>
+<td class="clickable" width="1.04228627048%" title="desarrollar" onclick="window.location.href='/peru/browser/terms/desarrollar'"></td>
+<td class="clickable" width="1.00173038447%" title="analista" onclick="window.location.href='/peru/browser/terms/analista'"></td>
+<td class="clickable" width="0.947655869789%" title="tecnologías" onclick="window.location.href='/peru/browser/terms/tecnologías'"></td>
+<td class="clickable" width="0.920618612448%" title="documentación" onclick="window.location.href='/peru/browser/terms/documentación'"></td>
+<td class="clickable" width="0.812469583086%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="0.798950954415%" title="menos" onclick="window.location.href='/peru/browser/terms/menos'"></td>
+<td class="clickable" width="0.798950954415%" title="contar" onclick="window.location.href='/peru/browser/terms/contar'"></td>
+<td class="clickable" width="0.785432325745%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="0.771913697075%" title="programas" onclick="window.location.href='/peru/browser/terms/programas'"></td>
+<td class="clickable" width="0.758395068404%" title="funcional" onclick="window.location.href='/peru/browser/terms/funcional'"></td>
+<td class="clickable" width="0.717839182393%" title="calidad" onclick="window.location.href='/peru/browser/terms/calidad'"></td>
+<td class="clickable" width="0.677283296382%" title="participado" onclick="window.location.href='/peru/browser/terms/participado'"></td>
+<td class="clickable" width="0.623208781701%" title="apoyar" onclick="window.location.href='/peru/browser/terms/apoyar'"></td>
+<td class="clickable" width="0.596171524361%" title="plataforma" onclick="window.location.href='/peru/browser/terms/plataforma'"></td>
+<td class="clickable" width="0.56913426702%" title="título" onclick="window.location.href='/peru/browser/terms/título'"></td>
+<td class="clickable" width="0.55561563835%" title="consultoría" onclick="window.location.href='/peru/browser/terms/consultoría'"></td>
+<td class="clickable" width="0.55561563835%" title="necesidades" onclick="window.location.href='/peru/browser/terms/necesidades'"></td>
+<td class="clickable" width="0.542097009679%" title="mantenimiento" onclick="window.location.href='/peru/browser/terms/mantenimiento'"></td>
+<td class="clickable" width="0.542097009679%" title="sap" onclick="window.location.href='/peru/browser/terms/sap'"></td>
+<td class="clickable" width="0.501541123668%" title="responsabilidades" onclick="window.location.href='/peru/browser/terms/responsabilidades'"></td>
+<td width="57.8029524685%" title="incidencias, participar, consultor, analizar, elaborar, junior, aplicativos, elaboración, manuales, documentado, mejora, académico, implementar, relacionados...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="7.41847573627%" title="mantenimiento" onclick="window.location.href='/peru/browser/terms/mantenimiento'"></td>
+<td class="clickable" width="2.30869282463%" title="supervisor" onclick="window.location.href='/peru/browser/terms/supervisor'"></td>
+<td class="clickable" width="2.02997739308%" title="planta" onclick="window.location.href='/peru/browser/terms/planta'"></td>
+<td class="clickable" width="1.85965129603%" title="mecánica" onclick="window.location.href='/peru/browser/terms/mecánica'"></td>
+<td class="clickable" width="1.75126196154%" title="jefe" onclick="window.location.href='/peru/browser/terms/jefe'"></td>
+<td class="clickable" width="1.7357777709%" title="servicio" onclick="window.location.href='/peru/browser/terms/servicio'"></td>
+<td class="clickable" width="1.67384100833%" title="repuestos" onclick="window.location.href='/peru/browser/terms/repuestos'"></td>
+<td class="clickable" width="1.50351491128%" title="taller" onclick="window.location.href='/peru/browser/terms/taller'"></td>
+<td class="clickable" width="1.25576786101%" title="preventivo" onclick="window.location.href='/peru/browser/terms/preventivo'"></td>
+<td class="clickable" width="1.16286271717%" title="funcionamiento" onclick="window.location.href='/peru/browser/terms/funcionamiento'"></td>
+<td class="clickable" width="1.11641014524%" title="técnica" onclick="window.location.href='/peru/browser/terms/técnica'"></td>
+<td class="clickable" width="1.1009259546%" title="correctivo" onclick="window.location.href='/peru/browser/terms/correctivo'"></td>
+<td class="clickable" width="1.05447338268%" title="flota" onclick="window.location.href='/peru/browser/terms/flota'"></td>
+<td class="clickable" width="0.899631476263%" title="ejecutar" onclick="window.location.href='/peru/browser/terms/ejecutar'"></td>
+<td class="clickable" width="0.791242141773%" title="supervisar" onclick="window.location.href='/peru/browser/terms/supervisar'"></td>
+<td class="clickable" width="0.713821188566%" title="cliente" onclick="window.location.href='/peru/browser/terms/cliente'"></td>
+<td class="clickable" width="0.713821188566%" title="principales" onclick="window.location.href='/peru/browser/terms/principales'"></td>
+<td class="clickable" width="0.682852807284%" title="máquinas" onclick="window.location.href='/peru/browser/terms/máquinas'"></td>
+<td class="clickable" width="0.682852807284%" title="reparación" onclick="window.location.href='/peru/browser/terms/reparación'"></td>
+<td class="clickable" width="0.682852807284%" title="programas" onclick="window.location.href='/peru/browser/terms/programas'"></td>
+<td class="clickable" width="0.667368616642%" title="supervisión" onclick="window.location.href='/peru/browser/terms/supervisión'"></td>
+<td class="clickable" width="0.667368616642%" title="correcto" onclick="window.location.href='/peru/browser/terms/correcto'"></td>
+<td class="clickable" width="0.651884426001%" title="licencia" onclick="window.location.href='/peru/browser/terms/licencia'"></td>
+<td class="clickable" width="0.651884426001%" title="planificación" onclick="window.location.href='/peru/browser/terms/planificación'"></td>
+<td class="clickable" width="0.620916044718%" title="mantenimientos" onclick="window.location.href='/peru/browser/terms/mantenimientos'"></td>
+<td class="clickable" width="0.620916044718%" title="operación" onclick="window.location.href='/peru/browser/terms/operación'"></td>
+<td class="clickable" width="0.589947663436%" title="asegurar" onclick="window.location.href='/peru/browser/terms/asegurar'"></td>
+<td class="clickable" width="0.589947663436%" title="orden" onclick="window.location.href='/peru/browser/terms/orden'"></td>
+<td class="clickable" width="0.574463472794%" title="verificar" onclick="window.location.href='/peru/browser/terms/verificar'"></td>
+<td class="clickable" width="0.574463472794%" title="limpieza" onclick="window.location.href='/peru/browser/terms/limpieza'"></td>
+<td class="clickable" width="0.574463472794%" title="mecánico" onclick="window.location.href='/peru/browser/terms/mecánico'"></td>
+<td class="clickable" width="0.574463472794%" title="mejora" onclick="window.location.href='/peru/browser/terms/mejora'"></td>
+<td class="clickable" width="0.558979282153%" title="predictivo" onclick="window.location.href='/peru/browser/terms/predictivo'"></td>
+<td class="clickable" width="0.558979282153%" title="controlar" onclick="window.location.href='/peru/browser/terms/controlar'"></td>
+<td class="clickable" width="0.543495091512%" title="reparaciones" onclick="window.location.href='/peru/browser/terms/reparaciones'"></td>
+<td class="clickable" width="0.52801090087%" title="sap" onclick="window.location.href='/peru/browser/terms/sap'"></td>
+<td class="clickable" width="0.512526710229%" title="agua" onclick="window.location.href='/peru/browser/terms/agua'"></td>
+<td width="58.8012139605%" title="calidad, office, operatividad, minería, garantizar, tareas, fallas, reportar, maquinaria, mina, informar, accesorios, camiones, establecidos, críticos...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="4.16012196249%" title="personas" onclick="window.location.href='/peru/browser/terms/personas'"></td>
+<td class="clickable" width="2.38150235609%" title="docente" onclick="window.location.href='/peru/browser/terms/docente'"></td>
+<td class="clickable" width="2.26600757646%" title="informática" onclick="window.location.href='/peru/browser/terms/informática'"></td>
+<td class="clickable" width="1.66543472235%" title="desarrollo" onclick="window.location.href='/peru/browser/terms/desarrollo'"></td>
+<td class="clickable" width="1.66543472235%" title="computación" onclick="window.location.href='/peru/browser/terms/computación'"></td>
+<td class="clickable" width="1.57303889864%" title="office" onclick="window.location.href='/peru/browser/terms/office'"></td>
+<td class="clickable" width="1.50374203086%" title="titulado" onclick="window.location.href='/peru/browser/terms/titulado'"></td>
+<td class="clickable" width="1.31895038344%" title="digitador" onclick="window.location.href='/peru/browser/terms/digitador'"></td>
+<td class="clickable" width="1.18035664788%" title="colocar" onclick="window.location.href='/peru/browser/terms/colocar'"></td>
+<td class="clickable" width="1.18035664788%" title="impresión" onclick="window.location.href='/peru/browser/terms/impresión'"></td>
+<td class="clickable" width="1.15725769195%" title="agrícola" onclick="window.location.href='/peru/browser/terms/agrícola'"></td>
+<td class="clickable" width="1.13415873602%" title="deberán" onclick="window.location.href='/peru/browser/terms/deberán'"></td>
+<td class="clickable" width="1.1110597801%" title="código" onclick="window.location.href='/peru/browser/terms/código'"></td>
+<td class="clickable" width="1.1110597801%" title="ingles" onclick="window.location.href='/peru/browser/terms/ingles'"></td>
+<td class="clickable" width="1.08796082417%" title="riego" onclick="window.location.href='/peru/browser/terms/riego'"></td>
+<td class="clickable" width="1.04176291232%" title="profesor" onclick="window.location.href='/peru/browser/terms/profesor'"></td>
+<td class="clickable" width="1.04176291232%" title="colocando" onclick="window.location.href='/peru/browser/terms/colocando'"></td>
+<td class="clickable" width="0.92626813268%" title="agrónoma" onclick="window.location.href='/peru/browser/terms/agrónoma'"></td>
+<td class="clickable" width="0.903169176753%" title="deben" onclick="window.location.href='/peru/browser/terms/deben'"></td>
+<td class="clickable" width="0.856971264899%" title="empresarial" onclick="window.location.href='/peru/browser/terms/empresarial'"></td>
+<td class="clickable" width="0.810773353044%" title="integridad" onclick="window.location.href='/peru/browser/terms/integridad'"></td>
+<td class="clickable" width="0.810773353044%" title="cuenta" onclick="window.location.href='/peru/browser/terms/cuenta'"></td>
+<td class="clickable" width="0.787674397117%" title="titulados" onclick="window.location.href='/peru/browser/terms/titulados'"></td>
+<td class="clickable" width="0.787674397117%" title="agroindustrial" onclick="window.location.href='/peru/browser/terms/agroindustrial'"></td>
+<td class="clickable" width="0.741476485263%" title="electrónico" onclick="window.location.href='/peru/browser/terms/electrónico'"></td>
+<td class="clickable" width="0.741476485263%" title="microsoft" onclick="window.location.href='/peru/browser/terms/microsoft'"></td>
+<td class="clickable" width="0.718377529336%" title="reúnan" onclick="window.location.href='/peru/browser/terms/reúnan'"></td>
+<td class="clickable" width="0.672179617481%" title="pueden" onclick="window.location.href='/peru/browser/terms/pueden'"></td>
+<td class="clickable" width="0.649080661554%" title="operador" onclick="window.location.href='/peru/browser/terms/operador'"></td>
+<td class="clickable" width="0.625981705627%" title="diversas" onclick="window.location.href='/peru/browser/terms/diversas'"></td>
+<td class="clickable" width="0.625981705627%" title="compromiso" onclick="window.location.href='/peru/browser/terms/compromiso'"></td>
+<td class="clickable" width="0.625981705627%" title="resolver" onclick="window.location.href='/peru/browser/terms/resolver'"></td>
+<td class="clickable" width="0.6028827497%" title="académica" onclick="window.location.href='/peru/browser/terms/académica'"></td>
+<td class="clickable" width="0.6028827497%" title="encargo" onclick="window.location.href='/peru/browser/terms/encargo'"></td>
+<td class="clickable" width="0.6028827497%" title="perteneciente" onclick="window.location.href='/peru/browser/terms/perteneciente'"></td>
+<td class="clickable" width="0.579783793772%" title="sucursal" onclick="window.location.href='/peru/browser/terms/sucursal'"></td>
+<td class="clickable" width="0.579783793772%" title="cultivo" onclick="window.location.href='/peru/browser/terms/cultivo'"></td>
+<td class="clickable" width="0.579783793772%" title="agrícolas" onclick="window.location.href='/peru/browser/terms/agrícolas'"></td>
+<td class="clickable" width="0.510486925991%" title="usuario" onclick="window.location.href='/peru/browser/terms/usuario'"></td>
+<td class="clickable" width="0.510486925991%" title="programas" onclick="window.location.href='/peru/browser/terms/programas'"></td>
+<td class="clickable" width="0.510486925991%" title="coordinar" onclick="window.location.href='/peru/browser/terms/coordinar'"></td>
+<td class="clickable" width="0.510486925991%" title="incorporar" onclick="window.location.href='/peru/browser/terms/incorporar'"></td>
+<td width="56.5462441098%" title="diseño, cumpla, física, económica, llegar, paquetes, talentos, excel, ayudante, cliente, apoyo, suelos, ofimática, vía, puede, chofer, excluyente, estadística...">&nbsp;</td>
+</tr></table>
+<table width="100%" class="high-contrast-table"><tr>
+<td class="clickable" width="5.17746879303%" title="ventas" onclick="window.location.href='/peru/browser/terms/ventas'"></td>
+<td class="clickable" width="2.22335746968%" title="negocio" onclick="window.location.href='/peru/browser/terms/negocio'"></td>
+<td class="clickable" width="2.04566656301%" title="financieros" onclick="window.location.href='/peru/browser/terms/financieros'"></td>
+<td class="clickable" width="2.04566656301%" title="vendedor" onclick="window.location.href='/peru/browser/terms/vendedor'"></td>
+<td class="clickable" width="1.97903247301%" title="productos" onclick="window.location.href='/peru/browser/terms/productos'"></td>
+<td class="clickable" width="1.95682110968%" title="desarrollar" onclick="window.location.href='/peru/browser/terms/desarrollar'"></td>
+<td class="clickable" width="1.91239838301%" title="administración" onclick="window.location.href='/peru/browser/terms/administración'"></td>
+<td class="clickable" width="1.89018701968%" title="personas" onclick="window.location.href='/peru/browser/terms/personas'"></td>
+<td class="clickable" width="1.69028474968%" title="planificación" onclick="window.location.href='/peru/browser/terms/planificación'"></td>
+<td class="clickable" width="1.64586202301%" title="economía" onclick="window.location.href='/peru/browser/terms/economía'"></td>
+<td class="clickable" width="1.60143929634%" title="sistemas" onclick="window.location.href='/peru/browser/terms/sistemas'"></td>
+<td class="clickable" width="1.49038247968%" title="análisis" onclick="window.location.href='/peru/browser/terms/análisis'"></td>
+<td class="clickable" width="1.42374838968%" title="comercial" onclick="window.location.href='/peru/browser/terms/comercial'"></td>
+<td class="clickable" width="1.42374838968%" title="requeridas" onclick="window.location.href='/peru/browser/terms/requeridas'"></td>
+<td class="clickable" width="1.37932566301%" title="asignados" onclick="window.location.href='/peru/browser/terms/asignados'"></td>
+<td class="clickable" width="1.33490293634%" title="secundaria" onclick="window.location.href='/peru/browser/terms/secundaria'"></td>
+<td class="clickable" width="1.31269157301%" title="contabilidad" onclick="window.location.href='/peru/browser/terms/contabilidad'"></td>
+<td class="clickable" width="1.31269157301%" title="industrial" onclick="window.location.href='/peru/browser/terms/industrial'"></td>
+<td class="clickable" width="1.20163475634%" title="presencial" onclick="window.location.href='/peru/browser/terms/presencial'"></td>
+<td class="clickable" width="1.11278930301%" title="presión" onclick="window.location.href='/peru/browser/terms/presión'"></td>
+<td class="clickable" width="1.09057793967%" title="tarjetas" onclick="window.location.href='/peru/browser/terms/tarjetas'"></td>
+<td class="clickable" width="1.06836657634%" title="funcionario" onclick="window.location.href='/peru/browser/terms/funcionario'"></td>
+<td class="clickable" width="1.02394384967%" title="código" onclick="window.location.href='/peru/browser/terms/código'"></td>
+<td class="clickable" width="1.02394384967%" title="orientación" onclick="window.location.href='/peru/browser/terms/orientación'"></td>
+<td class="clickable" width="1.00173248634%" title="producto" onclick="window.location.href='/peru/browser/terms/producto'"></td>
+<td class="clickable" width="0.979521123007%" title="consultora" onclick="window.location.href='/peru/browser/terms/consultora'"></td>
+<td class="clickable" width="0.979521123007%" title="microempresa" onclick="window.location.href='/peru/browser/terms/microempresa'"></td>
+<td class="clickable" width="0.957309759673%" title="gestión" onclick="window.location.href='/peru/browser/terms/gestión'"></td>
+<td class="clickable" width="0.93509839634%" title="tolerancia" onclick="window.location.href='/peru/browser/terms/tolerancia'"></td>
+<td class="clickable" width="0.912887033006%" title="cuota" onclick="window.location.href='/peru/browser/terms/cuota'"></td>
+<td class="clickable" width="0.846252943006%" title="banca" onclick="window.location.href='/peru/browser/terms/banca'"></td>
+<td class="clickable" width="0.824041579672%" title="establecido" onclick="window.location.href='/peru/browser/terms/establecido'"></td>
+<td class="clickable" width="0.779618853005%" title="asignada" onclick="window.location.href='/peru/browser/terms/asignada'"></td>
+<td class="clickable" width="0.779618853005%" title="derecho" onclick="window.location.href='/peru/browser/terms/derecho'"></td>
+<td class="clickable" width="0.779618853005%" title="ética" onclick="window.location.href='/peru/browser/terms/ética'"></td>
+<td class="clickable" width="0.735196126338%" title="remitir" onclick="window.location.href='/peru/browser/terms/remitir'"></td>
+<td class="clickable" width="0.690773399671%" title="electrónico" onclick="window.location.href='/peru/browser/terms/electrónico'"></td>
+<td class="clickable" width="0.690773399671%" title="frustración" onclick="window.location.href='/peru/browser/terms/frustración'"></td>
+<td class="clickable" width="0.668562036338%" title="establecidas" onclick="window.location.href='/peru/browser/terms/establecidas'"></td>
+<td class="clickable" width="0.668562036338%" title="industria" onclick="window.location.href='/peru/browser/terms/industria'"></td>
+<td class="clickable" width="0.668562036338%" title="distancia" onclick="window.location.href='/peru/browser/terms/distancia'"></td>
+<td class="clickable" width="0.646350673004%" title="página" onclick="window.location.href='/peru/browser/terms/página'"></td>
+<td class="clickable" width="0.624139309671%" title="deberán" onclick="window.location.href='/peru/browser/terms/deberán'"></td>
+<td class="clickable" width="0.624139309671%" title="códigos" onclick="window.location.href='/peru/browser/terms/códigos'"></td>
+<td class="clickable" width="0.601927946337%" title="periódicas" onclick="window.location.href='/peru/browser/terms/periódicas'"></td>
+<td class="clickable" width="0.601927946337%" title="buscando" onclick="window.location.href='/peru/browser/terms/buscando'"></td>
+<td class="clickable" width="0.579716583004%" title="móvil" onclick="window.location.href='/peru/browser/terms/móvil'"></td>
+<td class="clickable" width="0.579716583004%" title="establecida" onclick="window.location.href='/peru/browser/terms/establecida'"></td>
+<td class="clickable" width="0.55750521967%" title="financieras" onclick="window.location.href='/peru/browser/terms/financieras'"></td>
+<td class="clickable" width="0.55750521967%" title="geográfica" onclick="window.location.href='/peru/browser/terms/geográfica'"></td>
+<td class="clickable" width="0.55750521967%" title="sólo" onclick="window.location.href='/peru/browser/terms/sólo'"></td>
+<td class="clickable" width="0.55750521967%" title="cuentan" onclick="window.location.href='/peru/browser/terms/cuentan'"></td>
+<td class="clickable" width="0.535293856337%" title="principales" onclick="window.location.href='/peru/browser/terms/principales'"></td>
+<td class="clickable" width="0.535293856337%" title="categoría" onclick="window.location.href='/peru/browser/terms/categoría'"></td>
+<td class="clickable" width="0.535293856337%" title="presentada" onclick="window.location.href='/peru/browser/terms/presentada'"></td>
+<td class="clickable" width="0.535293856337%" title="asegure" onclick="window.location.href='/peru/browser/terms/asegure'"></td>
+<td width="37.1063035849%" title="ruta, actividad, directo, labor, productivos, tecnológicas, formamos, estrategia, sitio, manejar, establecer, personales, paquete, empleo, capacidades...">&nbsp;</td>
+</tr></table>
+
+</td></tr>
+</table>
+</div>
+<div id="footer">
+<br>
+<hr noshade>
+</div>
+  </body>
+
+{% endblock %}

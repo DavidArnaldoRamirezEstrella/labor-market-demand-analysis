@@ -1,0 +1,31 @@
+{% extends "browser/base.html" %}
+{% load static from staticfiles %}
+
+{% block js2 %}
+<script language="JavaScript" src="{% static 'browser/js/bottom_bar_chart.js' %}"></script>
+
+{{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <body onload="init()">
+
+<tmv-nav-bar>
+<div id="top"></div>
+<div id="header">
+<h1><tmv-title> Terms</h1>
+<h2>List of Terms by Frequency</h2>
+<hr noshade>
+</div>
+<div id="list">
+<tmv-term-list>
+</div>
+<tmv-term-hidden-list>
+<div id="footer">
+<br>
+<hr noshade>
+</div>
+  </body>
+
+{% endblock %}

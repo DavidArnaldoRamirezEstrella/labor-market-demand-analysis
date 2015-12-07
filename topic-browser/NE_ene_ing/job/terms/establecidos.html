@@ -1,0 +1,161 @@
+{% extends "browser/base.html" %}
+
+{% block js2 %}
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-5.05469019562, "{% url 'topic' '{coordinar,_supervisar,_controlar}' %}", "{coordinar,_supervisar,_controlar}"], [-5.59089407968, "{% url 'topic' '{mantenimiento,_supervisor,_planta}' %}", "{mantenimiento,_supervisor,_planta}"], [-6.0035342712, "{% url 'topic' '{información,_seguimiento,_elaborar}' %}", "{información,_seguimiento,_elaborar}"], [-6.27424098959, "{% url 'topic' '{seguridad,_industrial,_riesgos}' %}", "{seguridad,_industrial,_riesgos}"], [-8.31701126538, "{% url 'topic' '{ventas,_negocio,_vendedor}' %}", "{ventas,_negocio,_vendedor}"], [-10.6757231394, "{% url 'topic' '{personas,_docente,_informática}' %}", "{personas,_docente,_informática}"], [-10.8325365505, "{% url 'topic' '{operaciones,_office,_mantenimiento}' %}", "{operaciones,_office,_mantenimiento}"], [-10.8934375845, "{% url 'topic' '{asistente,_administración,_industrial}' %}", "{asistente,_administración,_industrial}"], [-11.0072863679, "{% url 'topic' '{supervisor,_excel,_word}' %}", "{supervisor,_excel,_word}"], [-11.0199725027, "{% url 'topic' '{eléctricos,_mantenimiento,_instalación}' %}", "{eléctricos,_mantenimiento,_instalación}"], [-11.026662364, "{% url 'topic' '{calidad,_control,_productos}' %}", "{calidad,_control,_productos}"], [-11.0312054663, "{% url 'topic' '{cliente,_atención,_servicio}' %}", "{cliente,_atención,_servicio}"], [-11.0362113708, "{% url 'topic' '{seguridad,_gestión,_ambiental}' %}", "{seguridad,_gestión,_ambiental}"], [-11.0450316086, "{% url 'topic' '{proactivo,_responsable,_presión}' %}", "{proactivo,_responsable,_presión}"], [-11.0824809532, "{% url 'topic' '{jefe,_industrial,_administración}' %}", "{jefe,_industrial,_administración}"], [-11.0886138723, "{% url 'topic' '{mecánica,_mantenimiento,_mecánico}' %}", "{mecánica,_mantenimiento,_mecánico}"], [-11.1608399734, "{% url 'topic' '{administración,_analista,_contabilidad}' %}", "{administración,_analista,_contabilidad}"], [-11.1859757449, "{% url 'topic' '{procesos,_gestión,_proyectos}' %}", "{procesos,_gestión,_proyectos}"], [-11.2096829544, "{% url 'topic' '{sistemas,_informática,_computación}' %}", "{sistemas,_informática,_computación}"], [-11.2114419222, "{% url 'topic' '{desarrollo,_sistemas,_implementación}' %}", "{desarrollo,_sistemas,_implementación}"], [-11.2694771603, "{% url 'topic' '{logística,_almacén,_administración}' %}", "{logística,_almacén,_administración}"], [-11.2735509005, "{% url 'topic' '{proyectos,_obra,_obras}' %}", "{proyectos,_obra,_obras}"], [-11.3043256391, "{% url 'topic' '{análisis,_elaboración,_gestión}' %}", "{análisis,_elaboración,_gestión}"], [-11.3725363259, "{% url 'topic' '{orientación,_comunicación,_presión}' %}", "{orientación,_comunicación,_presión}"], [-11.4302175421, "{% url 'topic' '{sistemas,_analista,_programador}' %}", "{sistemas,_analista,_programador}"], [-11.4503263952, "{% url 'topic' '{ventas,_comercial,_marketing}' %}", "{ventas,_comercial,_marketing}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+{% endblock %}
+
+
+{% block content %}
+
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+    <table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td>
+        <td class="linked"><a>Topics</a>
+              <ul> 
+                      <li><a href="{% url 'topic-list' %}">List of Terms</a></li> 
+                      <li><a href="{% url 'topic-graph' %}">Term Distributions</a></li>
+                      <li><a href="{% url 'topic-presence' %}">Relative Presence</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Documents</a>
+              <ul>
+                      <li><a href="{% url 'doc-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Terms</a>
+              <ul>
+                      <li><a href="{% url 'term-list' %}">List by Frequency</a></li>
+                      <li><a href="{% url 'term-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>About</a>
+              <ul>
+                      <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+              </ul>
+        </td>
+        </td>
+        <td></td>
+        <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+        <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span></td>
+    </tr></table>
+    </div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">establecidos</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/reportar'">reportar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/informar'">informar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/correcto'">correcto</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/organizar'">organizar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/evaluar'">evaluar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/planificar'">planificar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/tareas'">tareas</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/lineamientos'">lineamientos</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/necesarios'">necesarios</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/garantizar'">garantizar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/ejecutar'">ejecutar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/oportuna'">oportuna</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/funcionamiento'">funcionamiento</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/registrar'">registrar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/monitorear'">monitorear</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/supervisores'">supervisores</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/respuesta'">respuesta</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/manteniendo'">manteniendo</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/administrar'">administrar</a></td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/terms/acciones'">acciones</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc52803'">analista junior procesos proyectos</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc30433'">gestor calidad obra</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc37632'">analista programador java</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc59508'">jefe planta callao callao</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc32375'">tecnico electrico ascensores libertad</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc36333'">arquitecto disenador para ventas</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc60076'">asistente junior siniestros</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc28227'">jefe tienda experiencia ventas presencia</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc17448'">coordinador control interno</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc64038'">asistente importaciones tiempo completo</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc18138'">tecnico archivero huanuco</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc19699'">asistente operaciones remuneracion</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc7838'">asesor comercial junior comercial</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc50336'">tecnico networking</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc25276'">disenador mecanico industrial</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc12683'">ackoffice</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc16632'">asistente recursos humano recursos human</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc12454'">jefe procesos corte</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc11665'">analista creditos experiencia moquegua m</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc29398'">supervisor seguridad arequipa</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{coordinar,_supervisar,_controlar}'">{coordinar, supervisar, controlar}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{mantenimiento,_supervisor,_planta}'">{mantenimiento, supervisor, planta}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{información,_seguimiento,_elaborar}'">{información, seguimiento, elaborar}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{seguridad,_industrial,_riesgos}'">{seguridad, industrial, riesgos}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{ventas,_negocio,_vendedor}'">{ventas, negocio, vendedor}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{personas,_docente,_informática}'">{personas, docente, informática}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{operaciones,_office,_mantenimiento}'">{operaciones, office, mantenimiento}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{asistente,_administración,_industrial}'">{asistente, administración, industrial}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{supervisor,_excel,_word}'">{supervisor, excel, word}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{eléctricos,_mantenimiento,_instalación}'">{eléctricos, mantenimiento, instalación}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{calidad,_control,_productos}'">{calidad, control, productos}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{cliente,_atención,_servicio}'">{cliente, atención, servicio}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{seguridad,_gestión,_ambiental}'">{seguridad, gestión, ambiental}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{proactivo,_responsable,_presión}'">{proactivo, responsable, presión}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{jefe,_industrial,_administración}'">{jefe, industrial, administración}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{mecánica,_mantenimiento,_mecánico}'">{mecánica, mantenimiento, mecánico}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{administración,_analista,_contabilidad}'">{administración, analista, contabilidad}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{procesos,_gestión,_proyectos}'">{procesos, gestión, proyectos}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{sistemas,_informática,_computación}'">{sistemas, informática, computación}</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/topics/{desarrollo,_sistemas,_implementación}'">{desarrollo, sistemas, implementación}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+
+{% endblock %}

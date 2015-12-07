@@ -1,0 +1,225 @@
+{% extends "browser/base.html" %}
+{% load static from staticfiles %}
+
+{% block js2 %}
+<script language="JavaScript" src="{% static 'browser/js/pie.js' %}"></script>
+
+<script type="text/JavaScript">
+    <!--
+    var array = [[227.564102564, "{% url 'topic' '{proyectos,_obra,_obras}' %}", "{proyectos,_obra,_obras}"], [199.786324786, "{% url 'topic' '{orientación,_comunicación,_presión}' %}", "{orientación,_comunicación,_presión}"], [172.008547009, "{% url 'topic' '{información,_seguimiento,_elaborar}' %}", "{información,_seguimiento,_elaborar}"], [116.452991453, "{% url 'topic' '{procesos,_gestión,_proyectos}' %}", "{procesos,_gestión,_proyectos}"], [60.8974358974, "{% url 'topic' '{mantenimiento,_supervisor,_planta}' %}", "{mantenimiento,_supervisor,_planta}"], [60.8974358974, "{% url 'topic' '{sistemas,_informática,_computación}' %}", "{sistemas,_informática,_computación}"], [33.1196581197, "{% url 'topic' '{coordinar,_supervisar,_controlar}' %}", "{coordinar,_supervisar,_controlar}"], [33.1196581197, "{% url 'topic' '{personas,_docente,_informática}' %}", "{personas,_docente,_informática}"], [5.34188034188, "{% url 'topic' '{sistemas,_analista,_programador}' %}", "{sistemas,_analista,_programador}"], [5.34188034188, "{% url 'topic' '{mecánica,_mantenimiento,_mecánico}' %}", "{mecánica,_mantenimiento,_mecánico}"], [5.34188034188, "{% url 'topic' '{calidad,_control,_productos}' %}", "{calidad,_control,_productos}"], [5.34188034188, "{% url 'topic' '{seguridad,_gestión,_ambiental}' %}", "{seguridad,_gestión,_ambiental}"], [5.34188034188, "{% url 'topic' '{asistente,_administración,_industrial}' %}", "{asistente,_administración,_industrial}"], [5.34188034188, "{% url 'topic' '{desarrollo,_sistemas,_implementación}' %}", "{desarrollo,_sistemas,_implementación}"], [5.34188034188, "{% url 'topic' '{operaciones,_office,_mantenimiento}' %}", "{operaciones,_office,_mantenimiento}"], [5.34188034188, "{% url 'topic' '{cliente,_atención,_servicio}' %}", "{cliente,_atención,_servicio}"], [5.34188034188, "{% url 'topic' '{supervisor,_excel,_word}' %}", "{supervisor,_excel,_word}"], [5.34188034188, "{% url 'topic' '{logística,_almacén,_administración}' %}", "{logística,_almacén,_administración}"], [5.34188034188, "{% url 'topic' '{administración,_analista,_contabilidad}' %}", "{administración,_analista,_contabilidad}"], [5.34188034188, "{% url 'topic' '{ventas,_negocio,_vendedor}' %}", "{ventas,_negocio,_vendedor}"], [5.34188034188, "{% url 'topic' '{jefe,_industrial,_administración}' %}", "{jefe,_industrial,_administración}"], [5.34188034188, "{% url 'topic' '{seguridad,_industrial,_riesgos}' %}", "{seguridad,_industrial,_riesgos}"], [5.34188034188, "{% url 'topic' '{eléctricos,_mantenimiento,_instalación}' %}", "{eléctricos,_mantenimiento,_instalación}"], [5.34188034188, "{% url 'topic' '{ventas,_comercial,_marketing}' %}", "{ventas,_comercial,_marketing}"], [5.34188034188, "{% url 'topic' '{análisis,_elaboración,_gestión}' %}", "{análisis,_elaboración,_gestión}"], [5.34188034188, "{% url 'topic' '{proactivo,_responsable,_presión}' %}", "{proactivo,_responsable,_presión}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+{% endblock %}
+
+{% block content %}
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+    <table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td>
+        <td class="linked"><a>Topics</a>
+              <ul> 
+                      <li><a href="{% url 'topic-list' %}">List of Terms</a></li> 
+                      <li><a href="{% url 'topic-graph' %}">Term Distributions</a></li>
+                      <li><a href="{% url 'topic-presence' %}">Relative Presence</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Documents</a>
+              <ul>
+                      <li><a href="{% url 'doc-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>Terms</a>
+              <ul>
+                      <li><a href="{% url 'term-list' %}">List by Frequency</a></li>
+                      <li><a href="{% url 'term-graph' %}">Topic Distributions</a></li>
+              </ul>
+        </td>
+        <td class="linked"><a>About</a>
+              <ul>
+                      <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+              </ul>
+        </td>
+        </td>
+        <td></td>
+        <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+        <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span></td>
+    </tr></table>
+    </div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">doc7032</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{proyectos,_obra,_obras}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{proyectos,_obra,_obras}'">{proyectos, obra, obras}</td></tr>
+<tr class="list"><td id="{orientación,_comunicación,_presión}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{orientación,_comunicación,_presión}'">{orientación, comunicación, presión}</td></tr>
+<tr class="list"><td id="{información,_seguimiento,_elaborar}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{información,_seguimiento,_elaborar}'">{información, seguimiento, elaborar}</td></tr>
+<tr class="list"><td id="{procesos,_gestión,_proyectos}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{procesos,_gestión,_proyectos}'">{procesos, gestión, proyectos}</td></tr>
+<tr class="list"><td id="{mantenimiento,_supervisor,_planta}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{mantenimiento,_supervisor,_planta}'">{mantenimiento, supervisor, planta}</td></tr>
+<tr class="list"><td id="{sistemas,_informática,_computación}" onmouseover="highlight(5)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{sistemas,_informática,_computación}'">{sistemas, informática, computación}</td></tr>
+<tr class="list"><td id="{personas,_docente,_informática}" onmouseover="highlight(6)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{personas,_docente,_informática}'">{personas, docente, informática}</td></tr>
+<tr class="list"><td id="{coordinar,_supervisar,_controlar}" onmouseover="highlight(7)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{coordinar,_supervisar,_controlar}'">{coordinar, supervisar, controlar}</td></tr>
+<tr class="list"><td id="{seguridad,_gestión,_ambiental}" onmouseover="highlight(8)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{seguridad,_gestión,_ambiental}'">{seguridad, gestión, ambiental}</td></tr>
+<tr class="list"><td id="{asistente,_administración,_industrial}" onmouseover="highlight(9)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{asistente,_administración,_industrial}'">{asistente, administración, industrial}</td></tr>
+<tr class="list"><td id="{desarrollo,_sistemas,_implementación}" onmouseover="highlight(10)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{desarrollo,_sistemas,_implementación}'">{desarrollo, sistemas, implementación}</td></tr>
+<tr class="list"><td id="{operaciones,_office,_mantenimiento}" onmouseover="highlight(11)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{operaciones,_office,_mantenimiento}'">{operaciones, office, mantenimiento}</td></tr>
+<tr class="list"><td id="{cliente,_atención,_servicio}" onmouseover="highlight(12)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{cliente,_atención,_servicio}'">{cliente, atención, servicio}</td></tr>
+<tr class="list"><td id="{supervisor,_excel,_word}" onmouseover="highlight(13)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{supervisor,_excel,_word}'">{supervisor, excel, word}</td></tr>
+<tr class="list"><td id="{logística,_almacén,_administración}" onmouseover="highlight(14)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{logística,_almacén,_administración}'">{logística, almacén, administración}</td></tr>
+<tr class="list"><td id="{administración,_analista,_contabilidad}" onmouseover="highlight(15)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{administración,_analista,_contabilidad}'">{administración, analista, contabilidad}</td></tr>
+<tr class="list"><td id="{ventas,_negocio,_vendedor}" onmouseover="highlight(16)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{ventas,_negocio,_vendedor}'">{ventas, negocio, vendedor}</td></tr>
+<tr class="list"><td id="{jefe,_industrial,_administración}" onmouseover="highlight(17)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{jefe,_industrial,_administración}'">{jefe, industrial, administración}</td></tr>
+<tr class="list"><td id="{seguridad,_industrial,_riesgos}" onmouseover="highlight(18)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{seguridad,_industrial,_riesgos}'">{seguridad, industrial, riesgos}</td></tr>
+<tr class="list"><td id="{eléctricos,_mantenimiento,_instalación}" onmouseover="highlight(19)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{eléctricos,_mantenimiento,_instalación}'">{eléctricos, mantenimiento, instalación}</td></tr>
+<tr class="list"><td id="{ventas,_comercial,_marketing}" onmouseover="highlight(20)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{ventas,_comercial,_marketing}'">{ventas, comercial, marketing}</td></tr>
+<tr class="list"><td id="{análisis,_elaboración,_gestión}" onmouseover="highlight(21)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{análisis,_elaboración,_gestión}'">{análisis, elaboración, gestión}</td></tr>
+<tr class="list"><td id="{proactivo,_responsable,_presión}" onmouseover="highlight(22)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{proactivo,_responsable,_presión}'">{proactivo, responsable, presión}</td></tr>
+<tr class="list"><td id="{sistemas,_analista,_programador}" onmouseover="highlight(23)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{sistemas,_analista,_programador}'">{sistemas, analista, programador}</td></tr>
+<tr class="list"><td id="{mecánica,_mantenimiento,_mecánico}" onmouseover="highlight(24)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{mecánica,_mantenimiento,_mecánico}'">{mecánica, mantenimiento, mecánico}</td></tr>
+<tr class="list"><td id="{calidad,_control,_productos}" onmouseover="highlight(25)" onmouseout="unhighlight()" onclick="window.location.href='/peru/browser/topics/{calidad,_control,_productos}'">{calidad, control, productos}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    <p>Jefe Mantenimiento Eléctrico
+Nuestro cliente , empresa transnacional líder en la fabricación de productos de alta calidad para la industria de la construcción , bajo normas y técnicas nacionales e internacionales , con más de <NUMBER> años de trayectoria en el mercado , que forma parte de un importante grupo industrial con presencia en los cinco <RARE> , se encuentra en la búsqueda de <NUMBER> JEFE DE MANTENIMIENTO - ELÉCTRICO , que cumpla con las siguientes condiciones :
+REQUISITOS :
+Grado universitario en ingeniería eléctrica .
+Amplia experiencia en EHS y jefatura en el rubro de manufactura de procesos continuos
+<SINGLE_DIGIT> años de experiencia en posiciones similares
+Disponibilidad para trabajar en <RARE> , con transporte de <RARE> y <RARE> incluido ( a <NUMBER> <RARE> de Huachipa )
+Competencias Técnicas
+Programas aplicativos :
+Manejo del MS Office ( Word , Excel , Power Point ) a nivel intermedio .
+Manejo de programas y softwares de mantenimiento SAP ( indispensable )
+Dominio del idioma inglés a nivel intermedio ( indispensable )
+Competencias Personales :
+<RARE> , profesionalismo y efectividad
+Ser <RARE> de manejar información efectivamente . Contar con habilidades organizacionales
+Tener la capacidad para * hacer <RARE> los objetivos *
+Extrovertido y profesional
+Compromiso
+OBJETIVO :
+Coordinar y organizar los objetivos de rendimiento junto con los recursos de mantenimiento para lograr máxima capacidad en la planta . Mantener en buenas condiciones todo el equipo en planta para su uso a un costo óptimo .
+FUNCIONES :
+Siempre promover la seguridad en el ambiente de trabajo
+Demostrar una excelente conocimiento de seguridad personal y registrar / corregir algún comportamiento inseguro
+Reforzar el respeto por las políticas de seguridad de la Empresa y por las regulaciones ambientales
+Desarrollar e implementar sistemas de seguridad y procedimientos para actividades asociadas con equipos mecánicos / eléctricos
+Asegurar que los recursos del departamento sean usados eficientemente para optimizar la capacidad en la producción e instalaciones del área
+Coordinar reparación de todas las máquinas y equipos según sea necesario
+Organiza y prioriza el mantenimiento preventivo para optimizar la reducción de tiempo basados en el historial de incidentes junto con inspectores y personal de proyectos
+Monitorea la capacidad de la planta y desarrolla planes de mejoramiento sostenible para optimizar la eficiencia y confiabilidad
+Organiza el soporte técnico las <NUMBER> horas del día para el equipo de producción
+Se encarga de mantener las piezas de repuesto en orden . Realiza órdenes de compra cuando sea necesario
+Trabaja conjuntamente con el Departamento de Compras para optimizar la calidad , costos y demoras .
+Administra la documentación e información técnica . Realiza formatos si es necesario .
+Desarrolla competencias personales con apoyo de la Empresa , entrenamientos e investigaciones para mantener y <RARE> los conocimientos de mantenimiento
+Se conecta con los Jefes de Mantenimiento para <RARE> información y mejoras
+Comparte conocimientos con el equipo a través de entrenamientos , asesorías y procedimientos
+Se encarga de la administración y el desarrollo del equipo de mantenimiento
+Se encarga del manejo de contratistas seleccionados
+Promueve un eficiente trabajo en equipo , desarrollando y mejorando las funciones de apoyo del departamento
+Provee reportes de mantenimiento semanal y mensual
+<RARE> , facilita y reporta los planes día a día
+Trata diariamente con Seguridad , Producción y Calidad para <RARE> prioridades e información acertada
+Asegura que los gastos de mantenimiento sean controlados y asignados de acuerdo a las prioridades y que estén dentro del presupuesto
+Provee ayuda a otros equipos según sea solicitado
+Debe estar disponible para funciones adicionales y cuando sea solicitado por gerencia .
+BENEFICIOS :
+Formar parte de una transnacional líder en <SINGLE_DIGIT> <RARE> y en constante crecimiento , con posibilidades de línea de carrera en el Perú o extranjero .
+Remuneración acorde al mercado , en planilla directa de la empresa , con todos los beneficios de ley bajo contrato a plazo <RARE>
+Se paga <NUMBER> sueldos al año , ( un sueldo adicional por vacaciones ) .
+EPS cubierta al <NUMBER> %
+Utilidades : <SINGLE_DIGIT> sueldos por año , según resultados financieros
+Alimentación cubierta al <NUMBER> % por la empresa ( según el turno )
+Entrenamiento interno y externo según desempeño .
+Movilidad ( transporte de <RARE> y <RARE> incluido )
+</p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc6788'">analista desarrollo sap</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc16119'">analista creditos agencias mibanco norte</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc15438'">consultor junior reclutamiento</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc41801'">ejecutivo comercial electrico b2b minera</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc55420'">promotor ventas movistar centro</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc33090'">asistente sistema integrado gestion</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc36433'">analista gestion procesos calidad</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc58705'">jefe control calidad</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc9330'">supervisor mantenimiento arequipa</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc16184'">practicante electronica drive test</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc23625'">supervisor electrico</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc27033'">asistente tecnico</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc12802'">comprado</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc25521'">coordinador administracion</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc17561'">analista recursos humanos egresado admin</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc5817'">mecanico electricista disponibilidad inm</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc35119'">capacitadores consultores jefes segurida</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc56119'">prevencionista</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc4015'">ejecutivo negocios banca</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc55717'">asesor comunal arequipa arequipa</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc19911'">co administrador megaplaza olivos</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc58721'">coordinador seguridad industrial alicorp</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc20507'">tecnico cableado estructurado tumbes tum</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc13356'">supervisor campo energia clima arequipa</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc49709'">soporte tecnico tarapoto</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc10178'">practicante sistemas informatica tumbes </td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc24359'">analista producion callao</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc47699'">tecnico instalador antenas torreros tele</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc2455'">soporte tecnico</td></tr>
+<tr class="list"><td onclick="window.location.href='/peru/browser/docs/doc44815'">gestor procesos</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+
+{% endblock %}
