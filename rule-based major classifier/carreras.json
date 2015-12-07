@@ -1,0 +1,380 @@
+{
+  "name": "root", 
+  "children": [
+    {
+      "name": "Ingeniería", 
+      "children": [
+        {
+          "name": "Industrial", 
+          "size": 17066
+        }, 
+        {
+          "name": "Sistemas", 
+          "size": 6233
+        }, 
+        {
+          "name": "Informática", 
+          "size": 3969
+        }, 
+        {
+          "name": "Civil", 
+          "size": 3768
+        }, 
+        {
+          "name": "Mecánica", 
+          "size": 3130
+        }, 
+        {
+          "name": "Electrónica", 
+          "size": 2054
+        }, 
+        {
+          "name": "Eléctrica", 
+          "size": 2002
+        }, 
+        {
+          "name": "Química", 
+          "size": 1542
+        }, 
+        {
+          "name": "Higiene y Seguridad Industrial", 
+          "size": 1208
+        }, 
+        {
+          "name": "Ambiental", 
+          "size": 1192
+        }, 
+        {
+          "name": "Agronomía", 
+          "size": 1097
+        }, 
+        {
+          "name": "Mecánica Eléctrica", 
+          "size": 1088
+        }, 
+        {
+          "name": "Industrias Alimentarias", 
+          "size": 943
+        }, 
+        {
+          "name": "Telecomunicaciones", 
+          "size": 922
+        }, 
+        {
+          "name": "Minas", 
+          "size": 845
+        }, 
+        {
+          "name": "Arquitectura", 
+          "size": 748
+        }, 
+        {
+          "name": "Sanitaria", 
+          "size": 550
+        }, 
+        {
+          "name": "Estadística", 
+          "size": 542
+        }, 
+        {
+          "name": "Metalúrgica", 
+          "size": 440
+        }, 
+        {
+          "name": "Mecatrónica", 
+          "size": 401
+        }, 
+        {
+          "name": "Económica", 
+          "size": 397
+        }, 
+        {
+          "name": "Geológica", 
+          "size": 372
+        }, 
+        {
+          "name": "Agrícola", 
+          "size": 284
+        }, 
+        {
+          "name": "Pesquera", 
+          "size": 178
+        }, 
+        {
+          "name": "Textil", 
+          "size": 171
+        }, 
+        {
+          "name": "Forestal", 
+          "size": 139
+        }, 
+        {
+          "name": "Mecánica de Fluidos", 
+          "size": 130
+        }, 
+        {
+          "name": "Zootecnia", 
+          "size": 129
+        }, 
+        {
+          "name": "Petroquímica", 
+          "size": 64
+        }, 
+        {
+          "name": "Petróleo", 
+          "size": 49
+        }, 
+        {
+          "name": "Naval", 
+          "size": 9
+        }
+      ]
+    }, 
+    {
+      "name": "Económico Empresariales", 
+      "children": [
+        {
+          "name": "Ciencias Administrativas", 
+          "children": [
+            {
+              "name": "Administración", 
+              "size": 13465
+            }, 
+            {
+              "name": "Marketing", 
+              "size": 1950
+            }, 
+            {
+              "name": "Negocios Internacionales", 
+              "size": 611
+            }, 
+            {
+              "name": "Hotelería y Turismo", 
+              "size": 293
+            }
+          ]
+        }, 
+        {
+          "name": "Economía", 
+          "size": 6261
+        }, 
+        {
+          "name": "Contabilidad", 
+          "size": 5908
+        }, 
+        {
+          "name": "Finanzas", 
+          "size": 677
+        }
+      ]
+    }, 
+    {
+      "name": "Carreras Técnicas", 
+      "size": 14016
+    }, 
+    {
+      "name": "Letras", 
+      "children": [
+        {
+          "name": "Humanidades", 
+          "children": [
+            {
+              "name": "Psicología", 
+              "size": 706
+            }, 
+            {
+              "name": "Educación", 
+              "size": 440
+            }, 
+            {
+              "name": "Bibliotecología", 
+              "size": 20
+            }, 
+            {
+              "name": "Literatura y Lingüística", 
+              "size": 6
+            }, 
+            {
+              "name": "Traducción e Interpretación Profesional", 
+              "size": 4
+            }, 
+            {
+              "name": "Filosofía", 
+              "size": 1
+            }
+          ]
+        }, 
+        {
+          "name": "Ciencias de la Comunicación", 
+          "children": [
+            {
+              "name": "Ciencias de la Comunicación", 
+              "size": 783
+            }, 
+            {
+              "name": "Publicidad", 
+              "size": 140
+            }, 
+            {
+              "name": "Periodismo", 
+              "size": 16
+            }, 
+            {
+              "name": "Comunicación Audiovisual", 
+              "size": 4
+            }, 
+            {
+              "name": "Comunicación Organizacional", 
+              "size": 0
+            }
+          ]
+        }, 
+        {
+          "name": "Ciencias Sociales", 
+          "children": [
+            {
+              "name": "Derecho", 
+              "size": 483
+            }, 
+            {
+              "name": "Sociología", 
+              "size": 132
+            }, 
+            {
+              "name": "Geografía", 
+              "size": 74
+            }, 
+            {
+              "name": "Trabajo Social", 
+              "size": 57
+            }, 
+            {
+              "name": "Historia", 
+              "size": 11
+            }, 
+            {
+              "name": "Antropología", 
+              "size": 9
+            }, 
+            {
+              "name": "Arqueología", 
+              "size": 3
+            }
+          ]
+        }, 
+        {
+          "name": "Arte", 
+          "children": [
+            {
+              "name": "Diseño Gráfico", 
+              "size": 43
+            }, 
+            {
+              "name": "Diseño de Interiores", 
+              "size": 18
+            }, 
+            {
+              "name": "Diseño Industrial", 
+              "size": 10
+            }, 
+            {
+              "name": "Diseño de Modas", 
+              "size": 7
+            }, 
+            {
+              "name": "Pintura", 
+              "size": 2
+            }, 
+            {
+              "name": "Escultura", 
+              "size": 0
+            }, 
+            {
+              "name": "Artes Escénicas", 
+              "size": 0
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "name": "Otros", 
+      "size": 2794
+    }, 
+    {
+      "name": "Ciencias", 
+      "children": [
+        {
+          "name": "Biología", 
+          "size": 193
+        }, 
+        {
+          "name": "Ciencia de la Computación", 
+          "size": 85
+        }, 
+        {
+          "name": "Matemática", 
+          "size": 80
+        }, 
+        {
+          "name": "Física", 
+          "size": 64
+        }, 
+        {
+          "name": "Microbiología y Parasitología", 
+          "size": 33
+        }, 
+        {
+          "name": "Química", 
+          "size": 18
+        }, 
+        {
+          "name": "Genética y Biotecnología", 
+          "size": 5
+        }
+      ]
+    }, 
+    {
+      "name": "Ciencias de la Salud", 
+      "children": [
+        {
+          "name": "Medicina", 
+          "children": [
+            {
+              "name": "Medicina Humana", 
+              "size": 80
+            }, 
+            {
+              "name": "Nutrición", 
+              "size": 41
+            }, 
+            {
+              "name": "Enfermería", 
+              "size": 27
+            }, 
+            {
+              "name": "Tecnología Médica", 
+              "size": 6
+            }, 
+            {
+              "name": "Obstetricia", 
+              "size": 1
+            }
+          ]
+        }, 
+        {
+          "name": "Farmacia y Bioquímica", 
+          "size": 82
+        }, 
+        {
+          "name": "Veterinaria", 
+          "size": 44
+        }, 
+        {
+          "name": "Odontología", 
+          "size": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+  <A>
+ estudiante
+ practicante
+ estudios relacionados
+ grado academico
+ ultimos ciclos
+ ix ciclo
+ x ciclo
+ 
+ 
+ universitario
+ universidad
+ bachiller
+ bachillerato
+ bachiller con estudios
+ bachillerato con estudios
+ 
+ carrera universitaria
+ carrera
+ profesional
+ egresado
+ egresado de los programas
+ egresado del programa
+ egresado(a)
+ titulado
+ titulo
+ colegiatura
+ colegiado
+ especialidad
+
+ licenciado
+ maestria
+ doctorado
+ postgrado
+ pregrado
+ 
+ area
+ 
+agregar o(a) a todos :(
+
+* <C> : estado de estudios
+ concluidos
+ finalizados
+ completos
+ culminado
+ inconcluso
+ trunco
+ truncado
+ en curso
+ por terminar
+
+
+separadores intermedios (si):  ,  / o
+separadores finales (sf): , y o y/o / -   ', <>'
+
+** <A> <de,en> <B> sf <B>                        SI
+** <A> <C>? <de,en,->? <B> sf <B>                SI
+** <A> <C>? <de,en,->? <B> si <B> sf <B>         SI
+
+** <A> <C>?: <> <de,en,-> <B> sf <B>             -
+
+** <A> <C>? <de,con,en>?: <B> si <B> sf <B>      SI
+
+** <A> <C>? sf <> <de,con,en>? <B> si <B> sf <B>
+** <A> <C>?,? sf <Atec> <C>? <de,con,en>? <B> si <B> sf <B>
+** <Atec> <C>?,? sf <A> <C>? <de,con,en>? <B> si <B> sf <B>
+
+** <A> <C> sf <C> <de|en>? <B> si <B> sf <B>
+
+** <A> <C>? <de,en> <..> <de,en> <B> si <B> sf <B>
+
+** ^<B> o <B> (<A> <de,en>)? sf
+strip especiales y numeros
+
+
+existen trabajos q no mencionan la carrera
+
+En vez de carreras, ponen:
+- areas, e.g. tecnologias de informacion, ventas
+- carreras tecnicas, e.g. computacion e informatica, informatica
+
+presencia de patrones pero con componentes faltantes,e.g.
+   egresado en -. !!!???
+   universitario inconcluso en otros !!!???
+                               todas las carreras
+   -> clasificar como tecnico
+
+egresado de los programas de <carreras>
+
+universitario/egresado y,o,y/o profesional tecnico/tecnico   
+
+caso especial de no-separacion :
+- redes y comunicaciones
+- administracion y finanzas?
+
+Se agregó a A: estudio
+se quitó: conocimientos
+
+
+******
+TECNICOS | 
+tecnico
+tecnico titulado
+estudios tecnicos
+profesional tecnico
+profesional tecnico titulado
+carrera tecnica
+
