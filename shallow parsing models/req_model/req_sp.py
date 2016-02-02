@@ -1,3 +1,8 @@
+"""
+Structured Perceptron model for REQ entity extraction
+"""
+
+
 import os,sys
 
 path_utils = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

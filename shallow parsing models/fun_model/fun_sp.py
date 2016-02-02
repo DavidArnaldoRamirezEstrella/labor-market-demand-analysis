@@ -1,3 +1,7 @@
+"""
+Structured Perceptron model for FUN entity extraction
+"""
+
 import os,sys
 
 path_utils = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

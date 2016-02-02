@@ -1,3 +1,7 @@
+"""
+Structured Perceptron model for CARR entity extraction
+"""
+
 import os,sys
 
 path_utils = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -6,7 +10,6 @@ sys.path.append(path_utils)
 from utils_new import *
 import sequences.structured_perceptron as spc
 import id_feature_bigram as idfc
-import extended_feature as exfc
 import ext2 as exfc2
 
 from sklearn.metrics import classification_report, accuracy_score
@@ -22,8 +25,8 @@ if __name__ == '__main__':
     #ipdb.set_trace()
 
     print("Building features...")
-    feature_mapper = idfc.IDFeatures(train,mode=mode)
-    #feature_mapper = exfc2.ExtendedFeatures(train,mode=mode)
+    #feature_mapper = idfc.IDFeatures(train,mode=mode)
+    feature_mapper = exfc2.ExtendedFeatures(train,mode=mode)
     feature_mapper.build_features()
 
     #pdb.set_trace()
